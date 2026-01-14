@@ -36,6 +36,10 @@ O **HalalSphere** é uma plataforma SaaS que revoluciona o processo de certifica
 - [🔧 Setup e Instalação](GUIDES/SETUP.md)
 - [🏗️ Arquitetura Técnica](technical-architecture.md)
 - [🗄️ Banco de Dados](02-technical/03-database/03-ddl.md)
+- [🔄 Migração NestJS](PLANNING/MIGRATION-NESTJS.md)
+- [☁️ Mudanças AWS 2026](ARCHITECTURE/AWS-INFRA-CHANGES-2026.md)
+- [📝 ConfigLoader Update Guide](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md)
+- [✅ AWS Migration Checklist](ARCHITECTURE/AWS-MIGRATION-CHECKLIST.md)
 
 ### 🎨 Para Designers
 - [🎨 UX Design Guide](ux-design-guide.md)
@@ -49,6 +53,25 @@ O **HalalSphere** é uma plataforma SaaS que revoluciona o processo de certifica
 ### 📚 Índices Completos
 - [📑 Índice Geral da Documentação](INDICE-DOCUMENTACAO.md)
 - [📊 Status da Documentação](DOCUMENTATION_STATUS.md)
+
+---
+
+## 🔄 Planejamento e Migração
+
+### Migração Backend (Fastify → NestJS)
+- [🔄 Plano de Migração NestJS](PLANNING/MIGRATION-NESTJS.md) - Guia completo de 85 passos (10-12 semanas)
+- [☁️ Mudanças AWS 2026](ARCHITECTURE/AWS-INFRA-CHANGES-2026.md) - JWT RS256, novos secrets, IAM Roles
+- [📝 ConfigLoader Update Guide](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md) - Atualização do sistema de configuração
+- [✅ AWS Migration Checklist](ARCHITECTURE/AWS-MIGRATION-CHECKLIST.md) - Checklist detalhado de migração
+- [🔧 Terraform Config Integration](ARCHITECTURE/TERRAFORM-CONFIG-INTEGRATION.md) - Integração com Terraform
+- [⚙️ AWS Config Management](ARCHITECTURE/AWS-CONFIG-MANAGEMENT.md) - Gerenciamento de configurações AWS
+
+### Outros Planejamentos
+- [🗺️ Roadmap Completo 2026](PLANNING/ROADMAP-COMPLETO-2026.md)
+- [☁️ AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md)
+- [🔀 Repo Split Plan](PLANNING/REPO-SPLIT-PLAN.md)
+- [👥 Sistema de Qualificação de Auditores](PLANNING/AUDITOR-QUALIFICATION-SYSTEM.md)
+- [📍 Otimização de Logística de Auditores](PLANNING/AUDITOR-LOGISTICS-OPTIMIZATION.md)
 
 ---
 
