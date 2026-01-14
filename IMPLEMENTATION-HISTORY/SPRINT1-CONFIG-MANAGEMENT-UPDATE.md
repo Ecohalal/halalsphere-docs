@@ -36,16 +36,16 @@ Configurações públicas ou não sensíveis:
 JSON contendo:
 ```json
 {
-  "DATABASE_URL": "...",
+  "SQL_HALALSPHERE_CONNECTION": "...",
   "REDIS_URL": "...",
   "JWT_SECRET": "...",
   "JWT_EXPIRES_IN": "...",
-  "AWS_ACCESS_KEY_ID": "...",
-  "AWS_SECRET_ACCESS_KEY": "...",
   "SMTP_USER": "...",
   "SMTP_PASSWORD": "..."
 }
 ```
+
+**Nota:** Credenciais AWS (AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY) foram removidas pois o ECS usa IAM Roles para permissões
 
 **Custo:** $0.40/mês por secret + $0.05 por 10k API calls
 
@@ -194,7 +194,7 @@ O ECS Task Role precisa de:
 ```bash
 # backend/.env
 NODE_ENV=development
-DATABASE_URL=postgresql://...
+SQL_HALALSPHERE_CONNECTION=postgresql://...
 JWT_SECRET=local-secret
 # ... demais variáveis
 
@@ -265,12 +265,10 @@ aws secretsmanager create-secret \
   --name halalsphere/production/secrets \
   --description "HalalSphere Production Secrets" \
   --secret-string '{
-    "DATABASE_URL": "postgresql://...",
+    "SQL_HALALSPHERE_CONNECTION": "postgresql://...",
     "REDIS_URL": "redis://...",
     "JWT_SECRET": "...",
     "JWT_EXPIRES_IN": "7d",
-    "AWS_ACCESS_KEY_ID": "...",
-    "AWS_SECRET_ACCESS_KEY": "...",
     "SMTP_USER": "...",
     "SMTP_PASSWORD": "..."
   }'
@@ -292,7 +290,9 @@ aws secretsmanager create-secret \
 }
 ```
 
-**Nota:** Não precisa passar DATABASE_URL, JWT_SECRET, etc - serão carregados automaticamente do AWS!
+**Nota:** Não precisa passar SQL_HALALSPHERE_CONNECTION, JWT_SECRET, etc - serão carregados automaticamente do AWS!
+
+**Importante:** Não é necessário passar AWS_ACCESS_KEY_ID e AWS_SECRET_ACCESS_KEY como variáveis de ambiente. O ECS Task Role já possui as permissões necessárias via IAM.
 
 ## 🔄 Fluxo de Inicialização
 
