@@ -3,389 +3,374 @@ layout: default
 title: Home
 ---
 
-# 📚 HalalSphere - Documentação Oficial
+<div align="center">
 
-> **Sistema de Gestão de Certificação Halal** - Documentação completa do projeto
+# HalalSphere - Central de Documentacao
 
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/Ecohalal/halalsphere-docs)
+**Sistema de Gestao de Certificacao Halal**
+
+[![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/Ecohalal/halalsphere-docs)
+[![Version](https://img.shields.io/badge/version-2.0-green.svg)](CHANGELOG/)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0-green.svg)](CHANGELOG.md)
+
+</div>
 
 ---
 
-## 🎯 Sobre o Projeto
+## Ultima Atualizacao
 
-O **HalalSphere** é uma plataforma SaaS que revoluciona o processo de certificação Halal, reduzindo o tempo de certificação de 7-8 meses para 2-3 meses através de IA e automação inteligente.
-
-### Repositórios do Projeto
-
-- **Backend API:** [Ecohalal/halalsphere-backend](https://github.com/Ecohalal/halalsphere-backend)
-- **Frontend Web:** [Ecohalal/halalsphere-frontend](https://github.com/Ecohalal/halalsphere-frontend)
-- **Documentação:** [Ecohalal/halalsphere-docs](https://github.com/Ecohalal/halalsphere-docs) (você está aqui)
+| Data | Documento | Categoria |
+|------|-----------|-----------|
+| **2026-01-20** | [Analise Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Analise |
+| 2026-01-20 | [Correcao Ordem Rotas NestJS](CHANGELOG/CORRECAO-ORDEM-ROTAS-NESTJS-2026-01-20.md) | Changelog |
+| 2026-01-20 | [Implementacao Modulo Juridico PDF](CHANGELOG/IMPLEMENTACAO-MODULO-JURIDICO-PDF-2026-01-20.md) | Changelog |
+| 2026-01-19 | [Solucao Upload Request ID](CHANGELOG/SOLUCAO-DEFINITIVA-UPLOAD-REQUEST-ID-2026-01-19.md) | Changelog |
+| 2026-01-15 | [Analise Estatistica NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md) | Migracao |
 
 ---
 
-## 📊 Status Atual do Projeto
+## Indice por Categoria
+
+> **Como usar:** Clique na categoria para expandir e ver todos os documentos relacionados.
+
+### Categorias Disponiveis
+
+| Categoria | Descricao | Qtd Docs |
+|-----------|-----------|----------|
+| [Requisitos](#-requisitos) | PRD, User Stories, Epicos | 15+ |
+| [Arquitetura](#-arquitetura) | Decisoes tecnicas, infraestrutura | 28 |
+| [Processo](#-processo-certificacao) | Fluxos, 17 fases, wizard | 21 |
+| [Implementacao](#-implementacao) | Status, historico, sprints | 32 |
+| [Guias](#-guias) | Setup, testes, troubleshooting | 27 |
+| [Changelog](#-changelog) | Correcoes, atualizacoes | 19 |
+| [Analise](#-analise) | Mapeamentos, diagnosticos | 5 |
+| [Planejamento](#-planejamento) | Roadmaps, migracao | 10 |
+
+---
+
+## Requisitos
+
+**PRD e Documentos de Produto**
+
+| Documento | Descricao |
+|-----------|-----------|
+| [PRD v2](prd-v2.md) | Product Requirements Document (versao atual) |
+| [PRD v1](prd.md) | Product Requirements Document (legado) |
+| [Project Brief](halalsphere-project-brief.md) | Brief completo do projeto |
+| [Ficha Tecnica](FICHA-TECNICA-PROJETO.md) | Especificacoes tecnicas gerais |
+
+**User Stories por Epico**
+
+| Epico | Descricao | Status |
+|-------|-----------|--------|
+| [Epico 01](01-prd/05-user-stories/epic-01-requests.md) | Gestao de Solicitacoes | [Status](01-prd/05-user-stories/EPIC-01-STATUS.md) |
+| [Epico 02](01-prd/05-user-stories/epic-02-contracts.md) | Gestao Comercial | - |
+| [Epico 03](01-prd/05-user-stories/epic-03-analysis.md) | Analise e Preparacao | - |
+| [Epico 04](01-prd/05-user-stories/epic-04-audits.md) | Execucao de Auditorias | - |
+| [Epico 05](01-prd/05-user-stories/epic-05-decision.md) | Decisao e Certificados | - |
+| [Epico 06](01-prd/05-user-stories/epic-06-ai.md) | Assistente IA | - |
+| [Epico 07](01-prd/05-user-stories/epic-07-admin.md) | Gestao Administrativa | - |
+| [Epico 08](01-prd/05-user-stories/epic-08-infra.md) | Infraestrutura | - |
+| [Epico 09](01-prd/05-user-stories/epic-09-auto-cadastro.md) | Auto Cadastro | - |
+
+[Ver Status de Todos os Epicos](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md)
+
+---
+
+## Arquitetura
+
+**Decisoes Arquiteturais**
+
+| Documento | Categoria |
+|-----------|-----------|
+| [Technical Architecture](technical-architecture.md) | Visao Geral |
+| [Backend Implementado](ARCHITECTURE/BACKEND-IMPLEMENTADO.md) | Backend |
+| [Backend API Reference](ARCHITECTURE/BACKEND-API-REFERENCE.md) | Backend |
+| [Sistema Kanban](ARCHITECTURE/KANBAN_IMPLEMENTATION.md) | Backend |
+| [Internacionalizacao](ARCHITECTURE/INTERNACIONALIZACAO-SISTEMA.md) | Backend |
+
+**Infraestrutura AWS**
+
+| Documento | Categoria |
+|-----------|-----------|
+| [AWS Infra Changes 2026](ARCHITECTURE/AWS-INFRA-CHANGES-2026.md) | AWS |
+| [AWS Migration Checklist](ARCHITECTURE/AWS-MIGRATION-CHECKLIST.md) | AWS |
+| [AWS Config Management](ARCHITECTURE/AWS-CONFIG-MANAGEMENT.md) | AWS |
+| [Terraform Integration](ARCHITECTURE/TERRAFORM-CONFIG-INTEGRATION.md) | Terraform |
+| [ConfigLoader Update](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md) | Config |
+
+**Modulos Especificos**
+
+| Documento | Modulo |
+|-----------|--------|
+| [Modulo Proposta Comercial](ARCHITECTURE/MODULO_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Frontend Proposta](ARCHITECTURE/FRONTEND_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Gestao Alocacao Auditores](ARCHITECTURE/GESTAO-ALOCACAO-AUDITORES.md) | Auditores |
+| [Fluxo Alocacao Auditores](ARCHITECTURE/FLUXO-ALOCACAO-AUDITORES.md) | Auditores |
+| [Configuracao Armazenamento](ARCHITECTURE/CONFIGURACAO-ARMAZENAMENTO.md) | Storage |
+
+**Banco de Dados**
+
+| Documento | Tipo |
+|-----------|------|
+| [ERD - Diagrama](02-technical/03-database/01-erd.md) | Diagrama |
+| [Dicionario de Dados](02-technical/03-database/02-data-dictionary.md) | Referencia |
+| [DDL Statements](02-technical/03-database/03-ddl.md) | SQL |
+| [Indices](02-technical/03-database/04-indexes.md) | SQL |
+| [Migracoes](02-technical/03-database/05-migrations.md) | SQL |
+
+---
+
+## Processo Certificacao
+
+**Documentos Principais**
+
+| Documento | Descricao |
+|-----------|-----------|
+| [17 Fases do Processo](PROCESS/17-FASES-PROCESSO-CERTIFICACAO.md) | Todas as fases detalhadas |
+| [Processo Completo Final](PROCESS/PROCESSO-CERTIFICACAO-COMPLETO-FINAL.md) | Visao consolidada |
+| [Analise Estrutura BD](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Request vs Process vs Certificate |
+
+**Wizard (9 Etapas)**
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Wizard Implementation](03-ux/04-wizard.md) | Especificacao UX |
+| [Wizard Integrado](PROCESS/WIZARD-INTEGRADO-COMPLETO.md) | Fluxo completo |
+| [Wizard Internacional](PROCESS/WIZARD-INTERNACIONAL-CRIADO.md) | Versao multi-idioma |
+
+**Fluxos Especificos**
+
+| Documento | Fluxo |
+|-----------|-------|
+| [Certification Request Flow](04-implementation/03-certification-request-flow.md) | Solicitacao |
+| [Analyst Process Management](04-implementation/04-analyst-process-management.md) | Analista |
+| [Upload Documents Solution](DIAGRAMS/UPLOAD-DOCUMENTS-SOLUTION.md) | Documentos |
+
+---
+
+## Implementacao
+
+**Status Atual (Janeiro 2026)**
+
+| Documento | Area |
+|-----------|------|
+| [Resumo Executivo Jan/2026](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-JANEIRO-2026.md) | Geral |
+| [Backend Status Jan/2026](IMPLEMENTATION-HISTORY/BACKEND-STATUS-JANEIRO-2026.md) | Backend |
+| [Frontend Status Jan/2026](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md) | Frontend |
+| [Analise Estatistica NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md) | Migracao |
+
+**Migracao NestJS**
+
+| Documento | Tipo |
+|-----------|------|
+| [Plano Migracao NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano 85 passos |
+| [Token Tracking](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-TOKEN-TRACKING.md) | Acompanhamento |
+| [Fases da Migracao](IMPLEMENTATION-HISTORY/NESTJS-MIGRATION-PHASES/) | Detalhes |
+
+**Historico de Sprints**
+
+| Documento | Sprint |
+|-----------|--------|
+| [Sprint 1 Completed](IMPLEMENTATION-HISTORY/SPRINT1-COMPLETED.md) | Sprint 1 |
+| [Implementacoes Sprint 1](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT1.md) | Sprint 1 |
+| [Implementacoes Sprint 2](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT2.md) | Sprint 2 |
+
+**Modulos Implementados**
+
+| Documento | Modulo |
+|-----------|--------|
+| [Auto-Cadastro Completo](IMPLEMENTATION-HISTORY/2025-12-17-auto-cadastro-completo.md) | Auto-Cadastro |
+| [Proposta Comercial](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Auditorias Completas](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-COMPLETA-AUDITORIAS.md) | Auditorias |
+| [Perfil Juridico](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-PERFIL-JURIDICO.md) | Juridico |
+| [Contratos e Assinatura](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-CONTRATOS-ASSINATURA.md) | Contratos |
+
+---
+
+## Guias
+
+**Setup e Configuracao**
+
+| Documento | Tipo |
+|-----------|------|
+| [Setup Geral](GUIDES/SETUP.md) | Instalacao |
+| [Setup GitHub](SETUP-GITHUB.md) | Git |
+| [Multi-Repo Development](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md) | Desenvolvimento |
+| [NestJS Migration to Production](GUIDES/NESTJS-MIGRATION-TO-PRODUCTION.md) | Deploy |
+
+**Testes**
+
+| Documento | Tipo |
+|-----------|------|
+| [Guia de Testes](GUIDES/GUIA_TESTES.md) | Geral |
+| [Sprint 1 Testing](TESTING/SPRINT1-TESTING-GUIDE.md) | Sprint |
+| [Como Testar Auditorias](GUIDES/COMO-TESTAR-AUDITORIAS.md) | Auditorias |
+| [Como Ativar IA](GUIDES/COMO-ATIVAR-IA.md) | IA |
+
+**Troubleshooting**
+
+| Documento | Problema |
+|-----------|----------|
+| [Document Upload](GUIDES/TROUBLESHOOTING-DOCUMENT-UPLOAD.md) | Upload |
+| [Email Verification](TROUBLESHOOTING/EMAIL-VERIFICATION-ISSUE.md) | Email |
+| [Proposal Service 401](TROUBLESHOOTING/FIX-PROPOSAL-SERVICE-401.md) | Auth |
+| [Login Comercial 401](TROUBLESHOOTING/LOGIN-COMERCIAL-401.md) | Auth |
+| [Dependency Injection](TROUBLESHOOTING/DEPENDENCY-INJECTION-ERRORS.md) | NestJS |
+
+---
+
+## Changelog
+
+**Correcoes Recentes (2026)**
+
+| Data | Documento | Tipo |
+|------|-----------|------|
+| 2026-01-20 | [Ordem Rotas NestJS](CHANGELOG/CORRECAO-ORDEM-ROTAS-NESTJS-2026-01-20.md) | Correcao |
+| 2026-01-20 | [Modulo Juridico PDF](CHANGELOG/IMPLEMENTACAO-MODULO-JURIDICO-PDF-2026-01-20.md) | Feature |
+| 2026-01-19 | [Race Condition Upload](CHANGELOG/CORRECAO-RACE-CONDITION-UPLOAD-2026-01-19.md) | Correcao |
+| 2026-01-19 | [Upload Request ID](CHANGELOG/SOLUCAO-DEFINITIVA-UPLOAD-REQUEST-ID-2026-01-19.md) | Correcao |
+| 2026-01-19 | [Simplificacao Upload](CHANGELOG/SIMPLIFICACAO-UPLOAD-EXECUTADA-2026-01-19.md) | Refactor |
+
+**Correcoes Anteriores**
+
+| Documento | Tipo |
+|-----------|------|
+| [Atualizacoes 2025-12-08](CHANGELOG/ATUALIZACOES-SISTEMA-2025-12-08.md) | Geral |
+| [Correcoes Finalizadas](CHANGELOG/CORRECOES-FINALIZADAS.md) | Consolidado |
+| [Dashboard e Timeline](CHANGELOG/CORRECOES-DASHBOARD-TIMELINE-COMMENTS.md) | UI |
+| [Componentes UI](CHANGELOG/CORRECOES-COMPONENTES-UI.md) | UI |
+
+---
+
+## Analise
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Request vs Process - IMPORTANTE |
+| [Auditor Qualification Mapping](ANALYSIS/AUDITOR-QUALIFICATION-MAPPING.md) | Qualificacao de auditores |
+| [Fases Kanban](ARCHITECTURE/ANALISE-FASES-KANBAN.md) | Analise de fases |
+| [Aderencia Fluxo Atual](IMPLEMENTATION-HISTORY/ANALISE-ADERENCIA-FLUXO-ATUAL.md) | Comparativo |
+| [Analise Comparativa Fases](IMPLEMENTATION-HISTORY/ANALISE_COMPARATIVA_FASES.md) | Fases |
+
+---
+
+## Planejamento
+
+**Roadmaps**
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Roadmap Completo 2026](PLANNING/ROADMAP-COMPLETO-2026.md) | Visao anual |
+| [Migration NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano 85 passos |
+| [AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md) | Infraestrutura |
+
+**Planejamentos Especificos**
+
+| Documento | Area |
+|-----------|------|
+| [Repo Split Plan](PLANNING/REPO-SPLIT-PLAN.md) | Organizacao |
+| [Ecohalal Migration](PLANNING/ECOHALAL-MIGRATION.md) | Migracao Org |
+| [Auditor Qualification System](PLANNING/AUDITOR-QUALIFICATION-SYSTEM.md) | Auditores |
+| [Auditor Logistics Optimization](PLANNING/AUDITOR-LOGISTICS-OPTIMIZATION.md) | Auditores |
+
+---
+
+## Features
+
+**Sistema de Auditorias**
+
+| Documento | Tipo |
+|-----------|------|
+| [Audit System Overview](05-features/AUDIT-SYSTEM.md) | Visao Geral |
+| [Audit README](05-features/AUDIT-README.md) | Documentacao |
+| [Implementation Guide](05-features/AUDIT-IMPLEMENTATION-GUIDE.md) | Guia |
+| [Stage 1 Implementation](05-features/AUDIT-STAGE-1.md) | Estagio 1 |
+| [Integracao Auditorias](INTEGRACAO-AUDITORIAS.md) | Integracao |
+
+---
+
+## UX e Design
+
+| Documento | Tipo |
+|-----------|------|
+| [UX Design Guide](ux-design-guide.md) | Guia Geral |
+| [Design System](03-ux/01-design-system.md) | Sistema |
+| [Layouts](03-ux/02-layouts.md) | Layouts |
+| [Components](03-ux/05-components.md) | Componentes |
+| [Wireframes](03-ux/07-wireframes.md) | Wireframes |
+| [Accessibility](03-ux/06-accessibility.md) | Acessibilidade |
+
+---
+
+## Quick Start
+
+### Repositorios
+
+| Repo | Descricao | Link |
+|------|-----------|------|
+| Backend NestJS | API em migracao | [halalsphere-backend-nest](https://github.com/Ecohalal/halalsphere-backend-nest) |
+| Backend Fastify | API legada | [halalsphere-backend](https://github.com/Ecohalal/halalsphere-backend) |
+| Frontend | React App | [halalsphere-frontend](https://github.com/Ecohalal/halalsphere-frontend) |
+| Docs | Documentacao | [halalsphere-docs](https://github.com/Ecohalal/halalsphere-docs) |
+
+### Primeiros Passos
+
+```bash
+# Clone os repositorios
+git clone https://github.com/Ecohalal/halalsphere-backend-nest.git
+git clone https://github.com/Ecohalal/halalsphere-frontend.git
+
+# Siga os guias
+# -> GUIDES/SETUP.md
+# -> GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md
+```
+
+---
+
+## Status do Projeto
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    HALALSPHERE - STATUS GERAL                       │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  Backend NestJS Migration:    ████████████████████░░░░░░  61%      │
-│  Frontend Implementation:     ███████████████████████░░░  85%      │
-│  Database Architecture:       ████████████████████████░  95%       │
-│  Testing Coverage:            ███████████████░░░░░░░░░░  75%       │
-│  Documentation:               ██████████████░░░░░░░░░░░  70%       │
-│  Production Readiness:        ████████████████████░░░░░  85%       │
-│                                                                     │
-│  ┌─────────────────────────────────────────────────────────────┐  │
-│  │         OVERALL PROJECT STATUS: 85%  ████████████████░░     │  │
-│  └─────────────────────────────────────────────────────────────┘  │
-│                                                                     │
-│  📅 Última Avaliação: 15 de Janeiro de 2026, 10:20 AM             │
-│  📈 Fases Implementadas: 12/12 (Phase 1.1 - 1.12)                 │
-│  ✅ Status Geral: PRODUCTION-READY (com ajustes menores)          │
-│                                                                     │
-│  🔍 Análise Detalhada:                                             │
-│  ├─ [📊 Análise Estatística NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md)                 │
-│  ├─ [📋 Resumo Executivo Jan/2026](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-JANEIRO-2026.md)                          │
-│  ├─ [🔧 Backend Status](IMPLEMENTATION-HISTORY/BACKEND-STATUS-JANEIRO-2026.md)                                       │
-│  └─ [🎨 Frontend Status](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md)                                     │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+Backend NestJS:     [################----]  80%
+Frontend React:     [#################---]  85%
+Database:           [###################-]  95%
+Testes:             [###############-----]  75%
+Documentacao:       [##############------]  70%
 ```
 
-### 🎯 Métricas Principais
-
-| Métrica | Valor | Última Atualização |
-|---------|-------|-------------------|
-| **Módulos Implementados** | 12/12 (100%) | 15/01/2026 |
-| **Linhas de Código Backend** | ~18.345 | 15/01/2026 |
-| **Testes Unitários** | 324+ casos | 15/01/2026 |
-| **Modelos de Banco** | 23 entidades | 15/01/2026 |
-| **Controllers REST** | 12 controllers | 15/01/2026 |
-| **Coverage E2E** | 0% (pendente) | 15/01/2026 |
+**Ultima avaliacao:** 20 de Janeiro de 2026
 
 ---
 
-## 📖 Navegação Rápida
-
-### 🎯 Para Product Owners
-- [📋 PRD v2](prd-v2.md) - Product Requirements Document
-- [📊 User Stories](01-prd/05-user-stories/README.md)
-- [✅ Status de Implementação](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md)
-- [📋 Resumo Executivo - Janeiro 2026](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-JANEIRO-2026.md)
-- [📊 Análise do Projeto](ANALISE-PROJETO-EPICOS-2025.md)
-- [📈 **NOVA** Análise Estatística Completa - NestJS Migration](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md)
-
-### 👨‍💻 Para Desenvolvedores
-- [🔧 Setup e Instalação](GUIDES/SETUP.md)
-- [🏗️ Arquitetura Técnica](technical-architecture.md)
-- [🗄️ Banco de Dados](02-technical/03-database/03-ddl.md)
-- [🔄 Migração NestJS](PLANNING/MIGRATION-NESTJS.md)
-- [📈 Token Tracking NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-TOKEN-TRACKING.md)
-- [🔧 Backend Status](IMPLEMENTATION-HISTORY/BACKEND-STATUS-JANEIRO-2026.md)
-- [🎨 Frontend Status](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md)
-- [☁️ Mudanças AWS 2026](ARCHITECTURE/AWS-INFRA-CHANGES-2026.md)
-- [📝 ConfigLoader Update Guide](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md)
-- [✅ AWS Migration Checklist](ARCHITECTURE/AWS-MIGRATION-CHECKLIST.md)
-- [🧪 Guia de Testes Multi-Repo](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md)
-
-### 🎨 Para Designers
-- [🎨 UX Design Guide](ux-design-guide.md)
-- [🧙 Wizard Implementation](03-ux/04-wizard.md)
-- [🖼️ Wireframes](03-ux/07-wireframes.md)
-
-### 🔄 Processo de Certificação
-- [📋 17 Fases do Processo](PROCESS/17-FASES-PROCESSO-CERTIFICACAO.md)
-- [🔄 Processo Completo](PROCESS/PROCESSO-CERTIFICACAO-COMPLETO-FINAL.md)
-- [🌍 Guia de Migração Internacional](GUIDES/GUIA-MIGRACAO-INTERNACIONAL.md)
-
-### 🛠️ Arquitetura e Infraestrutura
-- [🏗️ Backend Implementado](ARCHITECTURE/BACKEND-IMPLEMENTADO.md)
-- [📋 API Reference](ARCHITECTURE/BACKEND-API-REFERENCE.md)
-- [🔐 Sistema de Kanban](ARCHITECTURE/KANBAN_IMPLEMENTATION.md)
-- [⚙️ Configuração de Armazenamento](ARCHITECTURE/CONFIGURACAO-ARMAZENAMENTO.md)
-- [🌐 Internacionalização](ARCHITECTURE/INTERNACIONALIZACAO-SISTEMA.md)
-
-### 📚 Índices Completos
-- [📑 Índice Geral da Documentação](INDICE-DOCUMENTACAO.md)
-- [📊 Status da Documentação](DOCUMENTATION_STATUS.md)
-- [🔍 Auditoria de Documentação](AUDITORIA-DOCUMENTACAO-2026-01-13.md)
-
----
-
-## 🔄 Planejamento e Migração
-
-### Migração Backend (Fastify → NestJS)
-
-#### 📊 Status e Acompanhamento
-- [📈 Token Tracking - Migração NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-TOKEN-TRACKING.md) - Acompanhamento completo do progresso
-- [📋 Resumo Executivo - Janeiro 2026](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-JANEIRO-2026.md) - Status geral do projeto
-- [🔧 Backend Status - Janeiro 2026](IMPLEMENTATION-HISTORY/BACKEND-STATUS-JANEIRO-2026.md) - Status detalhado do backend
-- [🎨 Frontend Status - Janeiro 2026](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md) - Status detalhado do frontend
-
-#### 📚 Guias de Migração
-- [🔄 Plano de Migração NestJS](PLANNING/MIGRATION-NESTJS.md) - Guia completo de 85 passos (10-12 semanas)
-- [☁️ Mudanças AWS 2026](ARCHITECTURE/AWS-INFRA-CHANGES-2026.md) - JWT RS256, novos secrets, IAM Roles
-- [📝 ConfigLoader Update Guide](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md) - Atualização do sistema de configuração
-- [✅ AWS Migration Checklist](ARCHITECTURE/AWS-MIGRATION-CHECKLIST.md) - Checklist detalhado de migração
-- [🔧 Terraform Config Integration](ARCHITECTURE/TERRAFORM-CONFIG-INTEGRATION.md) - Integração com Terraform
-- [⚙️ AWS Config Management](ARCHITECTURE/AWS-CONFIG-MANAGEMENT.md) - Gerenciamento de configurações AWS
-
-### Outros Planejamentos
-- [🗺️ Roadmap Completo 2026](PLANNING/ROADMAP-COMPLETO-2026.md)
-- [☁️ AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md)
-- [🔀 Repo Split Plan](PLANNING/REPO-SPLIT-PLAN.md)
-- [📱 Migração Ecohalal](PLANNING/ECOHALAL-MIGRATION.md) - Plano de migração da organização
-- [👥 Sistema de Qualificação de Auditores](PLANNING/AUDITOR-QUALIFICATION-SYSTEM.md)
-- [📍 Otimização de Logística de Auditores](PLANNING/AUDITOR-LOGISTICS-OPTIMIZATION.md)
-
----
-
-## 🔍 Features Implementadas
-
-### Sistema de Auditorias
-- [📖 Audit System Overview](05-features/AUDIT-SYSTEM.md) - Visão geral do sistema de auditorias
-- [📋 Audit README](05-features/AUDIT-README.md) - Documentação principal de auditorias
-- [📝 Implementation Guide](05-features/AUDIT-IMPLEMENTATION-GUIDE.md) - Guia de implementação
-- [🎯 Stage 1 Implementation](05-features/AUDIT-STAGE-1.md) - Implementação da Fase 1
-- [🔗 Integração de Auditorias](INTEGRACAO-AUDITORIAS.md) - Guia de integração
-
-### Módulos Comerciais e Jurídicos
-- [💼 Proposta Comercial - Frontend](ARCHITECTURE/FRONTEND_PROPOSTA_COMERCIAL.md)
-- [📋 Módulo Proposta Comercial](ARCHITECTURE/MODULO_PROPOSTA_COMERCIAL.md)
-- [⚖️ Perfil Jurídico](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-PERFIL-JURIDICO.md)
-- [📄 Contratos e Assinatura](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-CONTRATOS-ASSINATURA.md)
-- [📑 Endpoints de Contratos](02-technical/ENDPOINTS-CONTRATOS.md)
-
-### Gestão de Auditores
-- [👥 Alocação de Auditores](ARCHITECTURE/GESTAO-ALOCACAO-AUDITORES.md)
-- [🔄 Fluxo de Alocação](ARCHITECTURE/FLUXO-ALOCACAO-AUDITORES.md)
-- [📊 Resumo Executivo](ARCHITECTURE/RESUMO-EXECUTIVO-ALOCACAO.md)
-- [💰 ROI da Alocação](ARCHITECTURE/ROI-ALOCACAO-AUDITORES.md)
-- [📋 README Alocação](ARCHITECTURE/README-ALOCACAO-AUDITORES.md)
-
-### Análise e Processos
-- [🔍 Mapeamento de Qualificação](ANALYSIS/AUDITOR-QUALIFICATION-MAPPING.md)
-- [📊 Análise de Fases Kanban](ARCHITECTURE/ANALISE-FASES-KANBAN.md)
-- [📋 Relatório Diagnóstico](ARCHITECTURE/RELATORIO-DIAGNOSTICO-KANBAN.md)
-- [🔧 Solução de Processos](ARCHITECTURE/SOLUCAO-PROCESSOS-SUMINDO.md)
-
----
-
-## 📝 CHANGELOG e Correções
-
-### Correções Recentes
-- [🔧 Atualizações do Sistema - 2025-12-08](CHANGELOG/ATUALIZACOES-SISTEMA-2025-12-08.md)
-- [✅ Correções Finalizadas](CHANGELOG/CORRECOES-FINALIZADAS.md)
-- [📊 Dashboard e Timeline](CHANGELOG/CORRECOES-DASHBOARD-TIMELINE-COMMENTS.md)
-- [🎨 Componentes UI](CHANGELOG/CORRECOES-COMPONENTES-UI.md)
-- [📋 Resumo da Sessão 2025-12-09](CHANGELOG/RESUMO-CORRECOES-SESSAO-2025-12-09.md)
-
-### Correções Específicas
-- [📝 Correção de Fases](CHANGELOG/CORRECAO_FASES.md)
-- [✓ Aceitar Proposta](CHANGELOG/CORRECAO-ACEITAR-PROPOSTA.md)
-- [🍔 Menu Duplicado](CHANGELOG/CORRECAO-MENU-DUPLICADO.md)
-- [❌ Proposta Recusada](CHANGELOG/CORRECAO-PROPOSTA-RECUSADA.md)
-- [📅 Agendamento de Auditoria](CHANGELOG/CORRECOES_AGENDAMENTO_AUDITORIA.md)
-- [📊 Dashboard do Analista](CHANGELOG/CORRECOES_DASHBOARD_ANALISTA.md)
-
----
-
-## 🔧 Troubleshooting e Suporte
-
-### Guias de Resolução
-- [📧 Email Verification Issue](TROUBLESHOOTING/EMAIL-VERIFICATION-ISSUE.md)
-- [🔐 Fix Proposal Service 401](TROUBLESHOOTING/FIX-PROPOSAL-SERVICE-401.md)
-- [🔑 Login Comercial 401](TROUBLESHOOTING/LOGIN-COMERCIAL-401.md)
-- [⚙️ Admin Troubleshooting](GUIDES/TROUBLESHOOTING-ADMIN.md)
-
----
-
-## 🗂️ Estrutura da Documentação
+## Estrutura de Pastas
 
 ```
 halalsphere-docs/
-├── 01-prd/              # Product Requirements & User Stories
-├── 02-technical/        # Arquitetura, APIs, Database
-├── 03-ux/              # Design, Wireframes, Components
-├── 04-implementation/   # Guias de Implementação
-├── 05-features/        # Documentação de Features
-├── ANALYSIS/           # Análises e Mapeamentos
-├── ARCHITECTURE/       # Diagramas e Decisões Arquiteturais
-├── CHANGELOG/          # Histórico de Mudanças e Correções
-├── GUIDES/             # Guias de Setup, Teste, Deploy
-├── IMPLEMENTATION-HISTORY/ # Histórico de Implementações
-├── PLANNING/           # Planejamento e Roadmaps
-├── PROCESS/            # Fases do Processo de Certificação
-├── TESTING/            # Estratégias e Casos de Teste
-└── TROUBLESHOOTING/    # Resolução de Problemas
+|
++-- 01-prd/                 # Requisitos e User Stories
++-- 02-technical/           # Especificacoes Tecnicas
++-- 03-ux/                  # Design e UX
++-- 04-implementation/      # Guias de Implementacao
++-- 05-features/            # Features Documentadas
+|
++-- ANALYSIS/               # Analises e Mapeamentos
++-- ARCHITECTURE/           # Decisoes Arquiteturais
++-- CHANGELOG/              # Historico de Mudancas
++-- DIAGRAMS/               # Diagramas e Solucoes
++-- GUIDES/                 # Guias Praticos
++-- IMPLEMENTATION-HISTORY/ # Historico de Implementacoes
++-- PLANNING/               # Roadmaps e Planos
++-- PROCESS/                # Fluxos e Processos
++-- TESTING/                # Testes e Validacao
++-- TROUBLESHOOTING/        # Resolucao de Problemas
 ```
 
 ---
 
-## 📚 Guias Práticos
+<div align="center">
 
-### Setup e Configuração
-- [🔧 Setup Geral](GUIDES/SETUP.md) - Guia de instalação e configuração
-- [⚙️ Setup GitHub](SETUP-GITHUB.md) - Configuração do GitHub
-- [🧪 Guia de Testes](GUIDES/GUIA_TESTES.md) - Como executar testes
-- [🧪 Teste e Validação](GUIDES/TESTE_VALIDACAO.md) - Validação de funcionalidades
-- [📦 Multi-Repo Development](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md) - Desenvolvimento multi-repositório
+**Documentacao mantida pela equipe HalalSphere**
 
-### Testes Específicos
-- [🔐 Como Ativar IA](GUIDES/COMO-ATIVAR-IA.md)
-- [🔍 Como Testar Auditorias](GUIDES/COMO-TESTAR-AUDITORIAS.md)
-- [📊 Exemplos de Uso de Fases](GUIDES/EXEMPLOS_USO_FASES.md)
-- [🔒 Permissões de Auditoria](GUIDES/PERMISSOES_AUDITORIA.md)
-- [📝 Testes de Relatórios](GUIDES/TESTES-RELATORIOS-AUDITORIA.md)
-- [💾 Teste de Armazenamento](GUIDES/TESTE-ARMAZENAMENTO.md)
+*Ultima atualizacao do indice: 20 de Janeiro de 2026*
 
-### Ambiente e Perfis
-- [👤 Ambiente Gestor](GUIDES/AMBIENTE_GESTOR.md)
-- [👨‍💼 Perfil Administrador](ARCHITECTURE/PERFIL-ADMINISTRADOR.md)
-- [📋 Guia de Apresentação para Clientes](GUIDES/GUIA-APRESENTACAO-CLIENTES.md)
-
-### Sprints e Próximos Passos
-- [✅ Sprint 1 Testing Guide](TESTING/SPRINT1-TESTING-GUIDE.md)
-- [🎯 Próximos Passos MVP](GUIDES/PROXIMOS-PASSOS-MVP.md)
-- [📋 Testes Sprint 1](GUIDES/TESTES_SPRINT1.md)
-
----
-
-## 🚀 Quick Start
-
-### Para Desenvolvedores
-
-1. **Clone os repositórios:**
-   ```bash
-   git clone https://github.com/Ecohalal/halalsphere-backend.git
-   git clone https://github.com/Ecohalal/halalsphere-frontend.git
-   ```
-
-2. **Siga os guias de setup:**
-   - [Setup Geral](GUIDES/SETUP.md)
-   - [Backend NestJS](https://github.com/Ecohalal/halalsphere-backend-nest)
-   - [Multi-Repo Development Guide](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md)
-
-3. **Consulte a documentação técnica:**
-   - [Arquitetura](technical-architecture.md)
-   - [Backend API Reference](ARCHITECTURE/BACKEND-API-REFERENCE.md)
-   - [Database Schema](02-technical/03-database/03-ddl.md)
-
----
-
-## 📊 Status do Projeto
-
-- **Versão Atual:** 2.0
-- **Última Atualização:** Janeiro 2026
-- **Status:** Em Desenvolvimento Ativo
-
-### Funcionalidades Implementadas
-
-✅ Sistema de Autenticação Multi-role
-✅ Wizard de Solicitação (9 etapas)
-✅ Dashboard por Perfil
-✅ Gestão de Documentos
-✅ Sistema de Propostas
-✅ Gestão de Contratos
-✅ Sistema de Auditorias
-✅ Geração de Certificados
-
-### Em Desenvolvimento
-
-🔄 Chat IA para assistência
-🔄 Relatórios Avançados
-🔄 Integrações de E-signature
-🔄 Storage Cloud (AWS S3/Azure)
-
----
-
-## 🤝 Contribuindo
-
-Esta é uma documentação proprietária do projeto HalalSphere. Para contribuições:
-
-1. Consulte o time de produto
-2. Siga os padrões de documentação existentes
-3. Mantenha a estrutura de pastas
-4. Atualize o índice quando adicionar novos documentos
-
----
-
-## 📞 Suporte
-
-- **Equipe de Produto:** Para questões sobre features e roadmap
-- **Equipe Técnica:** Para questões de implementação
-- **Documentação:** Consulte os índices e guias específicos
-
----
-
-## 📋 Histórico de Implementações
-
-### Módulo Comercial e Propostas
-- [💼 Módulo Comercial Completo](IMPLEMENTATION-HISTORY/MODULO-COMERCIAL-COMPLETO.md)
-- [📝 Implementação de Propostas](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_PROPOSTA_COMERCIAL.md)
-- [✅ Proposta Completa](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_COMPLETA_PROPOSTA.md)
-- [🎨 Frontend Proposta](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_FRONTEND_PROPOSTA.md)
-- [📋 Histórico de Respostas](IMPLEMENTATION-HISTORY/HISTORICO-RESPOSTAS-PROPOSTA.md)
-- [🖥️ Tela de Propostas](IMPLEMENTATION-HISTORY/TELA-PROPOSTAS-COMERCIAL.md)
-
-### Auditorias
-- [✅ Auditorias Completas](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-COMPLETA-AUDITORIAS.md)
-- [📅 Agendamento de Auditoria](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_AGENDAMENTO_AUDITORIA.md)
-
-### Sprints e Sessões
-- [🎯 Sprint 1 Completed](IMPLEMENTATION-HISTORY/SPRINT1-COMPLETED.md)
-- [⚙️ Sprint 1 Config Management](IMPLEMENTATION-HISTORY/SPRINT1-CONFIG-MANAGEMENT-UPDATE.md)
-- [📋 Implementações Sprint 1](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT1.md)
-- [📋 Implementações Sprint 2](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT2.md)
-- [📊 Session Summary 20251118](IMPLEMENTATION-HISTORY/SESSION_SUMMARY_20251118.md)
-
-### Auto-Cadastro
-- [✅ Auto-Cadastro Completo](IMPLEMENTATION-HISTORY/2025-12-17-auto-cadastro-completo.md)
-- [🔧 Auto-Cadastro Backend](IMPLEMENTATION-HISTORY/2025-12-17-auto-cadastro-backend.md)
-
-### Outras Implementações
-- [🌍 Internacional - Resumo](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-INTERNACIONAL-RESUMO.md)
-- [📄 Fluxo de Documentos](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-FLUXO-DOCUMENTOS.md)
-- [⚖️ Perfil Jurídico](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-PERFIL-JURIDICO.md)
-- [✅ Implementação Concluída](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_CONCLUIDA.md)
-- [🔧 Solução Simples](IMPLEMENTATION-HISTORY/SOLUCAO_SIMPLES.md)
-- [🧪 Test Results](IMPLEMENTATION-HISTORY/TEST-RESULTS.md)
-
----
-
-## 📚 Documentos de Referência
-
-### PRDs e Briefings
-- [📋 PRD v1](prd.md) - Product Requirements Document v1
-- [📋 PRD v2](prd-v2.md) - Product Requirements Document v2
-- [📄 Project Brief](project-brief.md) - Brief do projeto
-- [📄 HalalSphere Project Brief](halalsphere-project-brief.md) - Brief completo
-- [📊 Ficha Técnica](FICHA-TECNICA-PROJETO.md) - Ficha técnica do projeto
-
-### Arquitetura Geral
-- [🏗️ Technical Architecture](technical-architecture.md) - Arquitetura técnica geral
-- [🎨 UX Design Guide](ux-design-guide.md) - Guia de design UX
-
-### Propostas e Ajustes
-- [📋 Proposta de Ajustes](ARCHITECTURE/PROPOSTA-AJUSTES-PROCESSO-CERTIFICACAO.md)
-- [📜 Proposta Módulo Certificados](ARCHITECTURE/PROPOSTA-MODULO-CERTIFICADOS.md)
-- [✍️ Provedores de Assinatura](ARCHITECTURE/PROPOSTA-PROVEDORES-ASSINATURA-EXCECOES.md)
-
-### Process e Reorganizações
-- [🔄 Reorganização 2025-12-17](PROCESS/2025-12-17-reorganizacao-completa.md)
-- [🧪 Reorganização Testes](PROCESS/2025-12-17-reorganizacao-testes.md)
-- [🔄 Reorganização Final](PROCESS/2025-12-17-reorganizacao-final.md)
-- [📋 Plano de Reorganização](PROCESS/PLANO-REORGANIZACAO-PROJETO.md)
-- [✅ Reorganização Concluída](PROCESS/REORGANIZACAO-CONCLUIDA.md)
-- [📊 Wizard Integrado](PROCESS/WIZARD-INTEGRADO-COMPLETO.md)
-- [🌍 Wizard Internacional](PROCESS/WIZARD-INTERNACIONAL-CRIADO.md)
-
----
-
-**Documentação mantida pela equipe HalalSphere**
-
-**Última atualização:** 14 de Janeiro de 2026
+</div>
