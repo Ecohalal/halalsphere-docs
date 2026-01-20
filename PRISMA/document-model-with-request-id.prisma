@@ -1,0 +1,218 @@
+// ============================================================================
+// HALALSPHERE - DOCUMENT MODEL (ATUALIZADO)
+// ============================================================================
+// Data: 2026-01-19
+// Descrição: Model Document com coluna request_id para vincular documentos
+//            diretamente às solicitações (requests)
+// ============================================================================
+
+model Document {
+  id                String              @id @default(uuid())
+
+  // ============================================================================
+  // RELACIONAMENTO COM REQUEST (NOVO!)
+  // ============================================================================
+  requestId         String?             @map("request_id") // Foreign key para requests
+  request           Request?            @relation(fields: [requestId], references: [id], onDelete: Cascade)
+
+  // ============================================================================
+  // INFORMAÇÕES DO ARQUIVO
+  // ============================================================================
+  fileName          String              @map("file_name")         // Nome original do arquivo
+  fileUrl           String              @map("file_url")          // URL do arquivo no storage (S3/Cloudinary)
+  fileSize          Int                 @map("file_size")         // Tamanho em bytes
+  mimeType          String              @map("mime_type")         // ex: application/pdf, image/jpeg
+
+  // ============================================================================
+  // CLASSIFICAÇÃO DO DOCUMENTO
+  // ============================================================================
+  documentType      DocumentType        @map("document_type")     // Tipo do documento (ver enum abaixo)
+  category          DocumentCategory?   @map("category")          // Categoria (LEGAL, TECHNICAL, FINANCIAL, etc)
+
+  // ============================================================================
+  // STATUS E VALIDAÇÃO
+  // ============================================================================
+  status            DocumentStatus      @default(PENDING)         // Status do documento
+  validatedAt       DateTime?           @map("validated_at")      // Quando foi validado
+  validatedBy       String?             @map("validated_by")      // ID do usuário que validou
+  rejectionReason   String?             @map("rejection_reason") @db.Text // Motivo da rejeição
+
+  // ============================================================================
+  // METADATA
+  // ============================================================================
+  description       String?             @db.Text                  // Descrição opcional do documento
+  tags              String[]            @default([])              // Tags para categorização
+  isRequired        Boolean             @default(true)  @map("is_required")       // Se é obrigatório
+  expiryDate        DateTime?           @map("expiry_date")       // Data de validade (ex: certificados)
+
+  // ============================================================================
+  // AUDITORIA
+  // ============================================================================
+  uploadedBy        String              @map("uploaded_by")       // ID do usuário que fez upload
+  uploadedAt        DateTime            @default(now()) @map("uploaded_at")
+  createdAt         DateTime            @default(now()) @map("created_at")
+  updatedAt         DateTime            @updatedAt      @map("updated_at")
+
+  // ============================================================================
+  // RELACIONAMENTOS OPCIONAIS (se existirem na sua aplicação)
+  // ============================================================================
+  // Se você tem relação direta com Company
+  companyId         String?             @map("company_id")
+  company           Company?            @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  // Se você tem relação com Process
+  processId         String?             @map("process_id")
+  process           Process?            @relation(fields: [processId], references: [id], onDelete: Cascade)
+
+  // Se você tem relação com User (uploader)
+  uploader          User                @relation(fields: [uploadedBy], references: [id])
+
+  // ============================================================================
+  // ÍNDICES
+  // ============================================================================
+  @@index([requestId])                  // NOVO: Índice para buscar documentos por request
+  @@index([companyId])
+  @@index([processId])
+  @@index([uploadedBy])
+  @@index([status])
+  @@index([documentType])
+  @@index([uploadedAt])
+
+  @@map("documents")
+}
+
+// ============================================================================
+// ATUALIZAÇÃO NO MODEL REQUEST
+// ============================================================================
+// Adicione esta relação no model Request existente:
+
+model Request {
+  id                String              @id @default(uuid())
+
+  // ... outros campos do Request ...
+
+  // ============================================================================
+  // RELACIONAMENTO COM DOCUMENTS (NOVO!)
+  // ============================================================================
+  documents         Document[]          // Um request pode ter vários documentos
+
+  // ... resto dos campos e relacionamentos ...
+
+  @@map("requests")
+}
+
+// ============================================================================
+// ENUMS
+// ============================================================================
+
+enum DocumentType {
+  // Documentos Legais
+  CONTRATO_SOCIAL
+  ALTERACAO_CONTRATUAL
+  CNPJ
+  INSCRICAO_ESTADUAL
+  ALVARA_FUNCIONAMENTO
+
+  // Documentos Técnicos
+  LAUDO_TECNICO
+  CERTIFICADO_HALAL
+  CERTIFICADO_KOSHER
+  CERTIFICADO_ISO
+  MANUAL_BPF
+  FICHA_TECNICA
+  FORMULA_PRODUTO
+
+  // Documentos Financeiros
+  FATURA
+  RECIBO
+  COMPROVANTE_PAGAMENTO
+  BOLETO
+
+  // Documentos de Processo
+  TERMO_RESPONSABILIDADE
+  DECLARACAO_CONFORMIDADE
+  ATA_REUNIAO
+
+  // Outros
+  FOTO
+  VIDEO
+  OUTROS
+}
+
+enum DocumentCategory {
+  LEGAL           // Documentos jurídicos e contratuais
+  TECHNICAL       // Documentos técnicos e especificações
+  FINANCIAL       // Documentos financeiros e pagamentos
+  CERTIFICATION   // Certificados e laudos
+  PROCESS         // Documentos relacionados ao processo de certificação
+  GENERAL         // Documentos gerais
+}
+
+enum DocumentStatus {
+  PENDING         // Aguardando validação
+  APPROVED        // Aprovado
+  REJECTED        // Rejeitado
+  EXPIRED         // Expirado (para certificados)
+  ARCHIVED        // Arquivado
+}
+
+// ============================================================================
+// EXEMPLO DE USO NO CÓDIGO
+// ============================================================================
+
+/*
+// TypeScript - DocumentService
+
+async uploadDocument(
+  requestId: string,
+  file: Express.Multer.File,
+  documentType: DocumentType,
+  uploadedBy: string
+): Promise<Document> {
+  // 1. Verificar se o request existe
+  const request = await this.prisma.request.findUnique({
+    where: { id: requestId }
+  });
+
+  if (!request) {
+    throw new NotFoundException(`Request ${requestId} not found`);
+  }
+
+  // 2. Fazer upload do arquivo para storage
+  const fileUrl = await this.storageService.upload(file);
+
+  // 3. Criar registro do documento COM request_id
+  const document = await this.prisma.document.create({
+    data: {
+      fileName: file.originalname,
+      fileUrl: fileUrl,
+      fileSize: file.size,
+      mimeType: file.mimetype,
+      documentType: documentType,
+      requestId: requestId,        // 🎯 VINCULA O DOCUMENTO AO REQUEST!
+      uploadedBy: uploadedBy,
+      status: DocumentStatus.PENDING,
+    }
+  });
+
+  return document;
+}
+
+// Buscar todos os documentos de um request
+async getDocumentsByRequest(requestId: string): Promise<Document[]> {
+  return this.prisma.document.findMany({
+    where: { requestId: requestId },    // 🎯 BUSCA POR REQUEST_ID!
+    orderBy: { uploadedAt: 'desc' }
+  });
+}
+
+// Buscar request com seus documentos
+async getRequestWithDocuments(requestId: string) {
+  return this.prisma.request.findUnique({
+    where: { id: requestId },
+    include: {
+      documents: true                   // 🎯 INCLUI TODOS OS DOCUMENTOS!
+    }
+  });
+}
+*/
