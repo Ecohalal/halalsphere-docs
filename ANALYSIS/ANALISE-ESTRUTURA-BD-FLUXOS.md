@@ -1297,9 +1297,9 @@ CREATE INDEX idx_certificates_certification ON certificates(certification_id);
 
 ## 10. Próximos Passos Imediatos
 
-1. [ ] **Revisar este documento** com a equipe de desenvolvimento
-2. [ ] **Aprovar a abordagem** com stakeholders
-3. [ ] **Criar backlog** de tasks no sistema de gestão
+1. [x] **Revisar este documento** com a equipe de desenvolvimento ✓ 2026-01-20
+2. [x] **Aprovar a abordagem** com stakeholders ✓ 2026-01-20
+3. [x] **Criar backlog** de tasks no sistema de gestão ✓ 2026-01-20 → [BACKLOG-MIGRACAO-CERTIFICACOES.md](./BACKLOG-MIGRACAO-CERTIFICACOES.md)
 4. [ ] **Iniciar Fase 1** (Preparação) na próxima sprint
 5. [ ] **Definir responsáveis** para cada fase
 

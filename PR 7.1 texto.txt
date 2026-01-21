@@ -1,0 +1,2064 @@
+1. OBJETIVO
+Este documento estabelece o procedimento e as condições gerais de certificação 
+de produtos que devem ser aceitas pelo interessado na certificação e cumpridas pela 
+FAMBRAS Halal para a concessão, manutenção, extensão, redução, suspensão, 
+cancelamento e término da certificação. 
+2. CAMPO DE APLICAÇÃO 
+Aplica-se a todos os processos de certificação conduzidos pela FAMBRAS Halal 
+do Brasil e filiais (Colômbia, Paraguai e Argentina).  
+3. DOCUMENTOS DE REFERÊNCIA 
+• MQ1 – Manual da qualidade; 
+• ISO/IEC 17021-1:2015 - Avaliação da conformidade – Requisitos para organismos 
+que fornecem auditoria e certificação de sistema de gestão; 
+• ISO/IEC 17065:2012 Avaliação da conformidade - Requisitos para organismos de 
+certificação de produtos, processos e serviços; 
+• UAE.S GSO 2055-2:2021 - HALAL products - Part two, General Requirements for 
+HALAL Certification Bodies; 
+• FAD 12.0 GAC Supplementary Requirements for Halal Certification Bodies v1; 
+• TN 6.0 - Policy on The Use of The GAC Logo, Endorsement and References. V5.2; 
+• IAF MD 5:2015 - Determination of audit time of quality and environmental 
+management systems; 
+• GSO 2055-1:2015 - HALAL products - Part one General Requirements for HALAL 
+Food; 
+• UAE.S 2055 -1:2015 - Halal products - Part one: General Requirements for Halal 
+Food; 
+• GSO 993:2015 – Animal Slaughtering Requirements According to Islamic Rules - 
+Gulf Standardization Organization (GSO) – Gulf;  
+• UAE.S 993:2022 - Animal Slaughtering Requirements According To Islamic Rules. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:2 de 65 
+• GSO 2055-4:2021. Halal Products - Part 4: Requirements for Halal Cosmetics and 
+Personal care; 
+• UAE-S 2055-4:2014 - Halal Products- Part 4: Requirements for Cosmetics and 
+Personal care;  
+• MS 1500:2005 e MS 1500:2019 - Halal Food - production, preparation, handling 
+and storage - general guidelines; 
+• MS 1900:2005 – Quality Management System – Requirements from Islamic 
+perspectives; 
+• MS 2424:2012 – Halal Pharmaceuticals Guidelines; 
+• MS 2300:2009 – Value Based Management Systems requirements from an Islamic 
+perspective; 
+• KEPKABAN BPJPH - Number 20: 2023 - Decree of the Head of Halal Product 
+Assurance Organizing Agency – Indonesia; 
+• KEPKABAN BPJPH - Number 6: 2023 – Halal Certification of Drugs, Biological 
+Products and Health Equipment – Indonesia; 
+• OIC/SMIIC 2: 2019 - Conformity Assessment – Requirements for Bodies Providing 
+Halal Certification. Second Edition 2019-07-22;  
+• OIC/SMIIC 1: 2019 - General Requirements for Halal Food. Second Edition 31-07
+2019. 
+4. DISPOSIÇÕES GERAIS 
+As condições da certificação devem ser formais e disponibilizadas aos interessados 
+de forma clara e objetiva sempre que solicitado, desde o início do processo. Todo o 
+processo de certificação deve ser realizado de forma confidencial e imparcial, uma vez que 
+o organismo de certificação deve ser responsável por não permitir pressões comerciais, 
+financeiras de outras partes que possam vir a comprometer a imparcialidade da FAMBRAS 
+Halal. Todos os envolvidos no processo de certificação deverão assinar o termo de 
+confidencialidade e imparcialidade, FM 4.2.3 - Declaração de confidencialidade e 
+imparcialidade, que contêm todos os requisitos que garantem com que conflito de 
+interesses não ocorram ao longo do processo de certificação. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:3 de 65 
+A FAMBRAS Halal realiza, sob responsabilidade do Responsável Técnico, todas as 
+etapas necessárias para avaliar a conformidade com a base normativa aplicável, de acordo 
+com os requisitos da regra específica de certificação do produto. Quando a certificação 
+envolve o reconhecimento do Golfo (GAC – GCC Accreditation Center), o cronograma da 
+auditoria e todos os requisitos FAD12 acima mencionados devem estar completos. Se o 
+pedido de certificação for voluntário (não acreditado) e não envolver os países do Golfo, a 
+base normativa ou parte deste é especificada sob a responsabilidade do responsável 
+técnico da FAMBRAS Halal, bem como outros requisitos, tais como amostragem, testes e 
+cronograma/ tempo de auditoria. 
+A definição do processo é feita na revisão da solicitação e avaliação da atividade, 
+realizada pelo responsável comercial e apoiada pela área técnica, conforme descrito na IT 
+7.4 – Análise e revisão da solicitação de certificação.  
+Se o pedido de certificação for aprovado, o responsável comercial emitirá a proposta 
+comercial. Se não for aprovado, o motivo dessa deverá ser registrado e informado ao 
+requerente. 
+O resumo do processo de certificação Halal é ilustrado através de um fluxograma, 
+disponibilizado no anexo 3, do presente documento. 
+O ciclo da certificação Halal, conforme determinação dos acreditadores da 
+FAMBRAS Halal, deve ser igual a 3 anos, portanto o programa de auditoria deve incluir 
+uma auditoria inicial em duas etapas, auditoria de supervisão no primeiro e no segundo ano 
+e uma auditoria de recertificação no terceiro ano, anterior ao término da certificação. O ciclo 
+de certificação de três anos começa com a decisão de certificação ou recertificação. 
+O certificado Halal é válido por três anos e será suspenso ou cancelado a qualquer 
+momento quando a organização certificada for considerada contrária ao padrão Halal 
+previamente aprovado e aos requisitos relacionados. 
+O término do certificado Halal ocorre mediante ausência de interesse na renovação, 
+ou pode ser solicitado pelo cliente à certificadora, que deverá tomar as ações especificadas 
+no esquema de certificação e fazer as modificações necessárias nos documentos formais 
+de certificação, informações públicas, autorizações do uso de marca, etc, para garantir que 
+não haja nenhuma indicação de que o produto, processo ou serviço, continua certificado. 
+O cliente deve estar ciente de que não é permitido traduzir, para qualquer idioma, 
+qualquer documento da FAMBRAS Halal, incluindo os certificados emitidos. Se for 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:4 de 65 
+necessário e mediante avaliação da viabilidade da tradução o cliente deve solicitar a 
+tradução diretamente à FAMBRAS Halal. 
+Todas as condições e decisões para concessão, manutenção, extensão, redução, 
+suspensão, cancelamento, término e renovação da certificação Halal para escritórios filiais 
+estrangeiros da FAMBRAS Halal, como é o caso da filial localizada na Colômbia, Paraguai 
+e Argentina, são realizadas pela matriz da FAMBRAS Halal localizada no Brasil, 
+assegurando imparcialidade e confidencialidade. Contudo, este cenário pode ser alterado 
+uma vez que as filiais conquistarem suas acreditações e independência da Matriz da 
+FAMBRAS Halal no Brasil. 
+Neste documento, a palavra “deve” indica um requisito e a palavra “poderia”, uma 
+recomendação. 
+5. DEFINIÇÕES 
+5.1. Certificado Halal:  
+Documento que endossa que produtos ou serviços identificados atendem às 
+disposições das regras islâmicas relativas aos aspectos Halal e incluem: certificados de 
+abate Halal, certificados Halal para instalações e fazendas, frigoríficos e instalações 
+classificadas como certificadas Halal, alimentos, aditivos alimentares, produtos que 
+contenham carne e aromas, coalho, gelatina, gorduras animais e outros derivados. 
+5.2. Regras / assuntos islâmicos 
+Isso significa o que Deus (Allah) legisla para os muçulmanos segundo o Alcorão 
+Sagrado, e as práticas (Sunnah) do honorável Profeta Mohamed (que a paz esteja com 
+ele). 
+5.3. Esquema de certificação: 
+Sistema de certificação relacionado a produtos específicos para os quais os mesmos 
+requisitos especificados, regras específicas e procedimentos se aplicam.  
+Nota. As regras, procedimentos e gerenciamento para implantação da certificação 
+de produtos, processos e serviços são estipulados pelo esquema de certificação.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+5.4. Escopo de certificação: 
+Identificação:  - 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:5 de 65 
+do(s) produto(s), processo(s) ou serviço(s) para o(s) qual(is) a certificação 
+é concedida; - - 
+do esquema de certificação aplicável;  
+da(s) norma(s) e outros documentos normativos, incluindo a sua data de 
+publicação, com a(s) qual(ais) é julgado que o(s) produto(s), processo(s) ou 
+serviço(s) está(ão) em conformidade.  
+5.5. Auditoria (Avaliação):  
+Um processo realizado por um organismo de certificação Halal para avaliar a 
+competência de produtos ou serviços específicos, com base em padrões específicos e / ou 
+outros documentos normativos. 
+5.6. Conformidade  
+Cumprimento dos requisitos (condições). 
+5.7. Não conformidade 
+Não cumprimento dos requisitos (condições). 
+5.8. Não Conformidade maior 
+Não conformidade que afeta a capacidade do sistema de gestão de alcançar os 
+resultados desejados. 
+5.9. Não conformidade menor 
+Não conformidade que não afeta a capacidade do sistema de gestão de atingir os 
+resultados desejados. 
+5.10. Auditor:  
+Pessoa designada pelo órgão de certificação Halal para realizar, isoladamente ou 
+como parte de uma equipe de auditoria, uma avaliação de um organismo de certificação 
+Halal. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+5.11. Equipe de Auditoria 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:6 de 65 
+Um ou mais auditores que realizam a auditoria, apoiados, se necessário, por um 
+especialista técnico. 
+5.12. Auditor técnico:  
+Muçulmano tecnicamente competente em procedimentos de auditoria Halal e 
+requisitos de uma determinada tecnologia de processamento ou campo que é formalmente 
+designado pela certificação Halal. 
+5.13. Especialista técnico: 
+Uma pessoa nomeada formalmente pelo organismo de certificação Halal, que é 
+tecnicamente competente em uma determinada tecnologia ou campo de processamento. 
+5.14. Especialista em assuntos islâmicos Halal/ Auditor religioso:  
+Muçulmano com conhecimento profundo e abrangente das regras islâmicas 
+referentes ao Halal, aprovado e autorizado pela organização competente (a autoridade 
+competente Halal) e nomeado pelo organismo de certificação Halal. 
+5.15. Responsável Técnico (RT):  
+Pessoa designada como responsável tecnicamente pelo setor específico da 
+FAMBRAS Halal. 
+5.16. Representante de Qualidade (RA):  
+Pessoa designada para ser responsável pelo SGQ da FAMBRAS Halal e ISO/ IEC 
+17065. 
+5.17. Comitê de decisão: 
+Equipe da FAMBRAS Halal responsável pela decisão de certificação. Essa decisão 
+deve ser assegurada de imparcialidade e de revisão dos princípios islâmicos, além das 
+legislações e do processo em si. É composto pelo menos por três membros, sendo no 
+mínimo dois Sheikhs e um especialista técnico. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+5.18. Recolhimento: 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:7 de 65 
+É ação a ser adotada pela empresa interessada e demais empresas da cadeia 
+produtiva, que visa à imediata e eficiente retirada de lote(s) de produto(s) do mercado de 
+consumo.  
+5.19. SMIIC (Standards and Metrology Institute for Islamic Countries/ Instituto 
+de Normalização e Metrologia para Países Islâmicos) 
+A SMIIC é uma organização intergovernamental fundada pela Organização da 
+Cooperação Islâmica (OIC) para desenvolver, harmonizar e promover normas técnicas, 
+padrões e metodologias nos países islâmicos, principalmente em temas como Halal, 
+qualidade e certificação de produtos. 
+O SMIIC atua para facilitar o comércio internacional entre países muçulmanos, criar 
+referência normativa comum, garantir segurança e proteção ao consumidor, além de apoiar 
+o desenvolvimento econômico dos Estados-membros através de padrões e regulamentos 
+alinhados com princípios islâmicos, como Halal. 
+5.20. OIC (Organisation of the Islamic Cooperation / Organização para a 
+Cooperação Islâmica) 
+A OIC é uma organização intergovernamental fundada em 1969, composta por 57 
+países membros que possuem uma expressiva população muçulmana. A OIC tem como 
+objetivo promover a solidariedade e a cooperação política, econômica, social, cultural e 
+científica entre seus Estados membros, defendendo os interesses do mundo islâmico e 
+protegendo os lugares sagrados do Islamismo 
+Os países que integram a OIC são: Afeganistão, Albânia, Argélia, Azerbaijão, 
+Bahrein, Bangladesh, Benim, Brunei Darussalam, Burkina Faso, Camarões, Chade, 
+Comores, Djibuti, Egito, Emirados Árabes Unidos, Gabão, Gâmbia, Guiné, Guiné-Bissau, 
+Indonésia, Irã, Iraque, Jordânia, Kuwait, Líbano, Líbia, Malásia, Maldivas, Mali, Mauritânia, 
+Marrocos, Moçambique, Níger, Nigéria, Omã, Paquistão, Palestina, Qatar, República do 
+Congo, República do Togo, Senegal, Serra Leoa, Somália, Sudão, Síria, Tajiquistão, 
+Tunísia, Turquia, Turcomenistão, Uganda, Uzbequistão, Iêmen e Guiana. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:8 de 65 
+5.21. GSO (Gulf Standardization Organization/ Organização de Padronização do 
+Golfo.) 
+O GSO é um órgão regional criado pelos países membros do Conselho de 
+Cooperação do Golfo (GCC) para harmonizar e desenvolver normas técnicas, padrões e 
+regulamentos entre as nações do Golfo: Arábia Saudita, Bahrein, Emirados Árabes Unidos, 
+Kuwait, Omã, Catar e Iêmen como membro associado. 
+A GSO atua na definição de padrões para produtos, segurança, qualidade e 
+certificações, facilitando o comércio regional e internacional, bem como promovendo a 
+proteção do consumidor e a competitividade das indústrias locais nesses países. 
+5.22. UAE.S (United Arab Emirates. Standards) 
+UAE.S é a designação de normas técnicas dos Emirados Árabes Unidos. As normas 
+UAE.S são emitidas pela MOIAT.  
+5.23. HAK (Halal Accreditation Agency) 
+A HAK (Halal Accreditation Agency) é uma agência de acreditação da Turquia 
+responsável por acreditar organismos de avaliação de conformidade halal em todo o 
+mundo, de modo a validar os produtos Halal que ingressam no país.  
+5.24. GAC (GCC Accreditation Center) 
+A GAC (GCC Accreditation Center) é uma autoridade de acreditação regional dos 
+países do GCC (Gulf Cooperation Council – GCC), estabelecida na Arábia Saudita.  
+5.25. MOIAT (Ministry of Industry and Advanced Technology) 
+A MOIAT é o Ministério da Indústria e Tecnologia Avançada dos Emirados Árabes 
+Unidos. Éa autoridade oficial responsável pela regulamentação, certificação e controle dos 
+produtos e serviços halal no país. O MOIAT administra o sistema nacional halal, inclusive 
+o Halal National Mark. 
+5.26. Identificação das categorias UAE.S GSO 
+Os produtos certificados são classificados conforme categorias apresentadas no 
+anexo 1 – norma Golfo, conforme GSO e UAE.S 2055-2.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:9 de 65 
+A FAMBRAS Halal poderá atuar em todas as categorias indicadas na tabela, no 
+entanto, para os países do Golfo o reconhecimento é aplicável somente para as categorias 
+sinalizadas em azul no anexo 1, sendo para as demais categorias, mediante demanda e 
+necessidade, a FAMBRAS Halal poderá pleitear o reconhecimento. 
+5.27. Identificação das categorias SMIIC 
+Os produtos certificados são classificados conforme categorias apresentadas na 
+tabela, disponível no anexo 2 – norma SMIIC 02:2019. 
+A FAMBRAS Halal poderá atuar em todas as categorias indicadas na tabela, no 
+entanto, para a Turquia o reconhecimento é aplicável somente para as categorias 
+sinalizadas em azul no anexo 2, sendo para as demais categorias, mediante demanda e 
+necessidade, a FAMBRAS Halal poderá pleitear o reconhecimento. 
+6. CONDIÇÕES PARA CONCESSÃO DA CERTIFICAÇÃO 
+São condições para concessão da Certificação: 
+• O interessado deve ter a Solicitação de certificação - FM 7.2.1.1 e o escopo 
+(FM 7.2.1.2, ou FM 7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 
+7.2.1.10, ou FM 7.2.1.11 – conforme aplicável) considerada viável; 
+• Aceite da Proposta Comercial (FM 7.2.3 ou FM 7.2.4) pelo interessado, 
+devidamente assinada ou confirmadas formalmente por e-mail; 
+• Aceite e assinatura do contrato específico de certificação (FM 4.1.1 ou FM 
+4.1.1.2 ou FM 4.1.1.3 ou FM 4.1.2.1 ou FM 4.1.2.2 ou FM 4.1.2.3 ou FM 4.1.3 
+ou contrato do cliente com as cláusulas obrigatórias da FAMBRAS Halal) pelo 
+interessado, até a data de emissão do certificado Halal; 
+• Aceite e cumprimento do anexo 3, do presente documento, por ambas as 
+partes.  
+• Cumprimento do que está pré-estabelecido na IT 7.12 – Guia de orientação – 
+Documentos enviados para os clientes, no qual os analistas deverão enviar 
+todos os documentos listados ao cliente; 
+• Análise da documentação do interessado aprovada;  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:10 de 65 
+• Produto Halal e Sistema de Gestão da Qualidade aprovado no processo de 
+auditoria (avaliação), realizado no estágio 1 e estágio 2.  
+• Se aplicável, amostras do produto coletadas e ensaiadas e/ou inspecionadas 
+conforme regra específica de certificação, apresentando resultados em 
+conformidade com os requisitos estabelecidos; 
+• Todas as não conformidades registradas (FM 7.7.5.3) tenham sido sanadas e 
+implementadas; 
+• Parecer favorável da equipe auditora; 
+• Aprovação do processo pelo Comitê de Decisão; 
+• Os pagamentos referentes ao processo da certificação realizados dentro dos 
+prazos acordados com a FAMBRAS Halal; 
+7. CONDIÇÕES PARA MANUTENÇÃO DA CERTIFICAÇÃO 
+São condições para manutenção da Certificação: 
+• Cumprimento do fluxo do processo de certificação Halal, disponível no anexo 3, 
+do presente documento, pelo interessado; 
+• Cumprimento do que está pré-estabelecido na IT 7.12 – Guia de orientação – 
+Documentos enviados para os clientes, no qual os analistas deverão enviar 
+todos os documentos listados ao cliente; 
+• Atualizar a solicitação de certificação - FM 7.2.1.1 e escopo (FM 7.2.1.2, ou FM 
+7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 
+7.2.1.11 – conforme aplicável); 
+• Se aplicável, análise aprovada da documentação do interessado;  
+• Sistema de Gestão da Qualidade aprovado no processo de auditoria 
+(avaliação), realizado no estágio 2.  
+• Produto Halal e Sistema de Gestão da Qualidade aprovado no processo de 
+auditoria (avaliação) aprovado no processo de manutenção, realizado no estágio 
+2.  
+• Se aplicável, amostras do produto coletadas conforme regra de certificação e 
+ensaiada apresentando resultados em conformidade com os requisitos 
+estabelecidos; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:11 de 65 
+• Todas as não conformidades registradas (FM 7.7.5.3) tenham sido sanadas e 
+implementadas; 
+• Parecer favorável da equipe auditora; 
+• Aprovação do processo de manutenção pelo Comitê de Decisão; 
+• Os pagamentos referentes ao processo da manutenção realizados dentro dos 
+prazos acordados com a FAMBRAS Halal. 
+8. CONDIÇÕES PARA EXTENSÃO DA CERTIFICAÇÃO 
+São condições para extensão da certificação:  
+• O interessado deve ter o formulário de solicitação de certificação específico 
+Solicitação de certificação - FM 7.2.1.1 e escopo atualizado (FM 7.2.1.2, ou FM 
+7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 
+7.2.1.11 – conforme aplicável) considerado viável; 
+• Se necessário nova proposta, como em caso de nova auditoria, aceite da 
+Proposta comercial (FM 7.2.3 ou FM 7.2.4) pelo interessado, devidamente 
+assinada ou confirmadas formalmente por e-mail; 
+• Cumprimento do fluxo do processo de certificação Halal, disponível no anexo 3, 
+do presente documento, pelo interessado; 
+• Cumprimento do que está pré-estabelecido na IT 7.12 – Guia de orientação – 
+Documentos enviados para os clientes, no qual os analistas deverão enviar 
+todos os documentos listados ao cliente; 
+• Análise aprovada da documentação do interessado;  
+• Se necessário, produto Halal e Sistema de Gestão da Qualidade aprovado no 
+processo de auditoria (avaliação) realizado no estágio 1 e estágio 2.  
+• Se aplicável, amostras do produto coletadas e ensaiadas e ou inspecionadas 
+conforme regra específica de certificação, apresentando resultados em 
+conformidade com os requisitos estabelecidos; 
+• Se necessário auditoria, todas as não conformidades registradas (FM 7.7.5.3) 
+tenham sido sanadas e implementadas; 
+• Parecer favorável da equipe auditora; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:12 de 65 
+• Aprovação do processo de manutenção pelo Comitê de Decisão; 
+• Os pagamentos referentes ao processo da manutenção realizados dentro dos 
+prazos acordados com a FAMBRAS Halal (se aplicável); 
+9. CONDIÇÕES PARA RENOVAÇÃO DA CERTIFICAÇÃO 
+São condições para renovação da Certificação: 
+• O interessado deve atualizar a Solicitação de certificação - FM 7.2.1.1 e o 
+escopo atualizado (FM 7.2.1.2, ou FM 7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou 
+FM 7.2.1.9, ou FM 7.2.1.10, ou FM 7.2.1.11 – conforme aplicável) e ter a nova 
+versão considerada viável; 
+• Uma nova Proposta Comercial (FM 7.2.3 ou FM 7.2.4), referente ao novo ciclo 
+de certificação deve ser devidamente assinada ou confirmada formalmente por 
+e-mail; 
+• Assinatura de um novo contrato específico de certificação (FM 4.1.1 ou FM 
+4.1.1.2 ou FM 4.1.1.3 ou FM 4.1.2.1 ou FM 4.1.2.2 ou FM 4.1.2.3 ou FM 4.1.3 
+ou contrato do cliente com as cláusulas obrigatórias da FAMBRAS Halal), ou 
+de um aditivo contratual.  
+• Aceite e cumprimento do fluxo do processo de certificação Halal, disponível no 
+anexo 3, do presente documento, por ambas as partes.  
+• Cumprimento do que está pré-estabelecido na IT 7.12 – Guia de orientação – 
+Documentos enviados para os clientes, no qual os analistas deverão enviar 
+todos os documentos listados ao cliente; 
+• Produto Halal e Sistema de Gestão da Qualidade aprovado no processo de 
+auditoria (avaliação) realizado no estágio 2, devendo esta ser realizada antes 
+que expire o ciclo anterior de certificação.  
+• Se aplicável, amostras do produto coletadas e ensaiadas e ou inspecionadas 
+conforme regra específica de certificação, apresentando resultados em 
+conformidade com os requisitos estabelecidos; 
+• Todas as não conformidades registradas (FM 7.7.5.3) tenham sido sanadas e 
+implementadas; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+• Parecer favorável da equipe auditora; 
+• Aprovação do processo pelo Comitê de Decisão; 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:13 de 65 
+• Os pagamentos referentes ao processo da certificação realizados dentro dos 
+prazos acordados com a FAMBRAS Halal. 
+10. CONCESSÃO, EXTENSÃO E MANUTENÇÃO DA CERTIFICAÇÃO 
+Todas as etapas a seguir descritas para concessão, extensão e manutenção da 
+certificação Halal são conduzidas a partir do Brasil, e registradas pelo escritório da matriz, 
+sendo que a filial apenas oferece suporte quando necessário.  
+10.1. Solicitação 
+O cliente interessado em certificar seus produtos, deve preencher o formulário de 
+Solicitação de certificação - FM 7.2.1.1 e o escopo atualizado (FM 7.2.1.2, ou FM 7.2.1.3, 
+ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 7.2.1.11 – conforme 
+aplicável), fornecendo as informações necessárias para realizar o programa e o 
+planejamento da auditoria. As informações necessárias são as seguintes: 
+• Escopo desejado da certificação, ou seja, os produtos aos quais solicita 
+certificação; 
+• Existência de filiais, e inclusão ou não das mesmas no escopo; 
+• Detalhes pertinentes da organização solicitante conforme exigido pelo 
+esquema de certificação em questão, como: nome e endereço, complexidade 
+dos processos e operações, recursos humanos e técnicos, funções, Sistema 
+de Gestão da Qualidade; número de planos APPCC, número de funcionários, 
+quaisquer obrigações legais relevantes, entre outros; 
+• Identificação do fabricante, se for diferente do solicitante, contendo as 
+informações de nome e endereço completo, bem como seu número de registro 
+(CNPJ); 
+• Identificação de todos os processos terceirizados que poderão afetar a 
+conformidade com os requisitos; 
+• Normas nas quais a organização busca a certificação; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:14 de 65 
+• Se foi prestada consultoria relativa ao sistema de gestão, e caso positivo, por 
+quem; 
+• Fabricação de marcas próprias; 
+• Reconhecimento pretendido – países que pretende exportar os produtos 
+certificados. 
+Outras formas de envio das informações necessárias sobre os produtos poderão ser 
+usadas.  
+10.2. Análise Crítica da Solicitação (Revisão da solicitação) 
+A partir das informações indicadas no formulário de solicitação de certificação, 
+enviado pelo cliente, a FAMBRAS Halal realiza a análise crítica (revisão da solicitação), e 
+mantém, como evidência, o registro desta revisão por meio do FM 7.1.9 - Relatório de 
+Revisão de Solicitação e Cálculo do Tempo de Auditoria. 
+O objetivo desta revisão é garantir que: 
+• As informações sobre a organização e seu sistema de gestão são suficientes 
+para desenvolver o programa de auditoria; 
+• Qualquer diferença de interpretação entre a FAMBRAS Halal e o cliente seja 
+resolvida; 
+• A FAMBRAS Halal tenha a competência e capacidade para executar a 
+atividade de certificação; 
+• Sejam mantidos registros da justificativa para a decisão de realizar a auditoria. 
+Para atender estes objetivos, são considerados os seguintes aspectos: 
+• As informações sobre a empresa interessada; 
+• Informações sobre a planta de fabricação; 
+• Informações sobre o número de funcionários / turnos; 
+• Informações sobre o escopo solicitado para certificação, número de produtos e 
+quantidades de linhas de produtos; 
+• Sistema de Gestão da Qualidade existente e suas certificações; 
+• Classificação Halal (categoria e subcategoria) do produto, de acordo com GSO 
+e UAE.S 2055-2 e com o OIC/ SMIIC 2; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:15 de 65 
+• Se o produto será exportado (ou terá intenção de fazê-lo no futuro) para 
+qualquer país do Golfo (Emirados Árabes Unidos, Bahrein, Arábia Saudita, 
+Omã, Qatar, Kuwait e Iêmen); 
+• Se a FAMBRAS Halal possui acreditação pelo órgão acreditador, se requerido; 
+• Disponibilidade de Normas e Regras aplicáveis; 
+• Disponibilidade de Laboratórios em condições de realizar os ensaios; 
+• Período necessário para a condução das auditorias; 
+• Necessidade de subcontratação de atividades; 
+• Necessidade de consultas a organismos externos e/ou documentos não 
+prontamente disponíveis; 
+• Quaisquer outros pontos que influenciem na atividade de certificação (idioma, 
+condições de segurança, ameaças a imparcialidade). 
+As informações levantadas pela análise crítica da solicitação subsidiam o 
+Responsável Técnico para estabelecer as condições para realização do processo. 
+A descrição desta etapa está disponível na IT 7.4 – Revisão da solicitação de 
+certificação. 
+O formulário FM 7.1.9 - Relatório de Revisão de Solicitação e Cálculo do 
+Tempo de Auditoria irá determinar (calcular) o tempo de duração da auditoria 
+automaticamente, a partir da entrada dos dados da empresa, que inclui ramo de atuação – 
+classificação da categoria e complexidade, quantidade de produtos certificados, número de 
+funcionários, estudos APPCC, dentre outros.  
+O FM 7.1.9 - Relatório de Revisão de Solicitação e Cálculo do Tempo de Auditoria 
+resulta em duas durações de auditoria, sendo uma baseada no anexo B da norma UAE.S 
+GSO 2055-2, e outra no anexo B da norma OIC/ SMIIC 2.  
+A FAMBRAS Halal irá usar como referência a duração de auditoria proveniente do 
+cálculo do UAE.S GSO 2055, para os clientes que pedirem reconhecimento no padrão 
+GSO, UAE.S, mercado interno, países da Ásia, Europa, entre outro.  
+Para clientes que requisitarem reconhecimento para Turquia, ou certificado com as 
+normas SMIIC, a duração de auditoria a ser considerada é referente ao modelo 
+estabelecido na OIC/ SMIIC 2. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:16 de 65 
+A descrição de como realizar o cálculo está presente na IT 7.4 – Revisão e Análise 
+do Formulário de Solicitação. 
+Nota: O tempo total de duração da auditoria poderá ser reduzido em até 30%, 
+conforme determina a norma IAF MD 5:2015. São condições (motivos) para redução do 
+tempo de auditoria:  
+• Conhecimento prévio do sistema de gestão do solicitante, como empresas 
+certificadas há muito tempo pela FAMBRAS Halal; 
+• Alto nível de automação; 
+• Muitos funcionários executam as mesmas atividades; 
+• Processos que envolvem atividades semelhantes e repetitivas; 
+Nestes casos, deverá ser inserido no FM 7.1.9 o percentual de redução, baseado na 
+tabela presente na IT 7.4 – Revisão e Análise do Formulário de Solicitação, e a justificativa. 
+Após a análise crítica da solicitação, a FAMBRAS Halal irá aceitar ou recusar a 
+solicitação de certificação.  
+Quando a empresa é aprovada na análise crítica, ou seja, considerada apta para a 
+prosseguir com o processo de certificação Halal, ela receberá a proposta comercial, e a 
+FAMBRAS Halal deve determinar as competências que precisa incluir em sua equipe de 
+auditoria e de decisão de certificação (vide item 9.3).   
+Caso a empresa seja reprovada na análise crítica, a FAMBRAS Halal irá informar 
+à empresa solicitante através de meios que possam comprovar ciência dos motivos da 
+reprovação, deixando claro o porquê da recusa. 
+10.3. Proposta Comercial e Contrato 
+Uma vez que a empresa foi aprovada na análise crítica, a FAMBRAS Halal irá emitir 
+a Proposta Comercial (FM 7.2.3 ou FM 7.2.4), e caso aceita, esta será registrada no 
+documento FM 7.2.2 – Controle de Propostas. 
+Junto ao envio da Proposta Comercial (FM 7.2.3 ou FM 7.2.4) também é 
+encaminhado o Contrato de Certificação (FM 4.1.1) com os signatários da FAMBRAS Halal, 
+do requerente de certificação e do terceiro/ beneficiário (quando o requerente da 
+certificação Halal for diferente do fabricante do produto a ser certificado Halal), que deve 
+ser completado antes da emissão do certificado. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:17 de 65 
+Para os contratos de terceira parte (quando o requerente da certificação Halal for 
+diferente do fabricante do produto a ser certificado Halal), a FAMBRAS Halal contempla 
+responsabilidades e obrigações tanto para o solicitante quanto para o terceiro, visto que 
+ambos são partes interessadas nas atividades de certificação Halal. 
+Sempre que o Contrato de Certificação (FM 4.1.1) for revisado em virtude de 
+mudanças/ revisões de cláusulas contratuais, o mesmo deverá ser assinado por todos os 
+clientes, a fim de garantir que estejam todos cobertos pelas atualizações estabelecidas pela 
+FAMBRAS Halal. Esta assinatura deverá ocorrer no máximo no processo de manutenção 
+de cada cliente, não podendo aguardar até a renovação do ciclo, quando usualmente seria 
+renovado o contrato.  
+Os contratos de certificação são responsabilidades do departamento jurídico, sendo 
+estes assinados pelo presidente ou alguém nomeado com permissão para tal. Assinaturas 
+digitais são permitidas.  
+Nota. Caso o cliente não assine o modelo de contrato padrão da FAMBRAS Halal, é 
+possível assinar o contrato do cliente de fornecimento de serviços, desde que as cláusulas 
+contratuais obrigatórias da FAMBRAS Halal, exigidas pela ISO 17065, SMIIC 02, GSO e 
+UAE.S 2055-2, sejam adicionadas. Mas a FAMBRAS Halal também oferece a alternativa 
+de incluir o contrato padrão FAMBRAS Halal como um anexo.  
+Todas as propostas comerciais e contratos são identificados, conforme determinado 
+pela IT 4.2 - Numeração de propostas, contratos e certificados. 
+A FAMBRAS Halal deve manter o registro assinado ou formalmente aceito por e
+mail da Proposta Comercial. Para o Contrato de Certificação específico é obrigatório o 
+registro do documento assinado por todas as partes aplicáveis. 
+10.4. Programa de auditoria 
+Um programa de auditoria, abrangendo todo o ciclo de certificação, deve ser 
+gerenciado, tanto para o setor Industrial quanto para o setor Frigorífico. Este programa é 
+representado pelo FM 7.1.2.1 – Programa de controle de vencimento e status dos 
+certificados – Industrial e pelo FM 7.1.2.2 – Programa de controle de vencimento e status 
+dos certificados - Frigorífico. 
+O objetivo do programa de auditoria é identificar claramente as atividades de 
+auditoria necessárias durante todo o ciclo, a fim de demonstrar que o Sistema de Gestão 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:18 de 65 
+do cliente atende aos requisitos de certificação da FAMBRAS Halal em consonância com a 
+ISO 17065, SMIIC 02, GSO e UAE.S 2055-2. 
+O ciclo de certificação possui a duração de 3 anos, e, portanto, o programa de 
+auditoria deve incluir as auditorias de Estágio 1 e Estágio 2, no processo inicial de 
+certificação, as auditorias de manutenção nos dois anos subsequentes e a auditoria de 
+renovação/ recertificação no terceiro ano, previamente a data de expiração da certificação.  
+O programa de auditoria para o ciclo de certificação deve cobrir os requisitos 
+completos do Sistema de Gestão da FAMBRAS Halal. 
+O desenvolvimento do programa de auditoria e quaisquer ajustes subsequentes, 
+bem como a determinação do escopo de auditoria e o desenvolvimento do plano de 
+auditoria deve levar em consideração: 
+a. Os requisitos da especificação de padrões aprovados para Halal. 
+b. O tamanho da empresa; 
+c. Complexidade das operações da empresa, do Sistema de Gestão Halal, 
+produtos e processos; 
+d. O contexto tecnológico e organizacional. 
+e. Quaisquer fontes externas de trabalho em quaisquer atividades dentro do 
+escopo do trabalho de produção ou procedimentos ou um sistema de 
+gerenciamento de segurança do produto. 
+f. 
+Os resultados de quaisquer auditorias anteriores. Ao considerar os resultados 
+de auditorias conduzidas por outro organismo de certificação, deve-se obter e 
+reter evidências suficientes, como relatórios e documentação de ações 
+corretivas, para qualquer não conformidade, as quais devem apoiar o 
+cumprimento dos requisitos estabelecidos pelo ISO/IEC 17021. Cabe a 
+FAMBRAS Halal acompanhar a implementação das ações corretivas 
+relacionadas às não conformidades anteriores; 
+g. O número de locais ou instalações com várias áreas. 
+h. O nível demonstrado de eficácia do Sistema de Gestão Halal;  
+i. 
+Reclamações recebidas pelo organismo de certificação sobre o cliente; 
+j. 
+Auditoria combinada, conjunta ou integrada; 
+k. Mudanças nos requisitos de certificação; 
+l. 
+Mudanças nos requisitos legais; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:19 de 65 
+m. Mudanças nos requisitos de acreditação; 
+n. Dados de desempenho organizacional (por exemplo, níveis de defeitos, dados 
+de indicadores-chave de desempenho); 
+o. Preocupações relevantes das partes interessadas; 
+p. Atividades realizadas durante os turnos de trabalho, quando aplicável. 
+Não necessariamente todas as informações dos itens acima estão assinaladas no 
+programa de auditoria, mas todas são rastreáveis e vinculadas ao processo de certificação 
+do cliente, através de outros documentos.  
+Quaisquer ajustes no fluxo do processo de certificação Halal, disponível no anexo 3, 
+do presente documento, decorrentes destes itens devem ser justificados e registrados. 
+O programa de certificação Halal do cliente pode incluir visitas não anunciadas, por 
+parte da FAMBRAS Halal para o cliente, desde que exista um objetivo claro, como 
+investigação de reclamação, supervisão do processo Halal, avaliação de alguma 
+ocorrência, e etc.  
+10.5. Envio de documentos obrigatórios 
+Uma vez estabelecidas as propostas comerciais e contratos, os analistas enviarão 
+aos seus respectivos clientes, documentos de caráter obrigatório conforme listados na IT 
+7.12 – Guia de orientação – Documentos enviados para os clientes. Esta etapa será 
+seguida tanto no processo de certificação inicial, quanto no de manutenção, extensão e 
+renovação. Os documentos devem ser enviados pelo cliente no mínimo 30 dias antes do 
+agendamento da auditoria, e a FAMBRAS Halal irá responder no prazo de até 7 dias 
+corridos após o recebimento.  
+O envio dos documentos obrigatórios será registrado, pelo time da qualidade no FM 
+14.2.4  - Lista de Controle de Documentos Distribuídos. 
+10.6. Documentação e Análise da Documentação do Solicitante 
+Logo após o envio da Proposta Comercial (FM 7.2.3 ou FM 7.2.4), o time técnico 
+encaminha o presente PR 7.1 e a solicitação documental específica (FM 7.4.2.1 ou 7.4.2.2), 
+de acordo com a documentação exigida pelo esquema de certificação e pelo escopo. 
+As condições gerais que orientam o processo da certificação são informadas ao 
+solicitante através do envio deste procedimento, PR 7.1 Condições de concessão, 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:20 de 65 
+manutenção, extensão, redução, suspensão, cancelamento, término e renovação de 
+certificação, e dos respectivos documentos com requisitos gerais, aplicáveis ao 
+seguimento, que são: 
+• DT 7.1 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Alimentos Industrializados e Aditivos;  
+• DT 7.2.1 - Requisitos Gerais da FAMBRAS HALAL para Frigoríficos Aves;  
+• DT 7.2.2 - Requisitos Gerais da FAMBRAS HALAL para Frigoríficos Bovinos;  
+• DT 7.3 - Requisitos Gerais para o Sistema de Garantia Halal (HAS) – 
+Categorias A, B, C1, C2, C3, C4, D, e K;  
+• DT 7.4 - Requisitos Gerais da FAMBRAS HALAL para Certificação de Produtos – (Químicos em Geral e Agentes de Limpeza);  
+• DT 7.5 - Requisitos Gerais da FAMBRAS HALAL para Certificação de Produtos – (Fármacos e Medicamentos);  
+• DT 7.6 - Requisitos Gerais da FAMBRAS HALAL para Certificação de Produtos – (Produtos de Higiene Pessoal, Cosméticos e Perfumes);  
+• DT 7.7.1 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Fazendas de Animais;  
+• DT 7.7.2 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Fazendas de Atividades Agrícolas;  
+• DT 7.8 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Armazéns/ Entrepostos, Transporte e Distribuição; 
+• DT 7.9 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Alimentos para Animais e Ração Animal; 
+• DT 7.10 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Materiais de Embalagem e Invólucros; 
+• DT 7.11 - Requisitos Gerais da FAMBRAS HALAL para Certificação de 
+Serviços de Alimentação e Turismo (Hotéis, Restaurantes, Transporte e Lazer); 
+Na sequência, a documentação requerida é enviada pelo solicitante da certificação, 
+e posteriormente avaliada pelo time técnico e especialista em assuntos islâmicos Halal 
+(religioso), o qual é designado pelo Responsável técnico em conformidade com o 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:21 de 65 
+procedimento PR 6.1 – Gestão de Recursos e classificação definida no FM 6.1.4 - Lista de 
+Pessoal Qualificado. 
+Para empresas com requisitos rigorosos de confidencialidade em relação ao envio 
+das documentações requeridas, como o compartilhamento da formulação do produto a ser 
+certificado Halal, será estabelecido pelo time da FAMBRAS Halal o procedimento de 
+verificação in loco da documentação em questão. Nestes casos, a empresa deverá imprimir 
+o documento contendo a formulação do produto a ser certificado Halal, os auditores irão 
+validar as matérias-primas/ insumos/ auxiliares de processo utilizados no processo, e se for 
+aprovada a composição do produto, irão assinar o documento em questão. 
+O documento impresso deverá ser mantido e controlado pela empresa, e deverá ser 
+disponibilizado ao time da FAMBRAS Halal nas próximas auditorias a fim de comprovar que 
+não houve mudanças na formulação sem o aviso prévio à certificadora Halal. Se identificado 
+mudanças que não tenham sido comunicadas, estão cabíveis as ações previstas no item 
+11 do presente procedimento. 
+As empresas devem enviar ao time da FAMBRAS Halal um documento formal 
+contendo os requisitos de confidencialidade para que estas regras sejam válidas e possam 
+ser aplicadas no processo de certificação. 
+Após avaliação, o cliente será posicionado quanto a eventuais pendências, ou 
+aprovado para prosseguir para a etapa seguinte de auditoria (avaliação).  
+10.7. Auditoria (avaliação)  
+A auditoria (avaliação) na empresa solicitante da certificação ou na empresa 
+fabricante (se diferente da empresa solicitante), tem como finalidade verificar se a empresa 
+possui condições de fabricar produtos com o status Halal, desta forma é avaliada a 
+conformidade com a base normativa estabelecida nos requisitos gerais da certificação 
+aplicáveis ao seguimento (DT 7.1 ou DT 7.2.1 ou DT 7.2.2 ou DT 7.4 ou DT 7.5 ou DT 7.6 
+ou DT 7.7.1 ou DT 7.7.2 ou DT 7.8 ou DT 7.9 ou DT 7.10 ou DT 7.11 ou DT 7.12 e/ou DT 
+7.3).  
+Empresas que desejam ser certificadas conforme normas da SMIIC, e obter o 
+reconhecimento da HAK, necessário para a Turquia, além de demonstrar conformidade 
+com a DT aplicável, também deverão atender aos requisitos da IT 7.16 - Orientação de 
+trabalho para processos com reconhecimento nas normativas SMIIC, em destaque o 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:22 de 65 
+sistema robusto de rastreabilidade.  
+O cliente é contatado e a(s) data (s) de auditoria é (são) reservada (s). Lembrando 
+que a auditoria só pode ocorrer com a fábrica em funcionamento, ou seja, deverá haver 
+produção Halal no momento da auditoria.   
+Cada unidade/ planta de uma organização multisite a ser avaliado (auditado) e 
+certificado separadamente. 
+No caso das empresas fora do país, os auditores enviados são os mesmos que 
+atuam no Brasil, devidamente registrados pela matriz.  
+10.7.1. Auditoria não anunciada 
+Auditorias não anunciadas da FAMBRAS Halal estão previstas para ocorrer pelo 
+menos uma vez em cada ciclo de certificação Halal, ou seja, uma vez a cada 3 anos. A 
+auditoria não anunciada poderá ser a de manutenção 1, ou a de manutenção 2, conforme 
+definido pela FAMBRAS Halal. Auditorias não anunciadas não poderão ser realizadas na 
+auditoria inicial, ou na auditoria de renovação. 
+A FAMBRAS Halal notificará o cliente, no mínimo 3 meses antes, de que a auditoria 
+de manutenção do ano será não anunciada. Será informado um intervalo de 15 dias, no 
+qual a auditoria não anunciada poderá ocorrer, e a empresa pode informar a FAMBRAS 
+Halal, dentro de 5 dias, as datas que não poderão receber auditoria desde que seja 
+apresentada uma justificativa viável, por exemplo, feriados locais, paradas planejadas, 
+sazonalidade, etc.  
+O recebimento da auditoria não anunciada é obrigatório e a empresa deve estar em 
+funcionamento, ou seja, deverá haver produção Halal no momento da auditoria.   
+Todos os requisitos para as auditorias não anunciadas estão presentes na IT 7.14 – Auditoria não anunciada. 
+As auditorias não anunciadas são uma exigência dos acreditadores da FAMBRAS 
+Halal, fundamentadas na norma UAE.S GSO 2055-2.  
+10.7.2. Duração da auditoria (avaliação) 
+Para cada cliente, a FAMBRAS Halal determina o tempo necessário para planejar e 
+realizar uma auditoria completa e eficaz do Sistema de Gestão Halal, levando em 
+consideração aspectos como categoria da empresa, complexidade do processo, variedade 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:23 de 65 
+de produtos, número de APPCC, quantidade de funcionários no maior turno, nível de 
+maturidade do sistema Halal, nível de automação, entre outro, conforme descrito no item 
+10.2. 
+A duração da auditoria será estabelecida a partir do cálculo de homens dia, sendo 
+registrado e justificado através do preenchimento do FM 7.1.9 - Relatório de Revisão de 
+Solicitação e Cálculo do Tempo de Auditoria. 
+Nota. O número de homens dia será apresentado ao cliente através FM 7.2.3 - 
+Proposta Comercial.  
+É importante lembrar que o tempo gasto com as viagens de ida e volta para as 
+empresas auditadas não está incluído no cálculo do tempo de auditoria, bem como o tempo 
+gasto por qualquer membro da equipe que não seja designado como auditor (por exemplo, 
+especialista técnico, tradutores e intérpretes, observadores e auditores em treinamento). 
+Se para a condução da auditoria, tradutores e intérpretes forem necessários, a auditoria 
+poderá demandar um maior tempo. 
+10.7.3. Plano de auditoria 
+O plano de auditoria deve considerar os objetivos, escopo e critérios de auditoria. Os 
+objetivos devem ser determinados pela FAMBRAS Halal e devem descrever o que deve 
+ser realizado na auditoria, incluindo: 
+a. Determinação da conformidade do sistema de gestão do cliente, ou parte deste 
+sistema, com os critérios de auditoria; 
+b. Determinação da capacidade do sistema de gestão para assegurar que o 
+cliente atenda aos requisitos estatutários, regulamentares e contratuais; 
+c. Determinação da eficácia do sistema de gestão para assegurar que o cliente 
+pode atender os objetivos definidos; 
+d. Identificação das áreas para possível melhoria do sistema de gestão, se 
+aplicável. 
+O escopo e os critérios de auditoria, incluindo quaisquer alterações, devem ser 
+definidos pela FAMBRAS Halal após discussão com o cliente. O escopo de auditoria deve 
+descrever a abrangência e os limites de auditoria, como as plantas, unidades 
+organizacionais, atividades e processos a serem auditados. Quando o processo consistir 
+em mais de uma auditoria, por exemplo, abrangendo diferentes plantas, o escopo de uma 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:24 de 65 
+auditoria individual pode não representar o escopo total da certificação, mas o total de 
+auditorias deve ser coerente com este escopo completo. 
+Os critérios de auditoria devem ser usados como referência para determinação das 
+conformidades e devem incluir os requisitos de um documento normativo definido sobre 
+sistemas de gestão, e os processos definidos e a documentação do sistema de gestão 
+desenvolvido pelo cliente. 
+A FAMBRAS Halal mantém registro dos planos de auditoria por meio do FM 7.4.3.X* - Plano de Auditoria - Estágio 1 e/ou FM 7.4.4.X* - Plano de Auditoria - Estágio 2, o qual 
+deve ser enviado aos clientes após a comunicação das datas da auditoria que serão 
+acordadas antecipadamente com ele. O plano será enviado pelo menos 7 dias antes da 
+data da auditoria. 
+O plano de auditoria deve garantir que os objetivos de auditoria possam ser 
+atendidos pelo cliente, e o cliente deve ser informado sobre as atividades que serão 
+realizadas no local durante a auditoria. 
+*Nota: O X no número do plano de auditoria é variável de acordo com a categoria, 
+por exemplo, o FM 7.4.3.9 é o plano de auditoria de estágio 1 para a categoria de frigoríficos 
+de aves, conforme esquema da DT 7.2.1 – Requisitos Gerais da FAMBRAS HALAL para 
+Frigoríficos – Aves; já o FM 7.4.4.1, por exemplo, é o plano de auditoria de estágio 2 para 
+a categoria de industrializados no geral, conforme esquema da DT 7.1 – Requisitos Gerais 
+da FAMBRAS HALAL para Certificação de Alimentos Industrializados e Aditivos. 
+10.7.4. Seleção e atribuições da equipe de auditoria    
+A FAMBRAS Halal seleciona a equipe auditora, incluindo auditor líder e especialista 
+técnico, quando necessário, levando em consideração a competência necessária para 
+atingir os objetivos da auditoria e os requisitos de imparcialidade, conforme descrito no PR 
+6.1 – Gestão de recursos. Se houver apenas um auditor, o mesmo deverá ter a competência 
+de desempenhar as funções de um auditor líder aplicáveis à auditoria em questão. 
+A FAMBRAS Halal identifica as competências de todo seu pessoal por meio do FM 
+6.1.4 – Lista do Pessoal Qualificado, selecionando corretamente a equipe auditora para 
+cada tipo de auditoria, e identificando se é necessário incluir outras competências técnicas 
+em sua equipe. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:25 de 65 
+A equipe de auditoria deve ser composta por pelo menos 1 auditor técnico e 1 
+especialista em assuntos islâmicos Halal, e será o responsável técnico quem irá designar 
+auditores para realizar a atividade de auditoria (avaliação), sempre em conformidade com 
+o procedimento PR 6.1 – Gestão de Recursos e classificação definida no FM 6.1.4 - Lista 
+de Pessoal Qualificado. 
+Usualmente as auditorias com reconhecimento das normas SMIIC serão realizadas 
+por 3 profissionais, sendo dois auditores técnicos, além de um especialista em assuntos 
+islâmicos. O especialista em assuntos islâmicos deverá participar obrigatoriamente de 
+todas as auditorias.  
+Ao decidir o tamanho e a composição da equipe de auditora, deve-se levar em 
+consideração: 
+a. objetivos da auditoria, escopo, critérios e tempo de auditoria estimado; 
+b. se a auditoria é combinada, conjunta ou integrada. Espera-se que o auditor 
+líder de uma auditoria combinada ou integrada tenha um conhecimento 
+profundo em pelo menos uma das normas e conhecimento básico das outras 
+normas utilizadas para aquela auditoria específica. 
+c. a competência global da equipe auditora necessária para atingir os objetivos 
+da auditoria. O conhecimento e as habilidades necessárias do auditor líder e 
+dos auditores podem sem complementadas por especialistas técnicos, 
+selecionados de acordo com as necessidades da equipe e do escopo de 
+auditoria; tradutores e intérpretes, selecionados de forma a garantir que não 
+influenciem indevidamente a auditoria. Todos devem operar sob direção de um 
+auditor; 
+d. os requisitos da certificação, incluindo quaisquer requisitos estatutários, 
+regulamentares ou contratuais aplicáveis;  
+e. histórico de auditorias prévias na empresa – deve evitar, sempre que possível, 
+repetir membros da equipe de auditores por mais de 3 anos consecutivos, 
+considerando o risco a imparcialidade, devido a familiaridade.  
+f. 
+idioma e cultura. 
+O auditor líder, consultando o time de auditoria, deve designar para cada membro a 
+responsabilidade para auditar processos, funções, locais ou atividades específicas. O 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:26 de 65 
+auditor líder deve levar em consideração a competência, e o uso efetivo e eficaz do time de 
+auditoria, bem como papéis e responsabilidade diferentes para os auditores, auditores em 
+treinamento e especialistas técnicos. Mudanças nas reponsabilidades podem ser feitas 
+durante a auditoria para garantir que os objetivos sejam atendidos. 
+Auditores em treinamento podem participar da auditoria, desde que um auditor seja 
+designado como avaliador. Este auditor deve ser competente para assumir os deveres e 
+ter a responsabilidade final pelas atividades e achados do auditor em treinamento. 
+O papel dos especialistas técnicos durante a auditoria deve ser acordado entre a 
+FAMBRAS Halal e o cliente previamente a condução da auditoria. O especialista técnico 
+não deve agir como um auditor na equipe de auditoria, e deve ser acompanhado por um 
+auditor. Os especialistas técnicos podem oferecer conselhos à equipe de auditoria para a 
+preparação, planejamento ou para a auditoria. 
+10.7.5. Estágios da auditoria (avaliação) 
+A auditoria inicial de certificação Halal deve ser realizada em dois estágios (fases): 
+estágio 1 e estágio 2.  
+10.7.5.1. Estágio 1 
+Os objetivos da auditoria de estágio 1 são: 
+• Fornecer uma ilustração para planejar a auditoria do estágio 2, obtendo uma 
+compreensão do sistema de gestão da segurança do produto; 
+• Analisar as informações documentadas do solicitante da certificação Halal – 
+o que inclui procedimentos, manuais, instruções de trabalho, dentre outros; 
+• Analisar a compreensão do cliente diante dos requisitos de certificação Halal.  
+A auditoria de estágio 1 deverá ser realizada no cliente (in loco), para todas as 
+empresas classificadas nas categorias C, D, E, I e K (anexo 1) definidas pelo UAE.S GSO 
+2055-2, e C, D, I, K e L (anexo 2), definidas pela SMIIC 02.  
+Já para as categorias A, B, F, J, H e G (UAE.S GSO 2055-2 – anexo 1), e A, B, E, F, 
+G, H, e J (SMIIC 02 – anexo 2) a auditoria de estágio 1 poderá ser realizada de maneira 
+remota, online ao vivo.   
+Os achados da auditoria de estágio 1 devem ser documentados, através do relatório 
+de auditoria, e comunicadas ao cliente, durante a reunião de encerramento da auditoria e 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:27 de 65 
+posteriormente enviada por e-mail ao cliente, incluindo a identificação de quaisquer áreas 
+de preocupação que possam ser classificadas como não conformidade durante a auditoria 
+de estágio 2. O requerente deve ser informado de que os resultados da auditoria da estágio 
+1 podem levar ao adiamento ou ao cancelamento da auditoria da estágio 2. 
+Ao determinar o intervalo entre as auditorias de estágio 1 e 2, deve-se considerar as 
+necessidades do cliente para resolver os achados (não conformidades) identificados 
+durante a auditoria de estágio 1. O organismo de certificação também pode precisar revisar 
+seus arranjos para o estágio 2.  
+Deve-se considerar ainda que o intervalo razoavelmente aceito entre as auditorias 
+do estágio 1 e do estágio 2 não deva ultrapassar 6 meses. A auditoria do estágio 1 deve 
+ser repetida se um intervalo maior for necessário. 
+10.7.5.2. Estágio 2 
+O objetivo da auditoria de estágio 2 é avaliar a implantação, incluindo eficácia, da 
+aplicação dos requisitos da certificação Halal. Nesta etapa são confirmadas, in loco (na 
+planta), todas as informações evidenciadas nos documentos apresentados no estágio 1.  
+O estágio 2 sempre deverá ser realizado na empresa do cliente (in loco).  
+Qualquer parte do sistema de gestão da segurança do produto que foi auditada no 
+estágio 1 e considerada como tendo sido implementada de forma eficaz e de acordo com 
+os requisitos, pode não precisar ser auditada novamente no estágio 2. No entanto, a 
+FAMBRAS Halal deve garantir que as partes do sistema de gestão da segurança do produto 
+que foram auditadas continuem a cumprir os requisitos de certificação. Nesse caso, o 
+relatório do estágio 2 de auditoria deve incluir essas constatações, com uma declaração 
+clara de que a compatibilidade e conformidade foi alcançada durante a primeira etapa da 
+auditoria. 
+10.7.6. Metodologia de auditoria (avaliação) 
+Antes da data de auditoria (avaliação), pelo menos 7 dias antes, o auditor líder 
+enviará ao cliente o plano de auditoria específico ao estágio a ser realizado, por meio do 
+FM 7.4.3.X* - Plano de Auditoria - Estágio 1 e/ou FM 7.4.4.X* - Plano de Auditoria - Estágio 
+2, que foi elaborado conforme descrito no item 10.7.2. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:28 de 65 
+*Nota 1: O X no número do plano de auditoria é variável de acordo com a categoria, 
+por exemplo, o FM 7.4.3.9 é o plano de auditoria de estágio 1 para a categoria de frigoríficos 
+de aves, conforme esquema da DT 7.2.1 – Requisitos Gerais da FAMBRAS HALAL para 
+Frigoríficos – Aves; já o FM 7.4.4.1, por exemplo, é o plano de auditoria de estágio 2 para 
+a categoria de industrializados no geral, conforme esquema da DT 7.1 – Requisitos Gerais 
+da FAMBRAS HALAL para Certificação de Alimentos Industrializados e Aditivos. 
+É importante destacar que não é permitido realizar as auditorias de estágio 1 e 
+estágio 2 em sequência. Inclusive não é permitido realizar a auditoria de estágio 2 antes de 
+emitir o relatório da auditoria do estágio 1, com um parecer favorável de recomendação 
+pelo time de auditoria e do encerramento das eventuais não conformidades neste estágio.  
+A auditoria (avaliação) deverá ser conduzida conforme determinado pela ISO 19011 
+e a IT 7.5 – Procedimento de auditoria. 
+O resultado da auditoria (avaliação) é informado ao fabricante após a conclusão, 
+sendo emitido e enviado ao cliente o relatório de auditoria específico de acordo com a 
+categoria (estagio 1: FM 7.7.4.1 ou FM 7.7.4.3 ou FM 7.7.4.5 ou FM 7.7.4.7 ou FM 7.7.4.9 ou 
+FM 7.7.4.11 ou FM 7.7.4.13 ou FM 7.7.4.15 ou FM 7.7.5.1 ou FM 7.7.5.4), (estagio 2: FM 
+7.7.4.2 ou FM 7.7.4.4 ou FM 7.7.4.6 ou FM 7.7.4.8 ou FM 7.7.4.10 ou FM 7.7.4.12 ou FM 
+7.7.4.14 ou FM 7.7.4.16 ou FM 7.7.5.2 ou FM 7.7.5.5) junto com o FM 7.7.5.3 - Relatório de 
+não conformidade - para auditoria caso existam quaisquer não conformidades.  
+É fundamental que o relatório de auditoria indique se a empresa está, ou não, 
+recomendada pelo time de auditoria para seguir ao estágio 2 ou ser recomendada a receber 
+a certificação Halal.  
+Nota: Uma vez que o estágio 2 só pode ser agendado e realizado após o 
+encerramento do estágio 1, fica desde então subentendido que não é permitido enviar junto 
+(em um único e-mail), ambos os relatórios ao cliente.  
+Os relatórios de auditoria devem ser enviados em no máximo 15 dias corridos, após 
+o encerramento da auditoria de cada estágio.  
+Em caso de não fechamento das não conformidades evidenciadas na auditoria 
+(avaliação) inicial o processo de certificação é interrompido, retomado e / ou cancelado de 
+acordo com as decisões do responsável técnico e, dependendo do caso, pode ser 
+necessário convocar o comitê de decisão.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:29 de 65 
+10.7.7. Encerramento das não conformidades 
+Para encerrar qualquer não-conformidade (maior ou menor – veja 5.8 e 5.9) / (estágio 
+1 ou estágio 2), o cliente deverá previamente enviar uma resposta, em até 7 dias corridos, 
+com as correções e ações corretivas que a empresa pretende fazer. 
+Quando o achado de auditoria for uma observação, a resposta ao achado não se faz 
+obrigatória. Contudo, caso o cliente responda à observação, será necessário o envio da 
+evidência para o encerramento do achado. 
+A equipe de auditoria avaliará a resposta e caso julgue suficiente, dará o aceite. Caso 
+não seja, a equipe de auditoria não poderá aceitar e deverá prover alguns comentários para 
+o cliente. 
+Uma vez aceita a resposta de não-conformidades, o cliente deverá apresentar as 
+evidências necessárias. Lembrando que sem as evidências, a não conformidade não pode 
+ser encerrada (mesmo que seja menor). 
+Em alguns casos, as não-conformidades precisam de um prazo maior, por exemplo, 
+quando implica em mudanças estruturais ou treinamentos externos. Considerando essa 
+situação, poderá ser aceitável como evidência do plano de ação, algo que comprove que a 
+correção já está agendada, por exemplo, contrato do serviço de manutenção estrutural ou 
+contrato do treinamento externo. 
+Os prazos estabelecidos para envio das evidências das não conformidades são até 
+a data de vencimento do ciclo/ certificado, considerando o tempo necessário para análise 
+e aceite por parte do auditor líder e do comitê de decisão. Sugere-se o envio, no mínimo, 
+30 dias de antecedência em relação ao vencimento do certificado. Os auditores, por sua 
+vez, têm o prazo de até 7 dias corridos após o recebimento das respostas e evidencias para 
+encerrar as não conformidades.  
+10.8.  Ensaios e Inspeções do Produto (quando aplicável) 
+Quando aplicável, são realizados os ensaios em amostras para verificar a 
+conformidade do produto à base normativa estabelecida no esquema da certificação. 
+A determinação de quais são as análises laboratoriais a serem realizadas são 
+definidas pela FAMBRAS Halal a partir da avaliação da documentação técnica previamente 
+fornecida, sob a responsabilidade do Responsável Técnico de acordo com a IT 7.6.2 - 
+Critério para determinação de análises laboratoriais. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:30 de 65 
+O ensaio deve ser realizado no laboratório acreditado ISO / IEC 17025 que deve ser 
+aprovado na lista de Fornecedores qualificados - FM 6.2.1. 
+Caso aplicável, durante a auditoria ou visita extra, a FAMBRAS Halal coletará e 
+lacrará as amostras a serem ensaiadas registrando no relatório de coleta de amostra (FM 
+7.6.1).  
+O solicitante será responsável por enviar a amostra para um dos laboratórios 
+homologados pela FAMBRAS Halal, conforme determinado no FM 7.4.2.11 – Laboratórios 
+para Análises da FAMBRAS Halal, e pagar pela mesma. No entanto o resultado deverá ser 
+enviado pelo laboratório diretamente a FAMBRAS Halal, conforme descrito no FM 6.2.2 - 
+Acordo de subcontrato de serviço. 
+10.8.1. Coleta de Amostras 
+A coleta de amostras baseia-se na regra específica de certificação do produto, 
+conforme descrito na IT 7.6.2 - Critério para Determinação de Análises Laboratoriais.  
+A IT 7.6.1 - A coleta de amostras descreve como realizar a amostragem. 
+As amostras devem ser representativas de todo o grupo ou família de produto a 
+ser certificado, e devem ser fabricadas utilizando as ferramentas de produção e montadas 
+usando os métodos e processos estabelecidos para a produção normal.  
+Quando os ensaios forem baseados em amostras de protótipos, ensaios de 
+confirmação ou verificações apropriadas devem ser realizados em amostras da produção. 
+O time de auditoria da FAMBRAS Halal será responsável pela coleta da amostra a 
+ser realizada no dia da auditoria, conforme descrito na IT 7.6.1 - A coleta de amostras. 
+Caso a amostra não possa ser coletada durante a auditoria, uma nova data deverá ser 
+agendada, e um auditor da FAMBRAS Halal será encaminhado para realizar a coleta.   
+10.8.2. Ensaios e Verificações 
+Os ensaios e verificações são realizados de acordo com a base normativa 
+estabelecida para o processo de certificação do produto, conforme o escopo de acreditação 
+da FAMBRAS Halal acordados com o cliente e /ou o laboratório selecionado.  
+O prazo dos laboratórios para liberação do laudo é em média 15 dias corridos após 
+o recebimento da amostra e confirmação do pagamento.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:31 de 65 
+Os resultados dos ensaios serão enviados pelo laboratório diretamente aos cuidados 
+da FAMBRAS Halal, conforme previsto no FM 6.2.2 - Acordo de subcontrato de serviço. 
+O auditor documental da FAMBRAS Halal, responsável pelo processo, após 
+auditoria (avaliação) deverá encaminhar o resultado ao cliente.  
+Caso análise laboratorial apresente resultado não esperado, mediante avaliação o 
+time da FAMBRAS Halal poderá solicitar que a análise seja repetida em uma das 3 
+contraprovas recolhidas, e se necessário até uma terceira análise em outro laboratório 
+acreditado.  
+10.9. Decisão sobre a Concessão, Manutenção, Extensão, Redução, 
+Suspensão e Cancelamento da Certificação 
+A FAMBRAS Halal possui um comitê de decisão, responsável por tomar qualquer 
+decisão sobre a certificação, seja a concessão ou recusa, expansão ou redução do escopo 
+da certificação, a suspensão, manutenção, cancelamento, término ou renovação da 
+certificação. 
+Os membros do comitê não podem ter participado do processo de auditoria, e devem 
+fazer parte do quadro de funcionários da FAMBRAS Halal, com apropriada competência 
+para participar da decisão sobre uma certificação, conforme descrito no FM 6.1.4 – Lista do 
+Pessoal Qualificado. 
+O prazo para que as atividades do comitê possam ser realizadas é de até 15 dias 
+corridos após a finalização de todas as etapas anteriores.  
+10.9.1. Concessão 
+Após a conclusão das auditorias (avaliações), do encerramento de eventuais não 
+conformidades, e dos resultados de eventuais análises (ensaios) laboratoriais solicitados, 
+além da assinatura do contrato, será realizada a etapa de decisão para concessão da 
+certificação.  
+O comitê de decisão, conforme descrito no PR 5.1 – Gestão de Comitês, não deve 
+ser inferior a 3 pessoas, incluindo pelo menos dois especialistas em assuntos islâmicos e 
+um auditor técnico. As decisões devem ser tomadas por unanimidade e não por maioria de 
+votos.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:32 de 65 
+A FAMBRAS Halal garante que a revisão dos documentos do processo de auditoria 
+pelo comitê, antes da tomada de decisão, seja eficaz, levando em consideração que: 
+a. as informações fornecidas pela equipe de auditoria são suficientes a respeito 
+dos requisitos e ao escopo de certificação. As informações fornecidas devem 
+incluir no mínimo: o relatório de auditoria; relatório de não conformidade com 
+as correções e ações corretivas do cliente; análise da solicitação de 
+certificação; confirmação de que os objetivos da auditoria foram alcançados; e 
+a recomendação ou não da concessão da certificação, juntamente com 
+qualquer condição ou observação; 
+b. para qualquer não conformidade maior, a FAMBRAS Halal analisa criticamente, 
+aceita e verifica as correções e ações corretivas; 
+c. para qualquer não conformidade menor, a FAMBRAS Halal analisa 
+criticamente, e aceita o plano do cliente para as correções e ações corretivas. 
+O processo de decisão de certificação será realizado pelo Comitê de Decisão, 
+conforme previsto no PR 5.1, e é descrito abaixo: 
+1º passo: Aprovação técnica: 
+Após a execução das etapas previstas do fluxo do processo de certificação Halal, 
+disponível no anexo 3, do presente documento, o especialista técnico competente do comitê 
+de decisão, que não participou das atividades de avaliação (auditoria), deve revisar todo o 
+processo e aprová-lo, se tecnicamente estiver correto, e ainda se não existir não 
+conformidades em aberto.  
+Com base nos resultados das avaliações, o especialista técnico do comitê de 
+decisão emite seu parecer no Formulário FM 7.1.1 – Check list do processo e transmite os 
+documentos ao especialista em assuntos islâmicos Halal membro do comitê de decisão. 
+2º passo: Aprovação religiosa: 
+Pelo menos dois membros especialista em assuntos islâmicos Halal (Sheikh) do 
+comitê de decisão, que não participaram das atividades de avaliação (auditoria), devem 
+revisar o processo, avaliando se este está em conformidade com as regras Halal. 
+Os membros especialistas em assuntos islâmicos Halal do comitê de decisão devem 
+emitir seu parecer no Formulário FM 7.1.1 – Check list do processo. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+3º passo: Aprovação unânime: 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:33 de 65 
+Ao final do processo, todos os membros do comitê de decisão, devem ter emitido 
+sua opinião no formulário FM 7.1.1 – Checklist do processo. Caso em algum dos passos, 
+algum revisor recuse a aprovação, o processo deve ser reajustado, e submetido a uma nova 
+aprovação, a partir da primeira instância (1º passo). 
+4º passo: Emissão do certificado: 
+Após a aprovação unânime do comitê de decisão, o Responsável Técnico emitirá o 
+certificado Halal específico (FM 7.7.1 ou FM 7.7.2 ou FM 7.7.2.1), sendo este assinado pelo 
+alto nível administrativo ou outra pessoa autorizada. Posteriormente, o certificado é enviado 
+ao cliente. 
+A FAMBRAS Halal possui 3 versões, para cada modelo de certificado: 
+• Logo da GAC: Para empresas em conformidade com as normas GSO/ UAE.S, 
+que desejam reconhecimento dos países do Golfo. 
+A conformidade com a norma GSO/ UAE.S se aplica tanto para o cliente, que 
+deve atender o GSO e UAE.S 2055-1, 993 (se aplicável), por exemplo, quanto 
+para a FAMBRAS Halal, que deve realizar o processo seguindo os critérios 
+da GSO e UAE.S 2055-2.  
+Este modelo de certificado só pode ser usado para categorias que a 
+FAMBRAS Halal possui acreditação junto a GAC.  
+• Logo da HAK: Para empresas em conformidade com as normas SMIIC, e 
+desejam o reconhecimento da Turquia.  
+A conformidade com a norma SMIIC se aplica tanto para o cliente, que deve 
+atender a SMIIC 01, por exemplo, quanto para a FAMBRAS Halal, que deve 
+realizar o processo seguindo os critérios da SMIIC 02.  
+Este modelo de certificado só pode ser usado para categorias que a 
+FAMBRAS Halal possui acreditação junto a HAK.  
+• Logo da WHFC (World Halal Food Council): Para empresas em conformidade 
+com as normas da Malásia e/ou Indonésia.  
+Empresas que não demonstrarem conformidade total com as normas citadas, por 
+exemplo, que não estiverem em conformidade total com a norma SMIIC 01 e IT 7.16 - 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:34 de 65 
+Orientação de trabalho para processos com reconhecimento nas normativas SMIIC, não 
+receberão o certificado com a logo do acreditador.  
+A rotina acima descrita é aplicada para aprovação de planta e certificação única de 
+produtos, cobrindo certificação inicial, de manutenção e certificação de renovação. 
+Para certificados de embarque (por lote), o pedido é feito pelo cliente diretamente no 
+sistema FAMBRAS Halal e a área de Certificação analisará se a unidade fabril está 
+devidamente aprovada e se o produto indicado foi originado do abate Halal e/ ou produção 
+Halal através dos relatórios enviados pelos supervisores da FAMBRAS Halal. Em caso de 
+conformidade, o certificado (FM 7.7.3) será emitido e assinado por pessoa autorizada e o 
+cliente será autorizado a retirá-lo do escritório da FAMBRAS Halal. 
+Em cada reunião do Comitê, será apresentado aos membros do comitê, os 
+processos de certificação realizados nos últimos 12 (doze) meses, a fim de que os membros 
+possam avaliar.   
+*Nota: Caso ocorra a transferência de certificação de um outro organismo de 
+certificação, a FAMBRAS Halal deverá estabelecer um processo para obter informação 
+suficiente para tomar uma decisão sobre a certificação. 
+A FAMBRAS Halal mantém informações atualizadas sobre produtos certificados 
+através: 
+• Lista de Produtos Certificados Industrial – FM 7.8.1; 
+• Lista de Produtos Certificados Frigorífico – FM 7.8.2; 
+• Lista de Certificados de embarque – Halal Manager (sistema); 
+10.9.2. Registros 
+O resumo do processo é registrado no FM 7.1.1 – CHECK LIST DE PROCESSO, 
+individual de cada cliente, com o número do certificado e anexado ao processo de 
+certificação.  
+Após a emissão de cada certificado, o mesmo é registrado também no programa de 
+controle de status e vencimento respectivo industrial ou frigorifico (FM 7.1.2.1 ou FM 
+7.1.2.2), de modo que a FAMBRAS Halal consiga controlar os próximos vencimentos e 
+monitorar a empresa.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+10.9.3. Extensão da Certificação 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:35 de 65 
+Uma empresa que já possua produtos certificados pela FAMBRAS Halal e que 
+desejar estender a certificação a outros, deve preencher uma nova Solicitação de 
+certificação - FM 7.2.1.1 e um novo o escopo atualizado (FM 7.2.1.2, ou FM 7.2.1.3, ou FM 
+7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 7.2.1.11 – conforme aplicável), 
+para que então o processo possa ser conduzido conforme as etapas descritas 
+anteriormente.  
+Os aspectos relevantes ao processo de certificação tais como a base normativa 
+a ser aplicada e o local de fabricação (quando aplicável) são analisados criticamente 
+para se determinar quais partes do fluxo do processo de certificação Halal, disponível no 
+anexo 3, do presente documento devem ser executadas. 
+O restante do processo é conduzido conforme o procedimento de concessão da 
+certificação, podendo algumas etapas serem ou não realizadas, de acordo com a 
+necessidade, por exemplo: 
+• Caso a empresa inclua ou mude o nome de um produto já certificado, ou inclua 
+no escopo um produto idêntico a outro já certificado, alterando apenas uma 
+característica, como a granulometria, e este é fabricado exatamente no mesmo 
+fluxo que o outro, a empresa poderá ser isenta de auditoria e análise 
+laboratorial.  
+• Já se a certificação envolver um novo fluxo de fabricação, a planta 
+necessariamente precisará ser auditada quanto ao estágio 2.  
+Nota. Normalmente para alterações de escopo é necessário realizar somente 
+auditoria de estágio 2.  
+10.10. Monitoramento 
+A FAMBRAS Halal monitora seus clientes, enquanto estes estiverem com a 
+certificação ativa, a fim de garantir que os requisitos da certificação Halal continuam a ser 
+atendidos. Estes monitoramentos são realizados anualmente mediante auditoria de 
+manutenção (vide item 10.11) e da presença do supervisor Halal, quando aplicável.  
+Empresa que trabalham com certificação Halal por lote, como frigoríficos, indústrias 
+processadoras de carnes e subprodutos, possuem supervisores da FAMBRAS Halal que 
+atuam monitorando integralmente toda fabricação dos produtos Halal.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+10.11. Manutenção da Certificação (vigilância)  
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:36 de 65 
+O ciclo de certificação da FAMBRAS Halal possui validade de 3 anos, portanto 
+anualmente devem ser realizadas auditorias de manutenção, para assegurar a vigência da 
+certificação Halal.  
+Anualmente, durante a manutenção a FAMBRAS Halal solicitará ao cliente que 
+preencha novamente a Solicitação de certificação - FM 7.2.1.1 e o escopo atualizado (FM 
+7.2.1.2, ou FM 7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 
+7.2.1.11 – conforme aplicável). O intuito será confirmar se houve alguma alteração nas 
+informações da empresa e se necessário redimensionar a duração da auditoria de 
+manutenção – considerando que pode alterar o número de funcionários, ou outras 
+informações de entrada.  
+Também será solicitada atualização dos documentos halal referente as matérias
+primas e insumos, que eventualmente estiverem vencidos. 
+Para o processo de manutenção, é realizada uma nova auditoria (avaliação) de 
+estágio 2 do site do fabricante da empresa certificada, sendo a duração mínima 1/3 do 
+tempo total calculado.  
+O ideal é que a auditoria de manutenção seja agendada pelo menos 90 dias antes 
+do vencimento da manutenção do ciclo, para garantir que todos os tramites e encerramento 
+de eventuais não conformidades, possam ser concluídos.  
+Ensaios e inspeções (quando aplicável) são realizadas com o objetivo de verificar 
+que todas as condições iniciais da certificação de conformidade com os requisitos aplicáveis 
+base normativa são mantidas. 
+O procedimento para auditoria é o mesmo usado na certificação inicial, acrescido da 
+verificação do uso do selo Halal no (s) produto (s) certificado (s) e quaisquer registros de 
+reclamações relacionadas aos produtos abrangidos pela licença certificada e pelo 
+tratamento dado. 
+O (s) selo (s) Halal devem estar de acordo com os requisitos da instrução de trabalho 
+IT 4.1 - Condições de uso das marcas de conformidade Halal FAMBRAS HALAL. 
+Uma vez que a manutenção da certificação será realizada anualmente, a data da 
+primeira auditoria de manutenção após a certificação inicial não deverá ser superior a 12 
+meses a partir do último dia da auditoria do estágio 2. O mesmo também se aplica para a 
+segunda auditoria de manutenção.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:37 de 65 
+O controle do atendimento deste prazo e a notificação do cliente, é realizada pelo 
+responsável técnico a partir do programa de controle de status e vencimento (FM 7.1.2.1 
+ou FM 7.1.2.2). 
+Nota: O não atendimento do prazo previsto para auditoria de manutenção implicará 
+na suspensão do certificado – vide item 11 deste procedimento.  
+As exceções podem ser definidas na regra específica de cada item. 
+A decisão de manter a certificação é realizada de acordo com o item 10.7 acima. 
+Quando uma revalidação é concedida, a empresa deve ser notificada. 
+10.12. Auditorias especiais 
+A FAMBRAS Halal poderá conduzir auditorias especiais, ou seja, outras auditorias 
+além daquelas previstas na manutenção, ou renovação, em casos em que houver: 
+• Mudanças que Afetam a Certificação (10.12.1), incluindo expansão do escopo; 
+• Alterações em normas e ou regulamentos técnicos (10.12.2);  
+• Auditorias avisadas com pouca antecedência (10.12.3); 
+• Auditorias extraordinárias para validação do escopo com acreditadores 
+internacionais (10.12.4).  
+10.12.1. Mudanças que Afetam a Certificação 
+Quando forem introduzidas modificações no escopo de certificação, o que inclui 
+alterações/ inclusões de produto no certificado e/ ou no processo de produção e/ ou no 
+Sistema de Gestão da Qualidade, que possam afetar a conformidade do produto 
+certificado, ou ainda quando desejar estender a certificação para outra empresa, desde 
+que previstas em contrato, estas intenções devem ser comunicadas com trinta dias de 
+antecedência, através de comunicação formal, antes da sua efetivação, cabendo ao 
+Responsável Técnico da FAMBRAS Halal julgar a necessidade de novos ensaios, 
+auditorias especiais e/ ou investigações complementares. 
+Em tais casos a empresa detentora do certificado não pode lançar no mercado 
+os produtos certificados resultantes de tais modificações até que a FAMBRAS Halal o 
+notifique através de parecer positivo. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:38 de 65 
+O Responsável Técnico da FAMBRAS Halal analisa as modificações a serem 
+introduzidas, e ele, ou um analista de processo, posiciona formalmente ao solicitante os 
+próximos passos. 
+Algumas inclusões de produto no escopo, podem não demandar auditorias 
+especiais, neste caso, após o envio de toda documentação necessária, a FAMBRAS Halal 
+tem o prazo de até 20 dias corridos para atualização do certificado.  
+A fim de viabilizar e registrar o processo de mudanças no certificado (como inclusão 
+de produtos/ mudanças de nomenclatura, atualização de endereço), o cliente deverá 
+preencher uma nova Solicitação de certificação - FM 7.2.1.1 com o escopo atualizado (FM 
+7.2.1.2, ou FM 7.2.1.3, ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 
+7.2.1.11 – conforme aplicável), e a FAMBRAS Halal irá posicioná-lo diante das 
+necessidades, como nova auditoria (avaliação), documentos adicionais, novos ensaios 
+laboratoriais, dentre outros.   
+Algumas modificações, de forma geral, demandam auditorias especiais, tais como: 
+a. Projeto/Design e ou materiais de fabricação; 
+b. Local de fabricação, e ou da Prestação de Serviços; 
+c. Máquinas, ferramentas e ou métodos utilizados; 
+d. Alterações na alta administração, se afetar o Halal; 
+e. Inclusão de novos produtos no certificado proveniente de fluxos não auditados 
+previamente, ou inclusão de novas matérias-primas.  
+A duração da auditoria especial deve ser suficiente para contemplar a avaliação das 
+mudanças, e dependendo do grau de complexidade/ risco, poderão ser realizadas 
+remotamente, conforme orientação do responsável técnico.  
+Após a apresentação/ atualização dos documentos requisitados, resultado das 
+auditorias especiais e análises laboratoriais, conforme aplicável, será realizado um comitê 
+de decisão, para validar a mudança, e somente após aprovação unanime será emitido o 
+novo certificado. Mais detalhes sobre o comitê de decisão estão disponíveis no item 10.9.1. 
+Concessão e no PR 5.1 – Gestão de comitês.  
+O solicitante somente pode utilizar a marca da conformidade nos produtos 
+fabricados sob as novas condições, após autorização da FAMBRAS Halal.  
+O uso da marca da conformidade sem a autorização expressa pela FAMBRAS Halal 
+é considerado uso abusivo da certificação, podendo demandar as sanções previstas neste 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:39 de 65 
+documento e no procedimento PR 4.1 – Condições para Uso de Certificados e Marcas da 
+Conformidade.  
+Caso não haja interesse do solicitante em realizar novas avaliações, ensaios ou 
+inspeções (quando definido como necessário), o Responsável Técnico da FAMBRAS Halal 
+convoca o comitê para realizar o cancelamento da certificação ou redução/ mudança de 
+escopo, conforme os requisitos do item 11 deste documento. 
+10.12.2. Alterações em normas e ou regulamentos técnicos 
+Quando ocorrerem alterações na base normativa vinculadas ao produto 
+certificado a empresa detentora da certificação pela FAMBRAS Halal deve ser informada 
+formalmente em todos os aspectos que afetam a certificação desse produto com base 
+nas alterações introduzidas e solicitar à empresa interessada manifestar formalmente, 
+através de correspondência registrada, seu interesse em adequar seu produto aos novos 
+requisitos.  
+As novas auditorias (avaliações), quando aplicáveis, são conduzidas conforme os 
+requisitos e condições deste procedimento considerando um novo processo de 
+certificação.  
+As alterações normativas também podem ocorrer caso o cliente queira incluir um 
+novo escopo normativo (reconhecimento), em sua certificação Halal vigente, por exemplo, 
+inclusão da SMIIC (necessária para a Turquia), GSO (requisitada pelos países do Golfo), 
+Malásia, Indonésia, entre outros. 
+Quando um cliente for incluir o padrão SMIIC, ele deverá reiniciar o ciclo de 
+certificação, conduzir novamente a auditoria de estágio 1 e estágio 2, com 100% do tempo 
+total calculado na SMIIC 02 (vide item 10.2), conforme previsto na IT 7.16 - Orientação de 
+trabalho para processos com reconhecimento nas normativas SMIIC. 
+Nos outros casos, a auditoria especial pode ser apenas de estágio 2, e durar o tempo 
+necessário para contemplar os requisitos divergentes, sendo duração mínima de 4 horas 
+de auditoria.  
+Se for necessário emitir um novo certificado, será realizado um comitê de decisão, 
+para validar alteração de normas, e somente após aprovação unanime será emitido o novo 
+certificado. Mais detalhes sobre o comitê de decisão estão disponíveis no item 10.9.1. 
+Concessão e no PR 5.1 – Gestão de comitês.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:40 de 65 
+Caso a empresa detentora do certificado manifeste seu interesse em cancelar o 
+Certificado da Conformidade e/ou não atender aos novos requisitos devem ser observadas 
+as condições descritas nos itens 10 e 11 deste procedimento. 
+A FAMBRAS Halal poderá estabelecer critérios adicionais onde são aplicáveis, 
+desde que não conflitem com as normas e ou regulamentações vigentes.  
+10.12.3. Auditorias avisadas com pouca antecedência 
+Pode ser necessário para a FAMBRAS Halal realize auditorias avisadas com pouca 
+antecedência, ou sem aviso, em clientes certificados para investigar reclamações, ou em 
+resposta a mudanças ou como acompanhamento em clientes suspensos. Em tais casos: 
+a. A FAMBRAS Halal deve descrever e avisar antecipadamente ao cliente 
+certificado as condições nas quais essas auditorias serão realizadas; 
+b. A FAMBRAS Halal toma um cuidado adicional ao designar a equipe auditora, 
+devido à falta de oportunidade para o cliente recusar algum membro da 
+equipe auditora. Sendo assim, é conferido o histórico e currículo do auditor, além 
+de dar preferência a um auditor que nunca tenha visitado a indústria.  
+A duração das auditorias avisadas com pouca antecedência será de no mínimo 4 
+horas, mas considerando como referência a duração da auditoria de manutenção.  
+Se for necessário realizar qualquer alteração/ reemitir o certificado, será realizado 
+um comitê de decisão, e somente após aprovação unanime será emitido o novo certificado. 
+Mais detalhes sobre o comitê de decisão estão disponíveis no item 10.9.1. Concessão e no 
+PR 5.1 – Gestão de comitês.  
+10.12.4. Auditorias extraordinárias para validação do escopo com acreditadores 
+internacionais   
+As auditorias extraordinárias são aquelas realizadas além das auditorias 
+programadas de manutenção ou renovação, normalmente para validação e/ou manutenção 
+da categoria por acreditadores internacionais, como a HAK, GAC, ENAS, BPJPH, JAKIM, 
+entre outras.  
+Nesses casos, a auditoria deve ter duração mínima equivalente à de uma auditoria 
+de manutenção na integra, ser realizada presencial, garantindo uma amostra representativa 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:41 de 65 
+de todas as avaliações que são realizadas pela FAMBRAS Halal no processo de 
+certificação. 
+Se for necessário realizar qualquer alteração no certificado, será realizado um comitê 
+de decisão, e somente após aprovação unanime será emitido o novo certificado. Mais 
+detalhes sobre o comitê de decisão estão disponíveis no item 10.9.1. Concessão e no PR 
+5.1 – Gestão de comitês.  
+10.13. Redução do Escopo da Certificação 
+A redução de escopo de certificação poderá ocorrer por vontade da empresa 
+certificada, ou por decisão da FAMBRAS Halal para excluir as partes que não atendam aos 
+requisitos, ou quando o cliente tiver falhado persistentemente ou seriamente em atender 
+aos requisitos de certificação para aquelas partes do escopo da certificação.   
+Quando a redução ocorrer por vontade da empresa certificada ele deverá comunicar 
+formalmente a FAMBRAS Halal, e encaminhar o formulário de Solicitação de certificação - 
+FM 7.2.1.1 com o escopo atualizado (FM 7.2.1.2, ou FM 7.2.1.3, ou FM 7.2.1.5, ou FM 
+7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 7.2.1.11 – conforme aplicável).  
+Quando a redução ocorrer devido a uma decisão que partiu da FAMBRAS Halal, a 
+empresa certificada será formalmente notificada, podendo ser por e-mail, mediante 
+resposta de consentimento. Neste caso, a empresa deverá retornar para a FAMBRAS Halal 
+com informações pertinentes aos produtos excluídos do escopo, que foram fabricados 
+desde o início do período de falha que gerou a exclusão deste no escopo, e possuem o 
+selo de garantia Halal, mencionando: 
+• Quantidade de unidades produzidas / comercializadas e ou Serviços que 
+receberam a Marca da Conformidade vinculada ao Certificado emitido; 
+• Lotes das unidades produzidas/ comercializadas que receberam a Marca 
+da Conformidade vinculada ao Certificado emitido; 
+Após a análise da solicitação de redução do escopo o Responsável Técnico decide 
+sobre as providências a serem tomadas. 
+A empresa detentora do certificado deve atender os requisitos do item 11 deste 
+procedimento, garantindo a não comercialização do item exibindo o selo de garantia 
+Halal a partir da data da concessão da redução do escopo da certificação. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:42 de 65 
+A redução do escopo da certificação deve ser formalizada mediante emissão de 
+um novo certificado Halal com o escopo reduzido.  
+Após a concessão da redução do escopo de certificação, o Representante da 
+qualidade deve atualizar as informações pertinentes ao processo na lista de certificados 
+específicos (FM 7.8.1 ou FM 7.8.2) e também no site da FAMBRAS Halal. 
+11. CONDIÇÕES PARA SUSPENSÃO DA CERTIFICAÇÃO  
+São condições que podem gerar a suspensão da Certificação de Conformidade: 
+• Se a manutenção demonstrar não conformidades com os requisitos, de 
+natureza tal que seja necessária a revogação imediata da Certificação; 
+• Uso impróprio do certificado ou da marca (tais como, em publicações ou 
+propaganda enganosas) que não seja solucionado por meio de retratação e 
+ações corretivas adequadas pelo licenciado; 
+• O descumprimento dos requisitos do procedimento PR 4.1 – Condições para 
+Uso de Certificados e Marcas da Conformidade; 
+• Se houver alguma violação às regras estabelecidas e aceitas e/ou aos 
+procedimentos da FAMBRAS Halal; 
+• Se houver alguma modificação ou alteração nos processos de fabricação 
+e/ou do produto certificado, sem a devida concordância da FAMBRAS Halal; 
+• Caso o licenciado se torne inadimplente quanto às suas obrigações financeiras 
+com a FAMBRAS Halal; 
+• Outros itens em desacordo com os procedimentos da FAMBRAS Halal e/ou 
+legislação pertinente. 
+A suspensão da Certificação é decidida e conduzida conforme o procedimento 
+da concessão da certificação e com base em um ou mais dos eventos acima e em 
+conformidade com os documentos apresentados pelo Responsável Técnico, por um 
+período máximo de 3 meses. 
+No caso de suspensão por ausência de produção, por exemplo gerada por períodos 
+de entressafra, o período máximo para manter o certificado suspenso é de 1 ano.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:43 de 65 
+Durante o período em que a certificação do produto estiver suspensa, o licenciado 
+não pode identificar como certificados com o uso da marca de conformidade os produtos 
+objetos da certificação, e os documentos da certificação fornecidos pela FAMBRAS Halal 
+ficam retidos até que a suspensão seja retirada. Os documentos que estiverem de posse 
+do interessado não podem ser utilizados durante o período da suspensão. 
+O Responsável Técnico notifica o cliente formalmente sobre a suspensão da 
+certificação, informando os motivos e quais as condições sob as quais a suspensão é 
+realizada. 
+Ao fim do período da suspensão, a FAMBRAS Halal investiga, sob 
+responsabilidade do Responsável Técnico, se as condições estipuladas para a 
+revalidação da certificação foram cumpridas, através de auditorias e/ou ensaios, 
+conforme requerido pela natureza dos motivos da suspensão. Os eventuais custos 
+gerados pelo processo de revalidação são cobertos pela empresa detentora da 
+certificação, de acordo com contrato específico. 
+Os registros da investigação – Relatórios de auditorias e ensaios laboratoriais – 
+são apresentados, pelo Responsável Técnico, ao Comitê de Decisão e este decide, de 
+forma unânime, pela retirada da suspensão, pelo cancelamento da certificação ou por 
+novas avaliações, devendo ser registrada a decisão no FM 7.1.1 – Check list do processo. 
+Nos casos em que a suspensão for motivada por solicitação do cliente, esta 
+devidamente justificada, deve ser apresentada ao Responsável Técnico da FAMBRAS 
+Halal, e aos membros do Comitê de Decisão, para deliberação quanto ao aceite e prazos 
+de suspensão, em função da justificativa apresentada, também sendo registrada no FM 
+7.1.1 – Check list do processo. 
+Em qualquer caso de suspensão e/ou Retirada da Suspensão os acreditadores e 
+outros atuantes serão imediatamente comunicados do fato pela FAMBRAS Halal. 
+Após a suspensão da certificação, o Representante da qualidade deve atualizar as 
+informações pertinentes ao processo na lista de certificados específicos (FM 7.8.1 ou FM 
+7.8.2 ou FM 7.1.2.1 ou FM 7.1.2.2) e também no site da FAMBRAS Halal. 
+Todos os tramites de suspensão são conduzidos e registrados pela matriz da 
+FAMBRAS Halal no Brasil.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+12. CONDIÇÕES PARA O CANCELAMENTO DA CERTIFICAÇÃO 
+O cancelamento da Certificação ocorre nos seguintes casos: 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:44 de 65 
+• Se a auditoria (avaliação) demonstrar que a não conformidade é grave; 
+• Se a empresa detentora da certificação não cumprir com o disposto em suas 
+obrigações financeiras para com a FAMBRAS Halal; 
+• Se houver alguma outra violação do PR 4.1 – Condições para Uso de 
+Certificados e Marcas da Conformidade; 
+• Se a empresa detentora da certificação for suspensa e não apresentar, no 
+prazo devido, evidencias de correção dos desvios notificados. 
+A decisão pelo cancelamento do Certificado de Conformidade é responsabilidade 
+do Comitê de Decisão, sendo subsidiado com informações do Responsável Técnico. 
+O Responsável Técnico notifica o cliente formalmente sobre o cancelamento da 
+certificação, com aviso prévio definido em contrato.  
+Quando a decisão do cancelamento é feita, o Responsável Técnico determina as 
+medidas a serem tomadas quanto aos eventuais lotes de produtos em estoque e/ ou já 
+colocados no mercado, se devem ter sua marca de conformidade removida ou não, ou 
+se cabem outras ações.  
+A documentação da certificação de posse do fabricante deve ser devolvida 
+imediatamente à FAMBRAS Halal para cancelamento.  
+O Responsável Técnico confirma formalmente o cancelamento da certificação, 
+podendo ser através de e-mails onde há evidência de resposta com consentimento ou carta 
+registrada. 
+Todos os envolvidos do organismo de certificação, nas atividades da empresa 
+cancelada, devem ser informados sobre o cancelamento.  
+Após o cancelamento da certificação, o Representante da qualidade deve atualizar 
+as informações pertinentes ao processo na lista de certificados específicos (FM 7.8.1 ou 
+FM 7.8.2 ou FM 7.1.2.1 ou FM 7.1.2.2) e também no site da FAMBRAS Halal. 
+A Certificação pode ainda ser cancelada por outras disposições estabelecidas no 
+contrato de licença, bem como nos seguintes casos: 
+• Se a base normativa for modificada e a empresa detentora da certificação 
+não puder ou não concordar em assegurar o cumprimento aos novos 
+requisitos; 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:45 de 65 
+• Se o produto deixar de ser fornecido ou a empresa detentora da certificação, 
+sair do ramo da atividade. 
+• Se o cliente desejar cancelar a certificação, fizer um distrato.  
+O Responsável Técnico, juntamente ao Representante da qualidade é o 
+responsável pela publicação dos cancelamentos de certificação. 
+Nota: Os certificados Halal só podem ser cancelados após serem suspensos, salvo 
+em caso de distrato.  
+Todos os tramites de cancelamento são conduzidos e registrados pela matriz da 
+FAMBRAS Halal no Brasil.  
+13. CONDIÇÕES PARA A RENOVAÇÃO DA CERTIFICAÇÃO 
+A renovação da certificação ocorre quando a empresa detentora da certificação 
+desejar prorrogá-la/ renová-la. 
+O propósito da auditoria de recertificação é confirmar a conformidade e a eficácia 
+contínua do Halal e do sistema de gestão.  
+A auditoria de recertificação deve ser planejada e conduzida em tempo hábil, ideal 
+de 90 dias antes do vencimento, para permitir uma renovação oportuna antes da data de 
+expiração do certificado do ciclo anterior.  
+As atividades de recertificação incluem análise crítica dos relatórios de auditoria de 
+manutenção (supervisão) anteriores e considerar o desempenho do sistema de gestão e 
+do Halal durante o ciclo de certificação Halal mais recente.  
+A FAMBRAS Halal deve tomar decisões sobre a renovação da certificação com base 
+nos resultados da auditoria de recertificação, bem como nos resultados da análise crítica 
+do sistema, durante o período de certificação, e nas eventuais reclamações recebidas de 
+usuários da certificação.  
+Após a expiração da certificação, a FAMBRAS Halal pode restaurar a certificação 
+em até 6 meses desde que as atividades pendentes sejam completadas, senão no mínimo 
+uma fase 2 deve ser conduzida. A data efetiva no certificado deve ser a partir da decisão 
+da renovação e a data de expiração deve se basear no ciclo de certificação anterior. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:46 de 65 
+Um cliente que possui um certificado Halal deve enviar uma solicitação para 
+conceder novamente um certificado ou renová-lo, seis meses antes da data de expiração 
+do certificado Halal atual. 
+Os titulares de certificados Halal que não foram capazes de renovar seus certificados 
+não estão autorizados a usar a marca Halal nas instalações ou produtos manufaturados. 
+Todos os tramites de renovação são conduzidos e registrados pela matriz da 
+FAMBRAS HALAL no Brasil.  
+13.1. Solicitação 
+O cliente interessado em renovar a certificação de seus produtos deverá atualizar a 
+Solicitação de certificação - FM 7.2.1.1 com o escopo atualizado (FM 7.2.1.2, ou FM 7.2.1.3, 
+ou FM 7.2.1.5, ou FM 7.2.1.7, ou FM 7.2.1.9, ou FM 7.2.1.10, ou FM 7.2.1.11 – conforme 
+aplicável), indicando as informações dos produtos, e eventuais mudanças de processo, 
+como quantidade de funcionários, planos APPCC, conquistas de novas certificações do 
+sistema de gestão, ou até mesmo aproveitando esta oportunidade para fazer uma extensão 
+da certificação.  
+Outras formas de envio das informações necessárias sobre os produtos poderão ser 
+usadas.  
+13.2. Análise Crítica da Solicitação (Revisão da solicitação) 
+A análise crítica da solicitação deverá ser conduzida conforme previsto no item 10.2  
+13.3. Proposta Comercial e Contrato 
+Uma vez que a empresa foi aprovada na nova análise crítica, a FAMBRAS Halal 
+poderá emitir a Proposta comercial (FM 7.2.3 ou FM 7.2.4), e caso aceita, esta será 
+registrada no documento FM 7.2.2 – CONTROLE DE PROPOSTAS, caso os valores não 
+tenham sido negociados previamente no ciclo anterior.  
+Junto ao envio da Proposta comercial (FM 7.2.3 ou FM 7.2.4) também é 
+encaminhado um novo Contrato específico de certificação (FM 4.1.1 ou FM 4.1.1.1 ou FM 
+4.1.1.2 ou FM 4.1.1.3 ou FM 4.1.2.1 ou FM 4.1.2.2 ou FM 4.1.2.3 ou FM 4.1.3 ou contrato 
+do cliente com as cláusulas obrigatórias da FAMBRAS HALAL) com os signatários da 
+FAMBRAS Halal, do requerente de certificação e do terceiro/ beneficiário (quando o 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:47 de 65 
+requerente da certificação Halal for diferente do fabricante do produto a ser certificado 
+Halal),  que deve ser completado antes da emissão do certificado. 
+Também é possível fazer um aditivo contratual, prorrogando o contrato aplicável no 
+ciclo anterior.  
+Para os contratos de terceira parte (quando o requerente da certificação Halal for 
+diferente do fabricante do produto a ser certificado Halal), a FAMBRAS Halal contempla 
+responsabilidades e obrigações tanto para o solicitante quanto para o terceiro, visto que 
+ambos são partes interessadas nas atividades de certificação Halal. 
+Os demais requisitos previstos no item 10.3 também se aplicam.  
+13.4. Envio de documentos obrigatórios 
+Uma vez estabelecidas as propostas comerciais e contratos, os analistas enviarão 
+aos seus respectivos clientes, documentos de caráter obrigatório conforme listados na IT 
+7.12 – Guia de orientação – Documentos enviados para os clientes. Esta etapa será 
+seguida tanto no processo de certificação inicial, quanto no de manutenção, extensão e 
+renovação. 
+O envio dos documentos obrigatórios será registrado, pelo time da qualidade no FM 
+14.2.4  - Lista de Controle de Documentos Distribuídos. 
+13.5. Documentação e Análise da Documentação do Solicitante 
+Para a documentação e análise do solicitante, o item 10.6 visto anteriormente é 
+aplicável.  
+13.6. Auditoria de recertificação 
+A auditoria de recertificação deve incluir uma auditoria local, que considere os 
+seguintes tópicos: 
+• A eficácia de todo o sistema de gestão e segurança do produto Halal, 
+considerando mudanças internas e externas, e sua relevância e aplicabilidade 
+contínua do esquema de certificação aplicável ao seguimento (DT 7.1 ou DT 
+7.2.1 ou DT 7.2.2 ou DT 7.4 ou DT 7.5 ou DT 7.6 ou DT 7.7.1 ou DT 7.7.2 ou 
+DT 7.8 ou DT 7.9 ou DT 7.10 e/ou DT 7.3).  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:48 de 65 
+• Comprometimento demonstrado para manter a eficácia e melhoria do sistema 
+de gestão e segurança do produto Halal, a fim de melhorar o desempenho 
+global; 
+• A eficácia do sistema de gestão em relação a atingir os objetivos do cliente 
+certificado e os resultados esperados do respectivo sistema de gestão.  
+O cliente é contatado e a(s) data (s) de auditoria é (são) reservada (s). Lembrando 
+que a auditoria só pode ocorrer com a fábrica em funcionamento, ou seja, deverá haver 
+produção Halal no momento da auditoria.   
+Cada unidade/ planta de uma organização multisite a ser avaliado (auditado) é 
+certificado separadamente. 
+A equipe de auditoria deverá ser definida conforme item 10.7.4. Seleção e 
+atribuições da equipe de auditoria. 
+13.6.1. Duração da auditoria (avaliação) 
+A duração da auditoria será estabelecida a partir do cálculo de homens dia obtido 
+através do preenchimento do FM 7.1.9 - Relatório de Revisão de Solicitação e Cálculo do 
+Tempo de Auditoria. Sendo ainda este fundamentado conforme determinado no standard 
+GSO e UAE.S 2055-2, e OIC/ SMIIC 2.  
+Para auditoria de renovação é possível conduzir 2/3 do tempo total calculado, 
+previsto no standard GSO e UAE.S 2055-2, e OIC/ SMIIC 2. 
+Nota. O número de homens dia será apresentado ao cliente através FM 7.2.3 - 
+Proposta Comercial.  
+13.6.2. Estágios da auditoria (avaliação) 
+A auditoria de renovação usualmente é realizada apenas em um estágio (fase): o 
+estágio 2, a qual deve durar 2/3 do tempo total calculado para a auditoria, obtido no FM 
+7.1.9.  
+No entanto, se necessário é possível repetir a auditoria de estágio 1, caso tenha 
+ocorrido mudanças significativas no sistema de gestão, no Halal, na organização ou no 
+contexto no qual o sistema opera.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:49 de 65 
+Nota. Se tais mudanças ocorrerem durante o ciclo de certificação, a FAMBRAS Halal 
+pode precisar realizar uma auditoria especial, que pode ou não ser de duas fases (estágio 
+1 + estágio 2).  
+Os detalhes da auditoria de estágio 1 e estágio 2, indicados nos itens 10.7.5.1 e 
+10.7.5.2 respectivamente, se aplicam.  
+13.6.3. Metodologia de auditoria (avaliação) 
+A metodologia de auditoria prevista no item 10.7.6 se aplica para a renovação.  
+13.6.4. Encerramento das não conformidades 
+Para qualquer não conformidade maior (veja 5.8), a FAMBRAS Halal deve definir 
+limites de tempo para correção e ações corretivas. Estas ações devem ser implementadas 
+e verificadas antes da expiração da certificação.  
+Quando as atividades de recertificação são completadas com sucesso antes da data 
+de expiração da certificação vigente, a data de expiração da nova certificação pode ser 
+baseada da data de expiração da certificação vigente. A data de emissão do novo 
+certificado deve ser a partir da decisão de recertificação.  
+Se o organismo de certificação não tiver completado a auditoria de recertificação, ou 
+o organismo de certificação não conseguir verificar a implantação das correções e ações 
+corretivas para qualquer não conformidade maior antes da data de expiração da 
+certificação, então a recertificação não pode ser recomendada e a validade da certificação 
+não pode ser estendida. Neste caso o cliente deve ser informado e as consequências 
+devem ser explicadas.  
+Após a expiração da certificação, o organismo de certificação pode restaurar a 
+certificação em até 6 meses, desde que as atividades pendentes sejam completadas, senão 
+no mínimo uma nova auditoria de fase 2 deve ser conduzida. A data efetiva no certificado 
+deve ser a partir da data de decisão da recertificação e a data de expiração deve se basear 
+no ciclo de certificação anterior.  
+Os demais requisitos previstos no item 10.7.7 se aplicam.   
+13.7.  Ensaios e Inspeções do Produto (quando aplicável) 
+Se necessário ensaios laboratoriais, os requisitos previstos no item 10.8 se aplicam.   
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+13.8. Decisão sobre a Renovação da certificação Halal. 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:50 de 65 
+Após a conclusão da auditoria de renovação, do encerramento de eventuais não 
+conformidades, e dos resultados de eventuais análises (ensaios) laboratoriais solicitados, 
+além da assinatura do contrato, será realizada a etapa de decisão para concessão da 
+certificação.  
+O mesmo procedimento previsto para concessão da certificação, indicado no item 
+10.7 se aplica, sendo realizada a decisão através de um comitê composto por no mínimo 3 
+pessoas, incluindo dois especialistas em assuntos islâmicos e um auditor técnico. 
+14. CONDIÇÕES PARA O TÉRMINO DA CERTIFICAÇÃO 
+O término da certificação ocorre quando a empresa detentora da certificação não 
+desejar prorrogá-la/ renová-la. Desta maneira, cabe a FAMBRAS Halal tomar as ações 
+especificadas e realizar as mudanças necessárias nos documentos de certificação, 
+informações públicas e autorizações para o uso da marca, de forma a garantir que não haja 
+nenhuma indicação de que o produto, processo ou serviço continua certificado. 
+A marca de conformidade poderá ser utilizada até o último dia de validade do 
+certificado, após este período a empresa não possui mais autorização de utilizá-la, visto 
+que não optou por prorrogar/ renovar a certificação. 
+O uso da marca de conformidade sem a autorização expressa da FAMBRAS Halal 
+é considerado uso abusivo da certificação, podendo demandar as sanções previstas neste 
+documento e no procedimento PR 4.1 – Condições para Uso de Certificados e Marcas da 
+Conformidade.  
+A decisão do término da certificação é feita pelo cliente, e cabe ao Responsável 
+Técnico determinar as medidas a serem tomadas quanto aos eventuais lotes de produtos 
+em estoque e/ ou já colocados no mercado, se devem ter sua marca de conformidade 
+removida ou não, ou se cabem outras ações.  
+A documentação da certificação de posse do fabricante deve ser devolvida 
+imediatamente à FAMBRAS Halal para cancelamento.  
+O Responsável Técnico confirma formalmente o término da certificação, podendo 
+ser através de e-mails. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:51 de 65 
+Todos os envolvidos do organismo de certificação, acreditadores e outros atuantes, 
+devem ser informados imediatamente sobre o término da certificação pela FAMBRAS Halal.  
+Após o término da certificação, o Representante da qualidade deve atualizar as 
+informações pertinentes ao processo na lista de certificados específicos (FM 7.8.1 ou FM 
+7.8.2 ou FM 7.1.2.1 ou FM 7.1.2.2) e também no site da FAMBRAS Halal. 
+15. RECONHECIMENTO DA FAMBRAS HALAL 
+A FAMBRAS Halal possui um reconhecimento mundial, o que possibilita o acesso 
+imediato da indústria brasileira no mercado Halal. Este reconhecimento global foi 
+conquistado por boas práticas islâmicas, treinamento profissional de nossos funcionários e 
+na constante busca da excelência na qualidade dos serviços prestados. 
+A FAMBRAS Halal é membro do World Halal Food Council (WHFC) e, como diretriz, 
+todas as certificadoras Halal que compõem o WHFC se reconhecem, abrangendo países 
+da América do Norte, Sul, América Central e Europa, além de países como Austrália, Nova 
+Zelândia, 
+China, 
+Japão, 
+Rússia, 
+Índia, 
+Turquia, 
+dentre 
+outros 
+(https://www.worldhalalfoodcouncil.com/).  
+A FAMBRAS Halal também é acreditada pela GAC nos padrões da ISO 17065 e 
+GSO 2055-2, os quais determinam os requisitos mandatórios para organismos de 
+certificação de produtos/ serviços e de certificação Halal. Esta acreditação, por sua vez 
+contribui o fortalecimento do reconhecimento da FAMBRAS Halal junto aos países do Golfo 
+(Arábia Saudita, Emirados Árabes, Bahrein, Omã, Qatar, Kuwait e Iêmen).  
+A HAK (Halal Accreditation Agency), organismo de acreditação Halal da Turquia, 
+acredita a FAMBRAS Halal no padrão SMIIC 02, e base ISSO 17065, e ISO 17021-1.  
+Além dos padrões da ISO 17065, ISO 17021-1, GSO 2055-2 e SMIIC 02 a FAMBRAS 
+Halal é reconhecida por outras diversas entidades como: JAKIM – Malásia, BPJPH – 
+Indonésia, MOAIT – Emirados Árabes Unidos, SASO – Arábia Saudita, SFDA – Arábia 
+Saudita, entre outros, provenientes de outras entidades islâmicas mundiais, as quais estão 
+devidamente listadas em nossa carta de reconhecimento mundial, e podem ser consultadas 
+no site da FAMBRAS Halal (https://www.fambrashalal.com.br/acreditacoes).  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+15.1. Restrições e particularidades de reconhecimento 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:52 de 65 
+Muito embora possuamos esta ampla atuação, existem algumas limitações para a 
+atuação da FAMBRAS Halal em função das particularidades de alguns países, conforme 
+descrito a seguir: 
+15.1.1. Turquia (Normas SMIIC – Reconhecimento HAK) 
+As empresas que exportarem seus produtos para a Turquia, ou desejarem ter em 
+seu certificado a evidência de conformidade com as normas SMIIC, terão um certificado 
+FAMBRAS Halal emitido com inclusão da logo de acreditação da HAK. 
+Todos os requisitos adicionais ao esquema de certificação da FAMBRAS Halal, e 
+particularidades demandadas reconhecimento HAK estão devidamente descritas na IT 7.16 - Orientação de trabalho para processos com reconhecimento nas normativas SMIIC. 
+Todas as empresas que certificarem conforme padrão OIC/SMIIC, e desejarem 
+exportar para a Turquia, serão cadastradas no sistema HAKSIS pela FAMBRAS Halal, após 
+a conclusão do processo. 
+O acesso a plataforma (https://haksis.hak.gov.tr) é limitado a FAMBRAS Halal, 
+outras certificadoras, e as entidades governamentais da Turquia.  
+15.1.2. Egito 
+O Egito possuí uma certificadora própria no país, a ISEG, que desenvolve todos os 
+trâmites de certificação de todos os produtos, em todos os países do mundo. Desta forma, 
+nem a FAMBRAS Halal, nem qualquer outra certificadora, não pode certificar como Halal 
+produtos destinados a este país; 
+15.1.3. Irã 
+A mesma situação do Egito também se aplica ao Irã, uma vez que o país possui uma 
+certificadora própria, a qual define algumas restrições ao comércio, especialmente de 
+produtos cárneos. 
+15.1.4. Indonésia 
+Para a Indonésia, a FAMBRAS Halal realiza todo o processo de certificação, 
+conforme descrito neste procedimento, no entanto, a empresa também precisa ser 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:53 de 65 
+cadastrada no sistema da BPJPH (órgão acreditador da Indonésia) para que os produtos 
+possam ser comercializados neste país. 
+O sistema da Indonésia é o SiHalal (https://lembaga.halal.go.id/), cujo acesso é 
+restrito a FAMBRAS HALAL, outras certificadoras e autoridades governamentais da 
+Indonésia.  
+A FAMBRAS Halal realiza os trâmites de cadastro no sistema, e a empresa deve se 
+responsabilizar por seguir as regras de identificação Halal do produto, conforme descrito 
+na IT 4.1 e no PR 4.1. 
+15.1.5. Golfo (Arábia Saudita, Emirados Árabes, Bahrein, Omã, Qatar, Kwuait 
+e Iêmen)  
+As empresas que exportarem seus produtos para algum dos 7 países do Golfo, ou 
+desejarem ter em seu certificado a evidência de conformidade com as normas GSO, terão 
+um certificado FAMBRAS Halal emitido com inclusão da logo de acreditação da GAC. 
+15.1.6. Emirados Árabes 
+Para os Emirados Árabes Unidos, os produtos podem ser certificados pela 
+FAMBRAS Halal, mas não podem usar seu selo Halal, ou de qualquer outra certificadora 
+mundial. 
+O único logótipo permitido no país é a Marca Halal emitida pela MOIAT (Emirates 
+Quality Mark), entidade que visa uniformizar os produtos Halal. 
+As regras de identificação Halal do produto com destino ao Emirados Árabes Unidos 
+estão descritas na IT 4.1 e no PR 4.1. 
+Todas as empresas aprovadas pela FAMBRAS Halal com reconhecimento nos 
+padrões UAE.S são cadastradas, pela FAMBRAS Halal, no site da MOIAT, na Lista de 
+estabelecimentos (abatedouros / frigoríficos) aprovados para exportar produtos Halal para 
+os Emirados Árabes Unidos. O prazo para inclusão dos produtos na lista depende da 
+MOIAT, e demora em média 20 dias corridos, depois que a FAMBRAS Halal faz a 
+solicitação.  
+A lista não é de domínio público, portanto a FAMBRAS Halal notificará os clientes 
+quando concluir o cadastro. Destaca-se ainda que nenhuma empresa poderá exportar seus 
+produtos para o Emirados Árabes, antes de concluir o cadastro na presente lista. 
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+15.1.7. SFDA (Saudi Food and Drug Authority) 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:54 de 65 
+A SFDA (Saudi Food and Drug Authority) é a autoridade oficial responsável pela 
+certificação halal na Arábia Saudita, por meio do Saudi Halal Center. Para regulamentar o 
+halal no país, frigoríficos e indústrias de produtos cárneos devem ser cadastrados no site 
+oficial da Arábia Saudita (https://halal.gov.sa/home), pela FAMBRAS Halal.  
+A cada embarque ou exportação, serão emitidos dois certificados de embarque: um 
+no modelo FAMBRAS Halal com a marca da SFDA e outro no modelo SFDA, conforme os 
+requisitos da autoridade saudita.  
+A emissão do certificado no modelo SFDA é feita pela FAMBRAS Halal, utilizando 
+os dados inseridos no sistema SysHalal. Os custos relacionados a essa operação são 
+estabelecidos pela Arábia Saudita, e dúvidas ou detalhes podem ser tratados com o time 
+comercial responsável. 
+Esse procedimento assegura a conformidade dos produtos exportados com os 
+padrões halal exigidos pela legislação saudita, facilitando o acesso ao mercado saudita. 
+16. EVENTOS OU CIRCUNSTÂNCIAS EXTRAORDINÁRIOS QUE AFETEM A 
+CONCESSÃO, MANUTENÇÃO OU EXTENSÃO OU RENOVAÇÃO DA 
+CERTIFICAÇÃO 
+Em situações de imprevistos extraordinários, como propagações epidêmicas ou de 
+pandemia, desestabilização geográfica, agitações políticas, guerras, liquidação ou falência, 
+desastres como inundações, terremotos e incêndios, dentre outros, o procedimento PR 9.1 - Gestão de eventos ou circunstâncias extraordinárias que afetam o OCH e as organizações 
+certificadas deve ser aplicado, com o objetivo de auxiliar a FAMBRAS Halal e seus clientes 
+a manterem efetivamente a certificação vigente.  
+A gestão de eventos extraordinários deve seguir as diretrizes internacionais 
+orientativas do IAF ID 3:2011 - IAF Informative Document for Management of Extraordinary 
+Events or Circumstances Affecting ABs, CABs and Certified Organizations.  
+No caso da impossibilidade de realizar auditorias presenciais, como quando há uma 
+pandemia, a FAMBRAS Halal poderá conduzir excepcionalmente, mediante devida análise 
+crítica e registro, a auditoria remotamente.  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:55 de 65 
+As auditorias remotas devem seguir as diretrizes internacionais do IAF MD 4: 2018 - 
+IAF Mandatory Document for the Use of Information and Communication Technology (ICT) 
+for Auditing / Assessment Purposes. 
+17. RECLAMAÇÃO, APELAÇÃO E DISPUTA. 
+A empresa detentora da certificação, quando não concordar com alguma decisão, 
+como não conformidades de auditoria ou com suspensões, pode manifestar-se 
+formalmente ao Responsável Técnico de acordo com o procedimento PR 7.13 - 
+Reclamação e Apelo. 
+18. RECOLHIMENTO DE PRODUTOS 
+O recolhimento (5.18) de produtos ocorre quando identificado que os mesmos 
+possam representar risco ou agravo à saúde do consumidor. 
+Caso ocorra o recolhimento de produtos Halal, com selo FAMBRAS Halal ou não, 
+enquanto a empresa estiver certificada Halal, o procedimento adotado deve estar de acordo 
+ao estabelecido na legislação sanitária, e a ocorrência deve ser comunicada, em até 48 
+horas, a certificadora FAMBRAS Halal, através do envio de um e-mail para 
+qualidade@fambrashalal.com.br.  
+O e-mail de comunicação, a ser enviado para o time da qualidade, deve conter, pelo 
+menos: 
+• Descrição do produto recolhido: Denominação, marca, lote, data de produção 
+e validade; 
+• Motivo do recolhimento; 
+• Riscos à saúde do consumidor; 
+• Medidas adotadas, e recomendações aos consumidores; 
+• Data do recolhimento – início e previsão de conclusão; 
+• Mapeamento do estoque na fábrica, nos clientes e identificação do que já foi 
+consumido;  
+• Eficiência do recolhimento (quando estiver disponível).  
+FAMBRAS HALAL CERTIFICAÇÃO 
+CONDIÇÕES DE CONCESSÃO, MANUTENÇÃO, EXTENSÃO, 
+REDUÇÃO, SUSPENSÃO, CANCELAMENTO, TÉRMINO E 
+RENOVAÇÃO DA CERTIFICAÇÃO HALAL 
+PR 7.1 
+Rev.: 22 
+Data: 23/09/2025 
+Pág.:56 de 65 
+As simulações de recall também devem ser comunicadas à FAMBRAS Halal através 
+do envio de um e-mail para qualidade@fambrashalal.com.br.  
+A comunicação efetiva sobre eventuais recolhimentos de produtos é fundamental 
+para garantir a rastreabilidade do produto Halal, item obrigatório no Sistema de Garantia 
+Halal (HAS) da empresa. 
