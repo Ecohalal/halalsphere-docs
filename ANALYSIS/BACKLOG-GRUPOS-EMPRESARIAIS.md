@@ -156,78 +156,82 @@
 
 ---
 
-## Fase 3: Backend - Módulos de Grupos
+## ✅ Fase 3: Backend - Módulos de Grupos (CONCLUÍDA)
+
+> **Concluída em:** 2026-01-21
+> **Branch:** `feature/company-groups`
+> **Commits:** `feat(backend): add CompanyGroup and Plant modules`, `feat(backend): add SharedSupplier and CorporateDocument modules`
 
 ### 3.1 CompanyGroupModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-041 | Criar Entity `CompanyGroup` | 🔴 | - | [ ] |
-| G-042 | Criar DTOs: `CreateCompanyGroupDto`, `UpdateCompanyGroupDto` | 🔴 | - | [ ] |
-| G-043 | Criar `CompanyGroupService` com CRUD | 🔴 | - | [ ] |
-| G-044 | Criar `CompanyGroupController` | 🔴 | - | [ ] |
-| G-045 | Endpoint: `GET /company-groups` - listar grupos (admin FAMBRAS) | 🟠 | - | [ ] |
-| G-046 | Endpoint: `GET /company-groups/:id` - detalhes do grupo | 🔴 | - | [ ] |
-| G-047 | Endpoint: `GET /company-groups/:id/companies` - empresas do grupo | 🔴 | - | [ ] |
-| G-048 | Endpoint: `POST /company-groups/:id/companies` - adicionar empresa ao grupo | 🟠 | - | [ ] |
-| G-049 | Endpoint: `DELETE /company-groups/:id/companies/:companyId` - remover empresa | 🟡 | - | [ ] |
+| G-041 | Criar Entity `CompanyGroup` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-042 | Criar DTOs: `CreateCompanyGroupDto`, `UpdateCompanyGroupDto` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-043 | Criar `CompanyGroupService` com CRUD | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-044 | Criar `CompanyGroupController` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-045 | Endpoint: `GET /company-groups` - listar grupos (admin FAMBRAS) | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-046 | Endpoint: `GET /company-groups/:id` - detalhes do grupo | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-047 | Endpoint: `GET /company-groups/:id/companies` - empresas do grupo | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-048 | Endpoint: `POST /company-groups/:id/companies` - adicionar empresa ao grupo | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-049 | Endpoint: `DELETE /company-groups/:id/companies/:companyId` - remover empresa | 🟡 | - | [x] ✓ 2026-01-21 |
 
 ### 3.2 PlantModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-050 | Criar Entity `Plant` | 🔴 | - | [ ] |
-| G-051 | Criar DTOs: `CreatePlantDto`, `UpdatePlantDto`, `PlantFilterDto` | 🔴 | - | [ ] |
-| G-052 | Criar `PlantService` com CRUD | 🔴 | - | [ ] |
-| G-053 | Criar `PlantController` | 🔴 | - | [ ] |
-| G-054 | Endpoint: `GET /plants` - listar plantas da empresa do usuário | 🔴 | - | [ ] |
-| G-055 | Endpoint: `GET /plants/:id` - detalhes da planta | 🔴 | - | [ ] |
-| G-056 | Endpoint: `POST /plants` - criar nova planta | 🔴 | - | [ ] |
-| G-057 | Endpoint: `PUT /plants/:id` - atualizar planta | 🟠 | - | [ ] |
-| G-058 | Endpoint: `GET /plants/:id/certifications` - certificações da planta | 🔴 | - | [ ] |
+| G-050 | Criar Entity `Plant` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-051 | Criar DTOs: `CreatePlantDto`, `UpdatePlantDto`, `PlantFilterDto` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-052 | Criar `PlantService` com CRUD | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-053 | Criar `PlantController` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-054 | Endpoint: `GET /plants` - listar plantas da empresa do usuário | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-055 | Endpoint: `GET /plants/:id` - detalhes da planta | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-056 | Endpoint: `POST /plants` - criar nova planta | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-057 | Endpoint: `PUT /plants/:id` - atualizar planta | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-058 | Endpoint: `GET /plants/:id/certifications` - certificações da planta | 🔴 | - | [x] ✓ 2026-01-21 |
 
 ### 3.3 SharedSupplierModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-059 | Criar Entity `SharedSupplier` | 🟠 | - | [ ] |
-| G-060 | Criar DTOs | 🟠 | - | [ ] |
-| G-061 | Criar `SharedSupplierService` | 🟠 | - | [ ] |
-| G-062 | Criar `SharedSupplierController` | 🟠 | - | [ ] |
-| G-063 | Endpoint: `GET /company-groups/:id/suppliers` - fornecedores do grupo | 🟠 | - | [ ] |
-| G-064 | Endpoint: `POST /company-groups/:id/suppliers` - adicionar fornecedor | 🟠 | - | [ ] |
-| G-065 | Endpoint: `PUT /company-groups/:id/suppliers/:supplierId` - atualizar status | 🟠 | - | [ ] |
+| G-059 | Criar Entity `SharedSupplier` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-060 | Criar DTOs | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-061 | Criar `SharedSupplierService` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-062 | Criar `SharedSupplierController` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-063 | Endpoint: `GET /shared-suppliers/group/:groupId` - fornecedores do grupo | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-064 | Endpoint: `POST /shared-suppliers` - adicionar fornecedor | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-065 | Endpoint: `PATCH /shared-suppliers/:id/approve` - aprovar/rejeitar | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 3.4 CorporateDocumentModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-066 | Criar Entity `CorporateDocument` | 🟠 | - | [ ] |
-| G-067 | Criar DTOs | 🟠 | - | [ ] |
-| G-068 | Criar `CorporateDocumentService` | 🟠 | - | [ ] |
-| G-069 | Criar `CorporateDocumentController` | 🟠 | - | [ ] |
-| G-070 | Endpoint: `GET /company-groups/:id/documents` - documentos do grupo | 🟠 | - | [ ] |
-| G-071 | Endpoint: `POST /company-groups/:id/documents` - upload documento | 🟠 | - | [ ] |
-| G-072 | Endpoint: `DELETE /company-groups/:id/documents/:docId` - remover | 🟡 | - | [ ] |
+| G-066 | Criar Entity `CorporateDocument` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-067 | Criar DTOs | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-068 | Criar `CorporateDocumentService` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-069 | Criar `CorporateDocumentController` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-070 | Endpoint: `GET /corporate-documents/group/:groupId` - documentos do grupo | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-071 | Endpoint: `POST /corporate-documents` - upload documento | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-072 | Endpoint: `DELETE /corporate-documents/:id` - remover | 🟡 | - | [x] ✓ 2026-01-21 |
 
 ### 3.5 Atualização de CompanyModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-073 | Atualizar Entity `Company` com novos campos | 🔴 | - | [ ] |
-| G-074 | Atualizar DTOs com campos de grupo e validação | 🔴 | - | [ ] |
-| G-075 | Implementar validação de CNPJ único | 🔴 | - | [ ] |
-| G-076 | Endpoint: `GET /companies/check-cnpj/:cnpj` - verificar se CNPJ existe | 🔴 | - | [ ] |
-| G-077 | Atualizar `findAll` para filtrar por grupo (se admin grupo) | 🟠 | - | [ ] |
+| G-073 | Atualizar Entity `Company` com novos campos | 🔴 | - | [x] ✓ 2026-01-21 (Fase 1) |
+| G-074 | Atualizar DTOs com campos de grupo e validação | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-075 | Implementar validação de CNPJ único | 🔴 | - | [x] ✓ 2026-01-21 (já existia) |
+| G-076 | Endpoint: `GET /companies/cnpj/:cnpj` - verificar se CNPJ existe | 🔴 | - | [x] ✓ 2026-01-21 (já existia) |
+| G-077 | Atualizar `findAll` para filtrar por grupo (se admin grupo) | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 3.6 Atualização de CertificationModule
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-078 | Atualizar Entity `Certification` com `plantId` | 🔴 | - | [ ] |
-| G-079 | Atualizar DTOs para incluir `plantId` | 🔴 | - | [ ] |
-| G-080 | Atualizar Service para validar planta pertence à empresa | 🔴 | - | [ ] |
-| G-081 | Atualizar queries para incluir dados da planta | 🟠 | - | [ ] |
+| G-078 | Atualizar Entity `Certification` com `plantId` | 🔴 | - | [x] ✓ 2026-01-21 (Fase 1) |
+| G-079 | Atualizar DTOs para incluir `plantId` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-080 | Atualizar Service para validar planta pertence à empresa | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-081 | Atualizar queries para incluir dados da planta | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ---
 
@@ -481,13 +485,13 @@
 |------|-------------|---------------|--------|
 | 1. Schema e Migrations | 24 | 14 | ✅ 24/24 |
 | 2. Migração de Dados | 16 | 10 | ✅ 16/16 |
-| 3. Backend - Grupos | 41 | 20 | 0/41 |
+| 3. Backend - Grupos | 41 | 20 | ✅ 41/41 |
 | 4. Backend - Onboarding | 31 | 17 | 0/31 |
 | 5. Frontend - Estrutura | 31 | 17 | 0/31 |
 | 6. Frontend - Onboarding | 25 | 11 | 0/25 |
 | 7. Integração ReceitaWS | 11 | 0 | 0/11 |
 | 8. Testes e Validação | 17 | 8 | 0/17 |
-| **TOTAL** | **200** | **97** | **40/200** |
+| **TOTAL** | **200** | **97** | **81/200** |
 
 ---
 
