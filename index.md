@@ -1,19 +1,15 @@
 ---
 layout: default
-title: Home
+title: HalalSphere Docs
 ---
-
-<div align="center">
 
 # HalalSphere - Central de Documentacao
 
 **Sistema de Gestao de Certificacao Halal**
 
-[![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/Ecohalal/halalsphere-docs)
-[![Version](https://img.shields.io/badge/version-2.0-green.svg)](CHANGELOG/)
-[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
-
-</div>
+![Docs](https://img.shields.io/badge/docs-latest-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0-green.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 ---
 
@@ -31,26 +27,22 @@ title: Home
 
 ## Indice por Categoria
 
-> **Como usar:** Clique na categoria para expandir e ver todos os documentos relacionados.
-
-### Categorias Disponiveis
-
-| Categoria | Descricao | Qtd Docs |
-|-----------|-----------|----------|
-| [Requisitos](#-requisitos) | PRD, User Stories, Epicos | 15+ |
-| [Arquitetura](#-arquitetura) | Decisoes tecnicas, infraestrutura | 28 |
-| [Processo](#-processo-certificacao) | Fluxos, 17 fases, wizard | 21 |
-| [Implementacao](#-implementacao) | Status, historico, sprints | 32 |
-| [Guias](#-guias) | Setup, testes, troubleshooting | 27 |
-| [Changelog](#-changelog) | Correcoes, atualizacoes | 19 |
-| [Analise](#-analise) | Mapeamentos, diagnosticos | 5 |
-| [Planejamento](#-planejamento) | Roadmaps, migracao | 10 |
+| Categoria | Descricao | Qtd |
+|-----------|-----------|-----|
+| [Requisitos](#requisitos) | PRD, User Stories, Epicos | 15+ |
+| [Arquitetura](#arquitetura) | Decisoes tecnicas, infraestrutura | 28 |
+| [Processo](#processo-certificacao) | Fluxos, 17 fases, wizard | 21 |
+| [Implementacao](#implementacao) | Status, historico, sprints | 32 |
+| [Guias](#guias) | Setup, testes, troubleshooting | 27 |
+| [Changelog](#changelog) | Correcoes, atualizacoes | 19 |
+| [Analise](#analise) | Mapeamentos, diagnosticos | 5 |
+| [Planejamento](#planejamento) | Roadmaps, migracao | 10 |
 
 ---
 
 ## Requisitos
 
-**PRD e Documentos de Produto**
+### PRD e Documentos de Produto
 
 | Documento | Descricao |
 |-----------|-----------|
@@ -59,7 +51,7 @@ title: Home
 | [Project Brief](halalsphere-project-brief.md) | Brief completo do projeto |
 | [Ficha Tecnica](FICHA-TECNICA-PROJETO.md) | Especificacoes tecnicas gerais |
 
-**User Stories por Epico**
+### User Stories por Epico
 
 | Epico | Descricao | Status |
 |-------|-----------|--------|
@@ -79,7 +71,7 @@ title: Home
 
 ## Arquitetura
 
-**Decisoes Arquiteturais**
+### Decisoes Arquiteturais
 
 | Documento | Categoria |
 |-----------|-----------|
@@ -89,7 +81,7 @@ title: Home
 | [Sistema Kanban](ARCHITECTURE/KANBAN_IMPLEMENTATION.md) | Backend |
 | [Internacionalizacao](ARCHITECTURE/INTERNACIONALIZACAO-SISTEMA.md) | Backend |
 
-**Infraestrutura AWS**
+### Infraestrutura AWS
 
 | Documento | Categoria |
 |-----------|-----------|
@@ -99,17 +91,7 @@ title: Home
 | [Terraform Integration](ARCHITECTURE/TERRAFORM-CONFIG-INTEGRATION.md) | Terraform |
 | [ConfigLoader Update](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md) | Config |
 
-**Modulos Especificos**
-
-| Documento | Modulo |
-|-----------|--------|
-| [Modulo Proposta Comercial](ARCHITECTURE/MODULO_PROPOSTA_COMERCIAL.md) | Comercial |
-| [Frontend Proposta](ARCHITECTURE/FRONTEND_PROPOSTA_COMERCIAL.md) | Comercial |
-| [Gestao Alocacao Auditores](ARCHITECTURE/GESTAO-ALOCACAO-AUDITORES.md) | Auditores |
-| [Fluxo Alocacao Auditores](ARCHITECTURE/FLUXO-ALOCACAO-AUDITORES.md) | Auditores |
-| [Configuracao Armazenamento](ARCHITECTURE/CONFIGURACAO-ARMAZENAMENTO.md) | Storage |
-
-**Banco de Dados**
+### Banco de Dados
 
 | Documento | Tipo |
 |-----------|------|
@@ -123,7 +105,7 @@ title: Home
 
 ## Processo Certificacao
 
-**Documentos Principais**
+### Documentos Principais
 
 | Documento | Descricao |
 |-----------|-----------|
@@ -131,7 +113,7 @@ title: Home
 | [Processo Completo Final](PROCESS/PROCESSO-CERTIFICACAO-COMPLETO-FINAL.md) | Visao consolidada |
 | [Analise Estrutura BD](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Request vs Process vs Certificate |
 
-**Wizard (9 Etapas)**
+### Wizard (9 Etapas)
 
 | Documento | Descricao |
 |-----------|-----------|
@@ -139,7 +121,7 @@ title: Home
 | [Wizard Integrado](PROCESS/WIZARD-INTEGRADO-COMPLETO.md) | Fluxo completo |
 | [Wizard Internacional](PROCESS/WIZARD-INTERNACIONAL-CRIADO.md) | Versao multi-idioma |
 
-**Fluxos Especificos**
+### Fluxos Especificos
 
 | Documento | Fluxo |
 |-----------|-------|
@@ -151,7 +133,7 @@ title: Home
 
 ## Implementacao
 
-**Status Atual (Janeiro 2026)**
+### Status Atual (Janeiro 2026)
 
 | Documento | Area |
 |-----------|------|
@@ -160,7 +142,7 @@ title: Home
 | [Frontend Status Jan/2026](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md) | Frontend |
 | [Analise Estatistica NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md) | Migracao |
 
-**Migracao NestJS**
+### Migracao NestJS
 
 | Documento | Tipo |
 |-----------|------|
@@ -168,15 +150,7 @@ title: Home
 | [Token Tracking](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-TOKEN-TRACKING.md) | Acompanhamento |
 | [Fases da Migracao](IMPLEMENTATION-HISTORY/NESTJS-MIGRATION-PHASES/) | Detalhes |
 
-**Historico de Sprints**
-
-| Documento | Sprint |
-|-----------|--------|
-| [Sprint 1 Completed](IMPLEMENTATION-HISTORY/SPRINT1-COMPLETED.md) | Sprint 1 |
-| [Implementacoes Sprint 1](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT1.md) | Sprint 1 |
-| [Implementacoes Sprint 2](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT2.md) | Sprint 2 |
-
-**Modulos Implementados**
+### Modulos Implementados
 
 | Documento | Modulo |
 |-----------|--------|
@@ -190,7 +164,7 @@ title: Home
 
 ## Guias
 
-**Setup e Configuracao**
+### Setup e Configuracao
 
 | Documento | Tipo |
 |-----------|------|
@@ -199,7 +173,7 @@ title: Home
 | [Multi-Repo Development](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md) | Desenvolvimento |
 | [NestJS Migration to Production](GUIDES/NESTJS-MIGRATION-TO-PRODUCTION.md) | Deploy |
 
-**Testes**
+### Testes
 
 | Documento | Tipo |
 |-----------|------|
@@ -208,7 +182,7 @@ title: Home
 | [Como Testar Auditorias](GUIDES/COMO-TESTAR-AUDITORIAS.md) | Auditorias |
 | [Como Ativar IA](GUIDES/COMO-ATIVAR-IA.md) | IA |
 
-**Troubleshooting**
+### Troubleshooting
 
 | Documento | Problema |
 |-----------|----------|
@@ -222,7 +196,7 @@ title: Home
 
 ## Changelog
 
-**Correcoes Recentes (2026)**
+### Correcoes Recentes (2026)
 
 | Data | Documento | Tipo |
 |------|-----------|------|
@@ -232,7 +206,7 @@ title: Home
 | 2026-01-19 | [Upload Request ID](CHANGELOG/SOLUCAO-DEFINITIVA-UPLOAD-REQUEST-ID-2026-01-19.md) | Correcao |
 | 2026-01-19 | [Simplificacao Upload](CHANGELOG/SIMPLIFICACAO-UPLOAD-EXECUTADA-2026-01-19.md) | Refactor |
 
-**Correcoes Anteriores**
+### Correcoes Anteriores
 
 | Documento | Tipo |
 |-----------|------|
@@ -257,7 +231,7 @@ title: Home
 
 ## Planejamento
 
-**Roadmaps**
+### Roadmaps
 
 | Documento | Descricao |
 |-----------|-----------|
@@ -265,7 +239,7 @@ title: Home
 | [Migration NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano 85 passos |
 | [AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md) | Infraestrutura |
 
-**Planejamentos Especificos**
+### Planejamentos Especificos
 
 | Documento | Area |
 |-----------|------|
@@ -278,7 +252,7 @@ title: Home
 
 ## Features
 
-**Sistema de Auditorias**
+### Sistema de Auditorias
 
 | Documento | Tipo |
 |-----------|------|
@@ -330,13 +304,13 @@ git clone https://github.com/Ecohalal/halalsphere-frontend.git
 
 ## Status do Projeto
 
-```
-Backend NestJS:     [################----]  80%
-Frontend React:     [#################---]  85%
-Database:           [###################-]  95%
-Testes:             [###############-----]  75%
-Documentacao:       [##############------]  70%
-```
+| Area | Progresso |
+|------|-----------|
+| Backend NestJS | 80% |
+| Frontend React | 85% |
+| Database | 95% |
+| Testes | 75% |
+| Documentacao | 70% |
 
 **Ultima avaliacao:** 20 de Janeiro de 2026
 
@@ -346,31 +320,25 @@ Documentacao:       [##############------]  70%
 
 ```
 halalsphere-docs/
-|
-+-- 01-prd/                 # Requisitos e User Stories
-+-- 02-technical/           # Especificacoes Tecnicas
-+-- 03-ux/                  # Design e UX
-+-- 04-implementation/      # Guias de Implementacao
-+-- 05-features/            # Features Documentadas
-|
-+-- ANALYSIS/               # Analises e Mapeamentos
-+-- ARCHITECTURE/           # Decisoes Arquiteturais
-+-- CHANGELOG/              # Historico de Mudancas
-+-- DIAGRAMS/               # Diagramas e Solucoes
-+-- GUIDES/                 # Guias Praticos
-+-- IMPLEMENTATION-HISTORY/ # Historico de Implementacoes
-+-- PLANNING/               # Roadmaps e Planos
-+-- PROCESS/                # Fluxos e Processos
-+-- TESTING/                # Testes e Validacao
-+-- TROUBLESHOOTING/        # Resolucao de Problemas
+├── 01-prd/                 # Requisitos e User Stories
+├── 02-technical/           # Especificacoes Tecnicas
+├── 03-ux/                  # Design e UX
+├── 04-implementation/      # Guias de Implementacao
+├── 05-features/            # Features Documentadas
+├── ANALYSIS/               # Analises e Mapeamentos
+├── ARCHITECTURE/           # Decisoes Arquiteturais
+├── CHANGELOG/              # Historico de Mudancas
+├── DIAGRAMS/               # Diagramas e Solucoes
+├── GUIDES/                 # Guias Praticos
+├── IMPLEMENTATION-HISTORY/ # Historico de Implementacoes
+├── PLANNING/               # Roadmaps e Planos
+├── PROCESS/                # Fluxos e Processos
+├── TESTING/                # Testes e Validacao
+└── TROUBLESHOOTING/        # Resolucao de Problemas
 ```
 
 ---
 
-<div align="center">
-
 **Documentacao mantida pela equipe HalalSphere**
 
 *Ultima atualizacao do indice: 20 de Janeiro de 2026*
-
-</div>
