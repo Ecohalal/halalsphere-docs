@@ -97,43 +97,62 @@
 
 ---
 
-## Fase 2: Migração de Dados
+## ✅ Fase 2: Migração de Dados (CONCLUÍDA)
+
+> **Concluída em:** 2026-01-21
+> **Script:** `prisma/migrations/data/migrate-company-groups.ts`
+> **Comando:** `npx ts-node prisma/migrations/data/migrate-company-groups.ts`
 
 ### 2.1 Criação de Grupos para Empresas Existentes
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-025 | Script: criar `company_group` para cada `company` existente (1:1) | 🔴 | - | [ ] |
-| G-026 | Script: popular `group_id` em todas as `companies` existentes | 🔴 | - | [ ] |
-| G-027 | Script: definir `is_headquarters = true` para empresa única no grupo | 🟠 | - | [ ] |
-| G-028 | Script: definir `pending_validation = false` para empresas existentes | 🟠 | - | [ ] |
+| G-025 | Script: criar `company_group` para cada `company` existente (1:1) | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-026 | Script: popular `group_id` em todas as `companies` existentes | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-027 | Script: definir `is_headquarters = true` para empresa única no grupo | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-028 | Script: definir `pending_validation = false` para empresas existentes | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 2.2 Migração de Facilities para Plants
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-029 | Analisar dados existentes em `scope_facilities` | 🔴 | - | [ ] |
-| G-030 | Script: criar `plant` para cada `scope_facility` único | 🔴 | - | [ ] |
-| G-031 | Script: vincular `company_id` nas plants criadas | 🔴 | - | [ ] |
-| G-032 | Script: inferir `code_type` (SIF/SIE/SIM/internal) baseado no formato do código | 🟠 | - | [ ] |
-| G-033 | Script: popular `plant_id` em `certifications` existentes | 🔴 | - | [ ] |
+| G-029 | Analisar dados existentes em `scope_facilities` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-030 | Script: criar `plant` para cada `scope_facility` único | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-031 | Script: vincular `company_id` nas plants criadas | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-032 | Script: inferir `code_type` (SIF/SIE/SIM/internal) baseado no formato do código | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-033 | Script: popular `plant_id` em `certifications` existentes | 🔴 | - | [x] ✓ 2026-01-21 |
 
 ### 2.3 Migração de Usuários
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-034 | Script: definir primeiro usuário de cada empresa como `is_company_admin = true` | 🔴 | - | [ ] |
-| G-035 | Script: definir `is_temporary_admin = true` se não há admin designado | 🟠 | - | [ ] |
-| G-036 | Script: definir `is_group_admin = true` para admin de empresa que é única no grupo | 🟠 | - | [ ] |
+| G-034 | Script: definir primeiro usuário de cada empresa como `is_company_admin = true` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-035 | Script: definir `is_temporary_admin = true` se não há admin designado | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-036 | Script: definir `is_group_admin = true` para admin de empresa que é única no grupo | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 2.4 Validação
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-037 | Validar integridade referencial após migração | 🔴 | - | [ ] |
-| G-038 | Validar que todas as companies têm group_id | 🔴 | - | [ ] |
-| G-039 | Validar que todas as certifications têm plant_id | 🔴 | - | [ ] |
-| G-040 | Gerar relatório de migração | 🟠 | - | [ ] |
+| G-037 | Validar integridade referencial após migração | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-038 | Validar que todas as companies têm group_id | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-039 | Validar que todas as certifications têm plant_id | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-040 | Gerar relatório de migração | 🟠 | - | [x] ✓ 2026-01-21 |
+
+### Resultado da Migração (2026-01-21)
+
+```
+📊 Resultados:
+   - Empresas processadas: 2
+   - Grupos criados: 2
+   - Plants criadas: 0 (nenhum scope_facility existente)
+   - Usuários atualizados: 1
+
+⚠️  Avisos:
+   - 1 empresa sem usuário vinculado (dados de teste)
+
+✅ MIGRAÇÃO CONCLUÍDA COM SUCESSO!
+```
 
 ---
 
@@ -461,14 +480,14 @@
 | Fase | Total Tasks | Críticas (🔴) | Status |
 |------|-------------|---------------|--------|
 | 1. Schema e Migrations | 24 | 14 | ✅ 24/24 |
-| 2. Migração de Dados | 16 | 10 | 0/16 |
+| 2. Migração de Dados | 16 | 10 | ✅ 16/16 |
 | 3. Backend - Grupos | 41 | 20 | 0/41 |
 | 4. Backend - Onboarding | 31 | 17 | 0/31 |
 | 5. Frontend - Estrutura | 31 | 17 | 0/31 |
 | 6. Frontend - Onboarding | 25 | 11 | 0/25 |
 | 7. Integração ReceitaWS | 11 | 0 | 0/11 |
 | 8. Testes e Validação | 17 | 8 | 0/17 |
-| **TOTAL** | **200** | **97** | **24/200** |
+| **TOTAL** | **200** | **97** | **40/200** |
 
 ---
 
