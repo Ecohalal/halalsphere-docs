@@ -17,11 +17,11 @@ title: HalalSphere Docs
 
 | Data | Documento | Categoria |
 |------|-----------|-----------|
-| **2026-01-20** | [Analise Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Analise |
+| **2026-01-21** | [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | Analise |
+| **2026-01-21** | [Analise Conformidade PR 7.1](ANALYSIS/ANALISE-CONFORMIDADE-PR71-REV22.md) | Analise |
+| **2026-01-21** | [Analise Layouts Certificados](ANALYSIS/ANALISE-LAYOUTS-CERTIFICADOS.md) | Analise |
+| 2026-01-20 | [Analise Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Analise |
 | 2026-01-20 | [Correcao Ordem Rotas NestJS](CHANGELOG/CORRECAO-ORDEM-ROTAS-NESTJS-2026-01-20.md) | Changelog |
-| 2026-01-20 | [Implementacao Modulo Juridico PDF](CHANGELOG/IMPLEMENTACAO-MODULO-JURIDICO-PDF-2026-01-20.md) | Changelog |
-| 2026-01-19 | [Solucao Upload Request ID](CHANGELOG/SOLUCAO-DEFINITIVA-UPLOAD-REQUEST-ID-2026-01-19.md) | Changelog |
-| 2026-01-15 | [Analise Estatistica NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md) | Migracao |
 
 ---
 
@@ -30,12 +30,12 @@ title: HalalSphere Docs
 | Categoria | Descricao | Qtd |
 |-----------|-----------|-----|
 | [Requisitos](#requisitos) | PRD, User Stories, Epicos | 15+ |
-| [Arquitetura](#arquitetura) | Decisoes tecnicas, infraestrutura | 28 |
+| [Arquitetura](#arquitetura) | Decisoes tecnicas, infraestrutura | 35+ |
 | [Processo](#processo-certificacao) | Fluxos, 17 fases, wizard | 21 |
-| [Implementacao](#implementacao) | Status, historico, sprints | 32 |
+| [Implementacao](#implementacao) | Status, historico, sprints | 35+ |
 | [Guias](#guias) | Setup, testes, troubleshooting | 27 |
-| [Changelog](#changelog) | Correcoes, atualizacoes | 19 |
-| [Analise](#analise) | Mapeamentos, diagnosticos | 5 |
+| [Changelog](#changelog) | Correcoes, atualizacoes | 20 |
+| [Analise](#analise) | Mapeamentos, diagnosticos, backlogs | 10 |
 | [Planejamento](#planejamento) | Roadmaps, migracao | 10 |
 
 ---
@@ -80,6 +80,36 @@ title: HalalSphere Docs
 | [Backend API Reference](ARCHITECTURE/BACKEND-API-REFERENCE.md) | Backend |
 | [Sistema Kanban](ARCHITECTURE/KANBAN_IMPLEMENTATION.md) | Backend |
 | [Internacionalizacao](ARCHITECTURE/INTERNACIONALIZACAO-SISTEMA.md) | Backend |
+| [Analyst Process APIs](ARCHITECTURE/ANALYST_PROCESS_APIS.md) | Backend |
+| [Perfil Administrador](ARCHITECTURE/PERFIL-ADMINISTRADOR.md) | Backend |
+
+### Modulos Comerciais
+
+| Documento | Categoria |
+|-----------|-----------|
+| [Modulo Proposta Comercial](ARCHITECTURE/MODULO_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Frontend Proposta Comercial](ARCHITECTURE/FRONTEND_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Proposta Modulo Certificados](ARCHITECTURE/PROPOSTA-MODULO-CERTIFICADOS.md) | Certificados |
+| [Provedores Assinatura](ARCHITECTURE/PROPOSTA-PROVEDORES-ASSINATURA-EXCECOES.md) | Contratos |
+| [Ajustes Processo Certificacao](ARCHITECTURE/PROPOSTA-AJUSTES-PROCESSO-CERTIFICACAO.md) | Processo |
+
+### Alocacao de Auditores
+
+| Documento | Categoria |
+|-----------|-----------|
+| [README Alocacao](ARCHITECTURE/README-ALOCACAO-AUDITORES.md) | Visao Geral |
+| [Gestao Alocacao Auditores](ARCHITECTURE/GESTAO-ALOCACAO-AUDITORES.md) | Gestao |
+| [Fluxo Alocacao Auditores](ARCHITECTURE/FLUXO-ALOCACAO-AUDITORES.md) | Fluxos |
+| [ROI Alocacao Auditores](ARCHITECTURE/ROI-ALOCACAO-AUDITORES.md) | Metricas |
+| [Resumo Executivo Alocacao](ARCHITECTURE/RESUMO-EXECUTIVO-ALOCACAO.md) | Resumo |
+
+### Kanban e Fases
+
+| Documento | Categoria |
+|-----------|-----------|
+| [Analise Fases Kanban](ARCHITECTURE/ANALISE-FASES-KANBAN.md) | Analise |
+| [Relatorio Diagnostico Kanban](ARCHITECTURE/RELATORIO-DIAGNOSTICO-KANBAN.md) | Diagnostico |
+| [Solucao Processos Sumindo](ARCHITECTURE/SOLUCAO-PROCESSOS-SUMINDO.md) | Correcao |
 
 ### Infraestrutura AWS
 
@@ -90,6 +120,13 @@ title: HalalSphere Docs
 | [AWS Config Management](ARCHITECTURE/AWS-CONFIG-MANAGEMENT.md) | AWS |
 | [Terraform Integration](ARCHITECTURE/TERRAFORM-CONFIG-INTEGRATION.md) | Terraform |
 | [ConfigLoader Update](ARCHITECTURE/CONFIGLOADER-UPDATE-GUIDE.md) | Config |
+| [Configuracao Armazenamento](ARCHITECTURE/CONFIGURACAO-ARMAZENAMENTO.md) | Storage |
+
+### Migracoes
+
+| Documento | Categoria |
+|-----------|-----------|
+| [Industrial Classification Migration](ARCHITECTURE/INDUSTRIAL_CLASSIFICATION_MIGRATION.md) | Dados |
 
 ### Banco de Dados
 
@@ -112,6 +149,7 @@ title: HalalSphere Docs
 | [17 Fases do Processo](PROCESS/17-FASES-PROCESSO-CERTIFICACAO.md) | Todas as fases detalhadas |
 | [Processo Completo Final](PROCESS/PROCESSO-CERTIFICACAO-COMPLETO-FINAL.md) | Visao consolidada |
 | [Analise Estrutura BD](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Request vs Process vs Certificate |
+| [Analise Fluxos Processo](ANALYSIS/ANALISE-FLUXOS-PROCESSO.md) | Fluxos detalhados |
 
 ### Wizard (9 Etapas)
 
@@ -155,10 +193,31 @@ title: HalalSphere Docs
 | Documento | Modulo |
 |-----------|--------|
 | [Auto-Cadastro Completo](IMPLEMENTATION-HISTORY/2025-12-17-auto-cadastro-completo.md) | Auto-Cadastro |
+| [Auto-Cadastro Backend](IMPLEMENTATION-HISTORY/2025-12-17-auto-cadastro-backend.md) | Auto-Cadastro |
 | [Proposta Comercial](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_PROPOSTA_COMERCIAL.md) | Comercial |
+| [Proposta Completa](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_COMPLETA_PROPOSTA.md) | Comercial |
+| [Frontend Proposta](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_FRONTEND_PROPOSTA.md) | Comercial |
 | [Auditorias Completas](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-COMPLETA-AUDITORIAS.md) | Auditorias |
+| [Agendamento Auditoria](IMPLEMENTATION-HISTORY/IMPLEMENTACAO_AGENDAMENTO_AUDITORIA.md) | Auditorias |
 | [Perfil Juridico](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-PERFIL-JURIDICO.md) | Juridico |
+| [Resumo Executivo Juridico](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-JURIDICO.md) | Juridico |
 | [Contratos e Assinatura](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-CONTRATOS-ASSINATURA.md) | Contratos |
+| [Fluxo Documentos](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-FLUXO-DOCUMENTOS.md) | Documentos |
+| [Modulo Comercial Completo](IMPLEMENTATION-HISTORY/MODULO-COMERCIAL-COMPLETO.md) | Comercial |
+| [Internacional Resumo](IMPLEMENTATION-HISTORY/IMPLEMENTACAO-INTERNACIONAL-RESUMO.md) | i18n |
+
+### Sprints e Historico
+
+| Documento | Sprint |
+|-----------|--------|
+| [Sprint 1 Completed](IMPLEMENTATION-HISTORY/SPRINT1-COMPLETED.md) | Sprint 1 |
+| [Sprint 1 Config Management](IMPLEMENTATION-HISTORY/SPRINT1-CONFIG-MANAGEMENT-UPDATE.md) | Sprint 1 |
+| [Implementacoes Sprint 1](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT1.md) | Sprint 1 |
+| [Implementacoes Sprint 2](IMPLEMENTATION-HISTORY/IMPLEMENTACOES_SPRINT2.md) | Sprint 2 |
+| [Test Results](IMPLEMENTATION-HISTORY/TEST-RESULTS.md) | Testes |
+| [Resumo Executivo Implementacao](IMPLEMENTATION-HISTORY/RESUMO-EXECUTIVO-IMPLEMENTACAO.md) | Resumo |
+| [Analise Aderencia Fluxo](IMPLEMENTATION-HISTORY/ANALISE-ADERENCIA-FLUXO-ATUAL.md) | Analise |
+| [Analise Comparativa Fases](IMPLEMENTATION-HISTORY/ANALISE_COMPARATIVA_FASES.md) | Analise |
 
 ---
 
@@ -172,21 +231,36 @@ title: HalalSphere Docs
 | [Setup GitHub](SETUP-GITHUB.md) | Git |
 | [Multi-Repo Development](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md) | Desenvolvimento |
 | [NestJS Migration to Production](GUIDES/NESTJS-MIGRATION-TO-PRODUCTION.md) | Deploy |
+| [Guia Migracao Internacional](GUIDES/GUIA-MIGRACAO-INTERNACIONAL.md) | i18n |
 
 ### Testes
 
 | Documento | Tipo |
 |-----------|------|
 | [Guia de Testes](GUIDES/GUIA_TESTES.md) | Geral |
+| [Testes Sprint 1](GUIDES/TESTES_SPRINT1.md) | Sprint |
 | [Sprint 1 Testing](TESTING/SPRINT1-TESTING-GUIDE.md) | Sprint |
 | [Como Testar Auditorias](GUIDES/COMO-TESTAR-AUDITORIAS.md) | Auditorias |
+| [Testes Relatorios Auditoria](GUIDES/TESTES-RELATORIOS-AUDITORIA.md) | Auditorias |
+| [Teste Validacao](GUIDES/TESTE_VALIDACAO.md) | Validacao |
+| [Teste Armazenamento](GUIDES/TESTE-ARMAZENAMENTO.md) | Storage |
+| [Permissoes Auditoria](GUIDES/PERMISSOES_AUDITORIA.md) | Permissoes |
+
+### Operacao
+
+| Documento | Tipo |
+|-----------|------|
 | [Como Ativar IA](GUIDES/COMO-ATIVAR-IA.md) | IA |
+| [Ambiente Gestor](GUIDES/AMBIENTE_GESTOR.md) | Ambiente |
+| [Guia Apresentacao Clientes](GUIDES/GUIA-APRESENTACAO-CLIENTES.md) | Demo |
+| [Proximos Passos MVP](GUIDES/PROXIMOS-PASSOS-MVP.md) | Roadmap |
 
 ### Troubleshooting
 
 | Documento | Problema |
 |-----------|----------|
 | [Document Upload](GUIDES/TROUBLESHOOTING-DOCUMENT-UPLOAD.md) | Upload |
+| [Troubleshooting Admin](GUIDES/TROUBLESHOOTING-ADMIN.md) | Admin |
 | [Email Verification](TROUBLESHOOTING/EMAIL-VERIFICATION-ISSUE.md) | Email |
 | [Proposal Service 401](TROUBLESHOOTING/FIX-PROPOSAL-SERVICE-401.md) | Auth |
 | [Login Comercial 401](TROUBLESHOOTING/LOGIN-COMERCIAL-401.md) | Auth |
@@ -211,21 +285,51 @@ title: HalalSphere Docs
 | Documento | Tipo |
 |-----------|------|
 | [Atualizacoes 2025-12-08](CHANGELOG/ATUALIZACOES-SISTEMA-2025-12-08.md) | Geral |
+| [Resumo Correcoes 2025-12-09](CHANGELOG/RESUMO-CORRECOES-SESSAO-2025-12-09.md) | Geral |
 | [Correcoes Finalizadas](CHANGELOG/CORRECOES-FINALIZADAS.md) | Consolidado |
 | [Dashboard e Timeline](CHANGELOG/CORRECOES-DASHBOARD-TIMELINE-COMMENTS.md) | UI |
 | [Componentes UI](CHANGELOG/CORRECOES-COMPONENTES-UI.md) | UI |
+| [Dashboard Analista](CHANGELOG/CORRECOES_DASHBOARD_ANALISTA.md) | UI |
+| [Agendamento Auditoria](CHANGELOG/CORRECOES_AGENDAMENTO_AUDITORIA.md) | Auditoria |
+| [Aceitar Proposta](CHANGELOG/CORRECAO-ACEITAR-PROPOSTA.md) | Comercial |
+| [Proposta Recusada](CHANGELOG/CORRECAO-PROPOSTA-RECUSADA.md) | Comercial |
+| [Correcao Fases](CHANGELOG/CORRECAO_FASES.md) | Processo |
+| [Menu Duplicado](CHANGELOG/CORRECAO-MENU-DUPLICADO.md) | UI |
+| [Upload Documentos Race Condition](CHANGELOG/CORRECAO-UPLOAD-DOCUMENTOS-RACE-CONDITION.md) | Upload |
+| [Resumo Final Upload](CHANGELOG/RESUMO-FINAL-CORRECAO-UPLOAD.md) | Upload |
 
 ---
 
 ## Analise
 
+### Analises de Conformidade e Certificados
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Conformidade PR 7.1 Rev.22](ANALYSIS/ANALISE-CONFORMIDADE-PR71-REV22.md) | Analise do procedimento de certificacao |
+| [Layouts Certificados](ANALYSIS/ANALISE-LAYOUTS-CERTIFICADOS.md) | Analise dos layouts de certificados |
+| [Backlog Complementar PR 7.1](ANALYSIS/BACKLOG-COMPLEMENTAR-PR71.md) | Tasks complementares |
+
+### Analises de Estrutura
+
 | Documento | Descricao |
 |-----------|-----------|
 | [Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Request vs Process - IMPORTANTE |
+| [Fluxos Processo](ANALYSIS/ANALISE-FLUXOS-PROCESSO.md) | Fluxos detalhados do processo |
 | [Auditor Qualification Mapping](ANALYSIS/AUDITOR-QUALIFICATION-MAPPING.md) | Qualificacao de auditores |
-| [Fases Kanban](ARCHITECTURE/ANALISE-FASES-KANBAN.md) | Analise de fases |
-| [Aderencia Fluxo Atual](IMPLEMENTATION-HISTORY/ANALISE-ADERENCIA-FLUXO-ATUAL.md) | Comparativo |
-| [Analise Comparativa Fases](IMPLEMENTATION-HISTORY/ANALISE_COMPARATIVA_FASES.md) | Fases |
+
+### Grupos Empresariais
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Analise Grupos Empresariais](ANALYSIS/ANALISE-GRUPOS-EMPRESARIAIS.md) | Estrutura de grupos |
+| [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | 200 tasks - 56% concluido |
+
+### Migracoes
+
+| Documento | Descricao |
+|-----------|-----------|
+| [Backlog Migracao Certificacoes](ANALYSIS/BACKLOG-MIGRACAO-CERTIFICACOES.md) | Migracao de dados |
 
 ---
 
@@ -271,9 +375,11 @@ title: HalalSphere Docs
 | [UX Design Guide](ux-design-guide.md) | Guia Geral |
 | [Design System](03-ux/01-design-system.md) | Sistema |
 | [Layouts](03-ux/02-layouts.md) | Layouts |
+| [High Volume](03-ux/03-high-volume.md) | Performance |
 | [Components](03-ux/05-components.md) | Componentes |
 | [Wireframes](03-ux/07-wireframes.md) | Wireframes |
 | [Accessibility](03-ux/06-accessibility.md) | Acessibilidade |
+| [Metrics](03-ux/08-metrics.md) | Metricas |
 
 ---
 
@@ -310,9 +416,9 @@ git clone https://github.com/Ecohalal/halalsphere-frontend.git
 | Frontend React | 85% |
 | Database | 95% |
 | Testes | 75% |
-| Documentacao | 70% |
+| Documentacao | 75% |
 
-**Ultima avaliacao:** 20 de Janeiro de 2026
+**Ultima avaliacao:** 21 de Janeiro de 2026
 
 ---
 
@@ -325,7 +431,7 @@ halalsphere-docs/
 ├── 03-ux/                  # Design e UX
 ├── 04-implementation/      # Guias de Implementacao
 ├── 05-features/            # Features Documentadas
-├── ANALYSIS/               # Analises e Mapeamentos
+├── ANALYSIS/               # Analises, Mapeamentos e Backlogs
 ├── ARCHITECTURE/           # Decisoes Arquiteturais
 ├── CHANGELOG/              # Historico de Mudancas
 ├── DIAGRAMS/               # Diagramas e Solucoes
@@ -341,4 +447,4 @@ halalsphere-docs/
 
 **Documentacao mantida pela equipe HalalSphere**
 
-*Ultima atualizacao do indice: 20 de Janeiro de 2026*
+*Ultima atualizacao do indice: 21 de Janeiro de 2026*
