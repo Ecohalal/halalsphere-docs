@@ -6,7 +6,7 @@
 - [ANALISE-FLUXOS-PROCESSO.md](./ANALISE-FLUXOS-PROCESSO.md)
 - [ANALISE-LAYOUTS-CERTIFICADOS.md](./ANALISE-LAYOUTS-CERTIFICADOS.md)
 
-**Status:** Planejamento (a iniciar após conclusão do BACKLOG-MIGRACAO-CERTIFICACOES.md)
+**Status:** ✅ Fase A Concluída | ✅ Fase B Concluída | Fase C-E Pendente
 
 ---
 
@@ -21,62 +21,115 @@
 
 ---
 
-## Fase A: Validações de Compliance (Crítico - Antes do Deploy)
+## ✅ Fase A: Validações de Compliance (CONCLUÍDA)
+
+> **Concluída em:** 2026-01-21
+> **Implementação:** halalsphere-backend-nest
 
 ### A.1 Validações de Prazos de Suspensão
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| A-001 | Adicionar campo `max_suspension_date` na entidade Certification | 🔴 | - | [ ] |
-| A-002 | Implementar cálculo de prazo máximo (3 meses normal / 1 ano entressafra) | 🔴 | - | [ ] |
-| A-003 | Adicionar campo `suspension_type` enum ('normal', 'entressafra') | 🔴 | - | [ ] |
-| A-004 | Criar job agendado para verificar certificações suspensas expiradas | 🔴 | - | [ ] |
-| A-005 | Implementar cancelamento automático após prazo de suspensão | 🔴 | - | [ ] |
-| A-006 | Criar testes unitários para validações de suspensão | 🟠 | - | [ ] |
+| A-001 | Adicionar campo `max_suspension_date` na entidade Certification | 🔴 | - | [x] |
+| A-002 | Implementar cálculo de prazo máximo (3 meses normal / 1 ano entressafra) | 🔴 | - | [x] |
+| A-003 | Adicionar campo `suspension_type` enum ('normal', 'entressafra') | 🔴 | - | [x] |
+| A-004 | Criar job agendado para verificar certificações suspensas expiradas | 🔴 | - | [x] |
+| A-005 | Implementar cancelamento automático após prazo de suspensão | 🔴 | - | [x] |
+| A-006 | Criar testes unitários para validações de suspensão | 🟠 | - | [x] |
 
 ### A.2 Auditoria Não Anunciada
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| A-007 | Adicionar campo `is_unannounced` boolean na entidade Audit | 🔴 | - | [ ] |
-| A-008 | Validar que auditoria não anunciada não pode ser inicial ou renovação | 🔴 | - | [ ] |
-| A-009 | Implementar regra: 1 auditoria não anunciada obrigatória por ciclo (3 anos) | 🔴 | - | [ ] |
-| A-010 | Criar alerta para FAMBRAS quando ciclo não tiver auditoria não anunciada | 🟠 | - | [ ] |
-| A-011 | Adicionar campo `unannounced_window_start` e `unannounced_window_end` | 🟠 | - | [ ] |
+| A-007 | Adicionar campo `is_unannounced` boolean na entidade Audit | 🔴 | - | [x] |
+| A-008 | Validar que auditoria não anunciada não pode ser inicial ou renovação | 🔴 | - | [x] |
+| A-009 | Implementar regra: 1 auditoria não anunciada obrigatória por ciclo (3 anos) | 🔴 | - | [x] |
+| A-010 | Criar alerta para FAMBRAS quando ciclo não tiver auditoria não anunciada | 🟠 | - | [x] |
+| A-011 | Adicionar campo `unannounced_window_start` e `unannounced_window_end` | 🟠 | - | [x] |
 
 ### A.3 Intervalo Estágio 1-2
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| A-012 | Validar intervalo máximo de 6 meses entre Estágio 1 e Estágio 2 | 🔴 | - | [ ] |
-| A-013 | Criar alerta quando intervalo ultrapassar 5 meses | 🟠 | - | [ ] |
-| A-014 | Implementar regra: se > 6 meses, repetir Estágio 1 | 🔴 | - | [ ] |
+| A-012 | Validar intervalo máximo de 6 meses entre Estágio 1 e Estágio 2 | 🔴 | - | [x] |
+| A-013 | Criar alerta quando intervalo ultrapassar 5 meses | 🟠 | - | [x] |
+| A-014 | Implementar regra: se > 6 meses, repetir Estágio 1 | 🔴 | - | [x] |
 
 ### A.4 Alertas de Vencimento
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| A-015 | Adicionar alerta de 180 dias (6 meses) para manutenção/renovação | 🔴 | - | [ ] |
-| A-016 | Atualizar constante ALERT_DAYS = [180, 90, 60, 30] | 🔴 | - | [ ] |
-| A-017 | Criar template de notificação para alerta de 6 meses | 🟠 | - | [ ] |
+| A-015 | Adicionar alerta de 180 dias (6 meses) para manutenção/renovação | 🔴 | - | [x] |
+| A-016 | Atualizar constante ALERT_DAYS = [180, 90, 60, 30] | 🔴 | - | [x] |
+| A-017 | Criar template de notificação para alerta de 6 meses | 🟠 | - | [x] |
+
+### Arquivos Implementados (Fase A)
+
+**Schema Prisma:**
+- `prisma/schema.prisma` - Adicionados campos: SuspensionType enum, suspensionType, suspendedAt, maxSuspensionDate, suspensionReason (Certification); isUnannounced, unannouncedWindowStart, unannouncedWindowEnd (Audit)
+
+**Services:**
+- `src/certification/certification.service.ts` - Métodos: calculateMaxSuspensionDate, suspendCertification, reactivateCertification, getExpiredSuspensions, cancelAfterSuspensionExpiry, processExpiredSuspensions, getSuspensionStatus
+- `src/audit/audit.service.ts` - Métodos: validateUnannouncedAudit, hasUnannouncedAuditInCycle, getCertificationsMissingUnannouncedAudit, getUnannouncedAuditStatus, validateStage1To2Interval, getCertificationsWithStageIntervalIssues, getStageIntervalStatus
+
+**Scheduler:**
+- `src/scheduler/scheduler.module.ts` - Módulo de tarefas agendadas
+- `src/scheduler/certification-scheduler.service.ts` - Jobs: handleExpiredSuspensions (1AM), handleStatusRecalculation (2AM), handleExpirationAlerts 180/90/60/30 dias, handleUnannouncedAuditAlerts, handleStageIntervalAlerts
+
+**DTOs:**
+- `src/certification/dto/suspend-certification.dto.ts` - DTO para suspensão
+- `src/audit/dto/create-audit.dto.ts` - Adicionados campos de auditoria não anunciada
+
+**Notificações:**
+- `src/notification/notification.types.ts` - Tipos de notificação
+- `src/notification/templates/certification-expiring.template.ts` - Templates 180/90/60/30 dias
+- `src/notification/templates/suspension.template.ts` - Templates de suspensão
+- `src/notification/templates/audit-compliance.template.ts` - Templates de auditoria
+
+**Testes:**
+- `src/certification/certification.service.spec.ts` - 22 testes de suspensão adicionados
 
 ---
 
-## Fase B: Saídas de Rejeição do Comitê (Alta Prioridade)
+## ✅ Fase B: Saídas de Rejeição do Comitê (CONCLUÍDA)
+
+> **Concluída em:** 2026-01-21
+> **Implementação:** halalsphere-backend-nest
 
 ### B.1 Tratamento por Tipo de Request
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| B-001 | Adicionar status `recusada` no enum CertificationStatus | 🟠 | - | [ ] |
-| B-002 | Implementar `rejectAtCommittee()` no WorkflowService | 🟠 | - | [ ] |
-| B-003 | Nova Certificação: se rejeitada → status `recusada` | 🟠 | - | [ ] |
-| B-004 | Manutenção: se rejeitada → status `suspensa` com motivo | 🟠 | - | [ ] |
-| B-005 | Renovação: se rejeitada → não emite novo certificado, expira normalmente | 🟠 | - | [ ] |
-| B-006 | Registrar decisão no certification_history | 🟠 | - | [ ] |
-| B-007 | Notificar empresa sobre rejeição com motivo | 🟠 | - | [ ] |
+| B-001 | Adicionar status `recusada` no enum CertificationStatus | 🟠 | - | [x] |
+| B-002 | Implementar `rejectAtCommittee()` no WorkflowService | 🟠 | - | [x] |
+| B-003 | Nova Certificação: se rejeitada → status `recusada` | 🟠 | - | [x] |
+| B-004 | Manutenção: se rejeitada → status `suspensa` com motivo | 🟠 | - | [x] |
+| B-005 | Renovação: se rejeitada → não emite novo certificado, expira normalmente | 🟠 | - | [x] |
+| B-006 | Registrar decisão no certification_history | 🟠 | - | [x] |
+| B-007 | Notificar empresa sobre rejeição com motivo | 🟠 | - | [x] |
 
 ### B.2 Regra Suspensão Prévia ao Cancelamento
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| B-008 | Validar que cancelamento só pode ocorrer após suspensão | 🟠 | - | [ ] |
-| B-009 | Exceção: permitir cancelamento direto em caso de distrato | 🟠 | - | [ ] |
-| B-010 | Adicionar campo `cancellation_type` enum ('pos_suspensao', 'distrato') | 🟠 | - | [ ] |
+| B-008 | Validar que cancelamento só pode ocorrer após suspensão | 🟠 | - | [x] |
+| B-009 | Exceção: permitir cancelamento direto em caso de distrato | 🟠 | - | [x] |
+| B-010 | Adicionar campo `cancellation_type` enum ('pos_suspensao', 'distrato') | 🟠 | - | [x] |
+
+### Arquivos Implementados (Fase B)
+
+**Schema Prisma:**
+- `prisma/schema.prisma` - Adicionados: CertificationStatus.recusada, CancellationType enum, campos cancellationType, cancelledAt, cancellationReason, rejectedAt, rejectionReason
+
+**Services:**
+- `src/workflow/workflow.service.ts` - Métodos: rejectAtCommittee(), cancelCertification(), getRejectionOutcomeDescription()
+
+**DTOs:**
+- `src/workflow/dto/reject-at-committee.dto.ts` - DTO para rejeição no comitê
+- `src/workflow/dto/cancel-certification.dto.ts` - DTO para cancelamento
+
+**Controller:**
+- `src/workflow/workflow.controller.ts` - Endpoints: POST :id/reject, GET :id/rejection-outcome, POST certifications/:id/cancel
+
+**Notificações:**
+- `src/notification/templates/rejection.template.ts` - Templates: CERTIFICATION_REJECTED, MAINTENANCE_REJECTED_SUSPENDED, RENEWAL_REJECTED_EXPIRATION, CERTIFICATION_CANCELLED
+
+**Testes:**
+- `src/workflow/workflow.service.spec.ts` - 15 testes de rejeição e cancelamento adicionados
 
 ---
 
@@ -235,16 +288,22 @@
 ## Dependências
 
 ```
-BACKLOG-MIGRACAO-CERTIFICACOES.md (Fase 6-7)
+BACKLOG-MIGRACAO-CERTIFICACOES.md (Fases 1-5) ✅ Concluído
+        │
+        ▼
+BACKLOG-GRUPOS-EMPRESARIAIS.md (Fases 1-8) ◄── NOVO - Próximo passo
+        │
+        ▼
+BACKLOG-MIGRACAO-CERTIFICACOES.md (Fases 6-7) - Testes e Deploy
         │
         ▼
 ┌───────────────────────────────────┐
-│  Fase A: Validações de Compliance │  ◄── CRÍTICO antes do deploy
+│  Fase A: Validações de Compliance │  ✅ Concluída
 └───────────────┬───────────────────┘
                 │
                 ▼
 ┌───────────────────────────────────┐
-│  Fase B: Saídas de Rejeição       │  ◄── Alta prioridade
+│  Fase B: Saídas de Rejeição       │  ✅ Concluída
 └───────────────┬───────────────────┘
                 │
         ┌───────┴───────┐
@@ -265,16 +324,17 @@ BACKLOG-MIGRACAO-CERTIFICACOES.md (Fase 6-7)
 
 ## Critérios de Aceite
 
-### Fase A (Compliance)
-- [ ] Todas as validações de prazo funcionando
-- [ ] Auditoria não anunciada obrigatória por ciclo
-- [ ] Alertas de 6 meses enviados corretamente
-- [ ] Testes automatizados passando
+### ✅ Fase A (Compliance) - CONCLUÍDA
+- [x] Todas as validações de prazo funcionando
+- [x] Auditoria não anunciada obrigatória por ciclo
+- [x] Alertas de 6 meses enviados corretamente
+- [x] Testes automatizados passando (22 testes de suspensão)
 
-### Fase B (Rejeição)
-- [ ] Cada tipo de request tem tratamento correto de rejeição
-- [ ] Histórico registra decisões negativas
-- [ ] Notificações enviadas à empresa
+### ✅ Fase B (Rejeição) - CONCLUÍDA
+- [x] Cada tipo de request tem tratamento correto de rejeição
+- [x] Histórico registra decisões negativas
+- [x] Notificações enviadas à empresa
+- [x] Testes automatizados passando (15 testes de rejeição/cancelamento)
 
 ### Fase C (Auditorias)
 - [ ] Cálculo de tempo de auditoria funcionando
@@ -293,11 +353,13 @@ BACKLOG-MIGRACAO-CERTIFICACOES.md (Fase 6-7)
 
 ## Próximos Passos
 
-1. **Concluir Fase 6-7** do BACKLOG-MIGRACAO-CERTIFICACOES.md (Testes e Deploy)
-2. **Iniciar Fase A** deste backlog (Validações de Compliance)
-3. **Priorizar Fase D** se geração de certificados for requisito de negócio imediato
+1. ~~**Concluir Fase 6-7** do BACKLOG-MIGRACAO-CERTIFICACOES.md (Testes e Deploy)~~ ✅
+2. ~~**Iniciar Fase A** deste backlog (Validações de Compliance)~~ ✅
+3. ~~**Fase B: Saídas de Rejeição do Comitê**~~ ✅
+4. **Iniciar Fase C** (Auditorias - Melhorias) ou **Fase D** (Geração de Certificados PDF) - podem rodar em paralelo
+5. **Priorizar Fase D** se geração de certificados for requisito de negócio imediato
 
 ---
 
 *Backlog criado em 2026-01-21*
-*Última atualização: 2026-01-21*
+*Última atualização: 2026-01-21 (Fase A e B concluídas)*

@@ -368,9 +368,47 @@
     - Query keys centralizados para cache management
     - Criado `hooks/index.ts` para exportação centralizada
 29. **FASE 5 COMPLETA** ✓ - Frontend totalmente atualizado para arquitetura de Certificação
-30. **Próximo passo**: Fase 6 - Testes e Validação
+
+---
+
+## ⚠️ IMPORTANTE: Nova Dependência
+
+**Decisão (2026-01-21):** Antes de prosseguir com Fase 6 (Testes), implementar o backlog de **Grupos Empresariais e Onboarding**.
+
+### Motivo
+A implementação de grupos empresariais traz impactos estruturais significativos:
+- Nova hierarquia: Grupo → Empresa → Planta → Certificação
+- Novos campos em `Company` e `User`
+- Nova entidade `Plant` (evolução de scope_facilities)
+- Novo fluxo de onboarding
+
+Testar antes dessa implementação resultaria em retrabalho.
+
+### Ordem de Execução Atualizada
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  [✅] BACKLOG-MIGRACAO-CERTIFICACOES (Fases 1-5) - CONCLUÍDO           │
+│                          │                                              │
+│                          ▼                                              │
+│  [🔲] BACKLOG-GRUPOS-EMPRESARIAIS (Fases 1-8) - PRÓXIMO                │
+│                          │                                              │
+│                          ▼                                              │
+│  [🔲] BACKLOG-MIGRACAO-CERTIFICACOES (Fases 6-7) - Testes e Deploy     │
+│                          │                                              │
+│                          ▼                                              │
+│  [🔲] BACKLOG-COMPLEMENTAR-PR71 (Fases C, D, E) - Melhorias            │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Próximo Passo
+
+**Ação imediata:** Iniciar [BACKLOG-GRUPOS-EMPRESARIAIS.md](./BACKLOG-GRUPOS-EMPRESARIAIS.md)
+
+Ver também:
+- [ANALISE-GRUPOS-EMPRESARIAIS.md](./ANALISE-GRUPOS-EMPRESARIAIS.md) - Análise completa e decisões
 
 ---
 
 *Backlog criado em 2026-01-20*
-*Última atualização: 2026-01-21*
+*Última atualização: 2026-01-21 - Adicionada dependência de Grupos Empresariais*
