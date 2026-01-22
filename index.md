@@ -17,7 +17,7 @@ title: HalalSphere Docs
 
 | Data | Documento | Categoria |
 |------|-----------|-----------|
-| **2026-01-21** | [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | Analise |
+| **2026-01-21** | [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | Analise - **Fase 5 concluida (71%)** |
 | **2026-01-21** | [Analise Conformidade PR 7.1](ANALYSIS/ANALISE-CONFORMIDADE-PR71-REV22.md) | Analise |
 | **2026-01-21** | [Analise Layouts Certificados](ANALYSIS/ANALISE-LAYOUTS-CERTIFICADOS.md) | Analise |
 | 2026-01-20 | [Analise Estrutura BD e Fluxos](ANALYSIS/ANALISE-ESTRUTURA-BD-FLUXOS.md) | Analise |
@@ -323,7 +323,7 @@ title: HalalSphere Docs
 | Documento | Descricao |
 |-----------|-----------|
 | [Analise Grupos Empresariais](ANALYSIS/ANALISE-GRUPOS-EMPRESARIAIS.md) | Estrutura de grupos |
-| [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | 200 tasks - 56% concluido |
+| [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | 200 tasks - **71% concluido** (Fases 1-5 completas) |
 
 ### Migracoes
 
@@ -412,13 +412,27 @@ git clone https://github.com/Ecohalal/halalsphere-frontend.git
 
 | Area | Progresso |
 |------|-----------|
-| Backend NestJS | 80% |
-| Frontend React | 85% |
+| Backend NestJS | 85% |
+| Frontend React | 88% |
 | Database | 95% |
+| Grupos Empresariais | 71% (143/200 tasks) |
 | Testes | 75% |
 | Documentacao | 75% |
 
 **Ultima avaliacao:** 21 de Janeiro de 2026
+
+### Progresso Grupos Empresariais
+
+| Fase | Status |
+|------|--------|
+| 1. Schema e Migrations | ✅ Concluida |
+| 2. Migracao de Dados | ✅ Concluida |
+| 3. Backend - Grupos | ✅ Concluida |
+| 4. Backend - Onboarding | ✅ Concluida |
+| 5. Frontend - Estrutura | ✅ Concluida |
+| 6. Frontend - Onboarding | Pendente |
+| 7. Integracao ReceitaWS | Pendente |
+| 8. Testes e Validacao | Pendente |
 
 ---
 

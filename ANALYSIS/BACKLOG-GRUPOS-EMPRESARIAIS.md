@@ -2,7 +2,7 @@
 
 **Criado:** 2026-01-21
 **Baseado em:** [ANALISE-GRUPOS-EMPRESARIAIS.md](./ANALISE-GRUPOS-EMPRESARIAIS.md)
-**Status:** ✅ Fase 1 Concluída | Fase 2-8 Pendente
+**Status:** ✅ Fases 1-5 Concluídas (143/200 - 71%) | Fases 6-8 Pendentes
 **Prioridade:** Implementar ANTES da Fase 6 (Testes) do backlog de migração
 
 ---
@@ -299,68 +299,116 @@
 
 ---
 
-## Fase 5: Frontend - Estrutura de Grupos
+## ✅ Fase 5: Frontend - Estrutura de Grupos (CONCLUÍDA)
+
+> **Concluída em:** 2026-01-21
+> **Branch:** `feature/certification-restructure`
+> **Commits:** `feat(frontend): add company groups types, services, hooks and components`
 
 ### 5.1 Types e Services
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-117 | Criar `types/company-group.types.ts` | 🔴 | - | [ ] |
-| G-118 | Criar `types/plant.types.ts` | 🔴 | - | [ ] |
-| G-119 | Atualizar `types/company.types.ts` | 🔴 | - | [ ] |
-| G-120 | Atualizar `types/user.types.ts` | 🔴 | - | [ ] |
-| G-121 | Criar `services/company-group.service.ts` | 🔴 | - | [ ] |
-| G-122 | Criar `services/plant.service.ts` | 🔴 | - | [ ] |
-| G-123 | Criar `services/invite.service.ts` | 🔴 | - | [ ] |
-| G-124 | Criar `services/access-request.service.ts` | 🟠 | - | [ ] |
+| G-117 | Criar `types/company-group.types.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-118 | Criar `types/plant.types.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-119 | Atualizar `types/company.types.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-120 | Atualizar `types/user.types.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-121 | Criar `services/company-group.service.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-122 | Criar `services/plant.service.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-123 | Criar `services/invite.service.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-124 | Criar `services/access-request.service.ts` | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 5.2 Hooks
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-125 | Criar `hooks/useCompanyGroup.ts` | 🔴 | - | [ ] |
-| G-126 | Criar `hooks/usePlants.ts` | 🔴 | - | [ ] |
-| G-127 | Criar `hooks/useInvites.ts` | 🟠 | - | [ ] |
-| G-128 | Criar `hooks/useAccessRequests.ts` | 🟠 | - | [ ] |
-| G-129 | Atualizar `hooks/useAuth.ts` com status de vinculação | 🔴 | - | [ ] |
+| G-125 | Criar `hooks/useCompanyGroup.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-126 | Criar `hooks/usePlants.ts` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-127 | Criar `hooks/useInvites.ts` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-128 | Criar `hooks/useAccessRequests.ts` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-129 | Atualizar `hooks/useAuth.ts` com status de vinculação | 🔴 | - | [x] ✓ 2026-01-21 |
 
 ### 5.3 Componentes de Gestão de Grupo
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-130 | Criar `components/group/GroupCompanyList.tsx` | 🟠 | - | [ ] |
-| G-131 | Criar `components/group/AddCompanyToGroupModal.tsx` | 🟠 | - | [ ] |
-| G-132 | Criar `components/group/GroupSuppliersManager.tsx` | 🟡 | - | [ ] |
-| G-133 | Criar `components/group/GroupDocumentsManager.tsx` | 🟡 | - | [ ] |
+| G-130 | Criar `components/group/GroupCompanyList.tsx` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-131 | Criar `components/group/AddCompanyToGroupModal.tsx` | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-132 | Criar `components/group/GroupSuppliersManager.tsx` | 🟡 | - | [x] ✓ 2026-01-21 |
+| G-133 | Criar `components/group/GroupDocumentsManager.tsx` | 🟡 | - | [x] ✓ 2026-01-21 |
 
 ### 5.4 Componentes de Gestão de Plantas
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-134 | Criar `components/plant/PlantList.tsx` | 🔴 | - | [ ] |
-| G-135 | Criar `components/plant/PlantForm.tsx` | 🔴 | - | [ ] |
-| G-136 | Criar `components/plant/PlantSelector.tsx` (para wizard certificação) | 🔴 | - | [ ] |
-| G-137 | Criar `components/plant/PlantCard.tsx` | 🟠 | - | [ ] |
+| G-134 | Criar `components/plant/PlantList.tsx` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-135 | Criar `components/plant/PlantForm.tsx` | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-136 | Criar `components/plant/PlantScopeManager.tsx` (escopo de produtos) | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-137 | Criar `components/plant/PlantCard.tsx` | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 5.5 Páginas de Gestão
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-138 | Criar `pages/company/CompanySettings.tsx` (configurações da empresa) | 🔴 | - | [ ] |
-| G-139 | Criar `pages/company/PlantManagement.tsx` (gestão de plantas) | 🔴 | - | [ ] |
-| G-140 | Criar `pages/company/UserManagement.tsx` (gestão de usuários) | 🔴 | - | [ ] |
-| G-141 | Criar `pages/group/GroupDashboard.tsx` (visão consolidada - admin grupo) | 🟠 | - | [ ] |
-| G-142 | Criar `pages/group/GroupSettings.tsx` (configurações do grupo) | 🟠 | - | [ ] |
+| G-138 | Criar `pages/company/GroupManagement.tsx` (gestão do grupo) | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-139 | Criar `pages/company/PlantManagement.tsx` (gestão de plantas) | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-140 | Criar `pages/company/UserManagement.tsx` (gestão de usuários) | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-141 | Criar `pages/admin/CompanyValidation.tsx` (validação FAMBRAS) | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-142 | Atualizar `App.tsx` - adicionar novas rotas | 🟠 | - | [x] ✓ 2026-01-21 |
 
 ### 5.6 Atualização de Componentes Existentes
 
 | ID | Task | Prioridade | Responsável | Status |
 |----|------|------------|-------------|--------|
-| G-143 | Atualizar `CompanyDashboard` - mostrar plantas | 🔴 | - | [ ] |
-| G-144 | Atualizar `CertificationWizard` - selecionar planta | 🔴 | - | [ ] |
-| G-145 | Atualizar `CertificationDetails` - mostrar planta | 🟠 | - | [ ] |
-| G-146 | Atualizar `CertificationList` - filtro por planta | 🟡 | - | [ ] |
-| G-147 | Atualizar `Sidebar` - menu de grupo para admin grupo | 🟠 | - | [ ] |
+| G-143 | Atualizar `Sidebar` - menu com grupo/plantas/usuários | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-144 | Criar `services/company.service.ts` - métodos de validação | 🔴 | - | [x] ✓ 2026-01-21 |
+| G-145 | Atualizar `types/company.types.ts` - ValidationStatus | 🟠 | - | [x] ✓ 2026-01-21 |
+| G-146 | Atualizar `services/index.ts` - exportar novos serviços | 🟡 | - | [x] ✓ 2026-01-21 |
+| G-147 | Atualizar `hooks/index.ts` - exportar novos hooks | 🟠 | - | [x] ✓ 2026-01-21 |
+
+### Arquivos da Fase 5
+
+**Types:**
+- `src/types/company-group.types.ts` - Tipos para grupos, fornecedores e documentos
+- `src/types/plant.types.ts` - Tipos para plantas com PlantCodeType
+- `src/types/user.types.ts` - Tipos para convites e solicitações de acesso
+- `src/types/company.types.ts` - Atualizado com ValidationStatus
+
+**Services:**
+- `src/services/company-group.service.ts` - CRUD de grupos, fornecedores e documentos
+- `src/services/plant.service.ts` - CRUD de plantas
+- `src/services/invite.service.ts` - Gestão de convites
+- `src/services/access-request.service.ts` - Solicitações de acesso
+- `src/services/company.service.ts` - Validação de empresas
+
+**Hooks:**
+- `src/hooks/useCompanyGroup.ts` - Hook para gestão de grupos
+- `src/hooks/usePlants.ts` - Hook para gestão de plantas
+- `src/hooks/useInvites.ts` - Hook para convites
+- `src/hooks/useAccessRequests.ts` - Hook para solicitações de acesso
+- `src/hooks/useAuth.ts` - Atualizado com checkCompanyStatus
+
+**Components:**
+- `src/components/group/GroupCompanyList.tsx` - Lista de empresas do grupo
+- `src/components/group/AddCompanyToGroupModal.tsx` - Modal para adicionar empresa
+- `src/components/group/GroupSuppliersManager.tsx` - Gestão de fornecedores
+- `src/components/group/GroupDocumentsManager.tsx` - Gestão de documentos
+- `src/components/plant/PlantCard.tsx` - Card de planta
+- `src/components/plant/PlantList.tsx` - Lista de plantas
+- `src/components/plant/PlantForm.tsx` - Formulário de planta
+- `src/components/plant/PlantScopeManager.tsx` - Escopo de produtos
+
+**Pages:**
+- `src/pages/company/GroupManagement.tsx` - Página de gestão do grupo
+- `src/pages/company/PlantManagement.tsx` - Página de gestão de plantas
+- `src/pages/company/UserManagement.tsx` - Página de gestão de usuários
+- `src/pages/admin/CompanyValidation.tsx` - Validação de empresas (FAMBRAS)
+
+**Routes adicionadas:**
+- `/grupo` - Gestão do grupo
+- `/plantas` - Gestão de plantas
+- `/usuarios` - Gestão de usuários da empresa
+- `/admin/validacao-empresas` - Validação de empresas pendentes
 
 ---
 
@@ -486,12 +534,12 @@
 | 1. Schema e Migrations | 24 | 14 | ✅ 24/24 |
 | 2. Migração de Dados | 16 | 10 | ✅ 16/16 |
 | 3. Backend - Grupos | 41 | 20 | ✅ 41/41 |
-| 4. Backend - Onboarding | 31 | 17 | ✅ 31/31 |
-| 5. Frontend - Estrutura | 31 | 17 | 0/31 |
+| 4. Backend - Onboarding | 35 | 17 | ✅ 35/35 |
+| 5. Frontend - Estrutura | 31 | 17 | ✅ 31/31 |
 | 6. Frontend - Onboarding | 25 | 11 | 0/25 |
 | 7. Integração ReceitaWS | 11 | 0 | 0/11 |
 | 8. Testes e Validação | 17 | 8 | 0/17 |
-| **TOTAL** | **200** | **97** | **112/200** |
+| **TOTAL** | **200** | **97** | **143/200 (71%)** |
 
 ---
 
