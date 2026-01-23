@@ -5,9 +5,10 @@
 | Campo | Descrição |
 |-------|-----------|
 | **Nome do Projeto** | HalalSphere |
-| **Versão Atual** | MVP 1.0 (Em Desenvolvimento) |
+| **Versão Atual** | MVP 1.0 |
 | **Data de Início** | 2025 |
-| **Status** | 🟡 Em Desenvolvimento |
+| **Primeira Publicação em Produção** | 23 de Janeiro de 2026 |
+| **Status** | 🟢 Em Produção |
 | **Tipo** | Plataforma SaaS B2B |
 | **Domínio** | Certificação Halal |
 
@@ -61,10 +62,10 @@ Digitalizar e automatizar o processo de certificação Halal, reduzindo custos o
 
 #### Backend
 - **Runtime**: Node.js 20.x
-- **Framework**: Express.js (Fastify em migração)
+- **Framework**: NestJS 10.x
 - **Linguagem**: TypeScript
 - **ORM**: Prisma
-- **Validação**: Zod
+- **Validação**: class-validator + class-transformer
 
 #### Banco de Dados
 - **Primary DB**: PostgreSQL 15+
@@ -314,24 +315,32 @@ User (Usuários)
 
 ## 🗓️ Roadmap e Fases
 
-### Fase 1: MVP (Em Desenvolvimento) - Q1-Q2 2025
+### Fase 1: MVP - ✅ CONCLUÍDO (Janeiro 2026)
 - ✅ Ciclo completo de certificação inicial
-- ✅ 5 perfis de usuário
+- ✅ 5 perfis de usuário + perfis especializados
 - ✅ Integrações básicas (storage, e-signature, email)
+- ✅ Migração completa para NestJS
+- ✅ Deploy em produção (23/01/2026)
 
-### Fase 2: Post-MVP - Q3 2025
+### Fase 2: Grupos Empresariais - 🟡 EM ANDAMENTO (Q1 2026)
+- ✅ Schema e migrations de grupos empresariais
+- ✅ Backend completo para grupos
+- 🔄 Frontend de gestão de grupos (71% concluído)
+- 🔄 Integração ReceitaWS para consulta CNPJ
+
+### Fase 3: Post-MVP - Q2 2026
 - 🔄 Auditorias de manutenção anual
 - 🔄 Renovação trienal
 - 📱 App mobile (React Native)
 - 💳 Gateway de pagamentos
 
-### Fase 3: Escala - Q4 2025
+### Fase 4: Escala - Q3-Q4 2026
 - 🔗 Integrações com ERPs
 - 🧪 Módulo de testes laboratoriais
 - 📊 BI e Analytics avançado
 - 🌍 Multi-tenant completo
 
-### Fase 4: Internacional - 2026
+### Fase 5: Internacional - 2027
 - 🌐 Expansão para novos mercados
 - 🏢 White-label para outras certificadoras
 - 🤖 IA avançada (predição de não-conformidades)
@@ -415,9 +424,9 @@ OPENAI_API_KEY=your-openai-key
 
 ### Links Úteis
 - **Repositório**: Git (branch principal: `main`, desenvolvimento: `develop`)
-- **API Docs**: Swagger disponível em `/api-docs` (planejado)
-- **Confluence**: [Link para espaço do projeto]
-- **Jira**: [Link para board do projeto]
+- **API Docs**: Swagger/OpenAPI disponível em `/api/docs` (301 endpoints documentados)
+- **GitHub Docs**: https://ecohalal.github.io/halalsphere-docs/
+- **Produção**: https://halalsphere.ecohalal.solutions
 
 ---
 
@@ -467,15 +476,22 @@ OPENAI_API_KEY=your-openai-key
 
 O **HalalSphere** representa uma transformação digital completa no setor de certificação Halal, combinando automação inteligente, IA e conformidade normativa para reduzir drasticamente tempos de certificação enquanto aumenta qualidade e satisfação.
 
+**Conquistas Recentes (Janeiro 2026)**:
+1. ✅ MVP concluído e em produção
+2. ✅ Migração completa para NestJS
+3. ✅ Deploy em produção realizado (23/01/2026)
+4. ✅ 301 endpoints de API documentados
+5. ✅ Sistema de grupos empresariais em desenvolvimento (71%)
+
 **Próximos Passos**:
-1. ✅ Concluir MVP (ciclo completo de certificação inicial)
-2. 🧪 Testes com usuários piloto (5-10 empresas)
-3. 📊 Coletar feedback e iterar
-4. 🚀 Go-live para base completa de clientes
-5. 📈 Roadmap de expansão (manutenção, renovação, mobile)
+1. 🔄 Concluir frontend de grupos empresariais
+2. 🔄 Integração ReceitaWS para consulta CNPJ
+3. 🧪 Testes com usuários piloto (5-10 empresas)
+4. 📊 Coletar feedback e iterar
+5. 📈 Implementar auditorias de manutenção e renovação
 
 ---
 
-**Última Atualização**: 2025-12-17
-**Versão do Documento**: 1.0
+**Última Atualização**: 2026-01-23
+**Versão do Documento**: 2.0
 **Elaborado por**: Equipe HalalSphere

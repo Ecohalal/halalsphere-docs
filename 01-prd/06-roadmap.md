@@ -1,10 +1,13 @@
 # 6. Roadmap e Faseamento
 
+> **Status Atualizado**: MVP em Produção desde 23 de Janeiro de 2026
+> **URL Produção**: https://halalsphere.ecohalal.solutions
+
 ## 6.1 Estratégia de Entrega
 
 ### Filosofia de Desenvolvimento
 
-O HalalSphere será desenvolvido em **fases incrementais**, priorizando valor de negócio e redução de risco. A estratégia segue os princípios:
+O HalalSphere foi desenvolvido em **fases incrementais**, priorizando valor de negócio e redução de risco. A estratégia seguiu os princípios:
 
 1. **MVP First**: Entregar ciclo completo de certificação inicial (primeira certificação) o mais rápido possível
 2. **Validação Contínua**: Cada fase é validada com usuários reais antes de prosseguir
@@ -366,18 +369,22 @@ Total: 30 semanas (7.5 meses) até Go-Live
 
 ---
 
-## 6.5 Cronograma Detalhado
+## 6.5 Cronograma Realizado
 
-| Fase | Duração | Sprints | Story Points | Data Início | Data Fim | Milestone |
-|------|---------|---------|--------------|-------------|----------|-----------|
-| **Fase 0** | 2 semanas | - | - | Semana 1 | Semana 2 | ✅ Fundação Pronta |
-| **Fase 1** | 8 semanas | 4 | 208 SP | Semana 3 | Semana 10 | ✅ MVP Core |
-| **Fase 2** | 6 semanas | 3 | 140 SP | Semana 11 | Semana 16 | ✅ Ciclo Completo |
-| **Fase 3** | 8 semanas | 4 | 136 SP | Semana 17 | Semana 24 | ⭐ IA Funcionando |
-| **Fase 4** | 6 semanas | 3 | 41 SP | Semana 25 | Semana 30 | 🚀 Go-Live |
-| **TOTAL** | **30 semanas** | **14 sprints** | **525 SP** | - | - | 🎉 **Produção** |
+| Fase | Status | Story Points | Data Conclusão | Milestone |
+|------|--------|--------------|----------------|-----------|
+| **Fase 0** | ✅ Concluída | - | Q2 2025 | ✅ Fundação Pronta |
+| **Fase 1** | ✅ Concluída | 208 SP | Q3 2025 | ✅ MVP Core |
+| **Fase 2** | ✅ Concluída | 140 SP | Q4 2025 | ✅ Ciclo Completo |
+| **Fase 3** | ✅ Concluída | 136 SP | Q4 2025 | ✅ Migração NestJS |
+| **Fase 4** | ✅ Concluída | 41 SP | 23/01/2026 | 🚀 **Go-Live Produção** |
+| **TOTAL** | **✅ 95% Implementado** | **525 SP** | **23/01/2026** | 🎉 **EM PRODUÇÃO** |
 
-**Nota**: Restam ~69 SP dos 594 SP totais para Post-MVP (renovações, manutenção anual, testes laboratoriais, integrações).
+**Status Atual (Janeiro 2026)**:
+- ✅ 301 endpoints de API documentados
+- ✅ Sistema em produção desde 23/01/2026
+- 🔄 Grupos Empresariais em desenvolvimento (71%)
+- 🔄 Integração ReceitaWS pendente
 
 ---
 
@@ -443,29 +450,34 @@ Total: 30 semanas (7.5 meses) até Go-Live
 
 ---
 
-## 6.8 Post-MVP (Fase 5+)
+## 6.8 Próximas Fases (2026)
 
-**Não prioritizado para Go-Live inicial, mas planejado para 2026:**
+### Fase 5: Grupos Empresariais (Q1 2026 - EM ANDAMENTO 71%)
+- ✅ Schema e migrations de grupos empresariais
+- ✅ Backend completo para grupos
+- ✅ Frontend de gestão de grupos (estrutura)
+- 🔄 Frontend onboarding de grupos
+- 🔄 Integração ReceitaWS para consulta CNPJ
 
-### Fase 5: Gestão do Ciclo de Vida (Q1 2026)
+### Fase 6: Gestão do Ciclo de Vida (Q2 2026)
 - Auditorias de manutenção anual (PR 7.1 10.10)
 - Renovação trienal automatizada (PR 7.1 seção 13)
 - Extensão de escopo simplificada (PR 7.1 10.9.3)
 - Gestão de suspensão/cancelamento (PR 7.1 11, 12)
 
-### Fase 6: Integrações Externas (Q2 2026)
+### Fase 7: Integrações Externas (Q3 2026)
 - API pública para parceiros
 - Integração com ERPs (SAP, TOTVS, etc)
 - Integração com sistemas de contabilidade
 - Integração com laboratórios de análise
 
-### Fase 7: Advanced Analytics e ML (Q3 2026)
+### Fase 8: Advanced Analytics e IA (Q4 2026)
+- Chatbot RAG com base de conhecimento
 - Predição de probabilidade de aprovação
 - Detecção de fraudes com ML
 - Recomendação de melhorias para empresas
-- Benchmarking entre empresas similares
 
-### Fase 8: Mobile Nativo (Q4 2026)
+### Fase 9: Mobile Nativo (2027)
 - App nativo iOS para auditores
 - App nativo Android para auditores
 - Modo offline 100% (sync bidirecional)
