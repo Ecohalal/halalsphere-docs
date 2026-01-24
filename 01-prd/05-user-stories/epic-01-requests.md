@@ -1,21 +1,23 @@
 ### ÉPICO 1: Gestão de Solicitações e Onboarding
 
-**Status de Implementação**: 🟢 85% Completo (Dezembro 2025)
+**Status de Implementação**: 🟢 95% Completo (Janeiro 2026)
+**MVP em Produção**: 23 de Janeiro de 2026
 **8 User Stories | 57 Story Points**
 
 #### 📊 Resumo de Implementação
 
-**✅ Implementado (7/8)**:
+**✅ Implementado (8/8)**:
 - US-001: Cadastro de Empresa ✅
 - US-002: Wizard de Solicitação (9 etapas) ✅
 - US-003: Upload de Documentos ✅
 - US-004: Dashboard de Status (17 fases) ✅
 - US-005: Calculadora de Custos ✅
+- US-006: Notificações In-App ✅
 - US-007: Editar Rascunho ✅
 - US-008: Cancelar Solicitação ✅
 
-**🟡 Parcial (1/8)**:
-- US-006: Notificações - Schema pronto, falta emails
+**🟡 Pendente (Pós-MVP)**:
+- Notificações por Email (depende EmailService)
 
 **📂 Código Relacionado**:
 - Backend: `backend/src/modules/process/` - Process & Request management

@@ -2,11 +2,25 @@
 
 **ID**: EPIC-09
 **Título**: Sistema de Auto Cadastro para Novos Clientes
-**Status**: 🔴 Não Iniciado
-**Prioridade**: P0 - Must Have (Crítico para MVP)
+**Status de Implementação**: 🔴 0% - Não Iniciado (Janeiro 2026)
+**MVP em Produção**: 23 de Janeiro de 2026 (sem auto-cadastro)
+**Prioridade**: P1 - Should Have (Pós-MVP)
 **Estimativa**: 34 Story Points (~4-5 dias)
 **Responsável**: Development Team
 **Data de Criação**: 17/12/2025
+**Última Atualização**: 24/01/2026
+
+#### 📊 Resumo de Implementação
+
+**🔴 Não Iniciado (6/6 User Stories)**:
+- US-068: Registro Inicial de Conta
+- US-069: Cadastro de Dados da Empresa
+- US-070: Verificação de Email
+- US-071: Prevenção de Duplicação
+- US-072: Wizard de Registro Multi-Step
+- US-073: Integração com Fluxo de Certificação
+
+**Nota**: No MVP atual, empresas são cadastradas manualmente por administradores. O auto-cadastro será implementado na próxima fase para permitir onboarding self-service.
 
 ---
 

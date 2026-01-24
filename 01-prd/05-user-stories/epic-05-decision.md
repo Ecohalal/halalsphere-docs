@@ -1,6 +1,30 @@
 ## ÉPICO 5: Decisão e Emissão de Certificados (Comitê)
 
-**Total**: 8 User Stories | **50 Story Points**
+**Status de Implementação**: 🟢 85% Completo (Janeiro 2026)
+**MVP em Produção**: 23 de Janeiro de 2026
+**8 User Stories | 50 Story Points**
+
+#### 📊 Resumo de Implementação
+
+**✅ Implementado (5/8)**:
+- US-040: Dashboard do Comitê ✅
+- US-041: Dossiê Estruturado ✅
+- US-043: Deliberação Individual ✅
+- US-045: Registro de Decisão Final ✅
+- US-047: Histórico de Decisões ✅
+
+**🔴 Pendente (3/8 - MVP Crítico)**:
+- US-044: Reunião Virtual do Comitê (Pós-MVP)
+- US-046: Geração de Certificado Digital (implementação básica existe)
+- US-047: Validação Pública de Certificados (página pública)
+- US-048: Notificações por Email
+
+**📂 Código Relacionado**:
+- Backend: `backend/src/manager/`, `backend/src/certificate/`
+- Frontend: `frontend/src/pages/manager/ManagerDashboard.tsx`
+- Schema: `CommitteeDecision`, `Certificate` models
+
+---
 
 ---
 
