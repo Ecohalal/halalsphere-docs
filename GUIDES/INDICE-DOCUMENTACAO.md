@@ -96,8 +96,8 @@ Testes e Validações
 
 1. **Visão Geral do Projeto**
    - [README.md](../README.md) - Introdução ao projeto
-   - [halalsphere-project-brief.md](halalsphere-project-brief.md) - Brief completo
-   - [ANALISE-PROJETO-EPICOS-2025.md](ANALISE-PROJETO-EPICOS-2025.md) - Análise de épicos
+   - [halalsphere-project-brief.md](../01-prd/halalsphere-project-brief.md) - Brief completo
+   - [ANALISE-PROJETO-EPICOS-2025.md](../ANALYSIS/ANALISE-PROJETO-EPICOS-2025.md) - Análise de épicos
 
 2. **Status de Implementação**
    - [STATUS-IMPLEMENTACAO-TODOS-EPICOS.md](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md) - Status geral
@@ -121,7 +121,7 @@ Testes e Validações
 ### Para Arquitetos
 
 1. **Arquitetura Técnica**
-   - [technical-architecture.md](technical-architecture.md)
+   - [technical-architecture.md](../02-technical/technical-architecture.md)
    - [ARCHITECTURE/](ARCHITECTURE/)
 
 2. **Decisões Técnicas**
@@ -209,7 +209,7 @@ Testes e Validações
 3. [IMPLEMENTATION-HISTORY/](IMPLEMENTATION-HISTORY/) - Exemplos de código
 
 **Desenvolvedor Backend**:
-1. [technical-architecture.md](technical-architecture.md)
+1. [technical-architecture.md](../02-technical/technical-architecture.md)
 2. [ARCHITECTURE/](ARCHITECTURE/)
 3. [IMPLEMENTATION-HISTORY/](IMPLEMENTATION-HISTORY/) - Implementações anteriores
 
@@ -220,7 +220,7 @@ Testes e Validações
 **Product Owner**:
 1. [STATUS-IMPLEMENTACAO-TODOS-EPICOS.md](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md)
 2. [GUIDES/PROXIMOS-PASSOS-MVP.md](GUIDES/PROXIMOS-PASSOS-MVP.md)
-3. [ANALISE-PROJETO-EPICOS-2025.md](ANALISE-PROJETO-EPICOS-2025.md)
+3. [ANALISE-PROJETO-EPICOS-2025.md](../ANALYSIS/ANALISE-PROJETO-EPICOS-2025.md)
 
 ---
 

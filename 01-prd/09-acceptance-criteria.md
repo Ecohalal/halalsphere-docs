@@ -183,7 +183,7 @@ Uma User Story só pode ser considerada **DONE** quando:
 - ✅ Roadmap de 30 semanas definido (MVP em 22 semanas)
 - ✅ Requisitos não-funcionais completos (performance, segurança, i18n)
 - ✅ Dependências mapeadas e riscos mitigados com planos de contingência
-- ✅ UX Design Guide separado ([ux-design-guide.md](ux-design-guide.md))
+- ✅ UX Design Guide separado ([ux-design-guide.md](../03-ux/ux-design-guide.md))
 
 **Próximos passos**:
 1. Revisão com stakeholders (CEO, CTO, Especialista Halal)

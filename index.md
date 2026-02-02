@@ -25,7 +25,7 @@ title: HalalSphere Docs
 
 | Data | Documento | Categoria |
 |------|-----------|-----------|
-| **2026-01-23** | [FICHA-TECNICA-PROJETO](FICHA-TECNICA-PROJETO.md) | **MVP em Produção** |
+| **2026-01-23** | [FICHA-TECNICA-PROJETO](01-prd/FICHA-TECNICA-PROJETO.md) | **MVP em Produção** |
 | **2026-01-23** | [Status Implementação](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md) | **95% Implementado** |
 | **2026-01-23** | [Backlog Grupos Empresariais](ANALYSIS/BACKLOG-GRUPOS-EMPRESARIAIS.md) | Analise - **Fases 1-7 concluidas (93.5%)** |
 | 2026-01-21 | [Analise Conformidade PR 7.1](ANALYSIS/ANALISE-CONFORMIDADE-PR71-REV22.md) | Analise |
@@ -54,10 +54,11 @@ title: HalalSphere Docs
 
 | Documento | Descricao |
 |-----------|-----------|
-| [PRD v2](prd-v2.md) | Product Requirements Document (versao atual) |
-| [PRD v1](prd.md) | Product Requirements Document (legado) |
-| [Project Brief](halalsphere-project-brief.md) | Brief completo do projeto |
-| [Ficha Tecnica](FICHA-TECNICA-PROJETO.md) | Especificacoes tecnicas gerais |
+| [PRD v2](01-prd/prd-v2.md) | Product Requirements Document (versao atual) |
+| [PRD v1](01-prd/prd.md) | Product Requirements Document (legado) |
+| [Project Brief](01-prd/halalsphere-project-brief.md) | Brief completo do projeto |
+| [Project Brief (EN)](01-prd/project-brief.md) | Brief em ingles |
+| [Ficha Tecnica](01-prd/FICHA-TECNICA-PROJETO.md) | Especificacoes tecnicas gerais |
 
 ### User Stories por Epico
 
@@ -83,7 +84,7 @@ title: HalalSphere Docs
 
 | Documento | Categoria |
 |-----------|-----------|
-| [Technical Architecture](technical-architecture.md) | Visao Geral |
+| [Technical Architecture](02-technical/technical-architecture.md) | Visao Geral |
 | [Backend Implementado](ARCHITECTURE/BACKEND-IMPLEMENTADO.md) | Backend |
 | [Backend API Reference](ARCHITECTURE/BACKEND-API-REFERENCE.md) | Backend |
 | [Sistema Kanban](ARCHITECTURE/KANBAN_IMPLEMENTATION.md) | Backend |
@@ -236,7 +237,9 @@ title: HalalSphere Docs
 | Documento | Tipo |
 |-----------|------|
 | [Setup Geral](GUIDES/SETUP.md) | Instalacao |
-| [Setup GitHub](SETUP-GITHUB.md) | Git |
+| [Setup GitHub](GUIDES/SETUP-GITHUB.md) | Git |
+| [Comandos de Execucao](GUIDES/EXECUTAR-AGORA-COMANDOS.md) | Operacional |
+| [Indice de Documentacao](GUIDES/INDICE-DOCUMENTACAO.md) | Navegacao |
 | [Multi-Repo Development](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md) | Desenvolvimento |
 | [NestJS Migration to Production](GUIDES/NESTJS-MIGRATION-TO-PRODUCTION.md) | Deploy |
 | [Guia Migracao Internacional](GUIDES/GUIA-MIGRACAO-INTERNACIONAL.md) | i18n |
@@ -317,6 +320,9 @@ title: HalalSphere Docs
 | [Conformidade PR 7.1 Rev.22](ANALYSIS/ANALISE-CONFORMIDADE-PR71-REV22.md) | Analise do procedimento de certificacao |
 | [Layouts Certificados](ANALYSIS/ANALISE-LAYOUTS-CERTIFICADOS.md) | Analise dos layouts de certificados |
 | [Backlog Complementar PR 7.1](ANALYSIS/BACKLOG-COMPLEMENTAR-PR71.md) | Tasks complementares |
+| [Analise Projeto Epicos 2025](ANALYSIS/ANALISE-PROJETO-EPICOS-2025.md) | Status epicos e implementacao |
+| [Auditoria Documentacao](ANALYSIS/AUDITORIA-DOCUMENTACAO-2026-01-13.md) | Relatorio de auditoria da documentacao |
+| [Analise Endpoints](ANALYSIS/analise-endpoints-frontend-backend.md) | Mapeamento endpoints front vs back |
 
 ### Analises de Estrutura
 
@@ -355,7 +361,8 @@ title: HalalSphere Docs
 
 | Documento | Area |
 |-----------|------|
-| [Plano Conversao Multi-Tenant](PLANO-CONVERSAO-MULTI-TENANT.md) | **Multi-Tenant** |
+| [Plano Conversao Multi-Tenant](PLANNING/PLANO-CONVERSAO-MULTI-TENANT.md) | **Multi-Tenant** |
+| [Planejamento Correcao Endpoints](PLANNING/planejamento-correcao-endpoints.md) | Endpoints |
 | [Repo Split Plan](PLANNING/REPO-SPLIT-PLAN.md) | Organizacao |
 | [Ecohalal Migration](PLANNING/ECOHALAL-MIGRATION.md) | Migracao Org |
 | [Auditor Qualification System](PLANNING/AUDITOR-QUALIFICATION-SYSTEM.md) | Auditores |
@@ -373,7 +380,7 @@ title: HalalSphere Docs
 | [Audit README](05-features/AUDIT-README.md) | Documentacao |
 | [Implementation Guide](05-features/AUDIT-IMPLEMENTATION-GUIDE.md) | Guia |
 | [Stage 1 Implementation](05-features/AUDIT-STAGE-1.md) | Estagio 1 |
-| [Integracao Auditorias](INTEGRACAO-AUDITORIAS.md) | Integracao |
+| [Integracao Auditorias](IMPLEMENTATION-HISTORY/INTEGRACAO-AUDITORIAS.md) | Integracao |
 
 ---
 
@@ -381,7 +388,7 @@ title: HalalSphere Docs
 
 | Documento | Tipo |
 |-----------|------|
-| [UX Design Guide](ux-design-guide.md) | Guia Geral |
+| [UX Design Guide](03-ux/ux-design-guide.md) | Guia Geral |
 | [Design System](03-ux/01-design-system.md) | Sistema |
 | [Layouts](03-ux/02-layouts.md) | Layouts |
 | [High Volume](03-ux/03-high-volume.md) | Performance |
@@ -472,5 +479,5 @@ halalsphere-docs/
 
 **Documentacao mantida pela equipe HalalSphere**
 
-*Ultima atualizacao do indice: 23 de Janeiro de 2026*
+*Ultima atualizacao do indice: 02 de Fevereiro de 2026*
 *MVP em Produção desde: 23 de Janeiro de 2026*

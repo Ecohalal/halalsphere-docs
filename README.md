@@ -23,13 +23,13 @@ O **HalalSphere** é uma plataforma SaaS que revoluciona o processo de certifica
 ## 📖 Navegação Rápida
 
 ### 🎯 Para Product Owners
-- [📋 PRD v2](prd-v2.md) - Product Requirements Document
+- [📋 PRD v2](01-prd/prd-v2.md) - Product Requirements Document
 - [📊 User Stories](01-prd/05-user-stories/README.md)
 - [✅ Status de Implementação](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md)
 
 ### 👨‍💻 Para Desenvolvedores
 - [🔧 Setup e Instalação](GUIDES/SETUP.md)
-- [🏗️ Arquitetura Técnica](technical-architecture.md)
+- [🏗️ Arquitetura Técnica](02-technical/technical-architecture.md)
 - [🗄️ Banco de Dados](02-technical/03-database/03-ddl.md)
 
 ### 🔄 Processo de Certificação

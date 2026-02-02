@@ -351,14 +351,14 @@ halalsphere-docs/
 
 ### Para Desenvolvedores 💻
 - [🔧 Setup Guide](GUIDES/SETUP.md)
-- [🏗️ Technical Architecture](technical-architecture.md)
+- [🏗️ Technical Architecture](../02-technical/technical-architecture.md)
 - [🗄️ Database Schema](02-technical/03-database/03-ddl.md)
 - [⚙️ Backend Status](IMPLEMENTATION-HISTORY/BACKEND-STATUS-JANEIRO-2026.md)
 - [🎨 Frontend Status](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md)
 - [🔀 Multi-Repo Guide](GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md)
 
 ### Para Designers 🎨
-- [🎨 UX Design Guide](ux-design-guide.md)
+- [🎨 UX Design Guide](../03-ux/ux-design-guide.md)
 - [🧙 Wizard Implementation](03-ux/04-wizard.md)
 - [🖼️ Wireframes](03-ux/07-wireframes.md)
 - [📋 Component Catalog](03-ux/05-components.md)
