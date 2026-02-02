@@ -355,6 +355,7 @@ title: HalalSphere Docs
 
 | Documento | Area |
 |-----------|------|
+| [Plano Conversao Multi-Tenant](PLANO-CONVERSAO-MULTI-TENANT.md) | **Multi-Tenant** |
 | [Repo Split Plan](PLANNING/REPO-SPLIT-PLAN.md) | Organizacao |
 | [Ecohalal Migration](PLANNING/ECOHALAL-MIGRATION.md) | Migracao Org |
 | [Auditor Qualification System](PLANNING/AUDITOR-QUALIFICATION-SYSTEM.md) | Auditores |
