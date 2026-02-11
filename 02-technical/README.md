@@ -29,11 +29,11 @@ Esta documentação cobre a arquitetura geral. Para código-fonte:
 #### [1. Stack Tecnológica](./01-stack.md)
 **Frontend | Backend | IA | Database | Infra**
 
-- Frontend: React 18 + TypeScript + Vite + Tailwind + shadcn/ui
-- Backend: Node.js 20 + Fastify + Prisma ORM
-- IA: OpenAI GPT-4o / Anthropic Claude 3.5 + LangChain + pgvector
+- Frontend: React 19 + TypeScript 5.9 + Vite 7 + Tailwind + shadcn/ui
+- Backend: Node.js 20 + NestJS 11 + Express + Prisma 7
+- IA: Anthropic Claude (SDK 0.71) + LangChain.js + pgvector
 - Database: PostgreSQL 16 + Redis 7 + S3
-- Infra: Docker + Kubernetes + AWS
+- Infra: Docker + ECS Fargate + CloudFront + AWS CodePipeline
 
 #### [2. Arquitetura de Sistema](./02-system-architecture.md)
 **Diagramas | Fluxos de Dados | Componentes**
@@ -107,11 +107,11 @@ Esta documentação cobre a arquitetura geral. Para código-fonte:
 ## 📊 Estatísticas Técnicas
 
 ### Stack
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
-- **Backend**: Node.js 20, Fastify, Prisma ORM
+- **Frontend**: React 19.2, TypeScript 5.9, Vite 7.2, Tailwind CSS 3.4
+- **Backend**: Node.js 20, NestJS 11, Express, Prisma 7
 - **Database**: PostgreSQL 16, Redis 7, pgvector
-- **IA**: OpenAI GPT-4o, Anthropic Claude 3.5
-- **Infra**: Docker, Kubernetes (EKS), AWS
+- **IA**: Anthropic Claude (SDK 0.71), LangChain.js
+- **Infra**: Docker, ECS Fargate, CloudFront, AWS CodePipeline
 
 ### Database
 - **Tabelas**: 19
@@ -140,10 +140,11 @@ Esta documentação cobre a arquitetura geral. Para código-fonte:
 - Type safety reduz bugs em produção
 - Performance com Virtual DOM
 
-### Por que Fastify (não Express)?
-- **2-3x mais rápido** que Express
-- Schema validation nativa (JSON Schema)
-- TypeScript first-class citizen
+### Por que NestJS + Express?
+- Arquitetura modular com Dependency Injection nativo
+- Guards, Pipes, Interceptors para cross-cutting concerns
+- Ecossistema maduro (@nestjs/swagger, @nestjs/jwt, etc.)
+- Express adapter para compatibilidade maxima com middlewares
 
 ### Por que Prisma ORM?
 - Type-safe queries
@@ -226,4 +227,4 @@ Analista:
 
 ---
 
-**Última atualização**: 13 de Novembro de 2025
+**Ultima atualizacao**: 10 de Fevereiro de 2026

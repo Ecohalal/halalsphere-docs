@@ -11,7 +11,7 @@
 
 - Instalação de dependências (Node 20+, Docker, Git)
 - Configuração do docker-compose
-- Setup do backend (Fastify + TypeScript + Prisma)
+- Setup do backend (NestJS 11 + Express + TypeScript + Prisma 7)
 - Setup do frontend (React + Vite + Tailwind + shadcn/ui)
 - Primeira migration do banco
 - Seed de dados de exemplo

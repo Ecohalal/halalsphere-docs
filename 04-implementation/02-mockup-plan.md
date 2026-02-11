@@ -1,5 +1,7 @@
 # Plano do Mockup HalalSphere (5 Dias)
 
+> **DOCUMENTO HISTORICO (Nov 2025)** - Plano original do mockup. Exemplos de codigo referem-se ao Fastify, que foi substituido por NestJS 11 + Express em Jan 2026.
+
 **Objetivo**: Criar um mockup funcional e apresentável do HalalSphere em 5 dias de trabalho (8h/dia).
 
 ---

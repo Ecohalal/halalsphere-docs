@@ -27,21 +27,23 @@
 
 ## 1.2 Backend
 
-| Componente | Tecnologia | Versão | Justificativa |
+> **Atualizado Fev 2026** - Migracao de Fastify para NestJS + Express concluida.
+
+| Componente | Tecnologia | Versao | Justificativa |
 |------------|------------|--------|---------------|
 | **Runtime** | Node.js | 20 LTS | Performance, ecossistema, async I/O |
-| **Framework** | Fastify | 4+ | Mais rápido que Express, schema validation nativa |
-| **Linguagem** | TypeScript | 5+ | Type safety compartilhado com frontend |
-| **ORM** | Prisma | 5+ | Type-safe, migrations automáticas, schema visual |
-| **Validação** | Zod | 3+ | Compartilhado com frontend, runtime validation |
-| **Auth** | Passport.js + JWT | - | Estratégias flexíveis, MFA support |
-| **File Upload** | Multer | 1+ | Multipart/form-data, size limits |
-| **PDF Generation** | Puppeteer | 21+ | HTML → PDF (certificados com QR code) |
-| **Email** | Nodemailer + SendGrid | - | Templates, tracking, deliverability |
-| **Queue** | BullMQ + Redis | - | Jobs assíncronos (IA, emails, PDFs) |
-| **Logging** | Pino | 8+ | Structured logs, performance |
-| **API Docs** | Swagger/OpenAPI | 3.0 | Auto-gerado via @fastify/swagger |
-| **Testing** | Jest + Supertest | - | Unit + integration tests |
+| **Framework** | NestJS + Express | 11+ | Arquitetura modular, DI nativo, Guards, Pipes |
+| **Linguagem** | TypeScript | 5.7+ | Type safety compartilhado com frontend |
+| **ORM** | Prisma | 7+ | Type-safe, migrations automaticas, schema visual |
+| **Validacao** | class-validator + Zod | - | DTOs NestJS + runtime validation |
+| **Auth** | @nestjs/jwt + Passport | - | JWT RS256/HS256, Guards, Strategies |
+| **File Upload** | Multer (@nestjs/platform-express) | - | Multipart/form-data, size limits |
+| **PDF Generation** | PDFKit | 0.17+ | Geracao nativa de PDFs (contratos, relatorios) |
+| **Email** | Nodemailer | - | Templates, SMTP configuravel |
+| **Cache** | Redis + ioredis | 7+ | Cache, sessions |
+| **AI** | Anthropic SDK | 0.71+ | Assistente conversacional Claude |
+| **API Docs** | @nestjs/swagger | 11+ | Auto-gerado via decorators NestJS |
+| **Testing** | Jest + Supertest | 30+ | Unit + integration + e2e tests |
 | **Code Quality** | ESLint + Prettier | - | Linting + formatting |
 
 ---

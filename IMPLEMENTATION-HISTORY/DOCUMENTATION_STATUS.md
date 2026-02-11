@@ -210,8 +210,8 @@ halalsphere-docs/
 
 | Item | Valor | Status |
 |------|-------|--------|
-| **Stack** | React 19 + Fastify + PostgreSQL 16 | ✅ Definida |
-| **Database Tables** | 19 modelos | ✅ Implementadas |
+| **Stack** | React 19 + NestJS 11 + Express + PostgreSQL 16 | ✅ Definida |
+| **Database Tables** | 45 modelos | ✅ Implementadas |
 | **ERD Diagrams** | Mermaid completos | ✅ |
 | **DDL Scripts** | CREATE TABLE prontos | ✅ |
 | **API Endpoints** | 80+ | ✅ Documentados |
@@ -223,10 +223,10 @@ halalsphere-docs/
 |------|-------|--------|
 | **Backend** | ~25,000 linhas | ✅ 95% |
 | **Frontend** | ~20,000 linhas | ✅ 100% |
-| **Módulos Backend** | 13 | ✅ Completos |
-| **Páginas Frontend** | 34 | ✅ Completas |
-| **Componentes** | 55+ | ✅ Completos |
-| **Services** | 26+ (backend) + 16 (frontend) | ✅ |
+| **Módulos Backend** | 38 | ✅ Completos |
+| **Páginas Frontend** | 40+ | ✅ Completas |
+| **Componentes** | 80+ | ✅ Completos |
+| **Services** | 43+ (backend) + 26 (frontend) | ✅ |
 | **API Endpoints** | 301 | ✅ Documentados (OpenAPI) |
 | **Deploy Produção** | 23/01/2026 | ✅ Ativo |
 

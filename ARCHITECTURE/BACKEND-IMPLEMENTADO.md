@@ -67,7 +67,7 @@
 
 **Características**:
 - Todas as rotas requerem autenticação
-- Schemas de validação Fastify
+- Schemas de validação NestJS (class-validator + Zod)
 - Suporte a multipart/form-data para uploads
 - Documentação OpenAPI integrada
 

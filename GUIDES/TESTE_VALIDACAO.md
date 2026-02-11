@@ -14,7 +14,7 @@
   - Redis 7: ativo e saudável (up há 32 horas)
 
 ### 2. Backend (API)
-- **Servidor Fastify**: ✅ Funcionando
+- **Servidor NestJS + Express**: ✅ Funcionando
   - Porta: 3333
   - Health check: OK (`/health`)
   - Logs: pino-pretty configurado
@@ -214,7 +214,7 @@
 ### Longo Prazo (5-8 semanas)
 7. **Deploy em Staging**
    - Ambiente de testes
-   - Railway/Vercel/Render
+   - AWS (S3 + CloudFront / ECS Fargate)
 
 8. **Integrações Externas**
    - Stripe (pagamentos)

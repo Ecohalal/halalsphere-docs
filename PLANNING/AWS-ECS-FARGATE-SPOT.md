@@ -1,8 +1,13 @@
 # Plano de Deploy: AWS ECS Fargate com Spot Instances
 
+> **DEPLOY CONCLUIDO** - O sistema esta em producao na AWS desde 23/01/2026.
+> Backend em ECS Fargate, Frontend em S3 + CloudFront, CI/CD via CodePipeline.
+> Este documento e mantido como registro historico do planejamento. Alguns exemplos
+> de codigo referenciam Fastify (stack anterior), mas o deploy real usa NestJS + Express.
+
 **Projeto**: HalalSphere
 **Data**: 2026-01-12
-**Ambiente Alvo**: AWS ECS Fargate + Spot Instances + API Gateway
+**Ambiente Alvo**: AWS ECS Fargate + S3 + CloudFront
 **Arquitetura**: Serverless Frontend + Containerized Backend
 
 ---

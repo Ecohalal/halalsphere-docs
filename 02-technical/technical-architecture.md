@@ -63,7 +63,7 @@
 | Componente | Tecnologia | Versão | Justificativa |
 |------------|------------|--------|---------------|
 | **Runtime** | Node.js | 20 LTS | Performance, ecossistema, async I/O |
-| **Framework** | Fastify | 4+ | Mais rápido que Express, schema validation nativa |
+| **Framework** | NestJS + Express | 11+ | Modular, DI nativo, decorators, ecossistema maduro |
 | **Linguagem** | TypeScript | 5+ | Type safety compartilhado com frontend |
 | **ORM** | Prisma | 5+ | Type-safe, migrations automáticas, schema visual |
 | **Validação** | Zod | 3+ | Compartilhado com frontend, runtime validation |
@@ -73,7 +73,7 @@
 | **Email** | Nodemailer + SendGrid | - | Templates, tracking, deliverability |
 | **Queue** | BullMQ + Redis | - | Jobs assíncronos (IA, emails, PDFs) |
 | **Logging** | Pino | 8+ | Structured logs, performance |
-| **API Docs** | Swagger/OpenAPI | 3.0 | Auto-gerado via @fastify/swagger |
+| **API Docs** | Swagger/OpenAPI | 3.0 | Auto-gerado via @nestjs/swagger |
 | **Testing** | Jest + Supertest | - | Unit + integration tests |
 | **Code Quality** | ESLint + Prettier | - | Linting + formatting |
 
@@ -135,8 +135,8 @@ graph TB
     end
 
     subgraph "API Layer"
-        API1[API Server 1<br/>Fastify+TS]
-        API2[API Server 2<br/>Fastify+TS]
+        API1[API Server 1<br/>NestJS+Express+TS]
+        API2[API Server 2<br/>NestJS+Express+TS]
         API3[API Server N<br/>Auto-scaling]
     end
 
@@ -1990,16 +1990,17 @@ interface RefreshToken {
 | Realizar auditoria | ❌ | ❌ | ✅ | ❌ |
 | Emitir certificado | ❌ | ❌ | ❌ | ✅ |
 
-Implementação (middleware Fastify):
+Implementação (NestJS Guard):
 ```typescript
-fastify.addHook('onRequest', async (request, reply) => {
-  const { role } = request.user;
-  const requiredRole = request.routeConfig.role;
-
-  if (!hasPermission(role, requiredRole)) {
-    reply.code(403).send({ error: 'Forbidden' });
+@Injectable()
+export class RolesGuard implements CanActivate {
+  canActivate(context: ExecutionContext): boolean {
+    const requiredRoles = this.reflector.get<string[]>('roles', context.getHandler());
+    const request = context.switchToHttp().getRequest();
+    const { role } = request.user;
+    return requiredRoles.includes(role);
   }
-});
+}
 ```
 
 ---
@@ -2053,15 +2054,17 @@ DELETE FROM users WHERE id = $1;
 ## 9.4 Rate Limiting
 
 ```typescript
-// Redis-based rate limiting
-import rateLimit from '@fastify/rate-limit';
+// NestJS Throttler (rate limiting)
+import { ThrottlerModule } from '@nestjs/throttler';
 
-fastify.register(rateLimit, {
-  max: 100,  // 100 requests
-  timeWindow: '15 minutes',
-  redis: redisClient,
-  keyGenerator: (req) => req.user?.id || req.ip
-});
+@Module({
+  imports: [
+    ThrottlerModule.forRoot({
+      throttlers: [{ ttl: 900000, limit: 100 }], // 100 req / 15 min
+    }),
+  ],
+})
+export class AppModule {}
 
 // Rate limits específicos
 // Login: 5 tentativas / 15min

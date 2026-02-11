@@ -208,7 +208,7 @@ Implementar um sistema completo de auto cadastro com:
 ## 🏗️ Arquitetura Técnica
 
 ### Stack
-- **Backend**: Node.js + TypeScript + Fastify
+- **Backend**: Node.js + TypeScript + NestJS 11 + Express
 - **Database**: PostgreSQL 16 (Prisma ORM)
 - **Frontend**: React + TypeScript + Vite
 - **Email**: SendGrid ou AWS SES (já previsto em US-067)
@@ -226,7 +226,7 @@ Implementar um sistema completo de auto cadastro com:
        │ { email, password, company data }
        ▼
 ┌──────────────────────────────────┐
-│     Backend API (Fastify)        │
+│     Backend API (NestJS)         │
 │  ┌────────────────────────────┐  │
 │  │  AuthController.register() │  │
 │  └────────────┬───────────────┘  │

@@ -258,7 +258,7 @@ curl -X POST http://localhost:3333/api/ai/extract \
    - ✅ Usar variáveis de ambiente
 
 2. **Rate Limiting**
-   - ✅ Já implementado no Fastify
+   - ✅ Já implementado no NestJS (ThrottlerModule)
    - Limite: 100 requests/minuto por IP
 
 3. **Autenticação**

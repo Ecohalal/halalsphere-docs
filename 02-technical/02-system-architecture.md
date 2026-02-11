@@ -15,8 +15,8 @@ graph TB
     end
 
     subgraph "API Layer"
-        API1[API Server 1<br/>Fastify+TS]
-        API2[API Server 2<br/>Fastify+TS]
+        API1[API Server 1<br/>NestJS+Express+TS]
+        API2[API Server 2<br/>NestJS+Express+TS]
         API3[API Server N<br/>Auto-scaling]
     end
 

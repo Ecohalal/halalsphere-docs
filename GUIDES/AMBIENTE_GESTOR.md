@@ -105,20 +105,21 @@ O ambiente do gestor foi desenvolvido para fornecer uma visão executiva complet
 
 ## Arquitetura
 
-### Backend (Node.js + Fastify + Prisma)
+### Backend (Node.js + NestJS + Prisma)
 
 ```
-backend/src/modules/manager/
-├── manager.types.ts          # Interfaces TypeScript
-├── manager.service.ts        # Lógica de negócio
+backend/src/manager/
+├── manager.module.ts         # Modulo NestJS
+├── manager.service.ts        # Logica de negocio
 ├── manager.controller.ts     # Controladores HTTP
-└── manager.routes.ts         # Definição de rotas
+└── dto/                      # DTOs com class-validator
 ```
 
 **Tecnologias:**
-- Fastify (Framework web)
-- Prisma ORM (Banco de dados)
-- Zod (Validação de dados)
+- NestJS 11 (Framework web)
+- Express (HTTP adapter)
+- Prisma 7 (ORM)
+- class-validator + Zod (Validacao)
 - bcrypt (Hash de senhas)
 
 ### Frontend (React + TypeScript + TailwindCSS)
@@ -134,9 +135,9 @@ frontend/src/
 ```
 
 **Tecnologias:**
-- React 18
-- TypeScript
-- TailwindCSS (Estilização)
+- React 19.2
+- TypeScript 5.9
+- TailwindCSS 3.4 (Estilização)
 - React Hot Toast (Notificações)
 - Lucide React (Ícones)
 
@@ -451,19 +452,19 @@ POST /api/manager/committee/decision
 ## Tecnologias Utilizadas
 
 ### Backend
-- **Node.js** v18+
-- **Fastify** 4.x (Web framework)
-- **Prisma** 5.x (ORM)
-- **PostgreSQL** (Banco de dados)
-- **Zod** (Validação de schemas)
-- **bcrypt** (Hashing de senhas)
-- **jsonwebtoken** (Autenticação JWT)
+- **Node.js** v20+
+- **NestJS** 11.x (Web framework)
+- **Express** (HTTP adapter)
+- **Prisma** 7.x (ORM)
+- **PostgreSQL** 16 (Banco de dados)
+- **class-validator + Zod** (Validacao)
+- **@nestjs/jwt** (Autenticacao JWT RS256/HS256)
 
 ### Frontend
-- **React** 18.x
-- **TypeScript** 5.x
-- **Vite** (Build tool)
-- **TailwindCSS** 3.x (Estilização)
+- **React** 19.2
+- **TypeScript** 5.9
+- **Vite** 7.2 (Build tool)
+- **TailwindCSS** 3.4 (Estilização)
 - **React Router** 6.x (Roteamento)
 - **React Hot Toast** (Notificações)
 - **Lucide React** (Ícones)
@@ -477,7 +478,7 @@ POST /api/manager/committee/decision
 2. **Validação:** Schemas Zod em todos os endpoints
 3. **RBAC:** Controle de acesso baseado em papéis
 4. **Sanitização:** Inputs validados no backend
-5. **Rate Limiting:** Configurado no Fastify (100 req/min)
+5. **Rate Limiting:** Configurado via NestJS Throttler (100 req/min)
 6. **HTTPS:** Obrigatório em produção
 7. **CORS:** Configurado para origem específica em produção
 

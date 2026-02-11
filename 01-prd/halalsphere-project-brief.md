@@ -876,6 +876,8 @@ Monitora conformidade com PR 7.1
 
 ### 8.2 Stack Tecnológico Recomendado
 
+> **Nota (Fev 2026)**: O stack abaixo foi a recomendacao original do project brief. O stack efetivamente adotado e: React 19 + Vite 7 + Tailwind + shadcn/ui (frontend), NestJS 11 + Express + Prisma 7 + PostgreSQL 16 (backend), Anthropic Claude + LangChain.js + pgvector (IA). Ver [FICHA-TECNICA-PROJETO.md](./FICHA-TECNICA-PROJETO.md) para detalhes atuais.
+
 #### Frontend
 - **Framework**: React 18+ com TypeScript
 - **Estado**: Redux Toolkit ou Zustand

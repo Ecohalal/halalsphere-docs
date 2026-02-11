@@ -48,10 +48,13 @@
 
 1. **Server.ts atualizado:**
    ```typescript
-   import { adminRoutes } from './modules/admin/admin.routes';
-
-   // Dentro de registerRoutes:
-   await fastify.register(adminRoutes, { prefix: '/api/admin' });
+   // admin.module.ts registrado automaticamente via NestJS:
+   @Module({
+     controllers: [AdminController],
+     providers: [AdminService],
+   })
+   export class AdminModule {}
+   // Rotas registradas via decorators @Controller('api/admin')
    ```
 
 2. **Backend rodando:**
@@ -109,7 +112,8 @@ npm run dev
 1. Backend configurado para aceitar origem do frontend
 2. Arquivo `backend/src/server.ts` deve ter:
    ```typescript
-   await fastify.register(cors, {
+   // main.ts - CORS configurado via NestJS:
+   app.enableCors({
      origin: true,
      credentials: true,
    });
@@ -131,7 +135,7 @@ npm run dev
 ```bash
 cd backend
 npm run dev
-# Observar logs do Fastify
+# Observar logs do NestJS
 ```
 
 ### Frontend

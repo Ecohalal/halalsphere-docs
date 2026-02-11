@@ -33,16 +33,17 @@ interface RefreshToken {
 | Realizar auditoria | ❌ | ❌ | ✅ | ❌ |
 | Emitir certificado | ❌ | ❌ | ❌ | ✅ |
 
-Implementação (middleware Fastify):
+Implementacao (NestJS Guards):
 ```typescript
-fastify.addHook('onRequest', async (request, reply) => {
-  const { role } = request.user;
-  const requiredRole = request.routeConfig.role;
-
-  if (!hasPermission(role, requiredRole)) {
-    reply.code(403).send({ error: 'Forbidden' });
+// RolesGuard - aplicado via @UseGuards(JwtAuthGuard, RolesGuard)
+@Injectable()
+export class RolesGuard implements CanActivate {
+  canActivate(context: ExecutionContext): boolean {
+    const requiredRoles = this.reflector.get<string[]>('roles', context.getHandler());
+    const { user } = context.switchToHttp().getRequest();
+    return requiredRoles.some(role => user.role === role);
   }
-});
+}
 ```
 
 ---
@@ -96,14 +97,12 @@ DELETE FROM users WHERE id = $1;
 ## 9.4 Rate Limiting
 
 ```typescript
-// Redis-based rate limiting
-import rateLimit from '@fastify/rate-limit';
+// Rate limiting via NestJS Throttler ou middleware customizado
+import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 
-fastify.register(rateLimit, {
-  max: 100,  // 100 requests
-  timeWindow: '15 minutes',
-  redis: redisClient,
-  keyGenerator: (req) => req.user?.id || req.ip
+ThrottlerModule.forRoot({
+  ttl: 900,    // 15 minutos (em segundos)
+  limit: 100,  // 100 requests
 });
 
 // Rate limits específicos

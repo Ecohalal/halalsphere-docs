@@ -7,7 +7,7 @@
 ## 📋 Visão Geral
 
 O HalalSphere agora está dividido em dois repositórios independentes mas integrados:
-- **Backend:** API REST (Fastify + Prisma)
+- **Backend:** API REST (NestJS 11 + Express + Prisma 7)
 - **Frontend:** Interface Web (React + Vite)
 
 Este guia ensina como desenvolver de forma eficiente nesta estrutura.

@@ -1,5 +1,7 @@
 # Troubleshooting: Erro 401 ao Acessar Detalhes de Proposta
 
+> **DOCUMENTO HISTORICO (Dez 2024)** - Exemplos de codigo referem-se ao Fastify, que foi substituido por NestJS 11 + Express em Jan 2026. Os conceitos de JWT/auth continuam validos, mas a sintaxe mudou.
+
 **Data:** 19/12/2024
 **Issue:** Erro 401 (Unauthorized) ao clicar em "Ver Detalhes" de uma proposta
 

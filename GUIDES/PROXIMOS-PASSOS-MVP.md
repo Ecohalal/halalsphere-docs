@@ -284,17 +284,17 @@
 
 ## Proximas Acoes Imediatas
 
-### Esta Semana (27-31 Janeiro 2026)
+> **Nota (Fev 2026)**: As datas abaixo sao do planejamento original de Jan 2026. Os itens permanecem como backlog a ser priorizado.
+
+### Backlog Prioritario
 1. [ ] Revisar integracao D4Sign existente
 2. [ ] Completar templates de email
 3. [ ] Testar fluxo completo end-to-end
 4. [ ] Documentar APIs faltantes
-
-### Proxima Semana (3-7 Fevereiro 2026)
-1. [ ] Implementar CertificateService
-2. [ ] Criar template de certificado
-3. [ ] Integrar e-signature completo
-4. [ ] Testes de integracao
+5. [ ] Implementar CertificateService
+6. [ ] Criar template de certificado
+7. [ ] Integrar e-signature completo
+8. [ ] Testes de integracao
 
 ---
 

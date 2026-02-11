@@ -110,20 +110,18 @@ import PreAuditAnalysis from './components/audits/PreAuditAnalysis';
 
 ### 4️⃣ Configurar Backend
 
+> **Nota**: O codigo abaixo e conceitual. O backend atual usa NestJS 11 + Express com controllers decorados (@Controller, @Get, @Post). Consulte `backend/src/modules/audit-execution/` para a implementacao real.
+
 ```typescript
-// src/routes/audits.ts
-import { Router } from 'express';
-import { AuditController } from '../controllers/AuditController';
-
-const router = Router();
-const controller = new AuditController();
-
-router.get('/', controller.listAudits);
-router.get('/:id', controller.getAudit);
-router.post('/:id/start', controller.startAudit);
-router.post('/:id/submit', controller.submitReport);
-
-export default router;
+// Exemplo conceitual - a implementacao real usa NestJS controllers
+// Ver: backend/src/modules/audit-execution/audit-execution.controller.ts
+@Controller('audits')
+export class AuditController {
+  @Get() listAudits() { ... }
+  @Get(':id') getAudit() { ... }
+  @Post(':id/start') startAudit() { ... }
+  @Post(':id/submit') submitReport() { ... }
+}
 ```
 
 ---

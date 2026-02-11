@@ -302,5 +302,5 @@ export class GCSStorageProvider implements StorageProvider {
 ## 📚 Referências
 
 - [AWS S3 SDK Documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/s3-example-creating-buckets.html)
-- [Fastify Multipart](https://github.com/fastify/fastify-multipart)
+- [NestJS File Upload](https://docs.nestjs.com/techniques/file-upload)
 - [Prisma Documentation](https://www.prisma.io/docs/)

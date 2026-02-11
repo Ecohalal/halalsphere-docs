@@ -1,9 +1,15 @@
 # Roadmap Completo: HalalSphere 2026
 
-**Projeto**: HalalSphere - Plataforma de Certificação Halal
+> **DOCUMENTO HISTORICO** - Planejamento de 12/01/2026. Desde entao:
+> - **Fase I (Deploy AWS)**: CONCLUIDA - MVP em producao desde 23/01/2026
+> - **Fase II (Migracao NestJS)**: CONCLUIDA - Backend 100% NestJS 11 + Express
+> - **CI/CD**: Operacional via AWS CodePipeline + CodeBuild
+> - Consulte o codigo real nos repos para o estado atual.
+
+**Projeto**: HalalSphere - Plataforma de Certificacao Halal
 **Data**: 2026-01-12
-**Versão**: 1.0
-**Duração Total Estimada**: 18-24 semanas
+**Versao**: 1.0 (HISTORICO)
+**Duracao Total Estimada**: 18-24 semanas
 
 ---
 

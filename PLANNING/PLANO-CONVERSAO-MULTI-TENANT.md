@@ -43,7 +43,7 @@ Converter o HalalSphere de single-tenant para multi-tenant integrado ao ecossist
 ### 1.3 Admin-Geral (Padrão Multi-Tenant de Referência)
 
 #### admin-geral-api-auth-trace (Auth principal)
-- **Stack**: NestJS 11, Prisma 6, PostgreSQL, Redis
+- **Stack**: NestJS 11, Prisma 7, PostgreSQL, Redis
 - **Auth**: JWT criptografado (JWE com A256GCM via JOSE library)
 - **Sessões**: Redis com chaves compostas `userId:sessionId`, TTL 5 dias
 - **Multi-session**: Suporta múltiplos logins simultâneos

@@ -108,7 +108,7 @@ HalalSphere/
 │       ├── implementacao-auditorias.md
 │       └── ...
 │
-├── backend/                          # 🔧 API Node.js + Fastify
+├── backend/                          # API Node.js + NestJS 11
 │   ├── prisma/
 │   │   ├── schema.prisma             # Schema ÚNICO consolidado
 │   │   ├── migrations/

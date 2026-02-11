@@ -251,7 +251,7 @@ Testes e Validações
 ### Documentação Externa
 - [Prisma Docs](https://www.prisma.io/docs)
 - [React Docs](https://react.dev)
-- [Fastify Docs](https://www.fastify.io/)
+- [NestJS Docs](https://docs.nestjs.com/)
 
 ---
 

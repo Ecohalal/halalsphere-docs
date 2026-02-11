@@ -54,35 +54,40 @@ Digitalizar e automatizar o processo de certificação Halal, reduzindo custos o
 ### Stack Tecnológico
 
 #### Frontend
-- **Framework**: React 18.x com TypeScript
-- **UI Library**: Tailwind CSS + shadcn/ui
-- **State Management**: React Query + Context API
-- **Build Tool**: Vite
+- **Framework**: React 19.2 com TypeScript 5.9
+- **UI Library**: Tailwind CSS 3.4 + shadcn/ui
+- **State Management**: React Query 5 + Context API
+- **Build Tool**: Vite 7.2
 - **Routing**: React Router v6
+- **HTTP Client**: Axios
 
 #### Backend
 - **Runtime**: Node.js 20.x
-- **Framework**: NestJS 10.x
-- **Linguagem**: TypeScript
-- **ORM**: Prisma
-- **Validação**: class-validator + class-transformer
+- **Framework**: NestJS 11.0.1 + Express
+- **Linguagem**: TypeScript 5.9
+- **ORM**: Prisma 7.2
+- **Validação**: class-validator + Zod
 
 #### Banco de Dados
-- **Primary DB**: PostgreSQL 15+
+- **Primary DB**: PostgreSQL 16+ (com pgvector para embeddings IA)
+- **Cache**: Redis 7+
 - **Schema Management**: Prisma Migrations
 - **Estratégia**: Relacional com relacionamentos complexos
 
 #### Infraestrutura e Serviços
-- **Autenticação**: JWT + bcrypt
-- **File Storage**: AWS S3 / Azure Blob Storage / Google Cloud Storage (configurável)
-- **E-Signature**: DocuSign / Adobe Sign / Clicksign (configurável)
-- **Email Service**: AWS SES / SendGrid (configurável)
-- **IA/ML**: OpenAI GPT-4 para análise documental e chatbot
+- **Autenticação**: JWT RS256 (RSA 2048-bit) + HS256 fallback
+- **File Storage**: AWS S3 (configurável via admin, com suporte a local)
+- **E-Signature**: D4Sign / Clicksign / DocuSign (configurável)
+- **Email Service**: AWS SES (configurável)
+- **IA/ML**: Anthropic Claude (SDK 0.71) + LangChain.js + pgvector
 
 #### DevOps
 - **Version Control**: Git
 - **Package Manager**: npm
-- **Environment**: .env para configurações
+- **CI/CD**: AWS CodePipeline + CodeBuild
+- **Container**: Docker multi-stage + ECS Fargate
+- **Secrets**: AWS Secrets Manager + SSM Parameter Store
+- **CDN**: AWS CloudFront
 - **Testing**: Jest, React Testing Library (planejado)
 
 ### Diagrama de Arquitetura (High-Level)
@@ -97,7 +102,7 @@ Digitalizar e automatizar o processo de certificação Halal, reduzindo custos o
 └────────────────────────────┬────────────────────────────────┘
                              │ REST API (JSON)
 ┌────────────────────────────▼────────────────────────────────┐
-│              BACKEND (Node.js + Express + TS)               │
+│            BACKEND (NestJS 11 + Express + TS)               │
 │  ┌─────────────────────────────────────────────────────┐   │
 │  │              Controllers & Routes                    │   │
 │  ├─────────────────────────────────────────────────────┤   │
@@ -407,10 +412,11 @@ OPENAI_API_KEY=your-openai-key
 - Backend: ts-node-dev (porta 3001)
 - Database: PostgreSQL local ou Docker
 
-**Produção**:
-- Frontend: Vercel / Netlify / AWS S3 + CloudFront
-- Backend: AWS EC2 / AWS ECS / DigitalOcean / Heroku
-- Database: AWS RDS PostgreSQL / Azure Database
+**Produção (Atual)**:
+- Frontend: AWS S3 + CloudFront (halalsphere.ecohalal.solutions)
+- Backend: Docker multi-stage + AWS ECS Fargate (halalsphere-api.ecohalal.solutions)
+- Database: PostgreSQL 16 gerenciado
+- CI/CD: AWS CodePipeline + CodeBuild (ambos repos)
 
 ---
 
@@ -453,11 +459,11 @@ OPENAI_API_KEY=your-openai-key
 ## 📝 Notas Adicionais
 
 ### Dependências Críticas
-- ✅ PostgreSQL 15+ instalado e configurado
+- ✅ PostgreSQL 16+ instalado e configurado (com pgvector)
 - ✅ Node.js 20.x + npm
-- ✅ Conta AWS (S3) ou Azure ou Google Cloud
-- ✅ Conta DocuSign ou Adobe Sign ou Clicksign
-- ✅ Conta OpenAI (para funcionalidades de IA)
+- ✅ Conta AWS (S3, ECS, CodePipeline, Secrets Manager)
+- ✅ Conta D4Sign ou Clicksign ou DocuSign
+- ✅ Conta Anthropic (Claude SDK para funcionalidades de IA)
 
 ### Riscos Identificados
 - ⚠️ **Complexidade de integrações**: Múltiplos provedores (storage, e-sign) requerem abstração robusta

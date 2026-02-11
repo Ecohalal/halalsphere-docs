@@ -119,7 +119,7 @@ Após executar o seed, você terá estes usuários disponíveis:
 
 ```
 HalalSphere/
-├── backend/              # API Fastify + Prisma
+├── backend/              # API NestJS 11 + Prisma 7
 │   ├── src/
 │   │   ├── modules/     # Módulos (auth, processes, users, ai, contracts)
 │   │   ├── shared/      # Config, utils, types

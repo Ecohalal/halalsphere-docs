@@ -96,21 +96,21 @@ O HalalSphere foi desenvolvido em **fases incrementais**, priorizando valor de n
 **Objetivo**: Preparar infraestrutura técnica e design antes do desenvolvimento.
 
 **Entregas**:
-- [ ] **Arquitetura técnica detalhada**:
-  - Stack definido (Next.js 14, React, TypeScript, Tailwind CSS, PostgreSQL, Prisma)
+- [x] **Arquitetura técnica detalhada**:
+  - Stack definido (React 19 + Vite 7, NestJS 11 + Express, TypeScript, Tailwind CSS, PostgreSQL 16, Prisma 7)
   - Estrutura de pastas e padrões de código
-  - CI/CD pipeline (GitHub Actions)
+  - CI/CD pipeline (AWS CodePipeline + CodeBuild)
   - Ambientes (dev, staging, production)
-- [ ] **Design System implementado** (baseado no UX Design Guide):
-  - Biblioteca de componentes no Storybook
+- [x] **Design System implementado** (baseado no UX Design Guide):
+  - Biblioteca de componentes shadcn/ui + custom
   - Tokens de design (cores, spacing, tipografia)
   - Componentes base (Button, Input, Card, Modal, etc)
-- [ ] **Setup de infraestrutura**:
-  - Banco de dados PostgreSQL (AWS RDS ou Supabase)
+- [x] **Setup de infraestrutura**:
+  - Banco de dados PostgreSQL 16 (AWS)
   - Storage S3 para documentos
-  - Ambiente de CI/CD
-  - Monitoramento (Sentry, LogRocket)
-- [ ] **Protótipos de alta fidelidade** no Figma:
+  - CI/CD AWS CodePipeline + CodeBuild
+  - Ambientes: Dev, Staging, Production
+- [x] **Protótipos de alta fidelidade**:
   - Wizard de solicitação (9 etapas)
   - Dashboard Kanban (analistas)
   - App mobile (auditores)

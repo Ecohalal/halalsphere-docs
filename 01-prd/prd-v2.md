@@ -11,7 +11,7 @@
 | **Data** | 13 de Novembro de 2025 |
 | **Autor** | Product Manager - HalalSphere Team |
 | **Baseado em** | HalalSphere Project Brief v1.0 (Aprovado) |
-| **Status** | Draft - Em Desenvolvimento |
+| **Status** | MVP em Producao (23/01/2026) |
 | **Aprovadores** | Diretoria Executiva, Gerência de Certificação, Tech Lead |
 
 ---
@@ -4342,9 +4342,9 @@ O HalalSphere será desenvolvido em **fases incrementais**, priorizando valor de
 
 **Entregas**:
 - [ ] **Arquitetura técnica detalhada**:
-  - Stack definido (Next.js 14, React, TypeScript, Tailwind CSS, PostgreSQL, Prisma)
+  - Stack definido (React 19 + Vite 7, NestJS 11 + Express, TypeScript, Tailwind CSS, PostgreSQL 16, Prisma 7)
   - Estrutura de pastas e padrões de código
-  - CI/CD pipeline (GitHub Actions)
+  - CI/CD pipeline (AWS CodePipeline + CodeBuild)
   - Ambientes (dev, staging, production)
 - [ ] **Design System implementado** (baseado no UX Design Guide):
   - Biblioteca de componentes no Storybook

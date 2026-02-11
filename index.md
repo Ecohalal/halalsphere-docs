@@ -189,11 +189,11 @@ title: HalalSphere Docs
 | [Frontend Status Jan/2026](IMPLEMENTATION-HISTORY/FRONTEND-STATUS-JANEIRO-2026.md) | Frontend |
 | [Analise Estatistica NestJS](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-STATISTICAL-ANALYSIS.md) | Migracao |
 
-### Migracao NestJS
+### Migracao NestJS (CONCLUIDA)
 
 | Documento | Tipo |
 |-----------|------|
-| [Plano Migracao NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano 85 passos |
+| [Plano Migracao NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano original (historico) |
 | [Token Tracking](IMPLEMENTATION-HISTORY/MIGRATION-NESTJS-TOKEN-TRACKING.md) | Acompanhamento |
 | [Fases da Migracao](IMPLEMENTATION-HISTORY/NESTJS-MIGRATION-PHASES/) | Detalhes |
 
@@ -353,9 +353,9 @@ title: HalalSphere Docs
 
 | Documento | Descricao |
 |-----------|-----------|
-| [Roadmap Completo 2026](PLANNING/ROADMAP-COMPLETO-2026.md) | Visao anual |
-| [Migration NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano 85 passos |
-| [AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md) | Infraestrutura |
+| [Roadmap Completo 2026](PLANNING/ROADMAP-COMPLETO-2026.md) | Visao anual (historico - deploy e migracao ja concluidos) |
+| [Migration NestJS](PLANNING/MIGRATION-NESTJS.md) | Plano original (CONCLUIDO) |
+| [AWS ECS Fargate Spot](PLANNING/AWS-ECS-FARGATE-SPOT.md) | Infraestrutura (CONCLUIDO) |
 
 ### Planejamentos Especificos
 
@@ -405,16 +405,15 @@ title: HalalSphere Docs
 
 | Repo | Descricao | Link |
 |------|-----------|------|
-| Backend NestJS | API em migracao | [halalsphere-backend-nest](https://github.com/Ecohalal/halalsphere-backend-nest) |
-| Backend Fastify | API legada | [halalsphere-backend](https://github.com/Ecohalal/halalsphere-backend) |
-| Frontend | React App | [halalsphere-frontend](https://github.com/Ecohalal/halalsphere-frontend) |
+| Backend | API NestJS 11 + Express + Prisma 7 | [halalsphere-backend](https://github.com/Ecohalal/halalsphere-backend) |
+| Frontend | React 19 + Vite 7 + TypeScript | [halalsphere-frontend](https://github.com/Ecohalal/halalsphere-frontend) |
 | Docs | Documentacao | [halalsphere-docs](https://github.com/Ecohalal/halalsphere-docs) |
 
 ### Primeiros Passos
 
 ```bash
 # Clone os repositorios
-git clone https://github.com/Ecohalal/halalsphere-backend-nest.git
+git clone https://github.com/Ecohalal/halalsphere-backend.git
 git clone https://github.com/Ecohalal/halalsphere-frontend.git
 
 # Siga os guias
@@ -426,18 +425,18 @@ git clone https://github.com/Ecohalal/halalsphere-frontend.git
 
 ## Status do Projeto
 
-| Area | Progresso | Status |
-|------|-----------|--------|
-| Backend NestJS | 95% | ✅ Em Produção |
-| Frontend React | 95% | ✅ Em Produção |
-| Database | 98% | ✅ Em Produção |
-| API Gateway | 100% | ✅ 301 endpoints |
-| Grupos Empresariais | 93.5% (187/200 tasks) | 🟢 Fases 1-7 Concluídas |
-| Testes | 80% | 🔄 Em Andamento |
-| Documentacao | 95% | ✅ Atualizada |
+| Area | Stack | Status |
+|------|-------|--------|
+| Backend | NestJS 11 + Express + Prisma 7 | ✅ Em Producao (ECS Fargate) |
+| Frontend | React 19 + Vite 7 + TypeScript | ✅ Em Producao (S3 + CloudFront) |
+| Database | PostgreSQL 16 + pgvector | ✅ Em Producao |
+| CI/CD | AWS CodePipeline + CodeBuild | ✅ Operacional |
+| Migracao NestJS | Fastify removido, NestJS 100% | ✅ Concluida |
+| Grupos Empresariais | 93.5% (187/200 tasks) | 🟢 Fases 1-7 Concluidas |
+| Documentacao | 211+ arquivos | 🔄 Em atualizacao |
 
-**Status:** 🟢 **MVP em Produção desde 23 de Janeiro de 2026**
-**Ultima avaliacao:** 23 de Janeiro de 2026
+**Status:** 🟢 **MVP em Producao desde 23 de Janeiro de 2026**
+**Ultima avaliacao:** 10 de Fevereiro de 2026
 
 ### Progresso Grupos Empresariais
 
@@ -479,5 +478,5 @@ halalsphere-docs/
 
 **Documentacao mantida pela equipe HalalSphere**
 
-*Ultima atualizacao do indice: 02 de Fevereiro de 2026*
+*Ultima atualizacao do indice: 10 de Fevereiro de 2026*
 *MVP em Produção desde: 23 de Janeiro de 2026*

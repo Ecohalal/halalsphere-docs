@@ -3,7 +3,7 @@
 ## 📋 Visão Geral
 
 Separar o projeto HalalSphere de um monorepo único em dois repositórios independentes:
-- **halalsphere-backend** - API REST com Fastify + Prisma
+- **halalsphere-backend** - API REST com NestJS 11 + Express + Prisma 7
 - **halalsphere-frontend** - SPA React com Vite
 
 ## 🎯 Objetivos
@@ -208,8 +208,8 @@ API REST do sistema HalalSphere de gestão de certificação Halal.
 ## 🚀 Stack Tecnológica
 
 - **Runtime:** Node.js 20+
-- **Framework:** Fastify 5.2
-- **ORM:** Prisma 6.1
+- **Framework:** NestJS 11 + Express
+- **ORM:** Prisma 7.2
 - **Database:** PostgreSQL 16 (pgvector)
 - **Cache:** Redis 7
 - **Storage:** AWS S3
@@ -354,8 +354,8 @@ Interface web do sistema HalalSphere de gestão de certificação Halal.
 
 ## 🚀 Stack Tecnológica
 
-- **Framework:** React 18
-- **Build Tool:** Vite 5
+- **Framework:** React 19.2
+- **Build Tool:** Vite 7.2
 - **Routing:** React Router 6
 - **HTTP Client:** Axios
 - **UI:** Tailwind CSS + Lucide Icons

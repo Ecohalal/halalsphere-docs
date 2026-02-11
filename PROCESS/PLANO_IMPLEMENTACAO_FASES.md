@@ -1,5 +1,7 @@
 # Plano de Implementação - Sincronização de Fases
 
+> **DOCUMENTO HISTORICO (Nov 2025)** - Exemplos de codigo referem-se ao Fastify, que foi substituido por NestJS 11 + Express em Jan 2026. A logica de fases continua valida, mas a sintaxe NestJS usa decorators (@Controller, @Post, etc).
+
 **Data:** 2025-11-18
 **Baseado em:** ANALISE_COMPARATIVA_FASES.md
 
