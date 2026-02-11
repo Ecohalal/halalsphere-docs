@@ -1,8 +1,8 @@
 # Licoes Aprendidas - HalalSphere
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 10/02/2026
-**Versao:** 1.0
+**Ultima Atualizacao:** 11/02/2026
+**Versao:** 1.1
 
 ---
 
@@ -578,6 +578,71 @@ const { data: items = [], isLoading } = useQuery({
 | Modulos duplicados | Analise schema Prisma ANTES de criar modulos |
 | JWT migration quebra tokens | Mantenha fallback para algoritmo anterior |
 | Docs desatualizados | Valide contra codigo real, nao docs |
+| Codigos enviados como UUIDs | Resolva codes→UUIDs via API antes de POST |
+
+---
+
+## ERRO 12: Codigos de Classificacao Industrial Enviados como UUIDs
+
+### O Que Aconteceu
+
+```typescript
+// ERRADO - envia CODIGO ("AI") onde backend espera UUID
+const newCertification = await certificationService.create({
+  companyId: wizardData.companyId,
+  certificationType: wizardData.certificationType,
+  industrialGroupId: wizardData.industrialGroupCode,     // "A" ← NOT UUID!
+  industrialCategoryId: wizardData.industrialCategoryCode, // "AI" ← NOT UUID!
+  industrialSubcategoryId: wizardData.industrialSubcategoryCode, // "AI-1" ← NOT UUID!
+});
+// Backend retorna 400 Bad Request (@IsUUID validation fails)
+```
+
+### Por Que Aconteceu
+
+O `IndustrialClassificationStep` armazena **codigos** (ex: "A", "AI", "AI-1") nos campos `industrialGroupCode/CategoryCode/SubcategoryCode`. O `NewCertificationRequest.handleSubmit` passava esses codigos diretamente para campos `industrialGroupId/CategoryId/SubcategoryId`, que o backend valida com `@IsUUID()`.
+
+Comentario no codigo dizia "backend resolves to IDs" mas o backend NAO faz isso - ele espera UUIDs prontos.
+
+### Solucao
+
+```typescript
+// CORRETO - resolver codigos para UUIDs ANTES do POST
+import { industrialClassificationService } from '@/services/industrial-classification.service';
+
+const classificationPath = await industrialClassificationService.getClassificationPath(
+  wizardData.industrialGroupCode!,
+  wizardData.industrialCategoryCode!,
+  wizardData.industrialSubcategoryCode!,
+);
+
+const newCertification = await certificationService.create({
+  companyId: wizardData.companyId,
+  certificationType: wizardData.certificationType,
+  industrialGroupId: classificationPath.group.id,       // UUID correto
+  industrialCategoryId: classificationPath.category.id, // UUID correto
+  industrialSubcategoryId: classificationPath.subcategory.id, // UUID correto
+});
+```
+
+### Endpoints de Resolucao Disponiveis
+
+- `GET /industrial-classification/path?groupCode=A&categoryCode=AI&subcategoryCode=AI-1`
+- `GET /industrial-classification/groups/:code` → retorna `{ id, code, name, ... }`
+- `GET /industrial-classification/categories/:code` → retorna `{ id, code, name, ... }`
+
+### Regra de Ouro
+
+1. **DISTINGA** entre codes e IDs - campos terminados em `Code` sao codigos, terminados em `Id` sao UUIDs
+2. **RESOLVA** codigos para UUIDs via API antes de enviar para endpoints que esperam `@IsUUID()`
+3. **NAO** assuma que o backend faz resolucao automatica - verifique o DTO
+4. **NUNCA** aplique "fix emergencial" removendo campos obrigatorios - resolva a causa raiz
+
+### Referencia
+
+- `src/services/industrial-classification.service.ts` (frontend - metodo `getClassificationPath`)
+- `src/industrial-classification/industrial-classification.controller.ts` (backend - endpoint `/path`)
+- `src/certification/dto/create-certification.dto.ts` (backend - DTO com @IsUUID)
 
 ---
 
@@ -611,5 +676,5 @@ const { data: items = [], isLoading } = useQuery({
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 10/02/2026
-**Versao:** 1.0
+**Ultima Atualizacao:** 11/02/2026
+**Versao:** 1.1
