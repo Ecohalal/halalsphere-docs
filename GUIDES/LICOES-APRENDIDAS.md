@@ -1,8 +1,8 @@
 # Licoes Aprendidas - HalalSphere
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 11/02/2026
-**Versao:** 1.1
+**Ultima Atualizacao:** 16/02/2026
+**Versao:** 1.2
 
 ---
 
@@ -579,6 +579,7 @@ const { data: items = [], isLoading } = useQuery({
 | JWT migration quebra tokens | Mantenha fallback para algoritmo anterior |
 | Docs desatualizados | Valide contra codigo real, nao docs |
 | Codigos enviados como UUIDs | Resolva codes→UUIDs via API antes de POST |
+| Testes quebram apos reestruturacao | Atualize mocks, imports, FKs; delete testes de modulos removidos |
 
 ---
 
@@ -646,6 +647,97 @@ const newCertification = await certificationService.create({
 
 ---
 
+## ERRO 13: Reestruturacao Arquitetural - Migracao de Testes Apos Remocao de Modelos
+
+### O Que Aconteceu
+
+Apos reestruturacao que removeu modelos legados (Request, Process, ProcessHistory, ProcessPhaseHistory, ProcessStatus enum) e unificou em Certification como aggregate root, 8 suites de testes unitarios (21 testes) e TODOS os testes E2E falharam.
+
+### Categorias de Erros nos Testes
+
+**1. Imports inexistentes**
+```typescript
+// ERRADO - enum removido do Prisma
+import { ProcessStatus } from '@prisma/client';
+// CORRETO - usar enum novo
+import { WorkflowStatus } from '@prisma/client';
+```
+
+**2. Mocks de modelos removidos**
+```typescript
+// ERRADO - model nao existe mais
+const mockPrisma = { process: { findUnique: jest.fn() } };
+// CORRETO - usar model atual
+const mockPrisma = { certification: { findUnique: jest.fn() } };
+```
+
+**3. FK invertida (processId → certificationId)**
+```typescript
+// ERRADO
+dto = { processId: 'proc-123' };
+service.findByProcessId('proc-123');
+// CORRETO
+dto = { certificationId: 'cert-123' };
+service.findByCertificationId('cert-123');
+```
+
+**4. $transaction removido de alguns services**
+```typescript
+// Audit e Contract services deixaram de usar $transaction
+// Mocks precisaram ser atualizados de $transaction para chamadas diretas
+```
+
+**5. Prisma checked vs unchecked relations**
+```typescript
+// ERRADO - mistura userId (unchecked) com group.create (checked)
+prisma.company.create({
+  data: { userId: user.id, group: { create: { name: '...' } } }
+});
+// CORRETO opcao 1 - tudo unchecked
+const group = await prisma.companyGroup.create({ data: { name: '...' } });
+prisma.company.create({
+  data: { userId: user.id, groupId: group.id }
+});
+// CORRETO opcao 2 - tudo checked (sem userId direto)
+prisma.company.create({
+  data: { user: { connect: { id: user.id } }, group: { create: { name: '...' } } }
+});
+```
+
+**6. Campo obrigatorio novo (Company.groupId)**
+```typescript
+// ERRADO - company sem grupo (groupId agora e REQUIRED)
+prisma.company.create({ data: { razaoSocial: '...' } });
+// CORRETO - com grupo
+prisma.company.create({ data: { razaoSocial: '...', group: { create: { name: '...' } } } });
+```
+
+### Resumo da Migracao de Testes
+
+| Tipo | Antes | Depois |
+|------|-------|--------|
+| Unit test suites | 12 passing, 8 failing | 20 passing, 0 failing |
+| Unit tests | 440 passing, 21 failing | 541 passing, 0 failing |
+| E2E test files | 10 (todos falhando) | 6 (corrigidos, 4 legados deletados) |
+| Testes legados deletados | - | process, request, auditor-allocation, contract E2E |
+
+### Regra de Ouro
+
+1. **ATUALIZE** mocks de Prisma quando modelos mudam - mocks devem espelhar o schema atual
+2. **REVISE** imports de enums ao remover/renomear enums no Prisma
+3. **DELETE** testes de modulos removidos ao inves de tentar adapta-los
+4. **NAO MISTURE** checked e unchecked relations no Prisma - use um padrao consistente
+5. **RODE** `tsc --noEmit` alem de `jest` para capturar erros de tipo em arquivos E2E
+6. **VALIDE** campos obrigatorios do schema em TODOS os .create() dos testes
+
+### Referencia
+
+- Reestruturacao completa em 16/02/2026 (7 fases)
+- 541 testes unitarios, 20 suites passando
+- Schema: `prisma/schema.prisma`
+
+---
+
 ## TODOs Conhecidos no Codigo (Fev 2026)
 
 ### Backend
@@ -676,5 +768,5 @@ const newCertification = await certificationService.create({
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 11/02/2026
-**Versao:** 1.1
+**Ultima Atualizacao:** 16/02/2026
+**Versao:** 1.2
