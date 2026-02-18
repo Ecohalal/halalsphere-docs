@@ -236,6 +236,7 @@ title: HalalSphere Docs
 
 | Documento | Tipo |
 |-----------|------|
+| [Setup Ambiente Local](GUIDES/SETUP-AMBIENTE-LOCAL.md) | **Docker + Setup Completo** |
 | [Setup Geral](GUIDES/SETUP.md) | Instalacao |
 | [Setup GitHub](GUIDES/SETUP-GITHUB.md) | Git |
 | [Comandos de Execucao](GUIDES/EXECUTAR-AGORA-COMANDOS.md) | Operacional |
@@ -416,9 +417,8 @@ title: HalalSphere Docs
 git clone https://github.com/Ecohalal/halalsphere-backend.git
 git clone https://github.com/Ecohalal/halalsphere-frontend.git
 
-# Siga os guias
-# -> GUIDES/SETUP.md
-# -> GUIDES/MULTI-REPO-DEVELOPMENT-GUIDE.md
+# Siga o guia de setup local
+# -> GUIDES/SETUP-AMBIENTE-LOCAL.md
 ```
 
 ---
