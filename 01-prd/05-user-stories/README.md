@@ -1,8 +1,8 @@
 # User Stories Detalhadas
 
-**63 User Stories | 544 Story Points | 9 Épicos**
+**85 User Stories | 633 Story Points | 10 Épicos**
 
-🟢 **Status Atual**: 85% Implementado (Janeiro 2026)
+🟢 **Status Atual**: 85% Implementado (Fevereiro 2026)
 📅 **MVP em Produção**: 23 de Janeiro de 2026
 
 📄 **Análise Completa**: Ver [ANALISE-PROJETO-EPICOS-2025.md](../../ANALISE-PROJETO-EPICOS-2025.md)
@@ -22,6 +22,7 @@
 | [Épico 07](./epic-07-admin.md) | Gestão Administrativa | 🟢 Completo | **85%** |
 | [Épico 08](./epic-08-infra.md) | Infraestrutura | 🟢 Completo | **90%** |
 | [Épico 09](./epic-09-auto-cadastro.md) | Auto-Cadastro | 🟢 Completo | **95%** |
+| [Épico 10](./epic-10-melhorias-ux-v1.1.md) | Melhorias UX e Correções v1.1 | 🔴 Novo | **0%** |
 
 **Ver Status de Todos os Épicos**: [PROXIMOS-PASSOS-MVP.md](../../GUIDES/PROXIMOS-PASSOS-MVP.md)
 
@@ -152,6 +153,36 @@
 
 ---
 
+#### [Épico 10: Melhorias de UX, Validações e Correções v1.1](./epic-10-melhorias-ux-v1.1.md) 🔧 🔴 0%
+**22 stories | 89 SP | Status: Novo - Pós-produção**
+
+- 🔴 US-074: Remover Dados de Contato no Cadastro (3 SP)
+- 🔴 US-075: Incluir Campo Cargo no Responsável (3 SP)
+- 🔴 US-076: Busca Automática de Empresa por CNPJ (8 SP)
+- 🔴 US-077: Modal Padronizado de Erros (5 SP)
+- 🔴 US-078: Validação em Tempo Real de CNPJ e CPF (5 SP)
+- 🔴 US-079: Busca Automática de Endereço por CEP (5 SP)
+- 🔴 US-080: Select de Estados nos Endereços (3 SP)
+- 🔴 US-081: Padronizar Campo País nos Endereços (5 SP)
+- 🔴 US-082: Seleção de Empresa por Select na Certificação (5 SP)
+- 🔴 US-083: Corrigir Validação de Endereço na Certificação (5 SP)
+- 🔴 US-084: Ocultar 2FA no Perfil (2 SP)
+- 🔴 US-085: Ocultar Sessões Ativas no Perfil (2 SP)
+- 🔴 US-086: Corrigir Exclusão de Empresa do Grupo (5 SP)
+- 🔴 US-087: Corrigir Layout Modal de Exclusão (3 SP)
+- 🔴 US-088: Ocultar Configuração nas Empresas do Grupo (3 SP)
+- 🔴 US-089: Modal de Feedback de Erros no Login (5 SP)
+- 🔴 US-090: Filtrar Notificações Pendentes (3 SP)
+- 🔴 US-091: Remover Widget MRR dos Dashboards (2 SP)
+- 🔴 US-092: Ocultar Seção de Documentação (2 SP)
+- 🔴 US-093: Labels nos Processos por Fase - Dashboard Gestor (3 SP)
+- 🔴 US-094: Corrigir Tempo de Atividade - Dashboard Analista (2 SP)
+- 🔴 US-095: Labels de Status - Dashboard Analista (2 SP)
+- 🔴 US-096: Corrigir Contagem de Dias nas Atribuições (3 SP)
+- 🔴 US-097: Corrigir Erro ao Deletar Usuário (5 SP)
+
+---
+
 ## 📊 Legenda de Status
 
 - ✅ **Completo**: Implementado e testado
@@ -204,7 +235,8 @@
 | Épico 7: Admin | 5 | 41 SP | 🟢 **85%** | P1 - Should Have |
 | Épico 8: Infra | 8 | 66 SP | 🟢 **90%** | P0 - Must Have |
 | Épico 9: Onboarding | 4 | 43 SP | 🟢 **95%** | P0 - Must Have |
-| **TOTAL** | **63** | **544 SP** | **85%** | - |
+| Épico 10: Melhorias UX v1.1 | 22 | 89 SP | 🔴 **0%** | P0 - Must Have |
+| **TOTAL** | **85** | **633 SP** | **-** | - |
 
 ---
 
@@ -227,4 +259,4 @@
 
 ---
 
-**Última atualização**: 24 de Janeiro de 2026
+**Última atualização**: 23 de Fevereiro de 2026
