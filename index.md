@@ -73,6 +73,7 @@ title: HalalSphere Docs
 | [Epico 07](01-prd/05-user-stories/epic-07-admin.md) | Gestao Administrativa | - |
 | [Epico 08](01-prd/05-user-stories/epic-08-infra.md) | Infraestrutura | - |
 | [Epico 09](01-prd/05-user-stories/epic-09-auto-cadastro.md) | Auto Cadastro | - |
+| [Epico 10](01-prd/05-user-stories/epic-10-melhorias-ux-v1.1.md) | Melhorias UX e Correcoes v1.1 | **Novo** |
 
 [Ver Status de Todos os Epicos](01-prd/05-user-stories/STATUS-IMPLEMENTACAO-TODOS-EPICOS.md)
 
