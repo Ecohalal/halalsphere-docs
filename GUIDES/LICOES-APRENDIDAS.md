@@ -580,6 +580,7 @@ const { data: items = [], isLoading } = useQuery({
 | Docs desatualizados | Valide contra codigo real, nao docs |
 | Codigos enviados como UUIDs | Resolva codes→UUIDs via API antes de POST |
 | Testes quebram apos reestruturacao | Atualize mocks, imports, FKs; delete testes de modulos removidos |
+| 403 em perfis novos/esquecidos | Adicione role em TODOS os @Roles() de leitura ao criar novo perfil |
 
 ---
 
@@ -763,10 +764,64 @@ prisma.company.create({ data: { razaoSocial: '...', group: { create: { name: '..
 
 ---
 
+## ERRO 14: Role Esquecida nos @Roles() - 403 Forbidden para Novos Perfis
+
+### O Que Aconteceu
+
+```
+GET /documents/certification/:id 403 (Forbidden)
+GET /certificates/certification/:id 403 (Forbidden)
+GET /proposals/certification/:id 403 (Forbidden)
+GET /contracts/certification/:id 403 (Forbidden)
+GET /document-requests/certification/:id 403 (Forbidden)
+GET /comments/certification/:id 403 (Forbidden)
+// gestor_auditoria logado, acessando CertificationDetails
+```
+
+### Por Que Aconteceu
+
+O role `gestor_auditoria` foi criado e adicionado ao AuditController (POST/PATCH), mas NAO foi adicionado aos endpoints de **leitura** dos outros controllers que a pagina CertificationDetails chama. Quando o gestor_auditoria acessava a pagina de detalhes, o frontend disparava 6+ requests simultaneos e todos retornavam 403.
+
+### Controllers Afetados (Corrigidos em 23/02/2026)
+
+| Controller | Endpoint | Role Adicionada |
+|-----------|----------|-----------------|
+| DocumentController | GET /documents/certification/:id | gestor_auditoria |
+| CertificateController | GET /certificates/certification/:id | gestor_auditoria |
+| DocumentRequestController | GET /document-requests/certification/:id | gestor_auditoria |
+| ProposalController | GET /proposals/certification/:id | gestor_auditoria |
+| ContractController | GET /contracts/certification/:id | gestor_auditoria |
+| CommentController | GET+POST+PATCH+DELETE /comments/* | gestor_auditoria |
+| AuditController | GET /audits, /upcoming, /by-status, /stats, /certification/:id | gestor_auditoria |
+
+### Regra de Ouro
+
+1. **AO CRIAR** novo role, adicione-o em TODOS os `@Roles()` de endpoints de leitura que a pagina principal (CertificationDetails) utiliza
+2. **TESTE** cada role acessando a pagina de detalhes da certificacao - verificar console do browser por 403
+3. **LISTA de endpoints obrigatorios** para qualquer role FAMBRAS que acessa certificacoes:
+   - `/documents/certification/:id`
+   - `/certificates/certification/:id`
+   - `/document-requests/certification/:id`
+   - `/proposals/certification/:id`
+   - `/contracts/certification/:id`
+   - `/comments/certification/:id`
+
+### Checklist para Novos Roles
+
+- [ ] Adicionado em endpoints de leitura de documentos?
+- [ ] Adicionado em endpoints de leitura de certificados?
+- [ ] Adicionado em endpoints de leitura de propostas?
+- [ ] Adicionado em endpoints de leitura de contratos?
+- [ ] Adicionado em endpoints de leitura de comentarios?
+- [ ] Adicionado em endpoints de leitura de auditorias?
+- [ ] Testado acesso a pagina CertificationDetails sem 403?
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 16/02/2026
-**Versao:** 1.2
+**Ultima Atualizacao:** 23/02/2026
+**Versao:** 1.3
