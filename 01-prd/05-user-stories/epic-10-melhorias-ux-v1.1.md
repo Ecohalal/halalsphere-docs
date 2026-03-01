@@ -101,7 +101,7 @@ Para que o cadastro seja mais rápido e com menos erros de digitação.
 
 **Critérios de Aceitação**:
 - [ ] Ao digitar/colar um CNPJ válido (14 dígitos), sistema consulta a API `https://publica.cnpj.ws/cnpj/{cnpj}`
-- [ ] Campos preenchidos automaticamente: Razão Social, Nome Fantasia, Endereço completo, Telefone, Email, Atividade Econômica (CNAE)
+- [ ] Campos preenchidos automaticamente: Razão Social, Nome Fantasia, Endereço completo, Telefone, Email
 - [ ] Loading spinner exibido durante a consulta
 - [ ] Usuário pode editar campos preenchidos automaticamente
 - [ ] Tratamento de erro quando API retorna 404 (CNPJ não encontrado)
@@ -379,7 +379,6 @@ Para que minha solicitação de certificação não fique com dados incompletos.
 - [ ] Validação no backend (DTO) também impede dados incompletos
 
 **Regras de Negócio**:
-- **RN-083-01**: Campo "Complemento" é o único campo de endereço opcional
 - **RN-083-02**: Validação deve ocorrer tanto no frontend (Zod) quanto no backend (class-validator)
 
 **Testes**:

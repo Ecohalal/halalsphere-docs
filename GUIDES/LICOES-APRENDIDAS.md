@@ -581,6 +581,9 @@ const { data: items = [], isLoading } = useQuery({
 | Codigos enviados como UUIDs | Resolva codes→UUIDs via API antes de POST |
 | Testes quebram apos reestruturacao | Atualize mocks, imports, FKs; delete testes de modulos removidos |
 | 403 em perfis novos/esquecidos | Adicione role em TODOS os @Roles() de leitura ao criar novo perfil |
+| Registros duplicados em re-execucao | Limpe registros pendentes antes de criar novos (deleteMany + create) |
+| Select Prisma omite campo critico | Inclua TODOS os campos usados na logica de derivacao da UI |
+| CORS error por rota inexistente | Teste rota com curl antes de investigar config CORS |
 
 ---
 
@@ -818,10 +821,147 @@ O role `gestor_auditoria` foi criado e adicionado ao AuditController (POST/PATCH
 
 ---
 
+## ERRO 15: Registros Duplicados ao Re-executar Operacao Idempotente
+
+### O Que Aconteceu
+
+```
+POST /auditor-allocation/suggest/:certificationId
+// Chamado 2x (curl + frontend navigation) → 8 sugestoes duplicadas ao inves de 4
+```
+
+### Por Que Aconteceu
+
+O `MatchingService.suggestAuditors()` criava novos `AuditorAllocation` com status `sugerida` a cada chamada, sem verificar se ja existiam sugestoes pendentes para a mesma certificacao. O endpoint podia ser chamado multiplas vezes (auto na fase 9 + manual pelo gestor).
+
+### Solucao
+
+```typescript
+// matching.service.ts - ANTES de criar novas sugestoes
+await this.prisma.auditorAllocation.deleteMany({
+  where: {
+    certificationId,
+    status: 'sugerida',  // Só limpa pendentes, preserva aprovadas/rejeitadas
+  },
+});
+```
+
+### Regra de Ouro
+
+1. **OPERACOES que criam registros em batch** devem ser idempotentes - limpar pendentes antes de recriar
+2. **PRESERVE** registros com decisao (aprovada, rejeitada, modificada) - so limpe os pendentes
+3. **ENDPOINTS de geracao** (suggest, calculate, generate) devem ser seguros para chamadas repetidas
+
+---
+
+## ERRO 16: Select Parcial no Prisma Omite Campo Critico - Status Errado na UI
+
+### O Que Aconteceu
+
+```
+Admin aprova empresa → admin panel mostra "Validada" ✅
+Empresa acessa perfil → mostra "Rejeitada" ❌
+```
+
+### Por Que Aconteceu
+
+O endpoint `GET /company-groups/my` usava `select` no Prisma para retornar companies, mas omitia o campo `isVerified`:
+
+```typescript
+// ERRADO - falta isVerified
+companies: {
+  select: {
+    id: true,
+    pendingValidation: true,
+    // isVerified: true  ← FALTAVA!
+  }
+}
+```
+
+O frontend derivava o status assim:
+```typescript
+if (company.isVerified) return 'validated';     // undefined → false → PULA
+if (!company.pendingValidation && !company.isVerified) return 'rejected'; // true → RETORNA 'rejected'!
+return 'pending';
+```
+
+Empresa aprovada (`pendingValidation=false`, `isVerified=true`) aparecia como "Rejeitada" porque `isVerified` era `undefined` no response.
+
+### Solucao
+
+```typescript
+// CORRETO - incluir TODOS os campos usados na logica de derivacao
+companies: {
+  select: {
+    id: true,
+    pendingValidation: true,
+    isVerified: true,         // ← ADICIONADO
+    isActive: true,
+  }
+}
+```
+
+### Regra de Ouro
+
+1. **AO USAR** `select` no Prisma, verifique se TODOS os campos usados pela UI estao incluidos
+2. **CUIDADO** com logica de derivacao que depende de campos booleanos - `undefined` e `false` sao ambos falsy
+3. **COMPARE** a resposta da API (inspecione no browser) com o que a UI espera
+4. **PREFIRA** `include` quando nao ha preocupacao com payload size, pois retorna todos os campos
+
+---
+
+## ERRO 17: Rota Inexistente no Backend Causa CORS Error (nao 404)
+
+### O Que Aconteceu
+
+```
+Access to XMLHttpRequest at '/companies/group/:groupId' has been blocked by CORS policy:
+Response to preflight request doesn't pass access control check
+```
+
+### Por Que Aconteceu
+
+O frontend chamava `GET /companies/group/:groupId` mas essa rota **nao existia** no CompanyController. O NestJS retornava 404 no preflight OPTIONS, que o browser interpretava como falha de CORS (e nao como rota inexistente).
+
+```typescript
+// Frontend (company.service.ts)
+getByGroup: async (groupId: string) => {
+  const response = await axios.get(`${API_URL}/companies/group/${groupId}`);
+  return response.data;
+};
+
+// Backend (company.controller.ts) - ROTA NAO EXISTIA!
+// Nao havia @Get('group/:groupId')
+```
+
+### Solucao
+
+Adicionar a rota no controller:
+
+```typescript
+@Get('group/:groupId')
+@ApiOperation({ summary: 'Get companies by group' })
+@ApiParam({ name: 'groupId', description: 'Company Group UUID' })
+async findByGroup(@Param('groupId') groupId: string) {
+  return this.companyService.findByGroupId(groupId);
+}
+```
+
+**IMPORTANTE:** Rota declarada ANTES de `@Get(':id')` para nao ser capturada como UUID (ver ERRO 1).
+
+### Regra de Ouro
+
+1. **CORS error no browser** pode ser sintoma de rota inexistente (404), nao necessariamente config de CORS
+2. **TESTE** a rota diretamente com curl/Postman antes de investigar configuracao de CORS
+3. **SEMPRE** crie a rota no backend ANTES de chamar no frontend
+4. **VERIFIQUE** o Swagger (`/api/docs`) para confirmar que o endpoint aparece
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 23/02/2026
-**Versao:** 1.3
+**Ultima Atualizacao:** 26/02/2026
+**Versao:** 1.5
