@@ -584,6 +584,7 @@ const { data: items = [], isLoading } = useQuery({
 | Registros duplicados em re-execucao | Limpe registros pendentes antes de criar novos (deleteMany + create) |
 | Select Prisma omite campo critico | Inclua TODOS os campos usados na logica de derivacao da UI |
 | CORS error por rota inexistente | Teste rota com curl antes de investigar config CORS |
+| Migration nao aplicada (P2022) | Adicione ao array `valid` no docker-entrypoint.sh |
 
 ---
 
@@ -958,10 +959,46 @@ async findByGroup(@Param('groupId') groupId: string) {
 
 ---
 
+## ERRO 18: Nova Migration Nao Aplicada em Producao - Entrypoint Valid List Desatualizada
+
+### O Que Aconteceu
+
+```
+column proposals.proposal_number does not exist
+PrismaClientKnownRequestError P2022: ColumnNotFound
+```
+
+### Por Que Aconteceu
+
+O `docker-entrypoint.sh` tem uma lista hardcoded de migrations validas (array `valid`). Quando uma nova migration e criada mas NAO adicionada a esta lista, o cleanup script pode interferir com a aplicacao da migration em producao. Isso ja aconteceu 2x:
+- `20260301000000_add_onboarding_fields` (fix: commit 7eb43110)
+- `20260302000000_add_gaps_p1_p2` (fix: commit 2ba97053)
+
+### Solucao
+
+```bash
+# docker-entrypoint.sh - SEMPRE adicionar novas migrations ao array valid
+const valid = [
+  '20260216182826_restructure_phase1',
+  ...
+  '20260301000000_add_onboarding_fields',
+  '20260302000000_add_gaps_p1_p2'   // ← NOVA MIGRATION AQUI
+];
+```
+
+### Regra de Ouro
+
+1. **SEMPRE** que criar nova migration, adicione ao array `valid` no `docker-entrypoint.sh`
+2. **INCLUA** a atualizacao do entrypoint NO MESMO COMMIT da migration
+3. **VERIFIQUE** o entrypoint antes de qualquer merge para release
+4. **SINTOMA**: 500 Internal Server Error com P2022 ColumnNotFound = migration nao aplicada
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 26/02/2026
-**Versao:** 1.5
+**Ultima Atualizacao:** 02/03/2026
+**Versao:** 1.6
