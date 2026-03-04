@@ -585,6 +585,10 @@ const { data: items = [], isLoading } = useQuery({
 | Select Prisma omite campo critico | Inclua TODOS os campos usados na logica de derivacao da UI |
 | CORS error por rota inexistente | Teste rota com curl antes de investigar config CORS |
 | Migration nao aplicada (P2022) | Adicione ao array `valid` no docker-entrypoint.sh |
+| Novo controller sem rota no API GW | Regenere do Swagger (`npm run generate:swagger`), NUNCA edite manualmente |
+| Path params conflitantes no API GW | Script resolve automaticamente; evite nomes diferentes no mesmo nivel |
+| Swagger UI 403 via API Gateway | Rotas `/api/docs*` adicionadas automaticamente no transform script |
+| DB producao desincronizado | Compare schemas antes de investigar 500s; verifique migrations pos-reestruturacao |
 
 ---
 
@@ -995,10 +999,191 @@ const valid = [
 
 ---
 
+## ERRO 19: Novo Controller Nao Adicionado ao API Gateway - CORS 404
+
+### O Que Aconteceu
+
+```
+Access to XMLHttpRequest at '/company-import/upload' has been blocked by CORS policy:
+Response to preflight request doesn't pass access control check: It does not have HTTP ok status.
+```
+
+### Por Que Aconteceu
+
+O API Gateway da AWS usa definicao de rotas via arquivos JSON (`deploy/halalsphere-api.*.json`). Ao criar novos controllers no NestJS, as rotas foram adicionadas ao codigo mas NAO aos arquivos do API Gateway. O preflight OPTIONS retornava 404, que o browser interpretava como erro de CORS.
+
+6 controllers ficaram sem acesso em producao: `company-import`, `onboarding`, `audit-days`, `committee`, `fambras-numbering`, `scope-changes` (21 rotas no total).
+
+### Solucao - REGENERAR DO SWAGGER (NUNCA EDITAR MANUALMENTE)
+
+**NAO edite os JSONs do API Gateway manualmente.** Sempre regenere a partir do Swagger:
+
+```bash
+# 1. Gerar swagger.json fresco do NestJS
+npm run generate:swagger
+
+# 2. Rodar script que transforma swagger.json nos 3 JSONs do API Gateway
+#    (adiciona x-amazon-apigateway-integration em cada rota + OPTIONS CORS mock)
+node scripts/generate-api-gateway.js   # ou inline via node -e (ver abaixo)
+```
+
+**Processo de geracao (node -e inline):**
+```javascript
+// Para cada path/method do swagger.json:
+// 1. Copiar config do Swagger (operationId, parameters, responses, tags)
+// 2. Adicionar x-amazon-apigateway-integration tipo http_proxy com VPC_LINK
+// 3. Adicionar OPTIONS com CORS mock integration (origin por ambiente)
+// Gerar 3 arquivos: production, staging, development (diferem apenas no CORS origin)
+```
+
+**CORS Origins por ambiente:**
+- production: `https://gestaodecertificacoes.ecohalal.solutions`
+- staging: `https://staging-gestaodecertificacoes.ecohalal.solutions`
+- development: `http://localhost:5173`
+
+### Erros ao Editar Manualmente (NAO FACA ISSO)
+
+1. **Path parameters faltando no array `parameters`** → API Gateway rejeita com "Fail to update ApiGateway"
+2. **Formato do operationId inconsistente** → pode causar conflitos
+3. **Campos do Swagger omitidos** (requestBody, security, description) → spec incompleta
+
+### Regra de Ouro
+
+1. **NUNCA** edite `deploy/halalsphere-api.*.json` manualmente - SEMPRE regenere do Swagger
+2. **SEMPRE** que criar novo controller/endpoint, rode `npm run generate:swagger` + geracao do API Gateway
+3. **INCLUA** a regeneracao NO MESMO COMMIT/PR do novo controller
+4. **TESTE** com `curl -X OPTIONS` na URL de producao apos deploy para confirmar
+5. **LEMBRE**: CORS error no browser pode ser 404 do API Gateway, nao config de CORS do NestJS (ver ERRO 17)
+
+### Checklist para Novos Endpoints
+
+- [ ] Rodou `npm run generate:swagger`?
+- [ ] Regenerou os 3 JSONs do API Gateway a partir do swagger.json?
+- [ ] Verificou que o novo endpoint aparece nos JSONs gerados?
+- [ ] Commit inclui os 3 JSONs atualizados?
+
+---
+
+## ERRO 20: API Gateway - Path Parameters Conflitantes no Mesmo Nivel
+
+### O Que Aconteceu
+
+```
+An error occurred (BadRequestException) when calling the PutRestApi operation:
+Unable to create resource at path '/onboarding/{userId}':
+A sibling ({token}) of this resource already has a variable path part -- only one is allowed
+```
+
+### Por Que Aconteceu
+
+O NestJS permite definir rotas com path params diferentes no mesmo nivel:
+```typescript
+@Get(':token')     // GET /onboarding/{token}
+@Put(':userId')    // PUT /onboarding/{userId}
+```
+
+Localmente funciona, mas o AWS API Gateway NAO permite dois path params com nomes diferentes como siblings (`{token}` e `{userId}` no mesmo nivel `/onboarding/`). O deploy via `PutRestApi` falha.
+
+### Solucao
+
+Adicionada funcao `resolvePathConflicts()` no `scripts/transform-openapi-for-aws.js` que:
+1. Agrupa paths por "shape" (substitui `{param}` por `{*}`)
+2. Detecta conflitos (multiplos paths com mesma shape)
+3. Unifica em path generico com `{id}` (ex: `/onboarding/{token}` + `/onboarding/{userId}` → `/onboarding/{id}`)
+4. Merge dos metodos HTTP (GET do primeiro + PUT do segundo)
+
+```javascript
+// Resolucao automatica - detecta e unifica paths conflitantes
+function resolvePathConflicts(paths) {
+  // Agrupa por shape, detecta conflitos, merge em {id}
+}
+```
+
+### Regra de Ouro
+
+1. **EVITE** path params diferentes no mesmo nivel do controller (`:token` vs `:userId`)
+2. **SE** inevitavel, o `transform-openapi-for-aws.js` resolve automaticamente
+3. **VERIFIQUE** logs do script por "Resolving path conflict" para confirmar resolucao
+4. **TESTE** o deploy do API Gateway apos adicionar novos endpoints com path params
+
+---
+
+## ERRO 21: Swagger UI Inacessivel via API Gateway - "Missing Authentication Token"
+
+### O Que Aconteceu
+
+```
+GET https://gestaodecertificacoes-api.ecohalal.solutions/api/docs
+→ 403 "Missing Authentication Token"
+```
+
+### Por Que Aconteceu
+
+O Swagger UI e servido pelo NestJS em `/api/docs` (HTML, CSS, JS estaticos). Essas rotas NAO aparecem no OpenAPI spec gerado pelo NestJS, entao NAO eram incluidas no API Gateway. Qualquer request para `/api/docs` resultava em `MISSING_AUTHENTICATION_TOKEN` (resposta padrao do API Gateway para rotas inexistentes).
+
+### Solucao
+
+Adicionadas rotas de proxy para Swagger UI no `transform-openapi-for-aws.js`:
+- `/api/docs` — pagina HTML principal
+- `/api/docs-json` — spec JSON
+- `/api/docs-yaml` — spec YAML
+- `/api/docs/{proxy+}` — assets estaticos (CSS, JS, fonts)
+
+Cada rota usa `http_proxy` com VPC_LINK apontando para o backend.
+
+### Regra de Ouro
+
+1. **ROTAS de documentacao** (Swagger, health checks) NAO aparecem no OpenAPI spec — precisam ser adicionadas manualmente no script de transformacao
+2. **"Missing Authentication Token"** no API Gateway = rota NAO existe no API Gateway (nao e problema de auth)
+3. **`{proxy+}`** e o padrao greedy do API Gateway para catch-all de sub-paths
+
+---
+
+## ERRO 22: DB Producao Desincronizado - 500 em Todos os Endpoints
+
+### O Que Aconteceu
+
+```
+GET /proposals/certification/:id → 500
+PrismaClientKnownRequestError: The table `public.proposals` does not exist
+```
+
+### Por Que Aconteceu
+
+O banco de producao estava severamente desatualizado — faltavam ~30+ tabelas criadas na reestruturacao de 16/02/2026. O codigo (NestJS + Prisma) esperava tabelas como `proposals`, `pricing_tables`, `certifications`, etc. que simplesmente nao existiam no banco de producao. Migrations nao foram aplicadas corretamente apos a reestruturacao.
+
+### Solucao
+
+Restauracao completa do banco local (que estava correto) para producao:
+
+```bash
+# 1. Dump do banco local
+pg_dump -U postgres -d halalsphere --no-owner --no-privileges > dump.sql
+
+# 2. Limpar comandos incompativeis
+# - Remover \restrict / \unrestrict (psql-only, nao funciona em DBeaver/pgAdmin)
+# - Remover SET transaction_timeout (PostgreSQL 18+, producao usa 16)
+# - Remover CREATE EXTENSION vector (requer rds_superuser no RDS)
+# - Remover tabelas que dependem de vector (knowledge_base_entries)
+
+# 3. Em producao: DROP SCHEMA public CASCADE; CREATE SCHEMA public;
+# 4. Executar dump limpo
+```
+
+### Regra de Ouro
+
+1. **APOS reestruturacao**, verifique se migrations foram aplicadas em TODOS os ambientes
+2. **COMPARE** schemas (local vs producao) antes de investigar 500 errors
+3. **pg_dump** pode conter comandos incompativeis entre versoes do PostgreSQL — sempre limpe
+4. **RDS** nao permite criar extensoes como `vector` sem `rds_superuser` — remova do dump
+5. **`\restrict`/`\unrestrict`** sao comandos psql-only — remova para uso em ferramentas GUI
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 02/03/2026
-**Versao:** 1.6
+**Ultima Atualizacao:** 04/03/2026
+**Versao:** 2.0
