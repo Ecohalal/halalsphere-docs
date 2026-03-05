@@ -1180,10 +1180,74 @@ pg_dump -U postgres -d halalsphere --no-owner --no-privileges > dump.sql
 
 ---
 
+## ERRO 23: Migrations Prisma NUNCA Executam em Producao (Recorrente)
+
+### O Que Aconteceu
+
+Toda nova migration adicionada via `prisma migrate dev` e commitada no repo NAO e executada automaticamente em producao. O `docker-entrypoint.sh` tem a logica:
+
+```sh
+if [ "$AUTO_MIGRATE" = "true" ]; then
+  npx prisma migrate deploy
+fi
+```
+
+Mas a variavel `AUTO_MIGRATE` **nunca chega** como env var no container ECS. O `parameters.production.json` contem `"AUTO_MIGRATE": "true"`, mas esse JSON e salvo como blob unico no SSM Parameter Store via `parameters.store.sh`. A task definition do ECS (gerenciada manualmente na AWS, nao no repo) provavelmente le esse JSON e injeta as variaveis — mas `AUTO_MIGRATE` ou nao esta sendo extraida, ou a task definition nao foi atualizada para incluir essa variavel.
+
+### Impacto
+
+- **TODA migration falha silenciosamente** em producao
+- O Prisma Client (gerado no Docker build) conhece as colunas novas, mas o banco nao as tem
+- Resultado: `P2022 ColumnNotFound` em qualquer operacao na tabela afetada
+- Login fica **completamente quebrado** porque `user.update()` retorna todas as colunas
+
+### Por Que e Recorrente
+
+1. Localmente funciona (rodamos `prisma migrate dev` conectado ao banco local)
+2. O Docker build funciona (compila com schema novo)
+3. O deploy funciona (imagem nova sobe no ECS)
+4. Mas `prisma migrate deploy` **nunca roda** porque o `if` falha
+5. Ninguem percebe ate o primeiro 500 error
+
+### Solucao Paliativa (Atual)
+
+Executar o SQL manualmente em producao ANTES de todo deploy que inclui migration:
+
+```sql
+-- Exemplo: migration 20260305 (password reset)
+ALTER TABLE "users" ADD COLUMN IF NOT EXISTS "password_reset_token" VARCHAR(64);
+ALTER TABLE "users" ADD COLUMN IF NOT EXISTS "password_reset_expires_at" TIMESTAMP(3);
+CREATE UNIQUE INDEX IF NOT EXISTS "users_password_reset_token_key" ON "users"("password_reset_token");
+```
+
+### Solucao Definitiva (TODO)
+
+**Opcao A**: Verificar/corrigir na AWS Console se `AUTO_MIGRATE` esta sendo injetada como env var na task definition do ECS. Se nao, adicionar.
+
+**Opcao B**: Remover a condicional `if AUTO_MIGRATE` do entrypoint e rodar `prisma migrate deploy` incondicionalmente. O comando e idempotente — se nao ha migrations pendentes, nao faz nada.
+
+**Opcao C**: Adicionar um step no buildspec.yml que executa a migration diretamente via conexao ao banco de producao durante o build, antes do deploy da imagem.
+
+### Regra de Ouro
+
+1. **TODA migration** deve ser acompanhada do SQL equivalente para execucao manual
+2. **NAO confie** que `prisma migrate deploy` vai rodar em producao — valide ANTES do deploy
+3. **APOS o deploy**, teste um endpoint que usa as colunas novas para confirmar
+4. **Use `IF NOT EXISTS`** no SQL manual para poder re-executar sem erro
+
+### Referencia
+
+- `docker-entrypoint.sh` (linhas 6-48)
+- `deploy/parameters.production.json`
+- `deploy/parameters.store.sh`
+- Task Definition do ECS (gerenciada na AWS Console, nao no repo)
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 04/03/2026
-**Versao:** 2.0
+**Ultima Atualizacao:** 05/03/2026
+**Versao:** 2.1
