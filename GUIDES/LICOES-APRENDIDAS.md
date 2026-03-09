@@ -1244,10 +1244,106 @@ CREATE UNIQUE INDEX IF NOT EXISTS "users_password_reset_token_key" ON "users"("p
 
 ---
 
+## ERRO 24: Alteracao parcial no generate-api-gateway.js quebra deploy
+
+**Data:** 09/03/2026
+**Severidade:** ALTA - deploy falha, producao nao atualiza
+**Tempo perdido:** ~1 hora (fix + re-deploy + frustracao do usuario)
+
+### Contexto
+
+Ao adicionar mapeamento de `requestParameters` para path parameters no `generate-api-gateway.js`, o script passou a extrair params como `{token}` e `{userId}` das rotas ORIGINAIS do swagger. Porem, o bloco de merge do onboarding (que renomeia `/onboarding/{token}` + `/onboarding/{userId}` para `/onboarding/{id}`) ja atualizava URI e `parameters` array, mas NAO atualizava os novos `requestParameters`.
+
+### Erro
+
+AWS API Gateway rejeitou o import com:
+```
+Invalid mapping expression parameter specified: method.request.path.token
+Invalid mapping expression parameter specified: method.request.path.userId
+```
+
+### Causa Raiz
+
+**Alteracao incompleta**: ao modificar um script que transforma dados em multiplas etapas, e necessario rastrear TODOS os lugares onde o dado transformado e usado. Neste caso:
+1. URI da integracao → ja era atualizado ✅
+2. Array `parameters` do OpenAPI → ja era atualizado ✅
+3. `requestParameters` da integracao API Gateway → **ESQUECIDO** ❌
+
+### Solucao
+
+Adicionar atualizacao de `requestParameters` no bloco de merge do onboarding:
+```javascript
+// Fix requestParameters: rename token -> id
+const getReqParams = getRoute['x-amazon-apigateway-integration'].requestParameters;
+if (getReqParams && getReqParams['integration.request.path.token']) {
+  getReqParams['integration.request.path.id'] = 'method.request.path.id';
+  delete getReqParams['integration.request.path.token'];
+}
+```
+
+### Regra
+
+1. **Ao alterar um script de transformacao**, rastrear o dado alterado em TODAS as etapas subsequentes
+2. **O onboarding merge tem 3 campos para atualizar**: `parameters`, `uri`, e `requestParameters`
+3. **Sempre verificar o output** do script apos alteracao: `node -e "const j = require('./deploy/...json'); console.log(j.paths['/onboarding/{id}'])"`
+4. **Testar o deploy localmente** com `aws apigateway put-rest-api --dry-run` quando possivel
+
+### Checklist: Alteracoes no generate-api-gateway.js
+
+- [ ] Rodar `npm run generate:swagger` antes
+- [ ] Rodar `node scripts/generate-api-gateway.js`
+- [ ] Verificar output: numero de paths, info, components
+- [ ] Verificar rota `/onboarding/{id}`: URI, parameters, requestParameters
+- [ ] Verificar que `/onboarding/{token}` e `/onboarding/{userId}` NAO existem no output
+- [ ] Verificar rotas com path params: requestParameters mapeados corretamente
+- [ ] Commitar script + JSONs gerados juntos
+
+---
+
+## ERRO 25: Frontend service usando axios direto em vez de api centralizada
+
+**Data:** 09/03/2026 (identificado durante analise)
+**Severidade:** MEDIA - funciona local, pode falhar em producao
+**Referencia:** Reincidencia do ERRO 3
+
+### Contexto
+
+O `company-group.service.ts` no frontend importa `axios` diretamente em vez de usar a instancia `api` de `src/lib/api.ts`. Isso significa que:
+- NAO tem `withCredentials: true` (cookies nao enviados)
+- NAO tem interceptor de refresh token (401 nao e recuperado)
+- NAO tem tratamento automatico de FormData
+- Gerencia token manualmente via `localStorage.getItem('token')`
+
+### Arquivos Afetados (10 services - Marco/2026)
+
+- `src/services/company-group.service.ts`
+- `src/services/company.service.ts`
+- `src/services/document.service.ts`
+- `src/services/ai.service.ts`
+- `src/services/onboarding.service.ts`
+- `src/services/access-request.service.ts`
+- `src/services/invite.service.ts`
+- `src/services/cnpj.service.ts`
+- `src/services/cep.service.ts`
+- `src/services/cnpj-lookup-config.service.ts`
+
+### Regra
+
+**TODOS os services do frontend DEVEM usar `import api from '@/lib/api'`** — NUNCA `import axios from 'axios'` diretamente. Ao criar ou revisar services, verificar o import.
+
+### Como Verificar
+
+```bash
+grep -r "import axios" src/services/
+# Deve retornar ZERO resultados (exceto o proprio lib/api.ts)
+```
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 05/03/2026
-**Versao:** 2.1
+**Ultima Atualizacao:** 09/03/2026
+**Versao:** 2.2
