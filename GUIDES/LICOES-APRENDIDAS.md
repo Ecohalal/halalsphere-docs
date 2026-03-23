@@ -1340,10 +1340,183 @@ grep -r "import axios" src/services/
 
 ---
 
+## ERRO 26: Migrations Prisma NUNCA executam em producao — AUTO_MIGRATE nao chega ao container
+
+**Data:** 15/03/2026
+**Severidade:** CRITICA - schema do banco fica desatualizado, endpoints retornam 500
+**Referencia:** Reincidencia do ERRO 23
+
+### Contexto
+
+Toda migration nova commitada no repo NAO era aplicada em producao. O `docker-entrypoint.sh` tinha uma condicional:
+```bash
+if [ "$AUTO_MIGRATE" = "true" ]; then
+  npx prisma migrate deploy
+fi
+```
+
+A variavel `AUTO_MIGRATE` estava definida em `deploy/parameters.production.json` e era salva no SSM Parameter Store, mas a **Task Definition do ECS** (gerenciada manualmente no console AWS, nao no repo) nao injetava essa variavel no container. Resultado: a condicional sempre avaliava `false` e migrations eram silenciosamente ignoradas.
+
+### Impacto
+
+- Migrations `20260309000000` e `20260309100000` (competency_change_requests + educationalBackground array) nao rodaram
+- Endpoint `GET /auditor-allocation/auditors` retornava 500 (Prisma client esperava array, banco tinha enum single)
+- Toda migration desde a reestruturacao precisou ser aplicada manualmente via SQL no RDS
+
+### Causa Raiz
+
+1. `docker-entrypoint.sh` condicionava migrations a `AUTO_MIGRATE=true`
+2. ECS Task Definition (fora do repo) nao extraia essa variavel do SSM Parameter Store
+3. Sem logs ou alertas quando migrations eram puladas — falha silenciosa
+
+### Solucao Aplicada
+
+Removida a condicional — `prisma migrate deploy` agora roda **sempre** no startup do container:
+```bash
+npx prisma migrate deploy || echo "WARNING: Migration failed, starting with current schema"
+```
+
+`prisma migrate deploy` e idempotente: se nao ha migrations pendentes, nao faz nada. Seguro rodar em todo deploy.
+
+Tambem removido:
+- Script de cleanup de migrations antigas (ja nao necessario)
+- `prisma migrate resolve` das 5 migrations originais (ja resolvidas)
+
+### Regra
+
+1. **NUNCA condicionar migrations a variaveis de ambiente** — `prisma migrate deploy` e idempotente e deve rodar sempre
+2. **Infraestrutura critica (como execucao de migrations) NAO deve depender de config externa ao repo** — se esta no entrypoint, deve funcionar sem nenhuma variavel extra
+3. **Testar o pipeline completo apos cada migration nova** — verificar nos logs do ECS que "Running Prisma migrations..." aparece e que as migrations foram aplicadas
+
+---
+
+## ERRO 27: prisma.config.ts ausente no container Docker — causa raiz real das migrations falhando
+
+**Data:** 15/03/2026
+**Severidade:** CRITICA - nenhuma migration executa em producao
+**Referencia:** Causa raiz definitiva dos ERROs 23 e 26
+
+### Contexto
+
+Mesmo apos corrigir o ERRO 26 (remover condicional AUTO_MIGRATE), o `prisma migrate deploy` continuava falhando com:
+```
+Error: The datasource.url property is required in your Prisma config file when using prisma migrate deploy.
+```
+
+O container subia normalmente (NestJS conectava ao banco via adapter Prisma), mas migrations nunca rodavam. O warning era engolido pelo `|| echo` no entrypoint.
+
+### Causa Raiz
+
+Na migracao para Prisma 7, o `datasource.url` foi movido do `schema.prisma` para o `prisma.config.ts` (na raiz do projeto). Porem, o Dockerfile multi-stage NAO copiava esse arquivo para o container de producao:
+
+```dockerfile
+# Stage 3 copiava apenas:
+COPY --from=dependencies /app/node_modules ./node_modules
+COPY --from=dependencies /app/prisma ./prisma      # schema.prisma OK
+COPY --from=builder /app/dist ./dist                # codigo compilado OK
+COPY --from=builder /app/package*.json ./
+# FALTAVA: prisma.config.ts  ← ESTE ARQUIVO
+```
+
+O `prisma migrate deploy` (CLI) precisa do `prisma.config.ts` para saber a URL do banco. O app NestJS nao precisava porque usava o PrismaService com adapter direto.
+
+### Solucao Aplicada
+
+Adicionado no Dockerfile (stage de producao):
+```dockerfile
+COPY --from=builder --chown=nodejs:nodejs /app/prisma.config.ts ./
+```
+
+### Regra
+
+1. **Ao migrar versao major do Prisma, verificar se TODOS os arquivos de config sao copiados no Dockerfile**
+2. **Testar `prisma migrate deploy` dentro do container** (nao apenas localmente) apos qualquer mudanca de config
+3. **Nao usar `|| echo` para engolir erros criticos** — migrations falhando silenciosamente e perigoso. Considerar `|| exit 1` para forcar o container a nao subir sem schema atualizado
+
+---
+
+## ERRO 28: Novos endpoints no controller SEM regenerar swagger.json e API Gateway
+
+**Data:** 17/03/2026
+**Severidade:** ALTA - endpoints novos retornam CORS error (nao 404) em staging/producao
+**Referencia:** Reincidencia do ERRO 19
+
+### Contexto
+
+Ao adicionar 5 novos endpoints de categorias industriais no `industrial-classification.controller.ts`, os decorators Swagger foram incluidos no codigo, mas o `swagger.json` e os JSONs do API Gateway nao foram regenerados.
+
+### Consequencia
+
+Os endpoints novos funcionam localmente (NestJS serve direto), mas em staging/producao o API Gateway nao conhece as rotas e retorna CORS error — que e confundido com erro de CORS, quando na verdade a rota simplesmente nao existe no API Gateway.
+
+### Regra
+
+**SEMPRE que adicionar/modificar/remover endpoints:**
+
+```bash
+# 1. Regenerar swagger
+npm run generate:swagger
+
+# 2. Regenerar API Gateway JSONs
+node scripts/generate-api-gateway.js
+
+# 3. Verificar output (numero de paths deve aumentar)
+# 4. Commitar swagger.json + 3 JSONs de deploy JUNTO com o controller
+
+# 5. Apos deploy, executar o script de deploy do API Gateway:
+#    deploy/apigateway.sh
+```
+
+### Checklist Rapido
+
+- [ ] Controller alterado? → `npm run generate:swagger`
+- [ ] Swagger regenerado? → `node scripts/generate-api-gateway.js`
+- [ ] Numero de paths aumentou conforme esperado?
+- [ ] swagger.json + deploy/*.json commitados junto?
+- [ ] API Gateway deployado apos push em staging/prod?
+
+---
+
 **IMPORTANTE**: Este documento deve ser consultado SEMPRE que for iniciar trabalho no projeto. Erros basicos causam retrabalho e frustracao.
 
 ---
 
+## ERRO 29: resolve --applied no entrypoint impede migrate deploy de executar migration nova
+
+**Data:** 23/03/2026
+**Severidade:** CRITICA - migration marcada como aplicada sem executar SQL
+**Referencia:** Reincidencia dos ERROS 23/26/27
+
+### Contexto
+
+Ao criar a migration `20260323000000_add_non_conformities`, foi adicionada uma linha `npx prisma migrate resolve --applied 20260323000000_add_non_conformities` no `docker-entrypoint.sh`. O resolve roda ANTES do `migrate deploy` e marca a migration como "ja aplicada" na tabela `_prisma_migrations`. Quando o `migrate deploy` executa em seguida, ve que nao ha migrations pendentes e nao faz nada — o SQL nunca e executado.
+
+### Sintoma
+
+- Container sobe normalmente
+- Logs mostram "No pending migrations to apply"
+- Tabela `non_conformities` NAO existe no banco
+- Queries `information_schema.tables` retornam vazio
+
+### Causa Raiz
+
+O `resolve --applied` so deve ser usado para migrations que foram aplicadas **manualmente via SQL no passado** e cujo registro precisa ser adicionado na `_prisma_migrations`. Para migrations novas que devem ser executadas pelo `migrate deploy`, NUNCA adicionar ao resolve.
+
+### Correcao
+
+1. Removida a linha de resolve da migration nova do `docker-entrypoint.sh`
+2. SQL aplicado manualmente no RDS de producao
+3. Comentario explicativo adicionado no entrypoint
+
+### Regra
+
+1. **NUNCA adicionar `resolve --applied` para migrations novas** — o `migrate deploy` cuida delas automaticamente
+2. **`resolve --applied` e APENAS para migrations que ja foram executadas via SQL manual** e precisam ser registradas na `_prisma_migrations`
+3. **Apos deploy com migration, SEMPRE validar no banco** que tabelas/colunas foram realmente criadas (queries `information_schema`)
+4. **Se a migration foi marcada indevidamente pelo resolve**, o unico fix e aplicar o SQL manualmente — deletar o registro de `_prisma_migrations` e redeployar tambem funciona mas e mais arriscado
+
+---
+
 **Data de Criacao:** 10/02/2026
-**Ultima Atualizacao:** 09/03/2026
-**Versao:** 2.2
+**Ultima Atualizacao:** 23/03/2026
+**Versao:** 2.5
