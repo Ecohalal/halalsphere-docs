@@ -1517,6 +1517,33 @@ O `resolve --applied` so deve ser usado para migrations que foram aplicadas **ma
 
 ---
 
+## ERRO 30: tsc --noEmit local passa mas tsc -b no CI falha (imports nao usados + tipos)
+
+**Data:** 23/03/2026
+**Severidade:** MEDIA - build CI falha, deploy bloqueado
+**Reincidencia:** 2x na mesma noite
+
+### Contexto
+
+O pipeline CI do frontend usa `tsc -b && vite build` (definido no `package.json` como `build`). O `tsc -b` (build mode) e mais estrito que `tsc --noEmit`:
+- `tsc -b` trata imports nao usados (TS6133) como ERRO
+- `tsc --noEmit` trata como WARNING (nao bloqueia)
+- Propriedades inexistentes em tipos (TS2339) falham em ambos, mas podem passar localmente se o Prisma Client esta desatualizado
+
+### Sintoma
+
+Build local com `tsc --noEmit` passa sem erros. Pipeline CI falha com:
+- `TS6133: 'Badge' is declared but its value is never read`
+- `TS2339: Property 'suspensionType' does not exist on type 'Certification'`
+
+### Regra
+
+1. **SEMPRE usar `tsc -b` para validar localmente** (ou `npx tsc -b`), NAO `tsc --noEmit`
+2. **Ao adicionar propriedades no backend**, verificar se os tipos correspondentes no frontend foram atualizados (interfaces em `types/` e `services/`)
+3. **Remover imports nao usados antes de commitar** — o CI nao perdoa
+
+---
+
 **Data de Criacao:** 10/02/2026
 **Ultima Atualizacao:** 23/03/2026
-**Versao:** 2.5
+**Versao:** 2.6
