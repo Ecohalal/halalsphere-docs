@@ -1,10 +1,11 @@
 # 📊 Status de Implementação - Todos os Épicos
 ## HalalSphere - Guia Completo para Desenvolvedor
 
-**Data**: Janeiro 2026
-**Versão**: 2.0
-**Status Geral**: 95% Implementado
+**Data**: Marco 2026
+**Versão**: 3.0
+**Status Geral**: Em Producao + Evolucao Continua
 **Primeira Publicação em Produção**: 23 de Janeiro de 2026
+**Reestruturação Arquitetural**: 16 de Fevereiro de 2026 (Request→CertificationRequest, Process→RequestWorkflow)
 
 ---
 
@@ -36,9 +37,9 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 | US-008 | Cancelar | ✅ |
 
 ### Código Principal
-- Backend: `backend/src/modules/process/`
-- Frontend: `frontend/src/pages/company/NewRequestWizard.tsx`
-- Schema: `Request`, `Process`, `Company`
+- Backend: `backend/src/modules/certification/`, `certification-request/`, `workflow/`
+- Frontend: `frontend/src/pages/company/NovaCertificacao.tsx` + `CertificationWizard` components
+- Schema: `Certification`, `CertificationRequest`, `RequestWorkflow`, `Company`
 
 ### Prioridade para Completar
 ✅ **US-006**: Sistema de notificações in-app implementado
@@ -52,7 +53,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 |----|--------|--------|-------|
 | US-009 | Config Tabelas Preço | ✅ | PricingTable model |
 | US-010 | Cálculo Automático | ✅ | CalculatorService (Inovação #1) |
-| US-011 | Geração PDF | 🟡 | Backend pronto, falta template |
+| US-011 | Geração PDF | ✅ | PDFKit implementado (FM 7.7.1 + FM 7.7.2) |
 | US-012 | Templates Contratos | 🔴 | Não iniciado |
 | US-013 | Geração Auto Contrato | ✅ | ContractService |
 | US-014 | Interface Colaborativa | 🔴 | Não iniciado (Inovação #3) |
@@ -62,8 +63,10 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 
 ### Código Principal
 - Backend: `backend/src/modules/proposal/`, `backend/src/modules/contract/`
-- Frontend: `frontend/src/pages/analyst/ProcessProposal.tsx`, `ProcessContract.tsx`
+- Frontend: `frontend/src/pages/` (rotas de certificação - propostas e contratos)
 - Schema: `PricingTable`, `Proposal`, `Contract`, `ContractSignature`
+
+> **Mar 2026**: Gate financeiro implementado (bloqueio de avanço sem pagamento). Reenvio de contrato disponível.
 
 ### O Que Funciona
 ✅ **Proposta Comercial Completa**:
@@ -79,7 +82,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 - Workflow de aprovação
 
 ### O Que Falta (Prioridades MVP)
-🔴 **US-011**: Template profissional de PDF (propostas e contratos)
+✅ **US-011**: ~~Template profissional de PDF~~ → Implementado com PDFKit (Mar 2026)
 🔴 **US-017**: Integração D4Sign/Docusign para assinatura eletrônica
 
 ### O Que Falta (Pós-MVP)
@@ -93,7 +96,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 | US | Título | Status | Notas |
 |----|--------|--------|-------|
 | US-018 | Kanban | ✅ | Com lazy loading |
-| US-019 | Atribuição Auto | 🟡 | Apenas manual |
+| US-019 | Atribuição Auto | ✅ | Alocação com sugestões implementada |
 | US-020 | Revisão Solicitação | ✅ | Checklist OK |
 | US-021 | Enquadramento GSO | ✅ | 3 níveis hierárquicos |
 | US-022 | Checklist Estágio 1 | ✅ | 5 seções |
@@ -101,14 +104,14 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 | US-023.1 | Comentários | ✅ | Com @mentions |
 | US-023.2 | Agend. Auditorias | ✅ | Backend completo |
 | US-024 | Assistência IA | 🔴 | Não iniciado |
-| US-025 | Cadastro Auditores | ✅ | User role 'auditor' |
+| US-025 | Cadastro Auditores | ✅ | Gestão de competências implementada |
 | US-026 | Matching Inteligente | 🔴 | Algoritmo pendente |
 | US-027 | Agend. Colaborativo | 🟡 | Falta interface empresa |
 | US-028 | Calendário Visual | ✅ | AuditCalendar |
 | US-029 | Briefing Auditor | 🔴 | Falta email |
 
 ### Código Principal
-- Backend: `backend/src/modules/process/`, `document-request/`, `comment/`, `audit-schedule/`
+- Backend: `backend/src/modules/certification/`, `document-request/`, `comment/`, `audit-schedule/`
 - Frontend: `frontend/src/pages/analyst/AnalystDashboard.tsx` (Kanban)
 - Frontend: `frontend/src/components/kanban/` (KanbanColumn, ProcessCard, KanbanFilters)
 - Frontend: `frontend/src/components/analyst/` (DocumentRequestModal, AuditScheduleModal, CommentsSection)
@@ -146,8 +149,11 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 - Validação de classificação
 - Cálculo de dias de auditoria por categoria
 
+### Implementado Mar 2026
+✅ **US-019**: Alocação de auditores com sugestões implementada
+✅ **US-025**: Gestão de competências de auditores (categorias, idiomas, qualificações)
+
 ### O Que Falta
-🔴 **US-019**: Algoritmo de atribuição automática de analistas
 🔴 **US-024**: Assistência IA para análise documental (OCR + NLP)
 🔴 **US-026**: Matching inteligente de auditores (distância, especialização, carga)
 🔴 **US-029**: Briefing automático por email para auditor
@@ -160,7 +166,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 | US | Título | Status | Notas |
 |----|--------|--------|-------|
 | US-030 | Dashboard Auditor | ✅ | AuditorDashboard |
-| US-031 | Ver Processo | ✅ | ProcessDetails |
+| US-031 | Ver Processo | ✅ | CertificationDetails |
 | US-032 | Ver Documentação | ✅ | ProcessDocuments |
 | US-033 | Checklist Digital | ✅ | AuditExecution (5 seções) |
 | US-034 | Upload Evidências | ✅ | EvidenceCapture |
@@ -171,7 +177,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 | US-039 | App Mobile | 🔴 | Futuro (pós-MVP) |
 
 ### Código Principal
-- Backend: `backend/src/modules/audit-execution/`
+- Backend: `backend/src/modules/audit/`, `audit-checklist/`, `audit-plan/`
 - Frontend: `frontend/src/pages/auditor/` (AuditorDashboard, AuditorReports)
 - Frontend: `frontend/src/components/audits/` (AuditExecution, EvidenceCapture, NonConformityForm, PreAuditAnalysis)
 - Schema: `Audit` (agendamento), dados de execução no service
@@ -252,31 +258,34 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 - Estatísticas agregadas
 - Ações: visualizar, editar (rascunho), baixar relatório
 
+### Implementado Mar 2026
+> **Plano de auditoria** (Epic B): módulo `audit-plan/` com relatório e formulário preparatório.
+
 ### O Que Falta
-🔴 **US-038**: Notificações por email (depende de EmailService)
+🟡 **US-038**: Notificações por email (EmailService implementado com AWS SES - falta integrar todos os eventos de auditoria)
 🔴 **US-039**: App mobile (React Native - pós-MVP)
 
 ---
 
-## ÉPICO 5: Decisão e Emissão de Certificados 🟢 85%
+## ÉPICO 5: Decisão e Emissão de Certificados 🟢 95%
 
 ### Status Rápido
 | US | Título | Status | Notas |
 |----|--------|--------|-------|
 | US-040 | Dashboard Comitê | ✅ | ManagerDashboard |
-| US-041 | Analisar Relatório | ✅ | Via ProcessDetails |
+| US-041 | Analisar Relatório | ✅ | Via CertificationDetails |
 | US-042 | Decisão Comitê | ✅ | submitCommitteeDecision |
 | US-043 | Solicitar Info | 🟡 | Via comentários |
-| US-044 | Emitir Certificado | 🔴 | **CRÍTICO MVP** |
-| US-045 | Enviar Certificado | 🔴 | **CRÍTICO MVP** |
-| US-046 | Consulta Pública | 🔴 | **CRÍTICO MVP** |
+| US-044 | Emitir Certificado | ✅ | CertificateService + PDF (FM 7.7.1, FM 7.7.2) |
+| US-045 | Enviar Certificado | ✅ | EmailService com AWS SES |
+| US-046 | Consulta Pública | ✅ | `/verify/:certificateNumber` com QR code |
 | US-047 | Histórico | ✅ | getCommitteeDecisions |
-| US-048 | Notificações | 🔴 | Falta emails |
+| US-048 | Notificações | 🟡 | EmailService implementado, falta integrar todos os eventos |
 
 ### Código Principal
 - Backend: `backend/src/modules/manager/` (ManagerService)
 - Frontend: `frontend/src/pages/manager/ManagerDashboard.tsx`
-- Schema: `CommitteeDecision`, `Certificate` (existe mas não usado)
+- Schema: `CommitteeDecision`, `Certificate` (totalmente implementado Mar 2026)
 
 ### O Que Funciona
 
@@ -303,62 +312,42 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 - Acesso a evidências fotográficas
 - Histórico de decisões anteriores
 
-### O Que Falta (BLOQUEADOR MVP)
+### Implementado Mar 2026
 
-🔴 **US-044/045/046: Sistema Completo de Certificados**
-
-**Precisa implementar**:
+✅ **US-044/045/046: Sistema Completo de Certificados - IMPLEMENTADO**
 
 1. **CertificateService** (backend):
-   - `generateCertificate(processId)` - Criar registro
-   - `generatePDF(certificateId)` - Gerar PDF profissional
-   - `generateQRCode(certificateId)` - QR Code para validação
-   - `sendCertificate(certificateId)` - Enviar por email
-   - `validateCertificate(number)` - API pública de validação
-   - `revokeCertificate(id, reason)` - Suspender/cancelar
+   - Geração de certificado com número único
+   - Geração de PDF profissional (PDFKit) - templates FM 7.7.1 e FM 7.7.2
+   - QR Code para validação pública
+   - Envio por email (AWS SES)
+   - API pública de validação (`/verify/:certificateNumber`)
+   - Suspensão/cancelamento/revogação
+   - Approval PDF renderer
 
-2. **Template de PDF Profissional**:
-   - Logo certificadora + Logo Halal
-   - Dados da empresa e produtos certificados
-   - Número do certificado (HS-CERT-YYYY-NNNNNN)
-   - QR Code para validação
-   - Validade (3 anos)
-   - Escopo da certificação
-   - Assinatura digital (watermark)
-
-3. **Página Pública de Consulta** (frontend):
-   - Qualquer pessoa pode validar certificado
-   - Input: Número do certificado
-   - Exibição:
-     - Status (Ativo, Suspenso, Cancelado, Expirado)
-     - Empresa certificada
-     - Produtos certificados
-     - Validade
-     - Data de emissão
+2. **Página Pública de Consulta** (frontend):
+   - Rota `/verify/:certificateNumber` acessível sem autenticação
+   - Exibe status, empresa, produtos, validade, data de emissão
+   - QR code para validação mobile
    - Download do PDF
-   - QR Code para validação mobile
 
-4. **Integração com Emails**:
-   - Email para empresa com certificado anexo
-   - Email de congratulações
-   - Próximos passos (auditorias de manutenção)
+3. **EmailService** (AWS SES):
+   - Envio de certificado para empresa
+   - Templates de email implementados
 
-**Schema já existe**:
-- Model `Certificate` com todos os campos necessários
-- Enum `CertificateStatus` (ativo, suspenso, cancelado, expirado)
-
-**Referência**: Ver [PROXIMOS-PASSOS-MVP.md](../../../PROXIMOS-PASSOS-MVP.md#2-emissão-de-certificados-digitais-)
+### O Que Falta
+🟡 **US-048**: Integrar notificações por email em todos os eventos do comitê
 
 ---
 
-## ÉPICO 6: Assistente IA Multilíngue 🔴 5%
+## ÉPICO 6: Assistente IA Multilíngue 🟡 30%
 
-### Status: NÃO INICIADO (Prioridade P1 - Should Have)
+### Status: PARCIALMENTE IMPLEMENTADO (AI Service com Anthropic Claude)
 
 | US | Título | Status | Notas |
 |----|--------|--------|-------|
-| US-049 | Chatbot RAG | 🔴 | Schema pronto |
-| US-050 | Análise Pré-Auditoria | 🔴 | Schema pronto |
+| US-049 | Chatbot RAG | 🟡 | AI service em `src/ai/` com Anthropic Claude SDK 0.71 |
+| US-050 | Análise Pré-Auditoria | 🟡 | AiAnalysis integrado |
 | US-051 | Sugestões IA | 🔴 | Não iniciado |
 | US-052 | Base Conhecimento | 🔴 | pgvector OK |
 | US-053 | Feedback IA | 🔴 | Não iniciado |
@@ -376,12 +365,13 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 
 ✅ **Extension PostgreSQL**:
 - `vector` extension habilitada no schema
-- Suporta embeddings de 1536 dimensões (OpenAI ada-002 ou similar)
+- Suporta embeddings de 1536 dimensões
+- **Anthropic Claude SDK 0.71** integrado (não apenas OpenAI)
 
 ### O Que Falta Implementar
 
-🔴 **US-049: Chatbot RAG Multilíngue** (21 SP):
-- Integração com OpenAI GPT-4 ou Claude
+🟡 **US-049: Chatbot RAG Multilíngue** (21 SP):
+- Integração com Anthropic Claude (SDK 0.71) - parcialmente implementado em `src/ai/`
 - Sistema de embeddings (pgvector)
 - Base de conhecimento com normas Halal (GSO 2055-2, DT 7.1)
 - Interface de chat no frontend
@@ -411,7 +401,7 @@ Este documento fornece uma **visão consolidada** do status de implementação d
 
 - **Não é bloqueador**: Sistema funciona sem IA
 - **Alto custo de desenvolvimento**: 81 SP (~2-3 semanas)
-- **Dependências externas**: OpenAI API, custos mensais
+- **Dependências externas**: Anthropic Claude API, custos mensais
 - **Complexidade técnica**: RAG, embeddings, OCR
 
 ### Quando Implementar
@@ -430,7 +420,7 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 | US-057 | Config Sistema | ✅ | Storage + ESignature |
 | US-058 | Exportação | 🔴 | Não iniciado |
 | US-059 | Auditoria | ✅ | AuditTrail |
-| US-060 | Renovação | 🔴 | Não iniciado |
+| US-060 | Renovação | ✅ | Fluxo implementado (`/certificacoes/:id/renovar`) |
 
 ### Código Principal
 - Backend: `backend/src/modules/manager/`, `admin/`
@@ -502,18 +492,18 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
   - Timestamp
 - Usado em todos os services críticos
 
+### Implementado Mar 2026
+✅ **US-060**: Fluxo de renovação de certificados (`/certificacoes/:id/renovar`)
+✅ **Histórico de acessos**: Página de access logs para admin
+✅ **Importação de empresas**: Feature de company import
+✅ **Config CNPJ lookup**: Configuração de consulta CNPJ
+
 ### O Que Falta
 
 🔴 **US-058: Exportação de Dados**:
 - Exportar para CSV/Excel/PDF
 - Relatórios customizáveis
 - Agendamento de relatórios automáticos
-
-🔴 **US-060: Renovação de Certificados**:
-- Alerta 60 dias antes de expirar
-- Processo simplificado de renovação
-- Desconto para renovação (0.8x conforme PricingTable)
-- Histórico de certificados da empresa
 
 ---
 
@@ -530,7 +520,7 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 | US-064 | Monitoramento | 🔴 | Não iniciado |
 | US-065 | i18n | ✅ | Schema pronto |
 | US-066 | Storage S3 | ✅ | Configurável |
-| US-067 | Email/Notificações | ✅ | Notificações in-app |
+| US-067 | Email/Notificações | ✅ | AWS SES implementado + notificações in-app |
 
 ### Código Principal
 - Backend: `backend/src/modules/auth/`, `admin/`
@@ -608,15 +598,10 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
   - Tracking de tamanho e contagem de arquivos
   - Última sincronização
 
-### O Que Falta (CRÍTICO MVP)
-
-🔴 **US-067: Email Transacional** (5 SP):
-- **EmailService** não implementado
-- Sem SendGrid/AWS SES
-- Sem templates de email
-- Bloqueia: Notificações, confirmações, alertas
-
-**Prioridade MÁXIMA** - Ver [PROXIMOS-PASSOS-MVP.md](../../../PROXIMOS-PASSOS-MVP.md#1-sistema-de-emails-transacionais--crítico)
+### Implementado Mar 2026
+✅ **US-067: Email Transacional** - EmailService com AWS SES implementado
+✅ **Verificação de email**: Confirmação de email no registro de novos usuários
+✅ **"Manter conectado"**: Checkbox "keep me logged in" na tela de login
 
 ### O Que Falta (Pós-MVP)
 
@@ -633,32 +618,19 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 
 ---
 
-## 🔥 Prioridades CRÍTICAS para MVP
+## 🔥 Prioridades Restantes (Mar 2026)
 
-### 1. Sistema de Emails (3-5 dias) 🚨
-**Bloqueador**: Sem emails, sistema não notifica ninguém
+### ✅ CONCLUÍDO: Sistema de Emails
+- EmailService com AWS SES implementado
+- Verificação de email no registro
+- Impacto: Desbloqueou US-006, US-038, US-048, US-067
 
-**Implementar**:
-- SendGrid ou AWS SES
-- EmailService no backend
-- 8 templates de email
-- Integração com todos os eventos
+### ✅ CONCLUÍDO: Emissão de Certificados
+- CertificateService + PDF (FM 7.7.1, FM 7.7.2) + QR Code
+- Página pública de verificação (`/verify/:certificateNumber`)
+- Impacto: Completou Épico 5 (US-044, US-045, US-046)
 
-**Impacto**: Desbloqueia US-006, US-038, US-048, US-067
-
-### 2. Emissão de Certificados (5-7 dias) 🚨
-**Bloqueador**: Fim do processo, sem isso não há certificação
-
-**Implementar**:
-- CertificateService
-- Template de PDF profissional
-- QR Code
-- Página pública de consulta
-- Envio por email
-
-**Impacto**: Completa Épico 5 (US-044, US-045, US-046)
-
-### 3. Assinatura Eletrônica (5-7 dias) 🚨
+### 1. Assinatura Eletrônica (5-7 dias) 🚨
 **Bloqueador**: Sem assinatura, contratos não têm validade jurídica
 
 **Implementar**:
@@ -667,6 +639,37 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 - UI de acompanhamento
 
 **Impacto**: Completa US-017
+
+### 2. Monitoramento (Sentry) 🟡
+- Sem tracking de erros em produção
+- Sem alertas automáticos
+
+### 3. Backup Automatizado 🟡
+- Backup manual apenas
+- Sem agendamento ou restore automático
+
+---
+
+## Funcionalidades Implementadas Mar 2026 (Fambras Gap + PR 7.1)
+
+As seguintes funcionalidades foram implementadas entre Fevereiro e Marco de 2026, resultantes da analise de gap Fambras (368 documentos) e validacoes PR 7.1:
+
+- **Epic A**: Checklists auditaveis + matriz PCCH (Pontos Criticos de Controle Halal)
+- **Epic B**: Plano de auditoria + relatorio + formulario preparatorio
+- **Epics C-G**: Laboratorial, reclamacoes, selo, tipificacao de certificados/contratos
+- **Modelo dual GSO 2055-2 / SMIIC OIC** com categorias industriais
+- **Validacoes PR 7.1 Blocos 1-7**: prazos, alertas, nao-conformidades, imparcialidade
+- **Gate financeiro** + reenvio de contrato
+- **Segregacao frigorifico/industrial** + perfil acumulado
+- **RequestType.reducao** + registros internacionais
+- **Verificacao de email** no registro de novos usuarios
+- **Redesign da tela de login**
+- **Geracao de PDF de certificado** (FM 7.7.1 + FM 7.7.2)
+- **Pagina publica de verificacao de certificado** com QR code
+- **EmailService** implementado (AWS SES)
+- **Historico de acessos** (pagina admin)
+- **Gestao de competencias de auditores**
+- **Upload de documentos corporativos** para grupos empresariais
 
 ---
 
@@ -681,23 +684,23 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 - [ ] Frontend rodando (`npm run dev`)
 
 ### Para Completar MVP
-- [ ] Implementar EmailService (Prioridade 1)
-- [ ] Implementar CertificateService (Prioridade 2)
-- [ ] Integrar D4Sign (Prioridade 3)
-- [ ] Criar templates de PDF (Prioridade 4)
-- [ ] Testar fluxo end-to-end completo
-- [ ] Corrigir bugs críticos
-- [ ] Testes de segurança básicos
-- [ ] Deploy em staging
+- [x] Implementar EmailService (AWS SES) ✅
+- [x] Implementar CertificateService + PDF ✅
+- [ ] Integrar D4Sign (Prioridade 1)
+- [x] Criar templates de PDF (FM 7.7.1, FM 7.7.2) ✅
+- [x] Testar fluxo end-to-end completo ✅
+- [x] Deploy em staging ✅
+- [x] Deploy em produção ✅
 
 ### Para Pós-MVP
-- [ ] Sistema de IA (Chatbot RAG + Análise)
+- [x] Sistema de IA (parcial - Anthropic Claude SDK integrado) 🟡
 - [ ] Contratos colaborativos
 - [ ] Matching de auditores
 - [ ] Exportação de dados
-- [ ] Renovação automática
+- [x] Renovação de certificados ✅
 - [ ] Monitoramento (Sentry)
 - [ ] Backup automatizado
+- [ ] Integração D4Sign
 
 ---
 
@@ -720,7 +723,8 @@ Após MVP funcional, como diferencial competitivo (Inovações #5 e #6).
 ---
 
 **Documento gerado**: 16 de Dezembro de 2025
-**Última atualização**: 24 de Janeiro de 2026
-**Status**: MVP em Produção desde 23/01/2026
-**Revisão de Épicos**: Headers de status atualizados em todos os 9 épicos
+**Ultima atualizacao**: 27 de Marco de 2026
+**Status**: Em Producao + Evolucao Continua (desde 23/01/2026)
+**Reestruturacao**: Request→CertificationRequest, Process→RequestWorkflow (16/02/2026)
+**Revisão de Épicos**: Todos os 8 épicos atualizados para Marco 2026
 **Mantenedor**: Equipe HalalSphere

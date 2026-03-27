@@ -1,6 +1,6 @@
 # ÉPICO 1: Gestão de Solicitações e Onboarding - Status de Implementação
 
-**Status Geral**: 🟢 95% Completo (Atualizado Fev 2026)
+**Status Geral**: 🟢 95% Completo (Atualizado Mar 2026)
 **8 User Stories | 57 Story Points**
 
 ---
@@ -10,13 +10,13 @@
 | US | Título | Status | SP | Implementação |
 |----|--------|--------|----|--------------|
 | US-001 | Cadastro de Empresa | ✅ Completo | 5 | Schema Company + User |
-| US-002 | Wizard de Solicitação | ✅ Completo | 13 | NewRequestWizard.tsx (9 etapas) |
+| US-002 | Wizard de Solicitação | ✅ Completo | 13 | NovaCertificacao.tsx + CertificationWizard (9 etapas) |
 | US-003 | Upload de Documentos | ✅ Completo | 8 | FileDropzone + Document model |
-| US-004 | Dashboard de Status | ✅ Completo | 8 | ProcessDetails.tsx (17 fases) |
+| US-004 | Dashboard de Status | ✅ Completo | 8 | CertificationDetails.tsx (17 fases) |
 | US-005 | Calculadora de Custos | ✅ Completo | 8 | CalculatorService |
-| US-006 | Notificações | 🟡 Parcial | 3 | Schema pronto, falta EmailService |
-| US-007 | Editar Rascunho | ✅ Completo | 3 | Status 'rascunho' funcional |
-| US-008 | Cancelar Solicitação | ✅ Completo | 2 | Status 'cancelado' funcional |
+| US-006 | Notificações | 🟡 Parcial | 3 | EmailService (AWS SES) + Notification bell implementados |
+| US-007 | Editar Rascunho | ✅ Completo | 3 | WorkflowStatus 'rascunho' funcional |
+| US-008 | Cancelar Solicitação | ✅ Completo | 2 | WorkflowStatus 'cancelado' funcional |
 
 ---
 
@@ -60,7 +60,7 @@
 
 - 🔴 **Landing Page Pública**: Não há página de apresentação do sistema
 - 🔴 **Integração ViaCEP**: Busca automática de endereço (se aplicável fora do Brasil)
-- 🔴 **Email de Confirmação**: EmailService não implementado ainda
+- ✅ **Email de Confirmação**: EmailService implementado com AWS SES (Mar 2026)
 - 🔴 **Chatbot IA**: Link para chatbot não existe (Épico 6)
 
 ### Como Testar
@@ -93,7 +93,8 @@ curl -X POST http://localhost:3000/api/auth/register \
 ### O Que Foi Implementado
 
 #### Frontend - Wizard Completo
-📂 **Arquivo Principal**: [frontend/src/pages/company/NewRequestWizard.tsx](../../frontend/src/pages/company/NewRequestWizard.tsx)
+📂 **Pagina**: [frontend/src/pages/certificacoes/NovaCertificacao.tsx](../../frontend/src/pages/certificacoes/NovaCertificacao.tsx)
+📂 **Componentes**: `src/components/certification/` e `src/components/wizard/`
 
 ✅ **7 Etapas Implementadas**:
 
@@ -153,8 +154,8 @@ curl -X POST http://localhost:3000/api/auth/register \
 - ✅ `FileDropzone` - Upload drag-and-drop
 
 #### Backend
-- ✅ **ProcessService** ([backend/src/modules/process/process.service.ts](../../backend/src/modules/process/process.service.ts)):
-  - `createProcess(requestData)` - Cria Request + Process
+- ✅ **CertificationService** ([backend/src/modules/certification/certification.service.ts](../../backend/src/modules/certification/certification.service.ts)) + **CertificationRequestService** ([backend/src/modules/certification-request/certification-request.service.ts](../../backend/src/modules/certification-request/certification-request.service.ts)):
+  - `create()` - Cria Certification + CertificationRequest
   - Geração de protocolo único: HS-YYYY-NNNNNN
   - Status inicial: 'rascunho'
 
@@ -164,7 +165,8 @@ curl -X POST http://localhost:3000/api/auth/register \
   - Dados em PT, EN, AR
 
 - ✅ **Schema Prisma**:
-  - Model `Request` com todos os campos do wizard
+  - Model `CertificationRequest` com todos os campos do wizard (antigo `Request`)
+  - Model `CertificationFormData` para dados do formulario
   - Fields: `industrialGroupId`, `industrialCategoryId`, `industrialSubcategoryId`
   - JSON fields: `productionDetails`, `productDetails`, `supplierDetails`, `targetMarkets`
 
@@ -187,7 +189,7 @@ curl -X POST http://localhost:3000/api/auth/register \
 
 ### Como Testar
 1. Login como empresa
-2. Acessar `/nova-solicitacao`
+2. Acessar `/certificacoes/nova`
 3. Completar todas as 9 etapas
 4. Verificar geração de protocolo
 5. Verificar status = 'rascunho'
@@ -248,7 +250,8 @@ curl -X POST http://localhost:3000/api/auth/register \
 ### O Que Foi Implementado
 
 #### Frontend
-- ✅ **ProcessDetails** ([frontend/src/pages/ProcessDetails.tsx](../../frontend/src/pages/ProcessDetails.tsx)):
+- ✅ **CertificationDetails** ([frontend/src/pages/certificacoes/CertificationDetails.tsx](../../frontend/src/pages/certificacoes/CertificationDetails.tsx)):
+  - Rota: `/certificacoes/:id`
   - Timeline visual horizontal com **17 fases** (expandido de 12)
   - Fase atual destacada
   - Fases concluídas com ✓
@@ -261,24 +264,26 @@ curl -X POST http://localhost:3000/api/auth/register \
     - Próxima ação esperada
 
 - ✅ **process-phases.ts** ([frontend/src/lib/process-phases.ts](../../frontend/src/lib/process-phases.ts)):
-  - Configuração centralizada das 17 fases
+  - Configuração centralizada das 17 fases do workflow
   - Mapeamento de responsabilidades
   - Cores e ícones por fase
+  - Nota: arquivo mantém nome legado mas mapeia fases do RequestWorkflow
 
 #### Backend
-- ✅ **ProcessPhaseTransitionService** ([backend/src/modules/process/process-transition.service.ts](../../backend/src/modules/process/process-transition.service.ts)):
+- ✅ **WorkflowService** ([backend/src/modules/workflow/workflow.service.ts](../../backend/src/modules/workflow/workflow.service.ts)):
   - `advancePhase()` - Transição validada entre fases
-  - `canAdvancePhase()` - Validação de requisitos
-  - Transições automáticas em eventos
+  - `canAdvancePhase()` - Validação de requisitos por fase
+  - Transições automáticas em eventos (auto-advance fases 5->6, 7->8, 16->17)
 
-- ✅ **ProcessService**:
-  - `updateProcessStatus()` - Atualiza status com histórico
-  - Registro em `ProcessHistory` e `ProcessPhaseHistory`
+- ✅ **CertificationService** ([backend/src/modules/certification/certification.service.ts](../../backend/src/modules/certification/certification.service.ts)):
+  - Gerencia ciclo de vida da certificação
+  - Registro em `CertificationHistory` e `WorkflowPhaseHistory`
 
 - ✅ **Schema Prisma**:
-  - Enum `ProcessPhase` com 17 fases
+  - Enum `ProcessPhase` com 17 fases (mapeia fases do workflow)
   - Enum `PhaseResponsibility` (11 roles)
-  - Model `ProcessPhaseHistory` - rastreamento completo
+  - Model `WorkflowPhaseHistory` - rastreamento completo (antigo `ProcessPhaseHistory`)
+  - Model `RequestWorkflow` - engine de workflow (antigo `Process`)
 
 ### 17 Fases Implementadas
 1. cadastro_solicitacao (Empresa)
@@ -390,7 +395,7 @@ curl -X POST http://localhost:3000/api/auth/register \
 
 ## 🟡 US-006: Notificações de Mudança de Status
 
-**Status**: 🟡 PARCIALMENTE IMPLEMENTADO
+**Status**: 🟡 PARCIALMENTE IMPLEMENTADO (avançou significativamente em Mar 2026)
 **Story Points**: 3
 
 ### O Que Foi Implementado
@@ -401,30 +406,28 @@ curl -X POST http://localhost:3000/api/auth/register \
     - `userId`, `type`, `title`, `message`, `link`
     - `readAt` (para marcar como lida)
 
-#### Backend (Preparado)
-- ✅ Método `emailService` existe em vários lugares:
-  - [backend/src/services/email.service.ts](../../backend/src/services/email.service.ts)
-  - Mencionado em vários services (process, document-request, contract)
+#### Backend
+- ✅ **EmailService implementado** (Mar 2026):
+  - Integração com AWS SES
+  - Templates de email para verificação de conta
+  - Envio real de emails em produção
+  - Mencionado em vários services (certification, document-request, contract)
 
-### O Que Está Faltando (CRÍTICO para MVP)
+#### Frontend
+- ✅ **Notificações in-app**:
+  - Componente de sino no header implementado
+  - Dropdown de notificações
+  - Badge de contador
 
-- 🔴 **EmailService não implementado**:
-  - Sem integração SendGrid/AWS SES
-  - Sem templates de email
-  - Sem envio real de emails
+### O Que Está Faltando
 
-- 🔴 **Notificações in-app**:
-  - Sem componente de sino no header
-  - Sem dropdown de notificações
-  - Sem badge de contador
+- 🟡 **Templates de email adicionais**:
+  - Templates para mudança de status de certificação
+  - Templates para aprovação/rejeição de documentos
 
 - 🔴 **Preferências de notificação**:
   - Não há página de configuração
   - Não há opt-out
-
-### Para Implementar
-
-Ver [PROXIMOS-PASSOS-MVP.md](../../../PROXIMOS-PASSOS-MVP.md#1-sistema-de-emails-transacionais--crítico) - Prioridade MÁXIMA
 
 ---
 
@@ -435,18 +438,18 @@ Ver [PROXIMOS-PASSOS-MVP.md](../../../PROXIMOS-PASSOS-MVP.md#1-sistema-de-emails
 
 ### O Que Foi Implementado
 
-- ✅ Status 'rascunho' no enum `RequestStatus` e `ProcessStatus`
+- ✅ Status 'rascunho' no enum `WorkflowStatus` (antigo `ProcessStatus`)
 - ✅ Wizard permite salvar progresso
 - ✅ Empresa pode retornar e editar
 - ✅ Submissão final muda status de 'rascunho' para 'enviado'
 
 ### Método Backend
 ```typescript
-// backend/src/modules/process/process.service.ts
-submitWizard(processId: string) {
+// backend/src/modules/certification/certification.service.ts
+submitCertification(certificationId: string) {
   // Muda de 'rascunho' para 'pendente'
   // Gera protocolo único
-  // Notifica analistas (quando emails implementados)
+  // Notifica analistas via EmailService (AWS SES)
 }
 ```
 
@@ -459,18 +462,18 @@ submitWizard(processId: string) {
 
 ### O Que Foi Implementado
 
-- ✅ Status 'cancelado' no enum `ProcessStatus`
+- ✅ Status 'cancelado' no enum `WorkflowStatus` (antigo `ProcessStatus`)
 - ✅ Transição permitida de qualquer fase para 'cancelado'
-- ✅ Registro em histórico (`ProcessHistory`)
+- ✅ Registro em histórico (`CertificationHistory`, antigo `ProcessHistory`)
 - ✅ Campo `notes` para motivo do cancelamento
 
 ### Método Backend
 ```typescript
-// backend/src/modules/process/process.service.ts
-cancelProcess(processId: string, reason: string) {
+// backend/src/modules/workflow/workflow.service.ts
+cancelWorkflow(certificationId: string, reason: string) {
   // Muda status para 'cancelado'
   // Registra motivo em notes
-  // Cria entrada em ProcessHistory
+  // Cria entrada em CertificationHistory
 }
 ```
 
@@ -479,27 +482,27 @@ cancelProcess(processId: string, reason: string) {
 ## 📋 Checklist de Entrega para Desenvolvedor
 
 ### Backend
-- [x] Schema Prisma completo (Company, User, Request, Process, Document)
-- [x] ProcessService com CRUD e transições
+- [x] Schema Prisma completo (Company, User, CertificationRequest, RequestWorkflow, Certification, Document)
+- [x] CertificationService + WorkflowService com CRUD e transições
 - [x] IndustrialClassificationService (GSO 2055-2)
 - [x] CalculatorService (Inovação #1)
 - [x] ProposalService (calcular, criar, ajustar, enviar)
-- [ ] EmailService (PENDENTE - CRÍTICO)
+- [x] EmailService (AWS SES - implementado Mar 2026)
 
 ### Frontend
-- [x] NewRequestWizard.tsx (9 etapas completas)
-- [x] ProcessDetails.tsx (timeline 17 fases)
+- [x] NovaCertificacao.tsx + CertificationWizard components (9 etapas completas)
+- [x] CertificationDetails.tsx (timeline 17 fases)
 - [x] CompanyDashboard.tsx
-- [x] Todos os componentes do wizard
+- [x] Todos os componentes do wizard em `src/components/certification/` e `src/components/wizard/`
 - [x] FileDropzone para upload
 - [x] ProposalCalculator e ProposalBreakdown
-- [ ] Notificações in-app (PENDENTE)
+- [x] Notificações in-app (sino no header implementado)
 
 ### Database
-- [x] 19 tabelas criadas e relacionadas
-- [x] 22 enums definidos
-- [x] Migrations aplicadas
-- [x] Seed data (se houver)
+- [x] 47 models Prisma (74 tabelas incluindo join tables)
+- [x] 22+ enums definidos
+- [x] 10 migrations aplicadas
+- [x] Seed data (12 usuarios, empresa teste, grupo + planta)
 
 ### Funcionalidades End-to-End
 - [x] Empresa se cadastra
@@ -509,9 +512,10 @@ cancelProcess(processId: string, reason: string) {
 - [x] Empresa submete solicitação
 - [x] Status muda para 'pendente'
 - [x] Analista vê processo no Kanban
-- [ ] Analista recebe notificação por email (PENDENTE)
+- [x] Analista recebe notificação por email (EmailService AWS SES implementado)
 
 ---
 
 **Documento gerado**: 16 de Dezembro de 2025
+**Atualizado**: 27 de Marco de 2026
 **Próximo épico**: Ver [EPIC-02-STATUS.md](./EPIC-02-STATUS.md)
