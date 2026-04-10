@@ -1,0 +1,451 @@
+FASE: 13. Inclusão de produto-Alteração do processo
+Total de arquivos: 4
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.5 - CONTROLE DE ESCOPO (REV 1)_PT_EN.xlsx
+CAMINHO: 13. Inclusão de produto-Alteração do processo\FM 7.2.1.5 - CONTROLE DE ESCOPO (REV 1)_PT_EN.xlsx
+TAMANHO: 536244 bytes
+================================================================================
+=== SHEET: FM 7.2.1.5 (dimensoes: A1:E154) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+CONTROLE DE ESCOPO
+SCOPE CONTROL |  |  | FM 7.2.1.5
+Rev.: 01
+Data: 23/08/2018
+Escopo/ Scope
+Listagem dos Produtos a Serem Certificados*/ Products list to be certified*
+*Por favor descreva o escopo completo em português e inglês, considerando que a grafia em inglês será utilizada para manufatura do certificado Halal/ 
+*Please describe the full scope in Portuguese and English, considering that the English spelling will be used to manufacture the Halal certificate. |  |  |  | 
+Nome do Produto/
+Product name |  | Código (s)/
+Code (s) | Tipo (s) e tamanho (s) de embalagem (ns)/
+Type (s) and size (s) of package (s) | Marca (s)/
+Brand (s)
+1 |  |  |  | 
+2 |  |  |  | 
+3 |  |  |  | 
+4 |  |  |  | 
+5 |  |  |  | 
+6 |  |  |  | 
+7 |  |  |  | 
+8 |  |  |  | 
+9 |  |  |  | 
+10 |  |  |  | 
+11 |  |  |  | 
+12 |  |  |  | 
+13 |  |  |  | 
+14 |  |  |  | 
+15 |  |  |  | 
+16 |  |  |  | 
+17 |  |  |  | 
+18 |  |  |  | 
+19 |  |  |  | 
+20 |  |  |  | 
+21 |  |  |  | 
+22 |  |  |  | 
+23 |  |  |  | 
+24 |  |  |  | 
+25 |  |  |  | 
+26 |  |  |  | 
+27 |  |  |  | 
+28 |  |  |  | 
+29 |  |  |  | 
+30 |  |  |  | 
+31 |  |  |  | 
+32 |  |  |  | 
+33 |  |  |  | 
+34 |  |  |  | 
+35 |  |  |  | 
+36 |  |  |  | 
+37 |  |  |  | 
+38 |  |  |  | 
+39 |  |  |  | 
+40 |  |  |  | 
+41 |  |  |  | 
+42 |  |  |  | 
+43 |  |  |  | 
+44 |  |  |  | 
+45 |  |  |  | 
+46 |  |  |  | 
+47 |  |  |  | 
+48 |  |  |  | 
+49 |  |  |  | 
+50 |  |  |  | 
+51 |  |  |  | 
+52 |  |  |  | 
+53 |  |  |  | 
+54 |  |  |  | 
+55 |  |  |  | 
+56 |  |  |  | 
+57 |  |  |  | 
+58 |  |  |  | 
+59 |  |  |  | 
+60 |  |  |  | 
+61 |  |  |  | 
+62 |  |  |  | 
+63 |  |  |  | 
+64 |  |  |  | 
+65 |  |  |  | 
+66 |  |  |  | 
+67 |  |  |  | 
+68 |  |  |  | 
+69 |  |  |  | 
+70 |  |  |  | 
+71 |  |  |  | 
+72 |  |  |  | 
+73 |  |  |  | 
+74 |  |  |  | 
+75 |  |  |  | 
+76 |  |  |  | 
+77 |  |  |  | 
+78 |  |  |  | 
+79 |  |  |  | 
+80 |  |  |  | 
+81 |  |  |  | 
+82 |  |  |  | 
+83 |  |  |  | 
+84 |  |  |  | 
+85 |  |  |  | 
+86 |  |  |  | 
+87 |  |  |  | 
+88 |  |  |  | 
+89 |  |  |  | 
+90 |  |  |  | 
+91 |  |  |  | 
+92 |  |  |  | 
+93 |  |  |  | 
+94 |  |  |  | 
+95 |  |  |  | 
+96 |  |  |  | 
+97 |  |  |  | 
+98 |  |  |  | 
+99 |  |  |  | 
+100 |  |  |  | 
+101 |  |  |  | 
+102 |  |  |  | 
+103 |  |  |  | 
+104 |  |  |  | 
+105 |  |  |  | 
+106 |  |  |  | 
+107 |  |  |  | 
+108 |  |  |  | 
+109 |  |  |  | 
+110 |  |  |  | 
+111 |  |  |  | 
+112 |  |  |  | 
+113 |  |  |  | 
+114 |  |  |  | 
+115 |  |  |  | 
+116 |  |  |  | 
+117 |  |  |  | 
+118 |  |  |  | 
+119 |  |  |  | 
+120 |  |  |  | 
+121 |  |  |  | 
+122 |  |  |  | 
+123 |  |  |  | 
+124 |  |  |  | 
+125 |  |  |  | 
+126 |  |  |  | 
+127 |  |  |  | 
+128 |  |  |  | 
+129 |  |  |  | 
+130 |  |  |  | 
+131 |  |  |  | 
+132 |  |  |  | 
+133 |  |  |  | 
+134 |  |  |  | 
+135 |  |  |  | 
+136 |  |  |  | 
+137 |  |  |  | 
+138 |  |  |  | 
+139 |  |  |  | 
+140 |  |  |  | 
+141 |  |  |  | 
+142 |  |  |  | 
+143 |  |  |  | 
+144 |  |  |  | 
+145 |  |  |  | 
+146 |  |  |  | 
+147 |  |  |  | 
+148 |  |  |  | 
+149 |  |  |  | 
+150 |  |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.9 - PLANILHA MP E FORNECEDORES LATIM AMERICA (REV 7) PT_EN - Desbloqueado.xlsx
+CAMINHO: 13. Inclusão de produto-Alteração do processo\FM 7.4.2.9 - PLANILHA MP E FORNECEDORES LATIM AMERICA (REV 7) PT_EN - Desbloqueado.xlsx
+TAMANHO: 55685 bytes
+================================================================================
+=== SHEET: 1. MP E INSUMOS_RAW MATERIAL (dimensoes: A1:P92) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+PLANILHA MATÉRIAS PRIMAS E FORNECEDORES
+RAW MATERIAL AND SUPPLIERS SPREADSHEET |  |  |  |  |  |  |  |  |  |  |  |  |  | FM 7.4.2.9
+REV 7
+Data: 25/10/2018
+ | 2023-12-01 00:00:00 | POR FAVOR, PREENCHER A PLANILHA EM LETRA MAIUSCULA (CAPS LOCK ATIVO)/ PLEASE FILL THE SPREAD SHEET IN CAPITAL LETTERS |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | OBSERVAÇÕES: CLIQUE NAS CÉLULAS DO CABEÇALHO PARA VERIFICAR A TRADUÇÃO PARA O PORTUGUÊS/ REMARKS: CLICK ON HEAD CELLS TO CHECK THE PORTUGUESE TRANSLATION. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Raw Material/Input generic name | Raw Material/Input name according to Halal certificate or Halal Status Statement | Raw material/ Input Code (optional) | Raw material/input origin | Is the product Halal certified? If positive, indicate certifier name | Halal certificate number | In absence of the Halal certificate, does it have Halal status declaration? | Issue date of the Halal documentation (certificate or declaration) | Validity date of Halal documentation (Certificate or declaration) | In wich one of your final products does the raw material/input is applied? | Raw materail/input manufacture name | Raw materail/input manufacture adress | Raw material/input supplier name | The product is received in the original packaging of the manufacturer without being tampered with / repackaged | Remarks
+ | LEITE EM PÓ | LEITE EM PÓ INTEGRALE 3055 | N.A | ANIMAL | FAMBRAS HALAL | INT.SSP.0788.BRA | N.A. (It is Halal certified/ Possui Certificado Halal) | 2019-02-25 00:00:00 | 2021-02-25 00:00:00 | BISCOITO DE QUEIJO | INTEGRALE LEITES | RUA TEJUPA, 188, SP, SP, BRASIL | LEITE E CIA DISTRIBUIÇÃO | YES/ SIM | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+ | PURÊ DE FRUTA | POLPA DE GOIABA FSR 5560 | 1231564 | VEGETABLE/ VEGETAL | NÃO | N.A. | YES/ SIM | 2019-06-24 00:00:00 | 2021-06-24 00:00:00 | BISCOITO RECHEADO DE GOIABADA | POLPAS TIJUCO LTDA. | RUA DAS VIDEIRAS, 1040, BELO HORIZONTE, MINAS GERAIS, BRASIL | POLPAS TIJUCO LTDA. | YES/ SIM | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+=== SHEET: 2. OUTROS_OTHERS (dimensoes: A1:F12) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+PLANILHA MATÉRIAS PRIMAS E FORNECEDORES
+RAW MATERIAL AND SUPPLIERS SPREADSHEET |  |  |  | FM 7.4.2.9
+REV 7
+Data: 25/10/2018
+ | 2023-12-01 00:00:00 | POR FAVOR, PREENCHER A PLANILHA EM LETRA MAIUSCULA (CAPS LOCK ATIVO) |  |  | 
+ | OBSERVAÇÃO: CLIQUE NAS CÉLULAS DO CABEÇALHO PARA VERIFICAR A TRADUÇÃO PARA O PORTUGUÊS. PARA OS ITENS MENCIONADOS NESTA ABA NÃO É NECESSÁRIO ENVIAR A DOCUMENTAÇÃO. SERÁ VERIFICADO IN LOCO A FICHA DE ESPECIFICAÇÃO TÉCNICA E CASO NECESSÁRIO OUTROS DOCUMENTOS PODEM SER SOLICITADOS/REMARKS: CLICK ON HEAD CELLS TO CHECK THE PORTUGUESE TRANSLATION. FOR THE ITEMS MENTIONED IN THIS ABA IT IS NOT NECESSARY TO SEND DOCUMENTATION. THE TECHNICAL SPECIFICATION SHEET SHALL BE CHECKED IN CASE AND IF NECESSARY OTHER DOCUMENTS MAY BE REQUESTED. |  |  |  | 
+ | Product Category | Product Comercial Name | Manufacture Name | Supplier name | Remarks
+ | PACKAGING/ EMBALAGENS | LATAS CILÍNDRICAS RRL 555 | LATAS DE SP LTDA. | LATAS DE SP LTDA. | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+ | WATER TREATMENT/ TRAT. DE ÁGUA | FLOCULANTE POLIFLOC RRT | QUALIDADE & ÁGUA LTDA. | FORNECEDOR LTDA. | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.9 - PLANILHA MP E FORNECEDORES LATIM AMERICA (REV 7) PT_EN.xlsx
+CAMINHO: 13. Inclusão de produto-Alteração do processo\FM 7.4.2.9 - PLANILHA MP E FORNECEDORES LATIM AMERICA (REV 7) PT_EN.xlsx
+TAMANHO: 57934 bytes
+================================================================================
+=== SHEET: 1. MP E INSUMOS_RAW MATERIAL (dimensoes: A1:P92) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+PLANILHA MATÉRIAS PRIMAS E FORNECEDORES
+RAW MATERIAL AND SUPPLIERS SPREADSHEET |  |  |  |  |  |  |  |  |  |  |  |  |  | FM 7.4.2.9
+REV 7
+Data: 25/10/2018
+ | 2023-12-01 00:00:00 | POR FAVOR, PREENCHER A PLANILHA EM LETRA MAIUSCULA (CAPS LOCK ATIVO)/ PLEASE FILL THE SPREAD SHEET IN CAPITAL LETTERS |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | OBSERVAÇÕES: CLIQUE NAS CÉLULAS DO CABEÇALHO PARA VERIFICAR A TRADUÇÃO PARA O PORTUGUÊS/ REMARKS: CLICK ON HEAD CELLS TO CHECK THE PORTUGUESE TRANSLATION. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Raw Material/Input generic name | Raw Material/Input name according to Halal certificate or Halal Status Statement | Raw material/ Input Code (optional) | Raw material/input origin | Is the product Halal certified? If positive, indicate certifier name | Halal certificate number | In absence of the Halal certificate, does it have Halal status declaration? | Issue date of the Halal documentation (certificate or declaration) | Validity date of Halal documentation (Certificate or declaration) | In wich one of your final products does the raw material/input is applied? | Raw materail/input manufacture name | Raw materail/input manufacture adress | Raw material/input supplier name | The product is received in the original packaging of the manufacturer without being tampered with / repackaged | Remarks
+ | LEITE EM PÓ | LEITE EM PÓ INTEGRALE 3055 | N.A | ANIMAL | FAMBRAS HALAL | INT.SSP.0788.BRA | N.A. (It is Halal certified/ Possui Certificado Halal) | 2019-02-25 00:00:00 | 2021-02-25 00:00:00 | BISCOITO DE QUEIJO | INTEGRALE LEITES | RUA TEJUPA, 188, SP, SP, BRASIL | LEITE E CIA DISTRIBUIÇÃO | YES/ SIM | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+ | PURÊ DE FRUTA | POLPA DE GOIABA FSR 5560 | 1231564 | VEGETABLE/ VEGETAL | NÃO | N.A. | YES/ SIM | 2019-06-24 00:00:00 | 2021-06-24 00:00:00 | BISCOITO RECHEADO DE GOIABADA | POLPAS TIJUCO LTDA. | RUA DAS VIDEIRAS, 1040, BELO HORIZONTE, MINAS GERAIS, BRASIL | POLPAS TIJUCO LTDA. | YES/ SIM | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+=== SHEET: 2. OUTROS_OTHERS (dimensoes: A1:F12) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+PLANILHA MATÉRIAS PRIMAS E FORNECEDORES
+RAW MATERIAL AND SUPPLIERS SPREADSHEET |  |  |  | FM 7.4.2.9
+REV 7
+Data: 25/10/2018
+ | 2023-12-01 00:00:00 | POR FAVOR, PREENCHER A PLANILHA EM LETRA MAIUSCULA (CAPS LOCK ATIVO) |  |  | 
+ | OBSERVAÇÃO: CLIQUE NAS CÉLULAS DO CABEÇALHO PARA VERIFICAR A TRADUÇÃO PARA O PORTUGUÊS. PARA OS ITENS MENCIONADOS NESTA ABA NÃO É NECESSÁRIO ENVIAR A DOCUMENTAÇÃO. SERÁ VERIFICADO IN LOCO A FICHA DE ESPECIFICAÇÃO TÉCNICA E CASO NECESSÁRIO OUTROS DOCUMENTOS PODEM SER SOLICITADOS/REMARKS: CLICK ON HEAD CELLS TO CHECK THE PORTUGUESE TRANSLATION. FOR THE ITEMS MENTIONED IN THIS ABA IT IS NOT NECESSARY TO SEND DOCUMENTATION. THE TECHNICAL SPECIFICATION SHEET SHALL BE CHECKED IN CASE AND IF NECESSARY OTHER DOCUMENTS MAY BE REQUESTED. |  |  |  | 
+ | Product Category | Product Comercial Name | Manufacture Name | Supplier name | Remarks
+ | PACKAGING/ EMBALAGENS | LATAS CILÍNDRICAS RRL 555 | LATAS DE SP LTDA. | LATAS DE SP LTDA. | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+ | WATER TREATMENT/ TRAT. DE ÁGUA | FLOCULANTE POLIFLOC RRT | QUALIDADE & ÁGUA LTDA. | FORNECEDOR LTDA. | TRATA-SE DE UM EXEMPLO DE PREENCHIMENTO
+
+
+================================================================================
+ARQUIVO: IT 7.8 - ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL (REV 2) PT.pdf
+CAMINHO: 13. Inclusão de produto-Alteração do processo\IT 7.8 - ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL (REV 2) PT.pdf
+TAMANHO: 159358 bytes
+================================================================================
+=== PAGINA 1/4 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL VIGENTE 
+IT 7.8 
+Rev.: 02 
+Data: 30/10/2021 
+Pág.:1 de 4 
+ 
+ 
+ 
+1. OBJETIVO 
+Instruir os clientes e auditores da FAMBRAS Halal sobre os trâmites para alteração 
+do escopo de certificado vigente. 
+ 
+2. CAMPO DE APLICAÇÃO  
+Esta instrução é aplicável para empresas certificadas pela FAMBRAS Halal. 
+ 
+3. DOCUMENTOS DE REFERÊNCIA  
+• 
+ISO/IEC 17021.1: Avaliação da conformidade – Requisitos para organismos 
+que fornecem auditoria e certificação de sistema de gestão – Parte 1: 
+Requisitos; 
+• 
+ISO/IEC 17065: Avaliação da conformidade - Requisitos para organismos de 
+certificação de produtos, processos e serviços; 
+• 
+GSO 2055-2 HALAL products - Part two, General Requirements for HALAL 
+Certification Bodies. 
+ 
+4. COMUNICAÇÃO SOBRE A ALTERAÇÃO DO ESCOPO 
+Para comunicar a FAMBRAS Halal sobre alteração do escopo, tanto para adição 
+quanto para redução de produtos, o cliente deve entrar em contato, por e-mail, com o 
+último auditor de seu processo e/ou com o analista responsável pelo processo, 
+adicionando em cópia o diretor e o responsável técnico do setor específico.  
+• Para o setor Industrial, deve-se adicionar em cópia do e-mail o Diretor Dib 
+Ahmad El Tarrass (dib@fambrashalal.com.br), e a Responsável Técnica Lina 
+Ramadan (lina.ramadan@fambrashalal.com.br); 
+• Para o setor Frigorífico, deve-se adicionar em cópia do e-mail o Diretor Bassim 
+Ali El Zoghbi (bassim@fambrashalal.com.br), e o Responsável Técnico Islam 
+Said Zaid (islam@fambrashalal.com.br). 
+A comunicação sobre inclusão ou redução de produtos no escopo pode ocorrer 
+também durante a auditora. No momento da reunião de abertura, onde o auditor deve 
+confirmar o escopo da certificação, o cliente pode solicitar a alteração de escopo. 
+
+
+=== PAGINA 2/4 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL VIGENTE 
+IT 7.8 
+Rev.: 02 
+Data: 30/10/2021 
+Pág.:2 de 4 
+ 
+ 
+ 
+Para ambas as formas de comunicação, o cliente deve seguir as orientações 
+apresentadas ao longo desta Instrução de Trabalho. 
+ 
+5. DOCUMENTOS PARA REDUÇÃO DO ESCOPO DE CERTIFICAÇÃO 
+A redução do escopo de certificação pode ocorrer por decisão da FAMBRAS Halal, 
+quando partes específicas do escopo não atendem aos requisitos de certificação, ou por 
+solicitação do cliente. 
+Quando a solicitação para reduzir o escopo de um certificado vigente ocorrer por 
+vontade da empresa certificada, a mesma deverá enviar o FM 7.2.1.X* – Solicitação de 
+Certificação, com a descrição completa do escopo vigente, excluindo o produto a ser 
+retirado. Faz-se necessário também encaminhar no texto do e-mail uma justificativa para 
+a retirada do produto do escopo, por exemplo, linha descontinuada, ausência de vendas 
+do produto Halal, cancelamento de contrato de fornecimento, etc. 
+*Nota: O X no número da solicitação de certificação é variável de acordo com a 
+categoria, por exemplo, o FM 7.2.1.1 é a solicitação de certificação para produtos 
+industrializados no geral; já o FM 7.2.1.2, por exemplo, é a solicitação de certificação para 
+a frigoríficos de aves.  
+Após a avaliação da solicitação de certificação pelo Responsável Técnico, a 
+redução do escopo é formalizada com a emissão de um novo certificado Halal com o 
+escopo atualizado. 
+Todos aqueles produtos que foram reduzidos do escopo não deverão ser 
+comercializados com a aplicação do selo da FAMBRAS Halal, a partir da data em que a 
+redução do escopo foi aprovada. 
+As tratativas tomadas quando a redução de escopo se dá por decisão da 
+FAMBRAS Halal estão descritas no PR 7.1 – Condições de Concessão, Manutenção, 
+Extensão, Redução, Suspensão, Cancelamento, Término e Renovação da Certificação 
+Halal. 
+ 
+6. DOCUMENTOS PARA EXTENSÃO DO ESCOPO DE CERTIFICAÇÃO 
+Os seguintes documentos devem ser enviados pelo cliente para adicionar um ou 
+mais produtos no escopo de um certificado vigente: 
+
+
+=== PAGINA 3/4 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL VIGENTE 
+IT 7.8 
+Rev.: 02 
+Data: 30/10/2021 
+Pág.:3 de 4 
+ 
+ 
+ 
+• FM 7.2.1.X – Solicitação de certificação: Encaminhar uma nova versão 
+com o escopo completo do certificado, ou seja, produtos que já constam no 
+certificado vigente + descrição dos produtos a serem adicionados.  
+• Ficha de especificação técnica + fluxograma do produto a ser certificado; 
+• Caso seja aplicada alguma matéria prima/ insumo/ auxiliar de processo 
+neste produto o qual ainda não conste no FM 7.4.2.7 – Planilha MP e 
+fornecedores, enviar este formulário atualizado com as informações dos 
+itens adicionais + ficha de especificação técnica + certificado Halal ou na 
+ausência, declaração de status Halal.  
+Se após a avaliação de todos estes documentos pelo Responsável Técnico, for 
+constatado que a extensão da certificação envolve um novo processo de produção, a 
+empresa deverá passar por auditoria de estágio 2, sendo cabíveis todas as condições 
+descritas no PR 7.1 – Condições de Concessão, Manutenção, Extensão, Redução, 
+Suspensão, Cancelamento, Término e Renovação da Certificação Halal. 
+A extensão da certificação, com a inclusão dos novos produtos no escopo somente 
+será formalizada com a emissão de um novo certificado Halal com o escopo atualizado.  
+Portanto, a empresa só poderá aplicar o selo Halal no novo produto adicionado a 
+partir da data de concessão da extensão de certificação. Acrescenta-se ainda que a 
+aplicação do selo está condicionada à aprovação do time de qualidade da FAMBRAS 
+Halal, como determinado pela IT 4.1 – Instrução para o uso do selo de garantia 
+FAMBRAS 
+HALAL. 
+Para 
+isto, 
+um 
+e-mail 
+deverá 
+ser 
+enviado 
+para 
+(qualidade@fambrashalal.com.br) com os rótulos e/ou etiquetas contendo a aplicação do 
+selo. 
+
+
+=== PAGINA 4/4 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+ALTERAÇÃO DE ESCOPO DE CERTIFICADO HALAL VIGENTE 
+IT 7.8 
+Rev.: 02 
+Data: 30/10/2021 
+Pág.:4 de 4 
+ 
+ 
+ 
+HISTÓRICO DE REVISÕES 
+ 
+Edição 
+Data 
+Motivo da edição e/ou resumo das revisões 
+1 
+03/04/2018 
+Elaboração 
+2 
+13/09/2021 
+Inclusão do tópico 3. Documentos de Referência 
+Revisão do tópico 4. Comunicação sobre a Alteração do Escopo; 5. 
+Documentos para Redução do Escopo de Certificação; 6. Documentos 
+para Extensão do Escopo de Certificação 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Elaborado por:        
+Elaine Franco de Carvalho 
+Barbara Cristina  
+13/09/2021 
+Revisado por: 
+Lina Ramadan 
+Islam Zaid 
+20/09/2021 
+Aprovado por: 
+Mohamed Hussein El Zoghbi 
+Sheik Essadik El Otmani                                                            
+30/10/2021 
+ 
+ 

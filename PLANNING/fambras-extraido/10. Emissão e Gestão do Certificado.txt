@@ -1,0 +1,1510 @@
+FASE: 10. Emissão e Gestão do Certificado
+Total de arquivos: 62
+================================================================================
+
+
+================================================================================
+ARQUIVO: IT 7.10 - PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL (COMO MONTAR GABARITO) (REV 4) PT.pdf
+CAMINHO: 10. Emissão e Gestão do Certificado\IT 7.10 - PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL (COMO MONTAR GABARITO) (REV 4) PT.pdf
+TAMANHO: 1758429 bytes
+================================================================================
+=== PAGINA 1/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:1 de 21 
+ 
+ 
+HISTÓRICO DE REVISÕES 
+ 
+ 
+Edição 
+Data 
+Motivo da edição e/ou resumo das revisões 
+1 
+14/09/2018 
+Elaboração 
+2 
+18/09/2018 
+Revisão padrão de formatação para preenchimento gabaritos e 
+responsável frigorífico 
+3 
+15/04/2019 
+Inclusão de requisitos específicos para quando for emitir um certificado 
+com as normas do GSO - Item VI. Ajustar os padrões, conforme 
+reconhecimento e categoria, do item 5.2. 
+4 
+05/05/2022 
+Definição sobre o conceito da data de emissão do certificado Halal.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Elaborado por: 
+Elaine Franco de Carvalho 
+Soha Chabrawi 
+Barbara Domingos 
+Camila Mota 
+05/05/2022 
+Revisado por: 
+Lina Ramadan 
+Islam Zaid 
+05/05/2022 
+Aprovado por: 
+Mohamed Hussein El Zoghbi 
+Sheikh Essadik Otmani 
+05/05/2022 
+
+
+=== PAGINA 2/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:2 de 21 
+ 
+ 
+OBJETIVO  
+A presente instrução de trabalho destina-se a fornecer orientação para 
+preenchimento do gabarito, destinado a emissão do certificado Halal.  
+ 
+ 
+1. CAMPO DE APLICAÇÃO 
+Este procedimento aplica-se a todos os certificados únicos do departamento 
+Industrial e as habilitações de planta do departamento Frigorífico e Industrial da FAMBRAS 
+HALAL.  
+ 
+ 
+2. DEFINIÇÕES 
+ 
+2.1. 
+Certificado Halal  
+É um documento fiel de garantia emitido por uma instituição certificadora Halal, 
+reconhecida por países islâmicos, para atestar que a empresa, processo e produtos, 
+seguem os requisitos legais e critérios determinados pela jurisprudência islâmica (Shariah). 
+ 
+2.2. 
+Gabarito 
+Documento utilizado como molde para confecção do certificado Halal, onde serão 
+inseridas as informações de cada empresa certificada.  
+ 
+2.3. 
+Declaração de manutenção 
+Atestado emitido anualmente para comprovar que a empresa passou pelo processo 
+de manutenção da certificação Halal.  
+ 
+ 
+3. MODELOS DE CERTIFICADO 
+Existem 3 opções de certificados para serem emitidos, os quais os auditores devem 
+escolher no momento de definir o gabarito a ser preenchido, sendo estes: 
+ 
+ 
+ 
+
+
+=== PAGINA 3/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:3 de 21 
+ 
+ 
+3.1. 
+Certificado Único 
+Certificado emitido para as empresas Industrial, que não precisam de 
+acompanhamento de produção, e não emitem certificado de embarque. 
+Normalmente são processos mais simples, como açúcar, café, laticínios, químicos, 
+aditivos, condimentos dentre outros.  
+• SEM ANEXO: Usado quando todos os produtos couberem em uma única página 
+(normalmente até 6 produtos). 
+• COM ANEXO: Quando a empresa tiver muitos produtos, é necessário descrever 
+na página anexa os produtos.  
+ 
+3.2. 
+Habilitação de planta 
+ Para essas empresas existem acompanhamento de produção e a presença de um 
+supervisor muçulmano na planta (fixo ou sempre que houver produção Halal). 
+• COM SIF: É uma aprovação Halal para as plantas certificadas que possuem SIF 
+(trabalham 
+com 
+proteína 
+animal). 
+Para 
+estas 
+empresas 
+existem 
+acompanhamento de produção e a presença de um supervisor muçulmano na 
+planta (fixo ou sempre que houver produção Halal).  
+Este é o modelo emitido para os frigoríficos, e empresas que processam carne, 
+como Corned Beef, Hamburguer, Embutidos, e até empresas que usam 
+matérias-primas de origem animal como Gelatina, Heparina Sódica, Pancreatina, 
+etc.  
+• SEM SIF: É uma aprovação Halal para as plantas certificadas que não possuem, 
+mas trabalham com acompanhamento de produção e a presença de um 
+supervisor muçulmano na planta (fixo ou sempre que houver produção Halal).  
+Este é o modelo emitido para as empresas de pão de queijo, sucos que usam 
+aromas Halal, etc.  
+ 
+3.3. 
+Atenção: COM GAC e SEM GAC 
+Para todas as opções de certificados mencionados acima existem DUAS VERSÕES, 
+sendo uma COM GAC e outra SEM GAC.  
+
+
+=== PAGINA 4/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:4 de 21 
+ 
+ 
+A diferença é que para o cliente escolheu padrão Golfo será emitido a versão COM 
+GAC (que contém nosso selo de acreditação), já se o cliente não escolheu o padrão Golfo, 
+a versão emitida é SEM GAC (que não tem o selo) 
+ 
+ 
+4. ONDE ENCONTRAR O GABARITO 
+Todos os gabaritos (Industrial e Frigorífico) estão disponíveis na pasta: 
+Departamento → SGQ 17065 TODOS → X OUTROS → #GABARITOS 
+L:\SGQ17065 TODOS\X OUTROS\#GABARITOS  
+ 
+ 
+5. COMO PREENCHER O GABARITO 
+Os auditores documentais dos processos serão encarregados pela elaboração do 
+gabarito, sendo que o Responsável Técnico irá autorizar a emissão.  
+No caso dos gabaritos para a área industrial, o auditor líder também tem a 
+incumbência de realizar uma prévia validação do gabarito.  
+ 
+ 
+5.1. 
+PREENCHIMENTO DO GABARITO – CERTIFICADO ÚNICO 
+I. 
+Abrir a pasta gabarito e escolher o modelo aplicável, dentre as opções: 
+• Com GAC (sem página de anexo de produtos); 
+• Sem GAC (sem página de anexo de produtos); 
+• Com GAC (com página anexa de produtos); 
+• Sem GAC (com página anexa de produtos); 
+II. 
+Padrão de formatação para o preenchimento: 
+• Nome da Empresa: 
+o  Fonte: Arial;  
+LEMBRETE: sempre que o processo for finalizado e dar-se-á a emissão do certificado, deve-se copiar o 
+documento (arquivo em Word) e colar na pasta do cliente. Esse documento deve ser preenchido, não o 
+arquivo que está na pasta indicada acima!  
+IMPORTANTE: Todos os gabaritos possuem caixas de texto, as quais já são formatadas de acordo com o 
+tipo e tamanho de letra a ser utilizado. Portanto durante o preenchimento do gabarito, basta apenas 
+apagar e digitar as informações, não devendo em nenhuma hipótese alterar fonte, cor e tamanho.   
+
+
+=== PAGINA 5/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:5 de 21 
+ 
+ 
+o Tamanho: 12 (podendo ser 14 dependendo do tamanho) e sempre 
+em Negrito;  
+o Alinhamento: Centralizado. 
+• Demais campos de preenchimento:  
+o Fonte: Arial; 
+o Tamanho: 12; 
+o Alinhamento: alinhado à esquerda. 
+ 
+III. 
+Inserir a data de emissão do certificado em inglês (no formato mês, dia, ano; 
+o mês deve ser escrito por extenso) no campo Issue date. Para abrir a caixa 
+de texto, quando for gabarito com anexo, basta dar dois cliques no cabeçalho, 
+e preencher a caixa.  
+A data do issue date deve ser igual, ou posterior, a data do comitê de decisão.  
+ 
+ 
+ 
+IV. 
+Adicionar o número do certificado – Este deverá ser previamente solicitado a 
+Halima (para o setor Industrial) ou ao André (para o setor Frigorífico). Para 
+abrir a caixa de texto, quando for gabarito com anexo, basta dar dois cliques 
+no cabeçalho, e preencher a caixa.  
+Dois cliques aqui 
+no cabeçalho 
+Incluir a data 
+
+
+=== PAGINA 6/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:6 de 21 
+ 
+ 
+ 
+ 
+ 
+V. 
+Inserir as datas: 
+• Certificado desde (Certified since) – Data em que a empresa certificou 
+pela primeira vez com a FAMBRAS Halal.   
+No caso do primeiro ano de certificação, esta deve ser igual a data do 
+initial certification cycle date, e do issue date.  
+• Data inicial do ciclo de certificação (Initial certification cycle date) – 
+Referente ao ciclo de 3 anos, data em que este começou.  
+No caso do primeiro ano de certificação, a mesma é igual a data do 
+issue date, que é a data de emissão, a qual deve ser igual, ou 
+posterior, a data do comitê de decisão.  
+• Data de validade (Expiry date) – Data de validade da certificação, 
+nunca altera, sempre 3 anos exatos a partir da data inicial do ciclo de 
+certificação.  
+Para abrir a caixa de texto, quando for gabarito com anexo basta dar dois 
+cliques no cabeçalho, e preencher a caixa.  
+Inserir o número 
+aqui 
+
+
+=== PAGINA 7/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:7 de 21 
+ 
+ 
+  
+ 
+VI. 
+Inserir os dados da empresa (apertar Esc para sair do modo cabeçalho) e 
+editar o campo com o nome, endereço e CNPJ da empresa. Caso a empresa 
+tenha SIF é necessário descrimina-lo ao lado do CNPJ (e tirar do vermelho), 
+caso negativo, apagar.  
+ 
+ 
+VII. 
+Ajustar os esquemas de certificação no campo “standards”, conforme 
+categoria. 
+ 
+Escolher entre os esquemas a seguir, conforme categoria do produto: 
+• DT 7.1 - General requirements of FAMBRAS HALAL for products 
+certification (industrialized food and food additive) 
+Certificado desde 
+Data inicial do ciclo 
+Data de validade 
+
+
+=== PAGINA 8/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:8 de 21 
+ 
+ 
+• DT 7.4 - General requirements of FAMBRAS HALAL for products 
+certification (chemicals in general and cleaning agents) 
+• DT 7.5 - General requirements of FAMBRAS HALAL for products 
+certification (drugs and medications) 
+• DT 7.6 - General requirements of FAMBRAS HALAL for products 
+certification (personal hygiene products, cosmetics, and perfumes) 
+• DT 7.7 - General requirements of FAMBRAS HALAL for farms certification 
+• DT 7.8 - General requirements of FAMBRAS HALAL for warehouse, 
+transportation, and distribution certification 
+• DT 7.10 - General requirements of FAMBRAS HALAL for packaging 
+materials and wrappers certification 
+• DT 
+7.2.1 
+- 
+General 
+requirements 
+of 
+FAMBRAS 
+HALAL 
+for 
+slaughterhouses – Poultry 
+• DT 
+7.2.2 
+- 
+General 
+requirements 
+of 
+FAMBRAS 
+HALAL 
+for 
+slaughterhouses – Bovine 
+ 
+VIII. 
+Indicar a categoria do produto.  
+• Pode indicar mais de uma categoria, quando aplicável; 
+• As categorias devem ser escritas da seguinte forma: 
+➢ Category A – Farming of animals 
+➢ Category B – Farming of plants 
+➢ Category C – Food manufacturing (Perishable animal products (C1)/ 
+Perishable plant products (C2)/ Perishable animal and plant products 
+(C3)/ Ambient stable products (C4)/ Animal slaughtering (C5)) 
+➢ Category D – Feed production (Animal feed (D1)/ Pet food (D2)) 
+➢ Category E – Catering 
+➢ Category F – Distribution (Retail/ wholesale (F1)/ Food broking/ 
+trading (F2)) 
+➢ Category G – Transport and storage services (Perishable food and 
+feed (G1)/ Ambient stable food and feed (G2)) 
+➢ Category H - Services 
+➢ Category I – Food packaging and packaging materials production 
+
+
+=== PAGINA 9/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:9 de 21 
+ 
+ 
+➢ Category J – Equipment manufacturing 
+➢ Category K – Production of (Bio) Chemicals 
+ 
+ 
+IX. 
+Descrever o escopo.  
+i. Para até 6 produto/ 8 se couber, usar o certificado sem anexo, e preencher a 
+tabela de 3 colunas, conforme demonstrado abaixo: 
+• Primeira coluna: Nome do produto 
+• Segunda coluna: Código OU Tamanho da embalagem (Packing size) 
+• Terceira coluna: Marca (é possível mesclar as colunas de marca, veja 
+a segunda tabela usada como exemplo) 
+ 
+ii. Padrão de formatação: 
+• Fonte: Arial 
+• Tamanho: 11 (poderia ser 10 – caso necessário ajustar) 
+• Tamanho da coluna e largura das linhas: Ajustável 
+• Alinhamento: Product Name ajustável à esquerda; Code e Product 
+Brand deverão estar centralizados. 
+ 
+Exemplos de tabelas preenchidas:  
+ 
+ 
+Nº 
+Product Name 
+Packing size 
+Product Brand 
+1 
+Refined Canola Oil 
+500mL, 900mL and Bulk 
+Sinhá 
+2 
+Refined Soybean Oil 
+500mL, 750mL, 900mL, 
+15,85L and Bulk 
+Sinhá, Dois Amores, Cristal 
+and Carvalho 
+3 
+Refined Corn Oil 
+500mL, 900mL and Bulk 
+Sinhá, Cristal, Carrefour 
+4 
+Refined Sunflower Oil 
+500mL, 900mL and Bulk 
+Sinhá, Cristal, Carrefour 
+5 
+Destilated Soybean Oil (DDOS)  
+Bulk 
+Caramuru 
+6 
+Soybean Lecithin 
+Bulk 
+Caramuru and Lecét 
+7 
+Degummed Soybean Oil 
+Bulk 
+Caramuru 
+
+
+=== PAGINA 10/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:10 de 21 
+ 
+ 
+ 
+Nº 
+Product Name 
+Code 
+Product Brand 
+1 
+Acerola Organic Powder (17% Vitamin C) 
+510500210052XXXX 
+Duas Rodas 
+2 
+XD - Acerola Powder (17% Vitamin C) 
+510500210060XXXX 
+3 
+XD - Acerola Extract Powder 
+510500210008XXXX 
+4 
+Acerola Powder (17% Vitamin C) 
+510500210009XXXX 
+5 
+XD-Dehydrated Acerola Powder (17% Vitamin C) 
+510500210046XXXX 
+ 
+iii. 
+Para mais de 6 produto/ 7, usar o certificado com anexo, e preencher os 
+produtos através de uma tabela, conforme colunas sinalizadas no item i.  
+Os padrões de tamanho e letra descritos no item i. também devem ser 
+aplicados.  
+ 
+a) O anexo a seguir ilustra o modelo de tabela do excel que pode ser usado 
+para montar o gabarito. 
+PRODUTOS.xlsx
+ 
+ 
+b) A seguir a tabela será copiada e colada nas páginas em anexo do 
+gabarito.  
+ 
+
+
+=== PAGINA 11/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:11 de 21 
+ 
+ 
+ 
+c) Apagar a tabela do gabarito 
+d) Colar a nova tabela, já previamente ajustada no excel, não devendo ser 
+ajustada no word, caso contrário, a tabela não ficará fixa no documento.  
+ 
+ 
+e) Também são opções escrever os produtos diretamente nas linhas, ou 
+colar somente os campos preenchíveis (para isso, selecionar as colunas 
+que irão inserir as informações e apertar Ctrl +v).  
+ 
+X. 
+Considerações importantes:  
+• Produtos a granel não tem obrigatoriedade de expor a marca de 
+comercialização; 
+• Plantas 100% Halal não precisam obrigatoriamente de expor códigos e/ou 
+tamanhos de embalagem, uma vez que não há diferença entre produtos Halal 
+e não Halal. 
+• Outras exceções podem ocorrer mediante liberação do Responsável técnico.  
+ 
+XI. 
+Produtos a granel 
+No caso de produtos a granel, existe uma opção de gabarito, a qual cita uma 
+frase fixa, esclarecendo sobre a responsabilidade da FAMBRAS Halal, diante 
+da cadeira de granel.  
+
+
+=== PAGINA 12/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:12 de 21 
+ 
+ 
+ 
+As demais etapas de preenchimento são idênticas ao previamente 
+apresentado.  
+ 
+ 
+XII. 
+Salvar o arquivo. (Vide instruções no item 6). 
+ 
+ 
+5.2. 
+PREENCHIMENTO DO GABARITO – HABILITAÇÃO DE PLANTA 
+I. 
+Abrir a pasta gabarito e escolher o modelo aplicável, dentre as opções: 
+• SEM SIF - Com GAC (sem página de anexo de produtos); 
+• SEM SIF - Sem GAC (sem página de anexo de produtos); 
+• SEM SIF - Com GAC (com página anexa de produtos); 
+• SEM SIF - Sem GAC (com página anexa de produtos); 
+• COM SIF - Com GAC (sem página de anexo de produtos); 
+• COM SIF - Sem GAC (sem página de anexo de produtos); 
+• COM SIF - Com GAC (com página anexa de produtos); 
+• COM SIF - Sem GAC (com página anexa de produtos); 
+ 
+ 
+
+
+=== PAGINA 13/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:13 de 21 
+ 
+ 
+II. 
+Padrão de Formatação: 
+• Fonte: Arial; 
+• Tamanho: 12; 
+• Alinhamento: Centralizado ou alinhado à esquerda (datas e número do 
+certificado). 
+ 
+III. 
+Inserir a data de emissão do certificado em inglês (no formato mês, dia, ano; 
+o mês deve ser escrito por extenso) no campo Issue date.  
+A data do issue date deve ser igual, ou posterior, a data do comitê de decisão.  
+ 
+ 
+IV. 
+Inserir os dados da empresa nos quadrados conforme solicitado  
+ 
+ 
+ 
+V. 
+Ajustar os esquemas de certificação no campo “standards”, conforme 
+categoria.  
+ 
+Escolher entre os esquemas a seguir, conforme categoria do produto: 
+• DT 
+7.2.1 
+- 
+General 
+requirements 
+of 
+FAMBRAS 
+HALAL 
+for 
+slaughterhouses – Poultry 
+• DT 
+7.2.2 
+- 
+General 
+requirements 
+of 
+FAMBRAS 
+HALAL 
+for 
+slaughterhouses – Bovine 
+• DT 7.1 - General requirements of FAMBRAS HALAL for products 
+certification (industrialized food and food additive) 
+
+
+=== PAGINA 14/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:14 de 21 
+ 
+ 
+• DT 7.4 - General requirements of FAMBRAS HALAL for products 
+certification (chemicals in general and cleaning agents) 
+• DT 7.5 - General requirements of FAMBRAS HALAL for products 
+certification (drugs and medications) 
+• DT 7.6 - General requirements of FAMBRAS HALAL for products 
+certification (personal hygiene products, cosmetics, and perfumes) 
+• DT 7.7 - General requirements of FAMBRAS HALAL for farms certification 
+• DT 7.8 - General requirements of FAMBRAS HALAL for warehouse, 
+transportation, and distribution certification 
+• DT 7.10 - General requirements of FAMBRAS HALAL for packaging 
+materials and wrappers certification 
+ 
+VI. 
+Indicar a categoria do produto.  
+• Pode indicar mais de uma categoria, quando aplicável; 
+• As categorias devem ser escritas da seguinte forma: 
+➢ Category A – Farming of animals 
+➢ Category B – Farming of plants 
+➢ Category C – Food manufacturing (Perishable animal products (C1)/ 
+Perishable plant products (C2)/ Perishable animal and plant products 
+(C3)/ Ambient stable products (C4)/ Animal slaughtering (C5)) 
+➢ Category D – Feed production (Animal feed (D1)/ Pet food (D2)) 
+➢ Category E – Catering 
+➢ Category F – Distribution (Retail/ wholesale (F1)/ Food broking/ 
+trading (F2)) 
+➢ Category G – Transport and storage services (Perishable food and 
+feed (G1)/ Ambient stable food and feed (G2)) 
+➢ Category H - Services 
+➢ Category I – Food packaging and packaging materials production 
+➢ Category J – Equipment manufacturing 
+➢ Category K – Production of (Bio) Chemicals 
+ 
+
+
+=== PAGINA 15/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:15 de 21 
+ 
+ 
+VII. 
+Descrever o escopo.  
+Neste caso o escopo pode ser descrito livremente, em linhas, conforme 
+tamanho do espaço e quantidade de produtos.  
+O escopo deve incluir o produto e marcas.  
+Respeitar o padrão: 
+• Fonte: Arial 
+• Tamanho: 11 (poderia ser 10 até 12 – caso necessário ajustar) 
+ 
+ 
+Nota. No caso de certificados de embarque, nem sempre é necessário indicar 
+código e tamanho de embalagens, somente o escopo genérico é suficiente. 
+Esta situação ocorre, pois, o processo é acompanhado por um supervisor, e 
+porque existe também a rastreabilidade que antecede a emissão do 
+certificado de embarque.  
+ 
+ 
+No caso de o escopo não caber na primeira página, preencher a tabela 
+disponível na página 2.  
+ 
+ 
+VIII. 
+Adicionar o número do certificado – Este deverá ser previamente solicitado a 
+Halima (para o setor Industrial) e André (para o setor Frigorífico).  
+Inserir as datas: 
+• Certificado desde (Certified since) – Data em que a empresa certificou 
+pela primeira vez com a FAMBRAS Halal.   
+No caso do primeiro ano de certificação, esta deve ser igual a data do 
+initial certification cycle date, e do issue date.  
+• Data inicial do ciclo de certificação (Initial certification cycle date) – 
+Referente ao ciclo de 3 anos, data em que este começou.  
+
+
+=== PAGINA 16/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:16 de 21 
+ 
+ 
+No caso do primeiro ano de certificação, a mesma é igual a data do 
+issue date, que é a data de emissão, a qual deve ser igual, ou 
+posterior, a data do comitê de decisão.  
+• Data de validade (Expiry date) – Data de validade da certificação, 
+nunca altera, sempre 3 anos exatos a partir da data inicial do ciclo de 
+certificação.  
+Para abrir a caixa de texto, quando for gabarito com anexo basta dar dois 
+cliques no cabeçalho, e preencher a caixa. 
+ 
+ 
+IX. 
+ Salvar o arquivo. (Vide instruções no item 6). 
+ 
+ 
+ 
+6. COMO SALVAR O CERTIFICADO 
+O certificado Halal sempre deve ser salvo no formato PDF protegido, para que possa 
+ser enviado ao cliente.  
+O PDF protegido impede que o cliente altere o documento, copie e cole nossas artes 
+visuais e assinatura do presidente.  
+Para salvar desta forma, deverá ser usado o programa PDF CREATOR.  
+ 
+ 
+ 
+
+
+=== PAGINA 17/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:17 de 21 
+ 
+ 
+6.1. 
+Como configurar o PDF Creator 
+I. 
+Abrir o PDF Creator e acessar a aba PERFIS 
+ 
+ 
+II. 
+Acessar a opção Segurança 
+ 
+ 
+ 
+ 
+
+
+=== PAGINA 18/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:18 de 21 
+ 
+ 
+III. 
+Configurar 
+a) Selecionar criptografia; 
+b) No último campo → Permitir ao usuário, manter ticado somente: 
+• Imprimir o documento; 
+• Usar um leitor de tela; 
+c) Salvar.  
+ 
+ 
+ 
+ 
+a 
+b 
+c 
+
+
+=== PAGINA 19/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:19 de 21 
+ 
+ 
+6.2. 
+Como salvar o certificado no modo seguro 
+I. 
+Escolher um arquivo: 
+ 
+ 
+II. 
+Selecionar o arquivo com o gabarito no word que você montou para o cliente, 
+e clicar em abrir 
+ 
+ 
+ 
+
+
+=== PAGINA 20/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:20 de 21 
+ 
+ 
+III. 
+Escolher: 
+a) nome do arquivo (indicar o número do certificado); 
+b) pasta para salvar o PDF; 
+c) Título do documento (indicar o número do certificado); 
+d) Selecionar Salvar: 
+ 
+ 
+IV. 
+Incluir uma senha para proteção (senha padrão Fambras2018) → OK 
+ 
+a 
+b 
+c 
+d 
+
+
+=== PAGINA 21/21 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+PREENCHIMENTO E EMISSÃO DO CERTIFICADO HALAL 
+IT 7.10 
+Rev.: 04 
+Date: 05/05/2022 
+Pág.:21 de 21 
+ 
+ 
+V. 
+Pronto. Irá abrir essa janela.  
+ 
+ 
+VI. 
+Testar: Verificar se de fato o PDF está seguro contra cópia e cola (Ctrl + C/ 
+Ctrl + V): 
+a) Abrir o arquivo salvo normalmente – com o pdf reader padrão; 
+b) Selecionar o texto, clicar com o botão direito e ver se aparece a opção 
+copiar, ou testar o Ctrl + C. 
+c) Abrir uma janela do word e colar – botão direito + colar ou  Ctrl + V. 
+d) Selecionar parte da imagem do arquivo, clicar com o botão direito e ver se 
+aparece a opção copiar, ou testar o Ctrl + C . Neste caso ao colar, deverá 
+aparecer um quadrado preto ou branco.  
+ 
+ 
+
+
+
+================================================================================
+ARQUIVO: NOME DAS DTS E CATEGORIAS.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\NOME DAS DTS E CATEGORIAS.docx
+TAMANHO: 24460 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] DT 7.1 - General requirements of FAMBRAS HALAL for products certification (industrialized food and food additive)
+[Normal] DT 7.4 - General requirements of FAMBRAS HALAL for products certification (chemicals in general and cleaning agents)
+[Normal] DT 7.5 - General requirements of FAMBRAS HALAL for products certification (drugs and medications)
+[Normal] DT 7.6 - General requirements of FAMBRAS HALAL for products certification (personal hygiene products, cosmetics, and perfumes)
+[Normal] DT 7.7 - General requirements of FAMBRAS HALAL for farms certification
+[Normal] DT 7.8 - General requirements of FAMBRAS HALAL for warehouse, transportation, and distribution certification
+[Normal] DT 7.10 - General requirements of FAMBRAS HALAL for packaging materials and wrappers certification
+[Normal] DT 7.2.1 - General requirements of FAMBRAS HALAL for slaughterhouses – Poultry
+[Normal] DT 7.2.2 - General requirements of FAMBRAS HALAL for slaughterhouses – Bovine
+[Normal] Nome das categorias:
+[Normal] Category A – Farming of animals
+[Normal] Category B – Farming of plants
+[Normal] Category C – Food manufacturing (Perishable animal products (C1)/ Perishable plant products (C2)/ Perishable animal and plant products (C3)/ Ambient stable products (C4)/ Animal slaughtering (C5))
+[Normal] Category D – Feed production (Animal feed (D1)/ Pet food (D2))
+[Normal] Category E – Catering
+[Normal] Category F – Distribution (Retail/ wholesale (F1)/ Food broking/ trading (F2))
+[Normal] Category G – Transport and storage services (Perishable food and feed (G1)/ Ambient stable food and feed (G2))
+[Normal] Category H - Services
+[Normal] Category I – Food packaging and packaging materials production
+[Normal] Category J – Equipment manufacturing
+[Normal] Category K – Production of (Bio) Chemicals
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - ARG COM CUIT - GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.1 - ARG COM CUIT - GOLFO_COM ANEXO.docx
+TAMANHO: 817057 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - ARG COM CUIT - GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.1 - ARG COM CUIT - GOLFO_SEM ANEXO.docx
+TAMANHO: 1621098 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERT. UNICO  - GOLFO_COM_ANEXO granel.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.2 - CERT. UNICO  - GOLFO_COM_ANEXO granel.docx
+TAMANHO: 2918081 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Attachment – List of certified products
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERT. UNICO - GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.2 - CERT. UNICO - GOLFO_COM ANEXO.docx
+TAMANHO: 2943955 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Attachment – List of certified products
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERT. UNICO - GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.2 - CERT. UNICO - GOLFO_SEM ANEXO.docx
+TAMANHO: 2883518 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (9 linhas x 4 colunas) ===
+Linha 1: Nº | Product Name | Code | Product Brand
+Linha 2: 1 |  |  | 
+Linha 3: 2 |  |  | 
+Linha 4: 3 |  |  | 
+Linha 5: 4 |  |  | 
+Linha 6: 5 |  |  | 
+Linha 7: 6 |  |  | 
+Linha 8: 7 |  |  | 
+Linha 9: 8 |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERT. UNICO - GOLFO_S_ANEXO a granel.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\FM 7.7.2 - CERT. UNICO - GOLFO_S_ANEXO a granel.DOC
+TAMANHO: 2880618 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.7.2 - CERT. UNICO - GOLFO_S_ANEXO a granel.DOC
+Tamanho: 2880618 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.A - SEM GOLFO E SEM ANEXO.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM 7.7.1.A - SEM GOLFO E SEM ANEXO.DOC
+TAMANHO: 1627513 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.7.1.A - SEM GOLFO E SEM ANEXO.DOC
+Tamanho: 1627513 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.A - SEM GOLFO_ COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM 7.7.1.A - SEM GOLFO_ COM ANEXO.docx
+TAMANHO: 829788 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.2.A - ARG CERTIFICADO UNICO - SEM GOLFO_SEM ANEXO.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM 7.7.2.A - ARG CERTIFICADO UNICO - SEM GOLFO_SEM ANEXO.DOC
+TAMANHO: 2908980 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.7.2.A - ARG CERTIFICADO UNICO - SEM GOLFO_SEM ANEXO.DOC
+Tamanho: 2908980 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.2.A - ARG CERTIFICADO UNICO -SEM GOLFO_COM ANEXO.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM 7.7.2.A - ARG CERTIFICADO UNICO -SEM GOLFO_COM ANEXO.DOC
+TAMANHO: 2969322 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.7.2.A - ARG CERTIFICADO UNICO -SEM GOLFO_COM ANEXO.DOC
+Tamanho: 2969322 bytes
+
+
+================================================================================
+ARQUIVO: FM772A~3.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM772A~3.DOC
+TAMANHO: 2919651 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772A~3.DOC
+Tamanho: 2919651 bytes
+
+
+================================================================================
+ARQUIVO: FM772A~4.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Argentina\Sem Golfo\FM772A~4.DOC
+TAMANHO: 2949159 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772A~4.DOC
+Tamanho: 2949159 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.1 - BR COM SIF - GOLFO_COM ANEXO.docx
+TAMANHO: 882837 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.1 - BR COM SIF - GOLFO_SEM ANEXO.docx
+TAMANHO: 1684880 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.1 - BR SEM SIF - GOLFO_COM ANEXO.docx
+TAMANHO: 865614 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.1 - BR SEM SIF - GOLFO_SEM ANEXO.docx
+TAMANHO: 1662661 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERTIFICADO UNICO - GOLFO_COM ANEXO DE PRODUTOS.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.2 - CERTIFICADO UNICO - GOLFO_COM ANEXO DE PRODUTOS.docx
+TAMANHO: 2712213 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Attachment – List of certified produ
+
+
+================================================================================
+ARQUIVO: FM 7.7.2 - CERTIFICADO UNICO - GOLFO_SEM ANEXO DE PRODUTOS.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM 7.7.2 - CERTIFICADO UNICO - GOLFO_SEM ANEXO DE PRODUTOS.docx
+TAMANHO: 2705704 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (8 linhas x 4 colunas) ===
+Linha 1: Nº | Product Name | Code / Packing size | Product Brand
+Linha 2: 1 |  |  | 
+Linha 3: 2 |  |  | 
+Linha 4: 3 |  |  | 
+Linha 5: 4 |  |  | 
+Linha 6: 5 |  |  | 
+Linha 7: 6 |  |  | 
+Linha 8: 7 |  |  | 
+
+
+================================================================================
+ARQUIVO: FM772-~2.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM772-~2.DOC
+TAMANHO: 2712221 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~2.DOC
+Tamanho: 2712221 bytes
+
+
+================================================================================
+ARQUIVO: FM772-~4.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\FM772-~4.DOC
+TAMANHO: 2744454 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~4.DOC
+Tamanho: 2744454 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - KEPKABAN BPJPH_SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - KEPKABAN BPJPH_SEM GOLFO_COM ANEXO.docx
+TAMANHO: 896305 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - KEPKABAN BPJPH_SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - KEPKABAN BPJPH_SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1698790 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - MS_SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - MS_SEM GOLFO_COM ANEXO.docx
+TAMANHO: 897653 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - MS_SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - MS_SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1701085 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - MUIS E SMIIC_SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - MUIS E SMIIC_SEM GOLFO_COM ANEXO.docx
+TAMANHO: 895079 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR COM SIF - MUIS E SMIIC_SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR COM SIF - MUIS E SMIIC_SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1701105 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - KEPKABAN BPJPH _SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF - KEPKABAN BPJPH _SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1690100 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - MS_SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF - MS_SEM GOLFO_COM ANEXO.docx
+TAMANHO: 887902 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - MS_SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF - MS_SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1690076 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - MUIS E SMIIC_SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF - MUIS E SMIIC_SEM GOLFO_COM ANEXO.docx
+TAMANHO: 887798 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF - MUIS E SMIIC_SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF - MUIS E SMIIC_SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1690222 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1 - BR SEM SIF -KEPKABAN BPJPH _SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM 7.7.1 - BR SEM SIF -KEPKABAN BPJPH _SEM GOLFO_COM ANEXO.docx
+TAMANHO: 888602 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM17E7~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM17E7~1.DOC
+TAMANHO: 2798724 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM17E7~1.DOC
+Tamanho: 2798724 bytes
+
+
+================================================================================
+ARQUIVO: FM4153~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM4153~1.DOC
+TAMANHO: 2798516 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM4153~1.DOC
+Tamanho: 2798516 bytes
+
+
+================================================================================
+ARQUIVO: FM5E75~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM5E75~1.DOC
+TAMANHO: 2739585 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM5E75~1.DOC
+Tamanho: 2739585 bytes
+
+
+================================================================================
+ARQUIVO: FM6B12~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM6B12~1.DOC
+TAMANHO: 2775153 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM6B12~1.DOC
+Tamanho: 2775153 bytes
+
+
+================================================================================
+ARQUIVO: FM6B94~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM6B94~1.DOC
+TAMANHO: 2774794 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM6B94~1.DOC
+Tamanho: 2774794 bytes
+
+
+================================================================================
+ARQUIVO: FM772-~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM772-~1.DOC
+TAMANHO: 2738610 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~1.DOC
+Tamanho: 2738610 bytes
+
+
+================================================================================
+ARQUIVO: FM772-~2.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM772-~2.DOC
+TAMANHO: 2740554 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~2.DOC
+Tamanho: 2740554 bytes
+
+
+================================================================================
+ARQUIVO: FM772-~3.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM772-~3.DOC
+TAMANHO: 2739162 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~3.DOC
+Tamanho: 2739162 bytes
+
+
+================================================================================
+ARQUIVO: FM772-~4.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM772-~4.DOC
+TAMANHO: 2742206 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772-~4.DOC
+Tamanho: 2742206 bytes
+
+
+================================================================================
+ARQUIVO: FM9821~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FM9821~1.DOC
+TAMANHO: 2742815 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM9821~1.DOC
+Tamanho: 2742815 bytes
+
+
+================================================================================
+ARQUIVO: FMBE59~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FMBE59~1.DOC
+TAMANHO: 2799029 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FMBE59~1.DOC
+Tamanho: 2799029 bytes
+
+
+================================================================================
+ARQUIVO: FME2AF~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Brasil\Sem Golfo\FME2AF~1.DOC
+TAMANHO: 2774822 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FME2AF~1.DOC
+Tamanho: 2774822 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.C - COL COM SIF - SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM 7.7.1.C - COL COM SIF - SEM GOLFO_COM ANEXO.docx
+TAMANHO: 900208 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.C - COL COM SIF - SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM 7.7.1.C - COL COM SIF - SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1701392 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.C - COL SEM SIF - SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM 7.7.1.C - COL SEM SIF - SEM GOLFO_COM ANEXO.docx
+TAMANHO: 884789 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.C - COL SEM SIF - SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM 7.7.1.C - COL SEM SIF - SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1686337 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM772C~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM772C~1.DOC
+TAMANHO: 2778613 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772C~1.DOC
+Tamanho: 2778613 bytes
+
+
+================================================================================
+ARQUIVO: FM772C~2.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM772C~2.DOC
+TAMANHO: 2778430 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772C~2.DOC
+Tamanho: 2778430 bytes
+
+
+================================================================================
+ARQUIVO: FM772C~3.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM772C~3.DOC
+TAMANHO: 2814950 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772C~3.DOC
+Tamanho: 2814950 bytes
+
+
+================================================================================
+ARQUIVO: FM772C~4.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Colômbia\FM772C~4.DOC
+TAMANHO: 2837541 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772C~4.DOC
+Tamanho: 2837541 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.P - PAR COM SIF - SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM 7.7.1.P - PAR COM SIF - SEM GOLFO_COM ANEXO.docx
+TAMANHO: 895857 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.P - PAR COM SIF - SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM 7.7.1.P - PAR COM SIF - SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1697760 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.P - PAR SEM SIF - SEM GOLFO_COM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM 7.7.1.P - PAR SEM SIF - SEM GOLFO_COM ANEXO.docx
+TAMANHO: 880290 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM 7.7.1.P - PAR SEM SIF - SEM GOLFO_SEM ANEXO.docx
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM 7.7.1.P - PAR SEM SIF - SEM GOLFO_SEM ANEXO.docx
+TAMANHO: 1681838 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+
+================================================================================
+ARQUIVO: FM772P~1.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM772P~1.DOC
+TAMANHO: 2754655 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772P~1.DOC
+Tamanho: 2754655 bytes
+
+
+================================================================================
+ARQUIVO: FM772P~2.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM772P~2.DOC
+TAMANHO: 2812558 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772P~2.DOC
+Tamanho: 2812558 bytes
+
+
+================================================================================
+ARQUIVO: FM772P~3.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM772P~3.DOC
+TAMANHO: 2790177 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772P~3.DOC
+Tamanho: 2790177 bytes
+
+
+================================================================================
+ARQUIVO: FM772P~4.DOC
+CAMINHO: 10. Emissão e Gestão do Certificado\Industrial\Paraguai\FM772P~4.DOC
+TAMANHO: 2752196 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM772P~4.DOC
+Tamanho: 2752196 bytes

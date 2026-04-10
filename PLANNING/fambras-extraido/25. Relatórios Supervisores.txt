@@ -1,0 +1,408 @@
+FASE: 25. Relatórios Supervisores
+Total de arquivos: 8
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 20.1 - OCORRÊNCIA AVES (REV 4) PT.docx
+CAMINHO: 25. Relatórios Supervisores\FM 20.1 - OCORRÊNCIA AVES (REV 4) PT.docx
+TAMANHO: 163931 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] iUnidades Seara/ JBS: Enviar diariamente o relatório preenchido para o e-mail qualidade@fambrashalal.com.br e mohamed.elsharif@fambrashalal.com.br
+[Normal] Unidades BRF e Outras: Enviar diariamente o relatório preenchido para o e-mail qualidade@fambrashalal.com.br e adel@fambrashalal.com.br
+
+=== TABELA 1 (5 linhas x 2 colunas) ===
+Linha 1: Identificação | Identificação
+Linha 2: Empresa (nome e cidade): | 
+Linha 3: SIF: | 
+Linha 4: Data: | 
+Linha 5: Nome do supervisor: | 
+
+=== TABELA 2 (4 linhas x 3 colunas) ===
+Linha 1: Avaliação | Avaliação | Avaliação
+Linha 2: Abate mecânico | Abate mecânico | Abate mecânico
+Linha 3: A unidade realizada abate mecânico? | Sim | Não
+Linha 4: Descreva aqui as condições do abate mecânico (relatar com detalhes se houve falhas no disco, paradas para ajuste/ manutenção, se o número de frangos não sangrados está aceitável)     TESTES DE EFICIÊNCIA DO DISCO (SE A UNIDADE OPERAR COM ABATE MECÂNICO)  OBS: Realizar, no mínimo, 2 testes, em cada linha, em cada turno. | Descreva aqui as condições do abate mecânico (relatar com detalhes se houve falhas no disco, paradas para ajuste/ manutenção, se o número de frangos não sangrados está aceitável)     TESTES DE EFICIÊNCIA DO DISCO (SE A UNIDADE OPERAR COM ABATE MECÂNICO)  OBS: Realizar, no mínimo, 2 testes, em cada linha, em cada turno. | Descreva aqui as condições do abate mecânico (relatar com detalhes se houve falhas no disco, paradas para ajuste/ manutenção, se o número de frangos não sangrados está aceitável)     TESTES DE EFICIÊNCIA DO DISCO (SE A UNIDADE OPERAR COM ABATE MECÂNICO)  OBS: Realizar, no mínimo, 2 testes, em cada linha, em cada turno.
+
+=== TABELA 3 (3 linhas x 3 colunas) ===
+Linha 1: Insensibilização | Insensibilização | Insensibilização
+Linha 2: A unidade realiza insensibilização | Sim | Não
+Linha 3: Descreva aqui as condições da insensibilização (relatar com detalhes se os parâmetros usados não ocasionam a morte do animal, e qualquer ocorrência relacionada)  PARÂMETROS DE INSENSIBILIZAÇÃO (SE A UNIDADE APLICAR)  OBS: Monitorar, no mínimo, 2 vezes, em cada linha, em cada turno. | Descreva aqui as condições da insensibilização (relatar com detalhes se os parâmetros usados não ocasionam a morte do animal, e qualquer ocorrência relacionada)  PARÂMETROS DE INSENSIBILIZAÇÃO (SE A UNIDADE APLICAR)  OBS: Monitorar, no mínimo, 2 vezes, em cada linha, em cada turno. | Descreva aqui as condições da insensibilização (relatar com detalhes se os parâmetros usados não ocasionam a morte do animal, e qualquer ocorrência relacionada)  PARÂMETROS DE INSENSIBILIZAÇÃO (SE A UNIDADE APLICAR)  OBS: Monitorar, no mínimo, 2 vezes, em cada linha, em cada turno.
+
+=== TABELA 4 (27 linhas x 5 colunas) ===
+Linha 1: Paradas de linha | Paradas de linha | Paradas de linha | Paradas de linha | Paradas de linha
+Linha 2: Houve quantas paradas de linha durante o dia? | Houve quantas paradas de linha durante o dia? | Houve quantas paradas de linha durante o dia? |  | 
+Linha 3: Alguma parada de linha foi ocasionada em virtude do processo Halal? | Alguma parada de linha foi ocasionada em virtude do processo Halal? | Alguma parada de linha foi ocasionada em virtude do processo Halal? | Sim | Não
+Linha 4: A duração das paradas de linha ocasionou a morte de alguma ave na cuba? | A duração das paradas de linha ocasionou a morte de alguma ave na cuba? | A duração das paradas de linha ocasionou a morte de alguma ave na cuba? | Sim | Não
+Linha 5: A empresa possui algum mecanismo de abaixar a cuba durante a parada de linha? Ou abaixam manualmente no tempo certo? | A empresa possui algum mecanismo de abaixar a cuba durante a parada de linha? Ou abaixam manualmente no tempo certo? | A empresa possui algum mecanismo de abaixar a cuba durante a parada de linha? Ou abaixam manualmente no tempo certo? | Sim | Não
+Linha 6: Se algum animal morreu em virtude da parada de linha, os mesmos foram removidos? | Se algum animal morreu em virtude da parada de linha, os mesmos foram removidos? | Se algum animal morreu em virtude da parada de linha, os mesmos foram removidos? | Sim | Não
+Linha 7: Descreva aqui informações relevantes sobre as paradas de linha:   Se ocasionou a morte, quantos animais morreram?     Quem foi responsável por retirá-los? | Descreva aqui informações relevantes sobre as paradas de linha:   Se ocasionou a morte, quantos animais morreram?     Quem foi responsável por retirá-los? | Descreva aqui informações relevantes sobre as paradas de linha:   Se ocasionou a morte, quantos animais morreram?     Quem foi responsável por retirá-los? | Descreva aqui informações relevantes sobre as paradas de linha:   Se ocasionou a morte, quantos animais morreram?     Quem foi responsável por retirá-los? | Descreva aqui informações relevantes sobre as paradas de linha:   Se ocasionou a morte, quantos animais morreram?     Quem foi responsável por retirá-los?
+Linha 8: Aves vivas/ mal sangradas | Aves vivas/ mal sangradas | Aves vivas/ mal sangradas | Aves vivas/ mal sangradas | Aves vivas/ mal sangradas
+Linha 9: Passou alguma ave viva pelo tanque de escaldagem? | Passou alguma ave viva pelo tanque de escaldagem? | Sim | Não
+Linha 10: Foram retiradas aves mal sangradas antes do tanque de escaldagem? | Foram retiradas aves mal sangradas antes do tanque de escaldagem? | Sim | Não
+Linha 11: Descreva aqui detalhes das aves não sangradas e mal sangradas (, se, se). Se possível incluir fotos de evidência.   Por qual motivo passaram estas aves vivas pelo tanque de escaldagem?   Foi gerado auto de infração?   Foram identificadas pelo SIF?   OBS: Sempre que passar ave viva pelo tanque de escaldagem, realizar treinamento com os sangradores, e enviar a lista de presença para o e-mail da qualidade | Descreva aqui detalhes das aves não sangradas e mal sangradas (, se, se). Se possível incluir fotos de evidência.   Por qual motivo passaram estas aves vivas pelo tanque de escaldagem?   Foi gerado auto de infração?   Foram identificadas pelo SIF?   OBS: Sempre que passar ave viva pelo tanque de escaldagem, realizar treinamento com os sangradores, e enviar a lista de presença para o e-mail da qualidade | Descreva aqui detalhes das aves não sangradas e mal sangradas (, se, se). Se possível incluir fotos de evidência.   Por qual motivo passaram estas aves vivas pelo tanque de escaldagem?   Foi gerado auto de infração?   Foram identificadas pelo SIF?   OBS: Sempre que passar ave viva pelo tanque de escaldagem, realizar treinamento com os sangradores, e enviar a lista de presença para o e-mail da qualidade | Descreva aqui detalhes das aves não sangradas e mal sangradas (, se, se). Se possível incluir fotos de evidência.   Por qual motivo passaram estas aves vivas pelo tanque de escaldagem?   Foi gerado auto de infração?   Foram identificadas pelo SIF?   OBS: Sempre que passar ave viva pelo tanque de escaldagem, realizar treinamento com os sangradores, e enviar a lista de presença para o e-mail da qualidade | Descreva aqui detalhes das aves não sangradas e mal sangradas (, se, se). Se possível incluir fotos de evidência.   Por qual motivo passaram estas aves vivas pelo tanque de escaldagem?   Foi gerado auto de infração?   Foram identificadas pelo SIF?   OBS: Sempre que passar ave viva pelo tanque de escaldagem, realizar treinamento com os sangradores, e enviar a lista de presença para o e-mail da qualidade
+Linha 12: Pendura e Lote desuniforme | Pendura e Lote desuniforme | Pendura e Lote desuniforme | Pendura e Lote desuniforme | Pendura e Lote desuniforme
+Linha 13: Houve alguma ocorrência de mais de uma ave pendurada no mesmo gancho? | Houve alguma ocorrência de mais de uma ave pendurada no mesmo gancho? | Houve alguma ocorrência de mais de uma ave pendurada no mesmo gancho? | Sim | Não
+Linha 14: Houve alguma ocorrência de mais de uma ave pendurada apenas por uma perna, ou por outra parte do corpo: | Houve alguma ocorrência de mais de uma ave pendurada apenas por uma perna, ou por outra parte do corpo: | Houve alguma ocorrência de mais de uma ave pendurada apenas por uma perna, ou por outra parte do corpo: | Sim | Não
+Linha 15: Houve ocorrências de lote desuniforme? | Houve ocorrências de lote desuniforme? | Houve ocorrências de lote desuniforme? | Sim | Não
+Linha 16: Descreva aqui detalhes (a quem foi comunicado, quantidade de ocorrências e, se possível, forneça evidências, como fotos). | Descreva aqui detalhes (a quem foi comunicado, quantidade de ocorrências e, se possível, forneça evidências, como fotos). | Descreva aqui detalhes (a quem foi comunicado, quantidade de ocorrências e, se possível, forneça evidências, como fotos). | Descreva aqui detalhes (a quem foi comunicado, quantidade de ocorrências e, se possível, forneça evidências, como fotos). | Descreva aqui detalhes (a quem foi comunicado, quantidade de ocorrências e, se possível, forneça evidências, como fotos).
+Linha 17: Funcionários | Funcionários | Funcionários | Funcionários | Funcionários
+Linha 18: Houve falta de sangradores no dia de hoje? | Houve falta de sangradores no dia de hoje? | Sim | Não
+Linha 19: Foi necessária hora-extra por algum funcionário? | Foi necessária hora-extra por algum funcionário? | Foi necessária hora-extra por algum funcionário? | Sim | Não
+Linha 20: Houve algum acidente de trabalho? | Houve algum acidente de trabalho? | Houve algum acidente de trabalho? | Sim | Não
+Linha 21: Os sangradores atrasaram para voltar para linha de abate, ou saíram antes da troca do turno? | Os sangradores atrasaram para voltar para linha de abate, ou saíram antes da troca do turno? | Os sangradores atrasaram para voltar para linha de abate, ou saíram antes da troca do turno? | Sim | Não
+Linha 22: Os funcionários respeitam as BPFs, normas internas do frigorífico e fazem uso adequado dos EPIs. | Os funcionários respeitam as BPFs, normas internas do frigorífico e fazem uso adequado dos EPIs. | Os funcionários respeitam as BPFs, normas internas do frigorífico e fazem uso adequado dos EPIs. | Sim | Não
+Linha 23: Houve inclusão de funcionários novos? (data que será treinamento de integração ou lista de presença de treinamento de integração) | Sim   (Data) | Sim   (Data) | Não
+Linha 24: Descreva aqui: Quantos funcionários faltaram, seus nomes e motivos.  Quantos fizeram hora extra, o motivo das horas extras. Se houve acidente, descrever com detalhes Se houve atraso, falar o motivo e o tempo. Detalhes sobre BPF, EPIs e normas internas. | Descreva aqui: Quantos funcionários faltaram, seus nomes e motivos.  Quantos fizeram hora extra, o motivo das horas extras. Se houve acidente, descrever com detalhes Se houve atraso, falar o motivo e o tempo. Detalhes sobre BPF, EPIs e normas internas. | Descreva aqui: Quantos funcionários faltaram, seus nomes e motivos.  Quantos fizeram hora extra, o motivo das horas extras. Se houve acidente, descrever com detalhes Se houve atraso, falar o motivo e o tempo. Detalhes sobre BPF, EPIs e normas internas. | Descreva aqui: Quantos funcionários faltaram, seus nomes e motivos.  Quantos fizeram hora extra, o motivo das horas extras. Se houve acidente, descrever com detalhes Se houve atraso, falar o motivo e o tempo. Detalhes sobre BPF, EPIs e normas internas. | Descreva aqui: Quantos funcionários faltaram, seus nomes e motivos.  Quantos fizeram hora extra, o motivo das horas extras. Se houve acidente, descrever com detalhes Se houve atraso, falar o motivo e o tempo. Detalhes sobre BPF, EPIs e normas internas.
+Linha 25: Mercado | Mercado | Mercado | Mercado | Mercado
+Linha 26: Você sabe para qual país será enviada a produção de hoje? | Você sabe para qual país será enviada a produção de hoje? | Você sabe para qual país será enviada a produção de hoje? | Sim | Não
+Linha 27: Se sim, qual ou quais os países? | Se sim, qual ou quais os países? | Se sim, qual ou quais os países? | Se sim, qual ou quais os países? | Se sim, qual ou quais os países?
+
+=== TABELA 5 (3 linhas x 1 colunas) ===
+Linha 1: Outros
+Linha 2: Descreva aqui qualquer outra ocorrência, a qual não há espaço para relatar acima, por exemplo, melhorias estruturais necessárias, conversas realizadas com os responsáveis da unidade, se a unidade está adotando correções para as ocorrências, como treinamentos com a equipe da pendura, etc.
+Linha 3: Sempre que possível, forneça evidências, como fotos, que comprovem os relatos de ocorrências acima.
+
+=== TABELA 6 (2 linhas x 1 colunas) ===
+Linha 1: Correção/ Ação corretiva
+Linha 2: Qual a ação adotada pelo supervisor, no caso de qualquer ocorrência descrita acima?  Forneça detalhes: Tomar ação imediatamente
+
+
+================================================================================
+ARQUIVO: FM 20.2 - REGISTRO DE OCORRÊNCIAS INTERNAS (REV 1) PT.docx
+CAMINHO: 25. Relatórios Supervisores\FM 20.2 - REGISTRO DE OCORRÊNCIAS INTERNAS (REV 1) PT.docx
+TAMANHO: 154120 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Unidades BRF: Enviar diariamente o relatório preenchido para o e-mail qualidade@fambrashalal.com.br e adel@fambrashalal.com.br
+[Normal] Outras unidades: Enviar diariamente o relatório preenchido para o e-mail qualidade@fambrashalal.com.br, lina.ramadan@fambrashalal.com.br e fuad@fambrashalal.com.br
+
+=== TABELA 1 (6 linhas x 3 colunas) ===
+Linha 1: Identificação | Identificação | Identificação
+Linha 2: Empresa (nome e cidade): |  | 
+Linha 3: SIF: |  | 
+Linha 4: Data: |  | 
+Linha 5: Nome do supervisor: |  | 
+Linha 6: Você foi presencialmente na unidade hoje? | Sim | Não
+
+=== TABELA 2 (20 linhas x 3 colunas) ===
+Linha 1: Avaliação | Avaliação | Avaliação
+Linha 2: Matérias Primas | Matérias Primas | Matérias Primas
+Linha 3: Houve recebimento de matéria prima no dia de hoje? | Sim | Não
+Linha 4: Todas as matérias primas cárneas estavam acompanhadas do Certificado Halal ou do Relatório de Transferência (ENTRE O MESMO GRUPO, INTERNO, CURTUMES, etc) | Sim | Não
+Linha 5: Todas as demais matérias primas foram aprovadas previamente pela FAMBRAS Halal, ou seja, constam na PLANILHA DE MATÉRIAS PRIMAS – FM 7.4.2.7 | Sim | Não
+Linha 6: Descreva aqui se foi recebido alguma matéria prima sem documentação Halal válida. | Descreva aqui se foi recebido alguma matéria prima sem documentação Halal válida. | Descreva aqui se foi recebido alguma matéria prima sem documentação Halal válida.
+Linha 7: Produto | Produto | Produto
+Linha 8: Houve produção Halal no dia de hoje? | Sim | Não
+Linha 9: Foi realizada higienização dos equipamentos antes do início da produção Halal? | Sim | Não
+Linha 10: Os produtos Halal estão armazenados de forma segregada e identificada? | Sim | Não
+Linha 11: Os produtos Halal são identificados com o selo de garantia Halal apropriado ao mercado de destino? | Sim | Não
+Linha 12: Descreva aqui se há algum risco de contaminação para o Halal (não segregação dos produtos Halal, higienização não adequada, utilização de matérias primas não Halal) | Descreva aqui se há algum risco de contaminação para o Halal (não segregação dos produtos Halal, higienização não adequada, utilização de matérias primas não Halal) | Descreva aqui se há algum risco de contaminação para o Halal (não segregação dos produtos Halal, higienização não adequada, utilização de matérias primas não Halal)
+Linha 13: Expedição | Expedição | Expedição
+Linha 14: Houve expedição do produto Halal no dia de hoje? | Sim | Não
+Linha 15: O produto Halal foi vendido para o mercado interno? | Sim | Não
+Linha 16: O produto Halal foi enviado para outro país? | Sim | Não
+Linha 17: Se sim, para qual ou quais países foi exportado o produto Halal?
+Linha 18: O produto Halal seguiu para o entreposto? | Sim | Não
+Linha 19: O contêiner foi carregado exclusivamente com produtos certificados Halal? | Sim | Não
+Linha 20: Descreva aqui se as condições de transporte estão adequadas, ou seja, se estão devidamente higienizadas | Descreva aqui se as condições de transporte estão adequadas, ou seja, se estão devidamente higienizadas | Descreva aqui se as condições de transporte estão adequadas, ou seja, se estão devidamente higienizadas
+
+=== TABELA 3 (3 linhas x 1 colunas) ===
+Linha 1: Outros
+Linha 2: Descreva aqui qualquer outra ocorrência, a qual não há espaço para relatar acima, por exemplo, melhorias estruturais, conversas e solicitações realizadas com os responsáveis da unidade.
+Linha 3: Sempre que possível, forneça evidências, como fotos, que comprovem os relatos de ocorrências acima.
+
+=== TABELA 4 (2 linhas x 1 colunas) ===
+Linha 1: Correção/ Ação corretiva
+Linha 2: Qual a ação adotada pelo supervisor, no caso de qualquer ocorrência descrita acima? Forneça detalhes.
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.1 - REL ACOMP FAB PROD INDUST A BASE DE CARNE (REV 4) PT_EN.doc
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.1 - REL ACOMP FAB PROD INDUST A BASE DE CARNE (REV 4) PT_EN.doc
+TAMANHO: 423936 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.1.3.1 - REL ACOMP FAB PROD INDUST A BASE DE CARNE (REV 4) PT_EN.doc
+Tamanho: 423936 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.2  - REL ACOMP FAB PROD INDUSTRIALIZADOS SEM CARNE (REV 3) PT_EN.doc
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.2  - REL ACOMP FAB PROD INDUSTRIALIZADOS SEM CARNE (REV 3) PT_EN.doc
+TAMANHO: 393216 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.1.3.2  - REL ACOMP FAB PROD INDUSTRIALIZADOS SEM CARNE (REV 3) PT_EN.doc
+Tamanho: 393216 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.3 - REL ACOMP FAB PROD TRIPAS (REV 6) PT_EN.xlsx
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.3 - REL ACOMP FAB PROD TRIPAS (REV 6) PT_EN.xlsx
+TAMANHO: 48717 bytes
+================================================================================
+=== SHEET: Planilha1 (dimensoes: A2:P68) ===
+ |  |  | FAMBRAS HALAL CERTIFICAÇÃO LTDA
+
+RELATÓRIO DE PRODUÇÃO DE TRIPAS CALIBRADAS E SALGADAS
+NATURAL SALT CASING CALIBRATED PRODUCTION REPORT |  |  |  |  |  |  |  | FM 7.1.3.3
+Rev.: 06
+Data: 15/07/2021
+Pág.: 1 de 2 |  |  |  | 
+ | IDENTIFICAÇÃO DA UNIDADE 
+COMPANY IDENTIFICATION |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Empresa (nome, endereço e SIF)
+Company (name, address and Sanitary number): |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Nome do Supervisor 
+Supervisor name |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | INFORMAÇÕES DA PRODUÇÃO
+PRODUCTION INFORMATION |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Data e horário inicial da produção
+Production start date and time: |  |  |  |  |  | Data e horário final da produção
+Final production date and time: |  |  |  |  |  |  |  | 
+ | Numero do Pedido e Invoice:
+Order Number and Invoice: |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | MATÉRIAS-PRIMAS - TRIPAS (HIDRATAÇÃO/CALIBRAÇÃO/SALGA)
+RAW MATERIALS - CASINGS (HYDRATION / CALIBRATION / SALTING) |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Tipo de Tripa: 
+Casing type: |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | SIF
+Sanitary number |  | Data de abate
+Slaughtering date |  | Número de Bombonas
+Drums number |  | Nota Fiscal (NF)/
+Invoice |  | Documento Sanitário (DCPOA)/
+Sanitary Document (DCPOA) |  | N° Certificado Halal/ Data Relatório de Transferência
+Halal certificate number/ Transfer report date |  |  |  | 
+ | Total de Bombonas
+Total drums | 0 |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | DADOS DAS OUTRAS MATÉRIAS-PRIMAS / INSUMOS
+ANOTHERS RAW MATERIALS/ INPUT DETAILS |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Produto
+Product |  |  |  | Fornecedor:
+Supplier |  |  | Lote:
+Batch |  |  | Validade:
+Expiry date |  |  |  | 
+ | INFORMAÇÕES DO PRODUTO FINAL
+FINAL PRODUCT INFORMATIONS |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Produto fabricado (Tipo de tripa):
+Manufactured product (casing type) |  | Código do produto:
+Product Code: | Lote:
+Batch | Data de fabricação
+Manufacturing date | Data de validade
+Expiry date | Número total de maços
+Total number of packets |  | Número total de bombonas
+Total number of drums |  | Peso líquido
+Net weight
+(KG) | Peso bruto
+Gross weight
+(KG) |  |  | 
+ | Total |  |  |  |  |  |  |  | 0 |  |  |  |  |  | 
+ |  |  | FAMBRAS HALAL CERTIFICAÇÃO LTDA
+
+RELATÓRIO DE PRODUÇÃO DE TRIPAS CALIBRADAS E SALGADAS
+NATURAL SALT CASING CALIBRATED PRODUCTION REPORT |  |  |  |  |  |  |  | FM 7.1.3.3
+Rev.: 06
+Data: 15/07/2021
+Pág.: 2 de 2 |  |  |  | 
+ | VERIFICAÇÃO ANTES, DURANTE E APÓS A PRODUÇÃO /
+BEFORE, DURING AND AFTER PRODUCTION CHECK: |  |  |  |  |  |  |  |  |  | C | NC |  |  | 
+ | Todas as bombonas de tripa utilizadas são Halal e possuem a documentação que comprova serem provenientes abate Halal e também contém o selo na embalagem.
+All casings drums used are Halal and have the appropriate Halal documentation and also contains the Halal guarantee seal. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Todos os equipamentos e utensílios encontravam-se limpos antes do início da produção Halal. 
+All equipment and utensils were cleaned prior to the start of Halal production. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | As matérias-primas/ insumos separadas e utilizadas na produção Halal são apenas aquelas previamente aprovadas para os produtos Halal. 
+Separate raw materials / inputs used in Halal production are only those that were previously approved for Halal products |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | As soluções de hidratação e o sal presente nas mesas de salga não foram utilizadas anteriormente para tripas não Halal.
+Hydration solutions and salt using in salting tables have not been previously used for non-Halal casings. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Os produtos Halal estão armazenados de forma segregada e identificada. /
+Halal products are stored in a segregated and identified way. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Os produtos Halal são identificados com o selo de garantia Halal apropriado ao mercado destino.
+The Halal products are identified with the properly Halal guarantee seal according destination market. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Legenda/ Subtitle:
+C – Conforme / Conformity; NC – Não Conforme / Non conformity; 
+Nota. Em caso de não conformidade, preencher o check list FM 7.1.6.1 / Note. In case of non-conformiry, fill the check list FM 7.1.6.1 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Observações/ Comments: |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Eu, _______________________________________________, portador do RG __________________ confirmo que acompanhei a fabricação dos produtos identificados acima, e que todo o processo foi praticado seguindo o determinado pela jurisprudência islâmica
+
+I, ____________________________________________, ID owner ______________ confirm that I have followed the Halal production in its entirety, and I am responsible for all the information contained in this report, as determined by Islamic jurisprudence. 
+
+_____________________________________
+Assinatura Supervisor Muçulmano/ Data 
+Muslim supervisor signature/ Date |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.5 - REL. ACOND PROD INDUST A BASE DE PROTEÍNAS ANIMAIS (REV 3) PT_EN.doc
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.5 - REL. ACOND PROD INDUST A BASE DE PROTEÍNAS ANIMAIS (REV 3) PT_EN.doc
+TAMANHO: 384000 bytes
+================================================================================
+[FORMATO .DOC LEGADO - nao extraivel automaticamente]
+Arquivo: FM 7.1.3.5 - REL. ACOND PROD INDUST A BASE DE PROTEÍNAS ANIMAIS (REV 3) PT_EN.doc
+Tamanho: 384000 bytes
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.6 - INVENTÁRIO DE ACOMPANHAMENTO DE ROTULAGEM (REV 3) PT_EN.xlsx
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.6 - INVENTÁRIO DE ACOMPANHAMENTO DE ROTULAGEM (REV 3) PT_EN.xlsx
+TAMANHO: 58226 bytes
+================================================================================
+=== SHEET: ID GRAMATURA (dimensoes: B2:T88) ===
+ |  |  | FAMBRAS HALAL CERTIFICAÇÃO LTDA
+
+INVENTÁRIO DE ACOMPANHAMENTO DE ROTULAGEM
+LABELING CHECK INVENTORY |  |  |  |  |  |  |  |  |  |  |  |  |  |  | FM 7.1.3.6
+Rev.: 03
+Data: 06/10/2017 | 
+ | Produto Final (xxxg) sem Rótulo
+Final product (xxxg) without label |  |  |  |  | Produto Final (xxxg) com Rótulo
+Final product (xxxg) with label |  |  |  |  | Embarque
+Boarding |  |  | Latas descartadas e/ou separadas para analises - COM ROTULO
+Discarded cans and/or separated for analysis - WITH LABEL | Latas descartadas e/ou separadas para analises SEM ROTULO
+Discarded cans and/or separated for analysis - WITHOUT LABEL | Estoque com Rotulagem
+Stock with label |  | Estoque sem Rotulagem
+Stock without label | 
+ | Código (Interno)
+Internal code | Nome do Produto
+Product name | Data de Produção
+Production date | Número de Latas
+Cans number | Peso Liquido 
+Net weight
+(Kg) | Código
+Code | Nome do Produto
+Product name | Data da Rotulagem
+Labeling date | Número de Latas
+Cans number | Peso Liquido 
+Net weight
+(Kg) | Número do Pedido
+Order number | Data do embarque
+Boarding date | Número de Latas
+Cans number |  |  | Número de Latas
+Cans number | Peso Liquido 
+Net weight
+(Kg) | Número de Latas
+Cans number | Peso Liquido 
+Net weight
+(Kg)
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+ |  |  |  |  | 0 |  |  |  |  | 0 |  |  |  |  |  | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | Total |  |  | 0 | 0 | Total |  | 0 |  |  |  |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.1.3.7 - RELATÓRIO DE VERIFICAÇÃO DE LIMPEZA - MARFRIG HULHA NEGRA (REV 1) PT_EN.docx
+CAMINHO: 25. Relatórios Supervisores\FM 7.1.3.7 - RELATÓRIO DE VERIFICAÇÃO DE LIMPEZA - MARFRIG HULHA NEGRA (REV 1) PT_EN.docx
+TAMANHO: 330199 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Legenda/ Subtitle:
+[Normal] C – Conforme / Conformity; NC – Não Conforme / Non conformity;
+[Normal] Eu,____________________________________________, portador do RG ______________ confirmo que verifiquei a limpeza de todos os equipamentos e utensílios antes da produção. 
+[Normal] I, ____________________________________________, ID owner ______________ confirm that I checked the cleaning of all equipment and utensils before production.
+[Normal] _____________________________________________
+[Normal] Assinatura Supervisor Muçulmano/ Data	
+[Normal] Muslim supervisor signature/ Date
+
+=== TABELA 1 (3 linhas x 2 colunas) ===
+Linha 1: Identificação da produção Production identification | Identificação da produção Production identification
+Linha 2: Data/ Date: | 
+Linha 3: Horário inicial da produção/  Initial production time: | 
+
+=== TABELA 2 (4 linhas x 5 colunas) ===
+Linha 1: Identificação do produto Product identification | Identificação do produto Product identification | Identificação do produto Product identification | Identificação do produto Product identification | Identificação do produto Product identification
+Linha 2: Produto Product | Natureza dos volumes (ex. lata, caixa) Kind of packages (ex. box, can) | Peso do produto Product Weight | Código Code | Código Juliano Julian Code
+Linha 3:  |  |  |  | 
+Linha 4:  |  |  |  | 
+
+=== TABELA 3 (10 linhas x 3 colunas) ===
+Linha 1: Conferencia da limpeza Cleaning check | Conferencia da limpeza Cleaning check | Conferencia da limpeza Cleaning check
+Linha 2: Equipamento e setor/ Equipment and sector | C* | NC*
+Linha 3: Triturador (desossa)/ Crusher (boning) |  | 
+Linha 4: Elevador (tendal e desossa)/ Lift (tendal and boning) |  | 
+Linha 5: Cozinhador (desossa)/ Cooker (boning) |  | 
+Linha 6: Moedor (desossa)/ Grinder (boning) |  | 
+Linha 7: Carretinha (conserva)/ Carretinha (conserve) |  | 
+Linha 8: Misturador (conserva)/ Mixer (conserve) |  | 
+Linha 9: Tunel (conserva)/ Tunnel (conserve) |  | 
+Linha 10: Enchedeira (conserva)/ Enchedeira (conserve) |  | 
+
+=== TABELA 4 (1 linhas x 1 colunas) ===
+Linha 1: Observações/ Comments:

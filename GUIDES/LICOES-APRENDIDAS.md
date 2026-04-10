@@ -1054,6 +1054,7 @@ node scripts/generate-api-gateway.js   # ou inline via node -e (ver abaixo)
 3. **INCLUA** a regeneracao NO MESMO COMMIT/PR do novo controller
 4. **TESTE** com `curl -X OPTIONS` na URL de producao apos deploy para confirmar
 5. **LEMBRE**: CORS error no browser pode ser 404 do API Gateway, nao config de CORS do NestJS (ver ERRO 17)
+6. **DEPLOY DO GATEWAY**: regenerar os JSONs NAO e suficiente — apos o push, e OBRIGATORIO executar `deploy/apigateway.sh` para aplicar a configuracao na AWS (PutRestApi + CreateDeployment). Sem isso, o API Gateway continua usando a versao anterior e rotas novas retornam CORS error
 
 ### Checklist para Novos Endpoints
 
@@ -1061,6 +1062,7 @@ node scripts/generate-api-gateway.js   # ou inline via node -e (ver abaixo)
 - [ ] Regenerou os 3 JSONs do API Gateway a partir do swagger.json?
 - [ ] Verificou que o novo endpoint aparece nos JSONs gerados?
 - [ ] Commit inclui os 3 JSONs atualizados?
+- [ ] Apos deploy do backend, executou `deploy/apigateway.sh` para o ambiente correspondente?
 
 ---
 

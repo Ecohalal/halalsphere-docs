@@ -1,0 +1,76 @@
+FASE: 12. Processo de Cancelamento e Suspensão
+Total de arquivos: 3
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 7.1.1 - CHECK LIST DE PROCESSO (REV 10) PT_EN.docx
+CAMINHO: 12. Processo de Cancelamento e Suspensão\FM 7.1.1 - CHECK LIST DE PROCESSO (REV 10) PT_EN.docx
+TAMANHO: 515120 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Reconhecimento/ Recognition: 
+[Normal]  Inclusão do Golfo/Golf Inclusion                                 Exclusão do Golfo/Gulf exclusion
+[Normal] Tipo de processo/ Type of process:
+[Normal]   Inicial/Initial                                                    Manutenção/Maintenance               Renovação/Renewal
+[Normal]   Alteração de escopo/ Scope Change       Supensão/ Suspension        Cancelamento/ Cancellation
+[Normal] Avaliações da revisão técnica/ Technical review ratings: 
+[Normal] * C: Conforme/ According, NC: Não Conforme/ Not According, NA: Não Aplicável/ not applicable.
+[Normal] Observações /Observations:
+
+=== TABELA 1 (6 linhas x 2 colunas) ===
+Linha 1: Identificação da Empresa | Identificação da Empresa
+Linha 2: Nome da Empresa/ Company name: | 
+Linha 3: Unidade(s)/ Plant(s): | 
+Linha 4: Auditores processo in loco/ Auditors in loco process: | 
+Linha 5: Categoria de produtos/ Product category: | 
+Linha 6: Número do certificado/ Certificate number: | 
+
+=== TABELA 2 (10 linhas x 4 colunas) ===
+Linha 1: Nº | Conferência/ Conference | Status / Status | Observação/ Comments
+Linha 2: 1 | Solicitação de certificação com escopo completo / certification request with full scope |  | 
+Linha 3: 2 | Proposta comercial assinada / Signed commercial proposal |  | 
+Linha 4: 3 | Contrato assinado / Signed contract |  | 
+Linha 5: 4 | Fichas de especificação técnica e fluxogramas dos produtos do escopo, sendo que estes estão de acordo para certificação Halal / Technical specification sheets and flowcharts of the scope products, which are in accordance with Halal certification |  | 
+Linha 6: 5 | As matérias primas /insumos /auxiliares de processo foram avaliadas diante da sua composição e documentação e não apresentam riscos ao Halal / Have the raw materials / inputs / process aids been evaluated against their composition and documentation and do not present hazards to Halal. |  | 
+Linha 7: 6 | Caso necessário, análises de PCR e/ou Cromatografia foram aplicadas e apresentaram o resultado necessário para a certificação Halal /  If necessary, PCR and / or Chromatography analyzes were applied and presented the necessary results for the Halal certification |  | 
+Linha 8: 7 | Os estágios de auditoria necessários foram realizados / The needed audit stages were applied |  | 
+Linha 9: 8 | Relatório de auditoria completo e coerente / Comprehensive and consistent audit report |  | 
+Linha 10: 9 | Caso existam não conformidades, as mesmas foram respondidas pelo cliente e fechadas pela FAMBRAS Halal / If there are Non-Conformities, they were answered by the client and closed by FAMBRAS Halal. |  | 
+
+=== TABELA 3 (7 linhas x 4 colunas) ===
+Linha 1: Parecer do comitê de decisão/ Decision comittee determination: | Parecer do comitê de decisão/ Decision comittee determination: | Parecer do comitê de decisão/ Decision comittee determination: | Parecer do comitê de decisão/ Decision comittee determination:
+Linha 2: Função/ Function: | Nome/ Name: | Decisão/ Decision: | Assinaturas/ Signature:
+Linha 3: Revisão técnica Technical Revision: |  | Aprovado   Reprovado | 
+Linha 4: Revisão religiosa 1: Religious revision 1: |  | Aprovado   Reprovado | 
+Linha 5: Revisão religiosa 2: Religious revision 2: |  | Aprovado   Reprovado | 
+Linha 6: Aprovação RT: TR approval: |  | Aprovado   Reprovado | 
+Linha 7: Data: Date: |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.8.1.S - INDUSTRIAL - SITE PT_EN.xlsx
+CAMINHO: 12. Processo de Cancelamento e Suspensão\FM 7.8.1.S - INDUSTRIAL - SITE PT_EN.xlsx
+TAMANHO: 201923 bytes
+================================================================================
+=== SHEET: INDUSTRIAL  (dimensoes: A1:E570) ===
+Nome da empresa (Razão social)
+Company name (legal name) | Endereço
+Address | Tipo de produto
+Product type | Número do certificado
+Certificate number | Reconhecimento incluí Golfo (GSO)?
+Does this recognation include Gulf (GSO)?
+
+
+================================================================================
+ARQUIVO: FM 7.8.2.S - FRIGORÍFICO - SITE PT_EN.xlsx
+CAMINHO: 12. Processo de Cancelamento e Suspensão\FM 7.8.2.S - FRIGORÍFICO - SITE PT_EN.xlsx
+TAMANHO: 201919 bytes
+================================================================================
+=== SHEET: INDUSTRIAL  (dimensoes: A1:E570) ===
+Nome da empresa (Razão social)
+Company name (legal name) | Endereço
+Address | Tipos de animais (aves ou bovinos)
+Kind of animals (poultry or bovine) | Número do certificado
+Certificate number | Reconhecimento incluí Golfo (GSO)?
+Does this recognation include Gulf (GSO)?

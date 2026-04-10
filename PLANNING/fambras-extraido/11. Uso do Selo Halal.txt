@@ -1,0 +1,992 @@
+FASE: 11. Uso do Selo Halal
+Total de arquivos: 4
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 4.3.1 - VERIFICAÇÃO DO USO DA MARCA (REV 3) PT_EN.xlsx
+CAMINHO: 11. Uso do Selo Halal\FM 4.3.1 - VERIFICAÇÃO DO USO DA MARCA (REV 3) PT_EN.xlsx
+TAMANHO: 319156 bytes
+================================================================================
+=== SHEET: FM 4.3.1 (dimensoes: A1:K100) ===
+ |  | FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+LISTA DE VERIFICAÇÃO DO SELO/ MARCA DA FAMBRAS HALAL
+MONITORING LIST OF FAMBRAS HALAL SEAL/ STAMP |  |  |  |  |  |  |  | FM 4.3.1
+REV 3
+Data: 18/08/2020
+Última atualização/ Last Update: 18/08/2020 |  |  |  |  |  |  |  |  |  | 
+ | Data/ Date | Empresa/
+Company | Produto/
+Product | Meio de verificação/
+Check through | Local/ 
+Place | Responsável/
+Responsible | Avaliação/
+Evaluation | Ação/
+Action | Correção/
+Correction | Acompanhamento/
+Follow-up
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.4 - CONTROLE DE USO DO SELO HALAL (REV 3) PT.docx
+CAMINHO: 11. Uso do Selo Halal\FM 7.4.2.4 - CONTROLE DE USO DO SELO HALAL (REV 3) PT.docx
+TAMANHO: 328256 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] MODELO DE UTILIZAÇÃO DO SELO.
+[Normal] Data de emissão: __/__/___
+[Normal] A (NOME DA EMPRESA), localizada em (ENDEREÇO COMPLETO) sob o CNPJ nº (Número), SIF (Número) (se aplicável), Inscrição Estadual (Número), declara que:
+[Normal]  Aplica o selo de garantia da FAMBRAS Halal (  ) nos produtos indicados na tabela 1, da página anexa, visto que já é uma empresa certificada pela FAMBRAS HALAL. 
+[Normal]  Aplica o selo de garantia da FAMBRAS HALAL (  ) nos materiais institucionais listados a seguir:_______________________________________________ 
+[Normal] (Especificar os materiais, tais como: site/ assinaturas de e-mail/ panfletos/ banners/ laudos de produto final/ cartões de visita e/ou outros meios)
+[Normal] Antes de iniciar a aplicação do selo em quaisquer embalagens e/ou materiais institucionais, nos comprometemos a comunicar a certificadora FAMBRAS Halal e enviar as artes para aprovação previamente a sua divulgação.
+[Normal] Também reforçamos através deste documento o nosso compromisso, conforme previsto em contrato, de retirar o selo das embalagens após o término da certificação Halal. 
+[Normal] Assinatura:
+[Normal] Nome:
+[Normal] Cargo:
+[Normal] Carimbo ou outra identificação da empresa:
+[Normal] Tabela 1: Lista de produtos que aplicam o selo Halal 
+
+=== TABELA 1 (25 linhas x 4 colunas) ===
+Linha 1: Nome do Produto | Código | Tipos e tamanhos de embalagens | Marcas
+Linha 2:  |  |  | 
+Linha 3:  |  |  | 
+Linha 4:  |  |  | 
+Linha 5:  |  |  | 
+Linha 6:  |  |  | 
+Linha 7:  |  |  | 
+Linha 8:  |  |  | 
+Linha 9:  |  |  | 
+Linha 10:  |  |  | 
+Linha 11:  |  |  | 
+Linha 12:  |  |  | 
+Linha 13:  |  |  | 
+Linha 14:  |  |  | 
+Linha 15:  |  |  | 
+Linha 16:  |  |  | 
+Linha 17:  |  |  | 
+Linha 18:  |  |  | 
+Linha 19:  |  |  | 
+Linha 20:  |  |  | 
+Linha 21:  |  |  | 
+Linha 22:  |  |  | 
+Linha 23:  |  |  | 
+Linha 24:  |  |  | 
+Linha 25:  |  |  | 
+
+
+================================================================================
+ARQUIVO: IT 4.1 - INST. PARA USO DO SELO DE GARANTIA FAMBRAS HALAL (REV 13) PT.pdf
+CAMINHO: 11. Uso do Selo Halal\IT 4.1 - INST. PARA USO DO SELO DE GARANTIA FAMBRAS HALAL (REV 13) PT.pdf
+TAMANHO: 899896 bytes
+================================================================================
+=== PAGINA 1/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:1 de 13 
+ 
+1. OBJETIVO:  
+A presente instrução de trabalho tem como objetivo fornecer instruções para uso/ 
+aplicação do selo de garantia Halal, quando o cliente assim desejar, nos produtos 
+certificados pela FAMBRAS Halal, bem como a aplicação do selo de garantia em 
+materiais institucionais e publicitários dos clientes certificado, além de trazer diretrizes 
+sobre a proibição da comercialização de produtos que levam o selo HALAL na sua 
+embalagem e não emitem certificado HALAL. 
+ 
+ 
+2. REGRAS PARA USO DO SELO: 
+ 
+2.1. 
+O selo de garantia Halal da FAMBRAS Halal, cuja arte está apresentada na 
+imagem 1, poderá ser aplicado em todos os produtos certificados pela FAMBRAS 
+Halal, bem como nos materiais institucionais e publicitários dos clientes, durante 
+todo o período de vigência da certificação: 
+ 
+ 
+Imagem 1: Logo da FAMBRAS Halal 
+ 
+2.2. 
+O selo de garantia Halal da FAMBRAS Halal para escritórios filiais estrangeiros, 
+como é o caso da Colômbia e do Paraguai, cuja arte está apresentada na imagem 
+2, poderá ser aplicado em todos os produtos certificados pela FAMBRAS Halal, 
+durante todo o período de vigência da certificação: 
+
+
+=== PAGINA 2/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:2 de 13 
+ 
+ 
+Imagem 2: Logo da FAMBRAS Halal para empresas certificadas pelas filiais estrangeiras  
+ 
+2.3. 
+No caso de empresas que atuam com habilitação de planta, o selo de garantia 
+Halal deverá ser aplicado somente nas produções acompanhadas pelo supervisor 
+muçulmano, que são atestadas por um certificado de embarque/ certificado de 
+venda; 
+ 
+2.4. 
+O layout de todas as embalagens que aplicarem o selo de garantia Halal deverá 
+ser previamente enviado para aprovação do time da qualidade da FAMBRAS Halal, 
+inclusive das marcas próprias; 
+ 
+2.5. 
+A aplicação do selo em meios de comunicação, tais como sites, materiais 
+institucionais, assinaturas eletrônicas, folders, laudos, dentre outros, devem ser 
+enviados para aprovação do time da qualidade da FAMBRAS Halal, a fim de 
+verificar a legibilidade, clareza, escopo de certificação devido e se a vinculação não 
+infringe nenhum princípio da jurisprudência islâmica; 
+ 
+2.6. 
+O selo de garantia Halal também pode ser aplicado como um adesivo na 
+embalagem do produto; 
+ 
+2.7. 
+O selo de garantia Halal é recomendado para o mercado industrial interno 
+(incluindo o varejo) e para mercado externo. A empresa certificada pela FAMBRAS 
+Halal tem a opção de não colocar nenhum selo com a identificação HALAL na sua 
+embalagem.  
+2.7.1. Em casos em que o cliente opte em aplicar seu próprio selo na 
+embalagem, ele poderá fazê-lo desde que esteja ciente e arque com 
+quaisquer ônus que poderá vir a ter em decorrência da aplicação de outro 
+selo, que não seja o da FAMBRAS Halal.  
+
+
+=== PAGINA 3/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:3 de 13 
+ 
+2.7.2. Ressaltamos que o selo da FAMBRAS Halal é recomendado, pois os 
+clientes das empresas por nós certificadas poderão identificar a 
+certificadora através do selo, rastrear os produtos HALAL, além de poder 
+sanar qualquer dúvida sobre o produto.  
+2.7.3. Em relação a produtos destinados aos Emirados Árabes Unidos, não 
+poderá ser aplicado o selo da FAMBRAS Halal – vide item 2.8), sendo 
+cabíveis as penalidades previstas no PR 4.1 – Condições para o Uso de 
+Certificados e Marcas de Conformidade. 
+2.7.4. O selo Halal pode ser impresso claramente em todos os produtos 
+aprovados para que possa ser afixado em todas as caixas/ embalagens. 
+2.7.5. As embalagens que devem aplicar o selo são as que contêm a 
+identificação/rotulagem do produto. Por exemplo, em embalagens 
+primárias, quando o rótulo é gravado direto em latas, ou em caixas, ou 
+ainda quando estas recebem uma etiqueta com os detalhes dos produtos.  
+2.7.6. Produtos vendidos a granel não possuem obrigatoriedade de aplicar o 
+selo devido a ausência de rótulos. Neste caso, sugerimos aplicação 
+apenas no laudo, sendo esta uma decisão da sua empresa.  
+2.7.7. A empresa certificada que optar por não utilizar o selo de garantia Halal 
+no mercado externo e industrial deverá enviar um comunicado oficial 
+informando a decisão, em papel timbrado, devidamente assinado, e 
+assumindo os riscos de possíveis transtornos comerciais. 
+2.7.8. O cliente poderá exigir a aplicação do selo de garantia Halal na 
+embalagem, e inclusive recusar o produto pela ausência do mesmo. 
+Sendo passível de serem questionados quando necessário.  
+ 
+2.8. 
+Para os Emirados Árabes Unidos, a única identificação Halal permitida para os 
+produtos é a logo “Emirates Quality Mark”, apresentada na imagem 3.  
+
+
+=== PAGINA 4/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:4 de 13 
+ 
+ 
+Imagem 3: “Emirates Quality Mark” 
+ 
+2.8.1. Não é permitido o uso de nenhum tipo de identificação Halal nas 
+embalagens diferente da “Emirates Quality Mark”, ou seja, o selo de 
+entidade islâmica Halal como a FAMBRAS Halal e selos de garantia Halal 
+próprios não estão autorizados para os Emirados Árabes Unidos. O uso 
+de qualquer outro selo Halal que não seja o “Emirates Quality Mark” será 
+considerado como uso abusivo da marca de conformidade, estando 
+passível das penalidades previstas no PR 4.1 – Condições para o Uso de 
+Certificados e Marcas de Conformidade. 
+2.8.2. O logo “Emirates Quality Mark” foi estabelecido pela MOIAT (United Arab 
+Emirates Ministry of Industry & Advanced Technology) com o intuito de 
+padronizar a identificação Halal para os produtos comercializados dentro 
+dos Emirados Árabes Unidos. 
+2.8.3. O uso do logo “Emirates Quality Mark” depende da aquisição por produto, 
+mediante cadastro e autorização junto a MOIAT.  O logo poderá ser 
+adquirido através do site https://eservices.moiat.gov.ae, o qual irá 
+redirecionar para a página de login. Após o login, ao acessar a sessão 
+“Products Conformity Certificate”, o procedimento para a obtenção do logo 
+terá início. 
+ 
+2.9. 
+O selo de garantia da FAMBRAS Halal poderá ser aplicado nos produtos de marca 
+própria, nos produtos de clientes e de terceiros que são fabricados no mesmo 
+estabelecimento habilitado para o Halal, e que possuam a formulação dentro do 
+escopo de certificação, após validação junto a FAMBRAS Halal. 
+2.9.1. A empresa certificada deverá enviar uma lista contendo a relação das 
+marcas próprias que possuam o status Halal para a certificadora. Se 
+
+
+=== PAGINA 5/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:5 de 13 
+ 
+houver mais de uma planta e uma destas não for habilitada para o Halal, 
+somente os produtos produzidos na planta habilitada e no escopo de 
+certificação poderão conter o selo de garantia Halal; 
+ 
+2.10. Caso a empresa tenha embalagem compartilhada entre duas plantas, com o status 
+Halal diferente, o selo de garantia Halal só poderá ser aplicado para o produto 
+fabricado na planta Halal, e esta deverá conter a identificação; 
+ 
+2.11. O selo de garantia Halal poderá ser utilizado até o último dia de validade do 
+certificado, após o término do contrato, na hipótese de não renovação, o cliente 
+não terá mais autorização para aplicá-lo, e, portanto, deverá retirar o selo de 
+garantia Halal das embalagens, folders, laudos e materiais publicitários e 
+institucionais; 
+ 
+2.12. Está vedado o uso do selo de garantia Halal em produtos que não estão dentro do 
+escopo de certificação; 
+ 
+2.13. Deve ser clara a vinculação da aplicação do selo de garantia Halal apenas em 
+folders, laudos e materiais publicitários e institucionais que estejam indicados no 
+escopo de certificação Halal; 
+ 
+2.14. O selo de garantia Halal não deverá ser aplicado em qualquer item irrelevante 
+relacionado ao Islam ou contra os valores ou regras islâmicas, nem nos produtos 
+certificados, folders, materiais publicitários, institucionais e afins; 
+ 
+2.15. O selo de garantia Halal aplicado nos produtos certificados, folders, materiais 
+publicitários, institucionais e afins, não deverá ser aplicado juntamente com 
+logotipo/ marca/ símbolo ou nome de marca ou propaganda ou slogan que sejam 
+contra as crenças e os valores islâmicos; 
+ 
+2.16. A obrigatoriedade destes itens estará presente em contrato, podendo ser ajustadas 
+conforme negociação com o cliente.  
+ 
+
+
+=== PAGINA 6/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:6 de 13 
+ 
+2.17. Ao descumprimento destas regras, a empresa certificada poderá estar sujeita a 
+medidas de contenção do produto, mediante avaliação de risco conjunta com a 
+certificadora e conforme previsto em contrato. 
+ 
+2.18. Para as unidades que trabalham com supervisão e, consequentemente, emitem 
+certificado de lote, caso os produtos tenham a aplicação do selo halal na 
+embalagem, o produto precisa, mandatoriamente, estar acompanhado de um 
+certificado halal. Caso contrário, o cliente não poderá aplicar o selo halal na 
+embalagem do produto. 
+2.18.1. O certificado Halal por lote, para produtos de unidades que trabalham com 
+supervisão Halal, para aqueles produtos vendidos como tal, é obrigatório.  
+ 
+3. Instruções para aplicação do selo FAMBRAS HALAL na embalagem: 
+ 
+3.1. 
+Versões em cromia (CMYK) e pantone: 
+ 
+3.1.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versões para impressão do selo em policromia. 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGINA 7/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:7 de 13 
+ 
+3.1.2. FAMBRAS HALAL PARA FILIAIS 
+Versões para impressão do selo em policromia, para as filiais estrangeiras. 
+ 
+ 
+3.2. 
+Versão em P&B 
+ 
+3.2.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versão para impressão do selo em preto e branco. 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGINA 8/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:8 de 13 
+ 
+3.2.2. FAMBRAS HALAL PARA FILIAIS 
+Versões para impressão do selo em preto e branco, para as filiais estrangeiras. 
+ 
+3.3. 
+Tamanho máximo sugerido 
+ 
+3.3.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versões de tamanho máximo sugerido para aplicação do selo Halal.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGINA 9/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:9 de 13 
+ 
+3.3.2. FAMBRAS HALAL PARA FILIAIS 
+Versões de tamanho máximo sugerido para aplicação do selo Halal, para as 
+filiais estrangeiras.  
+ 
+3.4. 
+Tamanho mínimo permitido 
+ 
+3.4.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versões de tamanho mínimo exigido para aplicação do selo Halal. 
+ 
+
+
+=== PAGINA 10/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:10 de 13 
+ 
+3.4.2. FAMBRAS HALAL PARA FILIAIS 
+Versões de tamanho mínimo exigido para aplicação do selo Halal, para as 
+filiais estrangeiras. 
+ 
+ 
+3.5. 
+Versões para fundo escuro 
+ 
+3.5.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versões para serem aplicadas quando o fundo do suporte gráfico for impresso 
+em tons escuros.  
+ 
+
+
+=== PAGINA 11/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:11 de 13 
+ 
+3.5.2. FAMBRAS HALAL PARA FILIAIS 
+Versões para serem aplicadas quando o fundo do suporte gráfico for impresso 
+em tons escuros, referente aos selos aplicados pelas filiais estrangeiras. 
+ 
+ 
+3.6. 
+Versões em etiqueta 
+3.6.1. FAMBRAS HALAL BRAZIL PARA A MATRIZ 
+Versões de impressão de etiquetas para serem aplicadas nos tamanhos 
+máximo sugerido e mínimo permitido.  
+ 
+ 
+
+
+=== PAGINA 12/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:12 de 13 
+ 
+3.6.2. FAMBRAS HALAL PARA FILIAIS 
+Versões de impressão de etiquetas para serem aplicadas nos tamanhos 
+máximo sugerido e mínimo permitido, referente aos selos aplicados pelas filiais 
+estrangeiras. 
+ 
+ 
+3.7. 
+Exceção  
+O selo Halal pode ser aplicado em outras cores e tamanhos, desde que mantenha 
+a legibilidade e qualidade, e tenha sido previamente aprovado pela equipe responsável.   
+Os clientes certificados pela FAMBRAS Halal têm o direito de imprimir o selo Halal 
+nas cores adequadas para a embalagem, desde que isto não altere as especificações 
+originais do selo. 
+
+
+=== PAGINA 13/13 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+INSTRUÇÃO PARA O USO DO SELO DE GARANTIA FAMBRAS HALAL 
+IT 4.1 
+Rev.: 13 
+Data: 27/07/2023 
+Pág.:13 de 13 
+ 
+HISTÓRICO DE REVISÕES 
+ 
+Motivo da edição e/ou resumo das revisões 
+Mudança de layout e revisão texto 
+Mudança de nome da empresa e revisão de texto para incluir os 
+requisitos do GCC 
+4 
+03/07/2017 
+Revisão do item 2.5 que dita as obrigatoriedades do uso do selo de 
+garantia Halal.  
+5 
+22/08/2017 
+Restrição do uso do logo da FAMBRAS HALAL para o Golfo e inclusão 
+do logo Halal Mark.  
+6 
+11/10/2019 
+Restrição do uso do logo da Halal Mark apenas para os Emirados 
+Árabes Unidos.  
+7 
+27/02/2020 
+Correção do item 2.5 - uso do logo da Halal Mark apenas para os 
+Emirados Árabes Unidos. 
+8 
+29/03/2021 
+Inclusão do selo FAMBRAS HALAL para escritórios filiais estrangeiros 
+da FAMBRAS HALAL. 
+9 
+11/08/2021 
+Restrição ao uso de outro selo que não seja o da FAMBRAS HALAL, 
+caso o use, deverá arcar como ônus. 
+Proibição de exportar produtos que contenham o selo halal sem a 
+emissão do certificado halal juntamente com a venda deste.  
+10 
+01/10/2021 
+Ajustes quanto ao objetivo da IT, incluindo a aplicação do selo de 
+garantia em materiais institucionais e publicitários dos clientes 
+certificado. 
+Diretrizes sobre a aplicação do selo em folders, materiais publicitários, 
+institucionais e afins (itens 2.1, 2.5, 2.13 e 2.14). 
+Restrição da aplicação do selo em situações que refém as regras 
+islâmicas (Itens 2.15 e 2.16). 
+11 
+07/01/2022 
+Revisão dos seguintes itens em decorrência da atualização do GSO 
+2055-2: 2. Regras para uso do selo; 3.7. Exceção 
+12 
+22/03/2023 
+Alteração do item 2.8, com a atualização do site do Emirados Árabes 
+Unidos para a obtenção do logo, nomeado agora como Emirates Quality 
+Mark 
+13 
+26/07/2023 
+Revisão dos itens 2.8 e 2.7, referenciando o PR 4.1, sobre as 
+penalidades cabíveis ao utilizar o selo FAMBRAS Halal em produtos 
+destinados ao Emirados Árabes Unidos. 
+ 
+ 
+ 
+Elaborado por:             Elaine Franco de Carvalho 
+Barbara Domingos 
+26/07/2023 
+Lina Ramadan 
+Islam Zaid 
+27/07/2023 
+ 
+
+
+
+================================================================================
+ARQUIVO: PR 4.1 CONDIÇÃO DE USO DOS CERTIFICADOS E A MARCA DE CONFORMIDADE (REV 10) PT.pdf
+CAMINHO: 11. Uso do Selo Halal\PR 4.1 CONDIÇÃO DE USO DOS CERTIFICADOS E A MARCA DE CONFORMIDADE (REV 10) PT.pdf
+TAMANHO: 159609 bytes
+================================================================================
+=== PAGINA 1/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:1 de 9 
+ 
+1. OBJETIVO 
+Este procedimento estabelece as regras para o uso de Certificados e Marcas de 
+Conformidade para as empresas certificadas pela FAMBRAS Halal.  
+ 
+ 
+2. CAMPO DE APLICAÇÃO  
+Este procedimento aplica-se a todos os certificados e clientes aprovados pela 
+FAMBRAS Halal.  
+ 
+ 
+3. DOCUMENTOS DE REFERÊNCIA 
+• ISO/IEC 17021-1:2015 - Avaliação da conformidade – Requisitos para 
+organismos que fornecem auditoria e certificação de sistema de gestão; 
+• ISO/IEC 17065:2012 Avaliação da conformidade - Requisitos para organismos 
+de certificação de produtos, processos e serviços; 
+• TN 06 - Política sobre o uso do logotipo GAC, endosso e referências. 
+ 
+ 
+ 
+
+
+=== PAGINA 2/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:2 de 9 
+ 
+4. DISPOSIÇÕES GERAIS 
+A marca de conformidade utilizada pelos produtos certificados e empresas 
+aprovadas pela FAMBRAS Halal é estabelecida pela própria empresa e é apenas do 
+domínio da FAMBRAS Halal. 
+Em todos os casos, o uso sob licença da marca de conformidade também está 
+regido pelo contrato de certificação Halal estabelecido entre a FAMBRAS Halal e a 
+empresa certificada, sendo verificados anualmente nos processos de manutenção.  
+ 
+ 
+5. DEFINIÇÕES 
+5.1. 
+Âmbito da certificação 
+Identificação de: 
+• O (s) produto (s), processo (s) ou serviço (s) para o qual a certificação é 
+concedida, 
+• O plano de certificação aplicável, e 
+• O (s) padrão (s) e outros documentos normativos, incluindo a data de publicação, 
+a que se julga que o (s) produto (s), processo (s) ou serviço (s) estão sendo 
+cumpridos. 
+ 
+5.2. 
+Cliente 
+Organização ou pessoa responsável por um organismo de certificação para garantir 
+que os requisitos de certificação, incluindo os requisitos do produto, sejam cumpridos 
+ 
+ 
+6. REGRAS GERAIS PARA USO DA MARCA DE CONFORMIDADE 
+ 
+6.1. 
+Usuários de marca  
+Os usuários da Marca de Conformidade são titulares de certificados válidos emitidos 
+pela FAMBRAS Halal. Os usuários dos certificados são empresas cujos produtos/ escopos 
+foram certificados pela FAMBRAS Halal.  
+ 
+
+
+=== PAGINA 3/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:3 de 9 
+ 
+6.2. 
+Autorização para conceder o uso da Marca 
+A FAMBRAS Halal permite ao usuário da Marca de Conformidade aplicá-la de 
+acordo com as disposições do contrato para a prestação de atividades de certificação, e 
+com a IT 4.1 - Instruções de uso do selo FAMBRAS HALAL, de forma a garantir as seguintes 
+condições: 
+a) O usuário da Marca de Conformidade deve garantir que sua utilização em 
+publicidade ou outros meios esteja dentro da estrutura dessas especificações 
+e do escopo certificado e, em tais casos, deve enviar à FAMBRAS Halal para 
+autorização prévia. 
+b) Para processos de certificação de produto, o uso da marca de conformidade 
+é restrito a pessoas jurídicas e não deve ser transferido para terceiros ou 
+sucessores ou ser objeto de uma obrigação ou compra ou qualquer outra 
+medida obrigatória, sem a permissão expressa da FAMBRAS Halal. 
+c) A marca de conformidade só pode ser usada exclusivamente para identificar 
+produtos individuais que tenham sido certificados pela FAMBRAS Halal. 
+d) O usuário é responsável perante a FAMBRAS Halal pelo uso da marca de 
+Conformidade e especialmente dentro da estrutura de publicidade. 
+e) O usuário não pode aplicar a Marca de Conformidade em produtos 
+certificados pela FAMBRAS Halal sem estar vinculado pelo Contrato para o 
+desempenho de atividades de certificação. 
+f) O usuário não pode aplicar a Marca de Conformidade em produtos 
+certificados pela FAMBRAS Halal quando destinados ao Emirados Árabes 
+Unidos, para tal finalidade deverá ser aplicado o Emirates Quality Mark. Ainda, 
+para estes casos, é possível o usuário optar por não utilizar nenhuma Marca 
+de Conformidade na embalagem, conforme definido na IT 4.1 – Instrução de 
+uso do selo FAMBRAS HALAL. 
+g) O uso da Marca de Conformidade, para empresas que possuem supervisor e 
+que, consequentemente, emitem certificado de lote, está condicionado a 
+emissão do certificado Halal pela FAMBRAS Halal. Portanto, a Marca de 
+Conformidade só deverá ser aplicada ao produto, se o mesmo emitir 
+certificação Halal. 
+
+
+=== PAGINA 4/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:4 de 9 
+ 
+Vale ressaltar que o uso da Marca de Conformidade da FAMBRAS Halal não é 
+obrigatório. O usuário poderá optar por não utilizar ou por aplicar sua própria Marca de 
+Conformidade em seus produtos, desde que assuma quaisquer ônus que o cliente possa 
+vir a ter em decorrência desta decisão.  
+No entanto, a aplicação da Marca de Conformidade da FAMBRAS Halal é altamente 
+recomendável, já que os clientes poderão identificar a certificadora (a qual é mundialmente 
+reconhecida), rastrear os produtos e ter a garantia de que é realmente um produto Halal, 
+além de poder sanar qualquer dúvida sobre o produto.  
+A FAMBRAS Halal não faz parte, ou usa, o logotipo/ marca/ símbolo/ slogan de 
+qualquer outra organização não-islâmica e ou qualquer outra organização, que remeta a 
+crenças ou organizações não-islâmicas. 
+ 
+ 
+7. REFERÊNCIA PARA A ÁREA COBERTA PELA CERTIFICAÇÃO  
+O uso da Marca de Conformidade é restrito aos produtos do escopo da certificação 
+contida no Certificado;  
+Só pode ser utilizado para fins comerciais, em documentos para correspondência 
+comercial e no contexto de publicidade com autorização da FAMBRAS Halal. 
+ 
+ 
+8. FORMA DE USO DA MARCA DE CONFORMIDADE FAMBRAS HALAL  
+Registo de marca da FAMBRAS Halal é arquivada no INPI - Instituto Nacional da 
+Propriedade Industrial do Brasil. 
+A marca de conformidade da FAMBRAS Halal é composta pela marca registrada 
+mais o número de registro da FAMBRAS Halal no organismo de acreditação. 
+ 
+8.1. 
+Gravura  
+A marca de conformidade do produto deve ser facilmente legível, claramente visível 
+e gravada de acordo com os requisitos específicos da certificação, de acordo com a IT 4.1 
+- instruções de uso do selo FAMBRAS HALAL. Quando os requisitos de gravação não são 
+definidos, a Marca de Conformidade deve ser gravada de forma indelével. 
+A marca de Conformidade deve ser gravada diretamente em cada produto certificado 
+
+
+=== PAGINA 5/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:5 de 9 
+ 
+e só deve ser exibida no produto nas seguintes condições: 
+ 
+8.1.1. Dimensões e cores 
+As dimensões e as cores da Marca de Conformidade devem ser as definidas pela 
+FAMBRAS HALAL na IT 4.1 - Instruções de uso do selo FAMBRAS HALAL. 
+ 
+8.1.2. Identificação do produto certificado 
+A identificação do produto certificado deve atender os requisitos contidos na IT 4.1 - 
+instruções de uso do selo FAMBRAS HALAL, e os seguintes requisitos como: 
+8.1.2.1. Nos produtos de certificação voluntária, a Marca de Conformidade deve ser 
+aplicada diretamente a cada unidade de produção, de acordo com os 
+requisitos descritos nos itens 8.1.2.2, 8.1.2.3, 8.1.2.4 e 8.1.2.5. 
+8.1.2.2. Nos casos em que as dimensões disponíveis não permitem a gravação 
+diretamente no produto, a marca de conformidade pode ser aplicada na 
+embalagem menor em que o produto é comercializado; 
+8.1.2.3. Quando o tipo de produto não permite a gravação diretamente, nos rótulos ou 
+placas devem ser utilizados para garantir que não seja possível transferir o 
+produto para outro produto e facilitar a descoberta de falsificação; 
+8.1.2.4. A Marca de Conformidade pode não ser transferível de um produto para outro; 
+8.1.2.5. Dependendo do modelo de certificação adotado, a Marca de Conformidade 
+pode estar associada ao nome do produto, ao padrão sob o qual o produto foi 
+avaliado ou a quaisquer outros requisitos exigidos pelo modelo de certificação 
+adotado. 
+ 
+ 
+9. USO ABUSIVO DE CERTIFICADOS E MARCAS  
+O uso incorreto dos Certificados de Licença para o Uso da Marca de Conformidade, 
+bem como a Marca de Conformidade são interpretados como qualquer uso não previsto no 
+Contrato para a prestação de atividades de certificação assinadas entre FAMBRAS Halal e 
+empresas cujos produtos são certificados, tanto que se este uso representa benefícios 
+diretos ou indiretos para o fabricante e / ou à FAMBRAS Halal, considera-se os seguintes 
+usos de certificação ou marcas como abusivos: 
+
+
+=== PAGINA 6/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:6 de 9 
+ 
+• Uso do Certificado, bem como a Marca de Conformidade antes de assinar o 
+respectivo contrato de licença; 
+• Uso do Certificado, bem como a Marca de Conformidade após o término do 
+contrato de licença (se a empresa optou pelo término da certificação, não 
+desejando renová-la, a marca de conformidade poderá ser utilizada somente 
+até o último dia de validade do certificado, após este período a empresa não 
+possui mais autorização de utilizá-la); 
+• Divulgação promocional abusiva em desacordo com o que está estabelecido 
+no Contrato para a prestação de atividades de certificação e sem autorização 
+prévia, quando previsto; 
+• Uso do Certificado e da Marca de Conformidade fora da validade do Contrato 
+para a prestação de atividades de certificação;     
+• Uso do Certificado de Licença para Usar a Marca de Conformidade, bem 
+como a Marca de Conformidade durante o período de suspensão ou após o 
+cancelamento da empresa; 
+• Uso do Certificado, bem como a Marca de Conformidade em produtos ou 
+características de produtos diferentes dos especificados no escopo da 
+certificação; 
+• O uso do Certificado, bem como a Marca de Conformidade, não estarem 
+atualizadas com as obrigações financeiras estipuladas no contrato; 
+• Uso do Certificado, bem como a Marca de Conformidade que caracterizam o 
+desrespeito às regras estabelecidas para a certificação do produto; 
+• Uso do Certificado, bem como a Marca de Conformidade da FAMBRAS Halal 
+para países que exigem a aplicação de Marca de Conformidade específica; 
+• Uso do Certificado, bem como a Marca de Conformidade em itens irrelevantes 
+relacionado ao Islam, ou contra os valores ou regras islâmicas; 
+• O titular do certificado não está autorizado a copiar o certificado Halal 
+concedido de uma forma que possa impedir a clareza do mesmo, e não deve 
+adulterar o original ou cópias, e não tem permissão para traduzir o certificado/ 
+ou relatórios de teste para outros idiomas sem a verificação e aprovação da 
+autoridade que concede o certificado Halal. 
+
+
+=== PAGINA 7/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:7 de 9 
+ 
+A FAMBRAS Halal garante que as organizações de seus clientes não usam qualquer 
+nome, logotipo/ marca/ símbolo ou nome de marca ou propaganda ou slogan contra as 
+crenças dos valores islâmicos. Isso está garantido no contrato firmado entre a FAMBRAS 
+Halal e seus clientes. 
+ 
+10. DIVULGAÇÃO PROMOCIONAL  
+A FAMBRAS Halal fornece uma relação relativa aos fabricantes e produtos 
+certificados e sua situação através do banco de dados FAMBRAS Halal, como 
+suspensões, cancelamentos, encerramento ou advento contratual; 
+A publicidade do fabricante de produtos certificados pela FAMBRAS Halal, se for 
+caso disso, deve distinguir claramente os produtos certificados de produtos não 
+certificados, não oferecendo dúvidas quanto à certificação desses produtos; 
+A publicidade, que exibe e / ou menciona a certificação, pode não ser desonesto, 
+abusivo, falso ou extensivo a outros produtos ou sistemas que não sejam produtos 
+certificados. 
+11. MONITORAMENTO 
+DO 
+USO 
+DO 
+DE 
+CERTIFICADOS 
+E 
+MARCAS 
+DE 
+CONFORMIDADE 
+A FAMBRAS Halal deve exercer o controle, conforme especificado pelo esquema de 
+certificação sobre propriedade, sobre o uso e exibição de certificados, marcas de 
+conformidade, e quaisquer outros mecanismos indicando que um produto é certificado.  
+O monitoramento deverá ser realizado periodicamente, conforme descrito na IT 4.1.1 
+– Instrução das Atividades Administrativas do SGQ, por um funcionário da qualidade 
+através da verificação dos produtos certificados expostos no ponto de venda, e websites 
+dos clientes.  
+ 
+ 
+12. PENALIDADES  
+Referências incorretas ao esquema de certificação, aplicação errônea da marca 
+considerando o mercado de exportação, ou utilização inadequada de licenças, certificados, 
+marcas, ou qualquer outro mecanismo para a indicação de que um produto é certificado, 
+encontrado na documentação ou outro tipo de publicidade, estará sujeito à uma ação 
+
+
+=== PAGINA 8/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:8 de 9 
+ 
+adequada, tendo respaldo prévio do setor jurídico da empresa. Sendo o organismo de 
+certificação, o único capaz de exercer o controle sobre a certificação, o uso e exibição de 
+licenças, certificados, marcas de conformidade e quaisquer outros mecanismos indicando 
+que o produto é certificado. 
+As penalidades previstas nos casos de abuso de certificado, bem como da marca de 
+conformidade são aplicáveis independentemente da sequência apresentada: 
+ 
+12.1. Aviso; 
+12.2. Suspensão da certificação  
+Sem a rescisão do contrato de prestação de atividades de certificação; 
+12.3. Cancelamento da certificação  
+Com a rescisão do Contrato para a prestação de atividades de certificação; em caso 
+de suspensão ou cancelamento, a FAMBRAS Halal determina as provisões para produtos 
+em estoque, para produtos disponíveis no mercado e para produtos comercializados.  
+Todas e quaisquer cobranças decorrentes dessas disposições são da 
+responsabilidade da empresa que detém os Certificados concedidos pela FAMBRAS Halal 
+signatário do Contrato para a prestação de atividades de certificação; 
+12.4. Término da certificação  
+Sem a rescisão do contrato de prestação de atividades de certificação. 
+ 
+NOTA: Em casos de não renovação da certificação, devido ao término do prazo de 
+validade do certificado, suspensão e cancelamento, os titulares de certificados Halal não 
+tem permissão para usar marca Halal, tanto nos meios de divulgação quanto em seus 
+produtos. 
+ 
+ 
+13. RECLAMAÇÃO, APELAÇÃO E DISCUSSÃO 
+A empresa signatária que não concorda com a penalidade imposta pode se 
+manifestar formalmente, à FAMBRAS Halal, de acordo com o procedimento PR 7.13 - 
+Reclamação e Apelo. 
+ 
+
+
+=== PAGINA 9/9 ===
+ 
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+CONDIÇÕES PARA USO DE CERTIFICADOS E MARCAS DA 
+CONFORMIDADE 
+PR 4.1 
+Rev.: 10 
+Data: 21/07/2023 
+Pág.:9 de 9 
+ 
+DETALHES DA REVISÃO 
+ 
+Revisão 
+Data 
+Descrição da revisão 
+1 
+10/01/2017 
+Emissão inicial 
+2 
+27/01/2017 
+Revisão de texto e mudança de lay-out 
+3 
+16/05/2017 
+Mudança de nome da empresa e logotipo 
+4 
+25/06/2018 
+Inclusão do item sobre monitoramento do uso indevido do certificado e 
+marca de conformidade. 
+ 
+ 
+Inclusão da periodicidade para o monitoramento do uso do logo em 
+mercados e sites de clientes. 
+6 
+08/01/2021 
+Revisão do 1. Objetivo, para torna-lo mais direto. Revisão das 4. 
+Disposições gerais, também tornando o texto mais compacto.  
+Referência à IT 4.1 – Instrução para o uso do selo de garantia Halal 
+FAMBRAS HALAL nos itens 6.2, 8.3 e 11. 
+7 
+16/08/2021 
+Revisão do item 6.2 – Autorização para conceder o uso da Marca 
+8 
+27/09/2021 
+Proibição do uso da marca de conformidade em casos ofensivos ao 
+Islam 
+9 
+07/01/2022 
+Revisão dos seguintes itens em decorrência da atualização do GSO 
+2055-2: 9. Uso abusivo de certificados e marcas 
+12. Penalidades 
+10 
+20/07/2023 
+Revisão dos seguintes itens: 6. REGRAS GERAIS PARA USO DA 
+MARCA DE CONFORMIDADE; 9. USO ABUSIVO DE CERTIFICADOS 
+E MARCAS e 12. PENALIDADES, indicando as provisões para o uso 
+incorreto da marca de conformidade da FAMBRAS Halal quando o 
+produto certificado for destinado ao Emirados Árabes Unidos. 
+Revisão das normas de referência.  
+ 
+ 
+ 
+ 
+ 
+ 
+Emitido por: 
+Elaine Franco de Carvalho 
+Barbara Cristina    
+20/07/2023 
+Revisado por: 
+21/07/2023 
+Aprovado por: 
+21/07/2023 
+ 
+ 
+ 
+ 

@@ -1,0 +1,33 @@
+RESUMO DA EXTRACAO DE DOCUMENTOS FAMBRAS
+==================================================
+Total de arquivos: 368
+PDFs extraidos: 68
+DOCX extraidos: 71
+XLSX extraidos: 197
+DOC (legado): 32
+Erros: 0
+
+Fases processadas: 23
+  - 1. Solicitação de Certificação: 12 docs
+  - 10. Emissão e Gestão do Certificado: 62 docs
+  - 11. Uso do Selo Halal: 4 docs
+  - 12. Processo de Cancelamento e Suspensão: 3 docs
+  - 13. Inclusão de produto-Alteração do processo: 4 docs
+  - 14. Manutenção 1 (solicitação documental): 2 docs
+  - 15. Manutenção 1 (agendamento de auditoria): 2 docs
+  - 16. Manutenção 1 (auditoria de estágio 2): 1 docs
+  - 17. Manutenção 1 (análise laboratorial se aplicável): 1 docs
+  - 18. Manutenção 1 (Decisão de manutenção): 1 docs
+  - 19. Manutenção 1 (Pagamento): 1 docs
+  - 2. Proposta e Contrato: 17 docs
+  - 20. Manutenção 2: 2 docs
+  - 21. Renovação: 1 docs
+  - 25. Relatórios Supervisores: 8 docs
+  - 3. Envio da Documentação Inicial: 3 docs
+  - 3.1 Documentos da Qualidade: 28 docs
+  - 4. Agendamento da Auditoria: 3 docs
+  - 5. Auditoria - Estágio 1 (Documental-Operacional): 113 docs
+  - 6. Auditoria - Estágio 2 (Verificação da Produção e de Registros): 93 docs
+  - 7. Análise Laboratorial: 3 docs
+  - 8. Revisão do Processo: 1 docs
+  - 9. Comitê de Decisão: 3 docs

@@ -1,0 +1,1840 @@
+FASE: 1. Solicitação de Certificação
+Total de arquivos: 12
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 7.1.9 - REVISÃO DA SOLICITAÇÃO E CALCULO DIAS DE AUDITORIA (REV 11) PT_EN.xlsx
+CAMINHO: 1. Solicitação de Certificação\FM 7.1.9 - REVISÃO DA SOLICITAÇÃO E CALCULO DIAS DE AUDITORIA (REV 11) PT_EN.xlsx
+TAMANHO: 83375 bytes
+================================================================================
+=== SHEET: FM 7.1.9 - In loco (dimensoes: A1:Q123) ===
+ |  | FAMBRAS HALAL CERTIFICAÇÃO
+ 
+FORMULÁRIO DE ANÁLISE DA SOLICITAÇÃO E DIMENSIONAMENTO DAS AUDITORIAS REQUEST ANALYSIS AND SIZING FORMS OF AUDITS |  |  |  |  | FM 7.1.9
+Rev. 11
+Data: 22/02/2024 |  |  |  |  |  |  |  |  | 
+ | Para quando o estágio 1 for realizado in loco. Neste caso, o estágio 1 pode durar até 30% do tempo total de auditoria.  O estágio 1 deve obrigatoriamente ser realizado in loco para as categorias C, D, E, I e K .
+For when stage 1 is done on site. In this case, stage 1 can last up to 30% of the total audit time. In categories C, D, E, I and K it is obligatory that stage 1 audit is done on-site. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | OBS.: linhas digitáveis em verde / Note: digitable lines in green |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | INFORMAÇÕES DO FABRICANTE / MANUFACTURER'S INFORMATION |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Razão Social/ Company name: |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | CNPJ/ Registration Number: |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Número SIF (se aplicável)/ Registration Number at Agriculture Minitry (If applicable): |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | ABRANGÊNCIA DO RECONHECIMENTO/ SCOPE OF RECOGNITION |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Com inclusão do Golfo / Including the Gulf |  |  |  | Sim/ Yes | Não/ No |  |  |  |  |  |  |  |  |  | 
+ | A empresa tem filiais?/ Does the company have subisidiaries? |  |  |  | Sim/ Yes | Não/ No |  | False |  |  |  |  |  |  |  | 
+ | Em caso positivo, especifique as filiais representadas por essa revisão / In positive, especify the subsidiaries represented by this review. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | INFORMAÇÕES DO CLIENTE (BASE PARA O CÁLCULO DO TEMPO DE AUDITORIA)/ 
+CLIENT INFORMATION (BASE FOR THE AUDIT TIME CALCULATION) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Categoria dos produtos a serem certificados - Caso haja mais de uma, indicar a de maior grau de dificuldade/ Category of products to be certified - In case of more than one category, indicate the one with the higher dificulty |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Existe sistema de gestão certificado/ Does exist a certified QMS? |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Número de APPCC / HACCP Number: |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 
+ | Número de colaboradores no maior turno/ Number of employees in the largest shift: |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | CONFIRMAÇÃO DA REVISÃO/ REVISION CONFIRMATION |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Todos campos do FM 7.2.1 Solicitação de Certificação/Application Form encontram-se devidamente preenchidos, com informações coesas e suficientes para o andamento do processo  e também os anexos solicitados no formulário foram enviados e apresentam as informações necessárias.
+All fields in FM 7.2.1 Application for Certification / Application Form are duly filled in, with cohesive and sufficient information for the process progress and also the requested attachments in the form have been sent and present the necessary information. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | A FAMBRAS HALAL possui equipe técnica apta na categoria, para realizar o processo e/ou pode subcontratar se necessário.
+FAMBRAS HALAL has technical qualified staff in the category, to carry out the process and / or can subcontract if necessary. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | A FAMBRAS HALAL possui reconhecimento na categoria desejada. 
+FAMBRAS HALAL has recognition in the desired category. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Classificação final do pedido de certificação/ 
+Final classification of the certification application |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | Em caso negativo escrever a justificativa: Ex. Atualmente a FAMBRAS HALAL não consegue suprir a necessidade do cliente, por falta de pessoal capacitado. |  |  |  |  |  |  |  |  |  |  | 
+ | Responsável pelo Preenchimento/ Responsible for completing: |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Responsável Técnico da Área/ Techinal Responsible: |  |  |  | Lina Ramadan ou Islam Zaid |  |  |  |  |  |  |  |  |  |  | 
+ | Data do Preenchimento da Revisão/ Review Completion date: |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | CÁLCULO DA DURAÇÃO DA AUDITOIRA  / AUDIT DURATION CALCULATION |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Total de dias corridos de auditoria/ Number of audited days: |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | Inserir valor para redução do tempo de auditoria (mínimo=0; máximo=30) *
+Enter with the value for audit time reduction (minimum = 0, maximum = 30) * |  |  |  |  | 0 |  |  |  |  |  |  |  |  |  | 
+ | *JUSTIFICATIVA PARA REDUÇÃO DE TEMPO / 
+*JUSTIFICATION FOR TIME REDUCTION |  |  |  | Ex. A empresa é certificada há muitos anos com a FAMBRAS HALAL; Há um supervisor trabalhando em tempo integral na unidade; O processo da unidade é 100% Halal e de baixa complexidade. |  |  |  |  |  |  |  |  |  |  | 
+ | Total de dias corridos de auditoria aplicando a redução do tempo/ Number of audited days with audit time reduction: |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | Número total de dias por auditor - HD (Homem/ Dia) / Total number of days per auditor - MD (Men/Day) |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL MATRIZ/ MATRIX INITIAL AUDIT: Duração do estágio 1 em dias (30%)/ Stage 1 duration in days (30%)
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL MATRIZ/ MATRIX INITIAL AUDIT: Duração do estágio 1 arredondado / Stage 1 duration rounded**
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL MATRIZ/ MATRIX INITIAL AUDIT: Duração do estágio 2 em dias (70%) / Stage 2 duration in days (70%)
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL MATRIZ/ MATRIX INITIAL AUDIT: Duração do estágio 2 arredondado / Stage 2 duration rounded**
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL FILIAL/ ADDITIONAL SITE INITIAL AUDIT: The minimum audit time for each additional site
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA INICIAL FILIAL/ ADDITIONAL SITE INITIAL AUDIT: Duração arredondado/ Duration rounded 
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE MANUTENÇÃO MATRIZ/ MATRIX SURVEILLANCE AUDIT: O tempo mínimo de auditoria deve ser Um-terço (1/3) do tempo total da auditoria inicial de certificação com duraçao mínima de meio dia) / The minimum surveillance audit time should be (1/3) one-third of the initial certification audit time, with a minimum of half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE MANUTENÇÃO MATRIZ/ MATRIX SURVEILLANCE AUDIT: Duração aplicando regra de arredondamento / Duration considering the rounding rule
+Vide regra na descrição do estágio 1 e considere que o tempo mínimo deve ser de pelo menos meio dia de auditoria. / Check the rule in stage 1 description and consider that the minimum audit time should be at least half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE MANUTENÇÃO FILIAL/ ADDITIONAL SITE INITIAL AUDIT: The minimum audit time for each additional site
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE MANUTENÇÃO FILIAL/ ADDITIONAL SITE INITIAL AUDIT: Duração da filial arredondado/ Subisidiaries audit duration rounded 
+Vide regra na descrição do estágio 1 e considere que o tempo mínimo deve ser de pelo menos meio dia de auditoria. / Check the rule in stage 1 description and consider that the minimum audit time should be at least half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE RENOVAÇÃO MATRIZ/ MATRIX RENEWAL AUDIT: O tempo mínimo de auditoria deve ser dois-terços (2/3) do tempo total da auditoria inicial de certificação com duração mínima de meio dia. / The minimum renewal time should be two-thirds (2/3) of the initial certification audit time, with a minimum of half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE RENOVAÇÃO MATRIZ/ MATRIX RENEWAL AUDIT: Duração aplicando regra de arredondamento / Duration considering the rounding rule
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE RENOVAÇÃO FILIAL/ ADDITIONAL SITE RENEWAL AUDIT: The minimum audit time for each additional site
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | AUDITORIA DE RENOVAÇÃO FILIAL/ ADDITIONAL SITE RENEWAL AUDIT: Duração da filial arredondado/ Subisidiaries audit duration rounded 
+O tempo mínimo não pode ser menos meio dia. / The minimum audit time cannot be less than half audit day. |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | DADOS FINAIS DA AUDITORIA/ FINAL AUDIT DATA |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Categoria(s) de produto(s) aplicável(eis) / Product(s) Categorie(s) applied |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Supervisão do processo/ Process Supervision |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Número de auditores Muçulmanos/ Muslim auditors number |  |  |  | 2 |  |  |  |  |  |  |  |  |  |  | 
+ | Número de especialistas técnicos/ Technical specialists number |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Número total de participantes da equipe auditora/ Audit team total number |  |  |  | 2 |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | Auditoria Inicial |  |  |  |  |  |  |  |  |  |  | 
+ | Duração total da auditoria em dias: estágio 1 + estágio 2 + X dias para cada |  |  |  | #REF! |  |  |  |  |  |  |  |  |  |  | 
+ | filial - se aplicável |  |  |  | #REF! |  |  | #REF! |  |  |  |  |  |  |  | 
+ | Importante: A duração será sempre dias inteiros ou metade de um dia. |  |  |  | Auditoria de manutenção |  |  |  |  |  |  |  |  |  |  | 
+ | Audit total time IN DAYS: 1 day for stage 1 + Stage 2 + X days to each subsidiary - if applicable |  |  |  | #REF! |  |  |  |  |  |  |  |  |  |  | 
+ | Important: The audit time will be always whole days or half a day. |  |  |  | #REF! |  |  | #REF! |  |  |  |  |  |  |  | 
+ | * Valor para descrever na proposta/ Time to describe in the proposal |  |  |  | Auditoria de renovação |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | #REF! |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | #REF! |  |  | #REF! |  |  |  |  |  |  |  | 
+ | OBSERVAÇÕES / *OBSERVATIONS |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Nota: Considera-se que cada dia de auditoria possui 8h. 
+Para empresas que optam por reconhecimento do Golfo, estágio 1 e 2 não podem ser iniciados no mesmo dia.
+Note: It is considered that each audit day has 8 hours.
+For companies that opt ​​for Gulf Recognition, Stage 1 and Stage 2 can not be started the same day. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  | N.A. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Conforme/ 
+Conformity | SUPERVISOR FIXO/FIXED SUPERVISOR | Aprovado/ Approved |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Não Conforme/
+Non Conformity | SUPERVISOR POR CAMPANHA/SUPERVISOR BY CAMPAIG | Reprovado. Escrever abaixo a justificativa/ Disapproved. Write the justification below: |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | A | SIM |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | B | NÃO |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | C |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | D |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | E |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | F |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | G |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | H |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | I |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | J |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | K |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+=== SHEET: CALC DIAS AUDIT (dimensoes: A2:O25) ===
+ | CÁLCULO DIAS MINIMOS PARA AUDITORIA INICIAL |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  | HD |  |  |  |  |  |  |  |  |  | 
+FTE | funcionarios maior turno |  |  | 0 |  | NUM HDs |  | se menor do que o indicado (maximo redução 30%) explicar o porque |  |  |  |  |  | 
+TD | categoria .................... |  |  | #REF! |  |  |  | numero grande de funcionarios em atividades repetitivas (desossa) |  |  |  |  |  | 
+TH | num HACCP adicional...... |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+TMS | Dias em ausencia de SGQ |  |  | 0.25 |  | estagio 1 | #REF! |  |  |  |  |  |  | 
+ |  |  |  | #REF! |  | estagio 2 | #REF! |  |  |  |  |  |  | 
+ | TABELA DE CÁLCULO DIAS MINIMOS PARA AUDITORIA INICIAL |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  | TD | TH | TMS | FTE |  |  |  |  |  |  |  |  | 
+ | CATEGORIA | O tempo principal da auditoria no local em dias. | Dias adicionais de auditoria do plano HACCP | Dias de auditoria em caso de ausência do sistema de gestão | FTE (num funcion maior turno) |  |  |  |  |  |  |  |  | 
+ | A | 0.75 | 0.25 | 0.25 | 1 | 19 | 0 |  |  |  |  |  |  | 
+ | B | 0.75 | 0.25 |  | 20 | 49 | 0.5 |  |  |  |  |  |  | 
+ | C | 1.5 | 0.5 |  | 50 | 79 | 1 |  |  |  |  |  |  | 
+ | D | 1.5 | 0.5 |  | 80 | 199 | 1.5 |  |  |  |  |  |  | 
+ | E | 1 | 0.5 |  | 200 | 499 | 2 |  |  |  |  |  |  | 
+ | F | 1 | 0.5 |  | 500 | 899 | 2.5 |  |  |  |  |  |  | 
+ | G | 1 | 0.25 |  | 900 | 1299 | 3 |  |  |  |  |  |  | 
+ | H | 1 | 0.25 |  | 1300 | 1699 | 3.5 |  |  |  |  |  |  | 
+ | I | 1 | 0.25 |  | 1700 | 2999 | 4 |  |  |  |  |  |  | 
+ | J | 1 | 0.25 |  | 3000 | 5000 | 4.5 |  |  |  |  |  |  | 
+ | K | 1.5 | 0.5 |  | >= | 5000 | 5 |  |  |  |  |  |  | 
+ |  |  |  | 0 |  |  |  |  |  |  |  |  |  | 
+=== SHEET: Planilha1 (dimensoes: B2:O29) ===
+ | CÁLCULO DIAS MINIMOS PARA AUDITORIA INICIAL |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  | HD |  |  |  |  |  |  |  |  |  | 
+ | funcionarios maior turno |  |  | #REF! |  | NUM HDs |  | se menor do que o indicado (maximo redução 30%) explicar o porque |  |  |  |  |  | 
+ | categoria .................... |  |  | #REF! |  |  |  | numero grande de funcionarios em atividades repetitivas (desossa) |  |  |  |  |  | 
+ | num HACCP adicional...... |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | complexidade ............ |  |  | #REF! |  | estagio 1 | #REF! |  |  |  |  |  |  | 
+ | num produtos / linhas ... |  |  | #REF! |  | estagio 2 | #REF! |  |  |  |  |  |  | 
+ |  |  |  | #REF! |  |  |  |  |  |  |  |  |  | 
+ | TABELA DE CÁLCULO DIAS MINIMOS PARA AUDITORIA INICIAL |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  | B | H | FTE |  | CC | PV |  |  |  |  |  |  | 
+ | CATEGORIA | HD ON SITE AUDITORIA | HD ADICION / HACCP | FTE (num funcion maior turno) |  | complexi dade | variedade produtos |  |  |  |  |  |  | 
+ | A | 1 | 0.25 | 1 | 19 | BAIXO | 1 | 3 |  |  |  |  |  | 
+ | B | 1 | 0.25 | 20 | 49 | 1 | 4 | 6 |  |  |  |  |  | 
+ | C | 1.75 | 0.5 | 50 | 79 |  | 7 | 10 |  |  |  |  |  | 
+ | D | 1.25 | 0.5 | 80 | 199 | MÉDIO | 11 | 20 |  |  |  |  |  | 
+ | E | 1.75 | 0.5 | 200 | 499 | 1.25 | >= | 20 |  |  |  |  |  | 
+ | F | 1.75 | 0.5 | 500 | 899 |  |  |  |  |  |  |  |  | 
+ | G | 1.25 | 0.5 | 900 | 1299 | ALTO |  |  |  |  |  |  |  | 
+ | H | 1.25 | 0.5 | 1300 | 1699 | 1.5 |  |  |  |  |  |  |  | 
+ | I | 1.25 | 0.25 | 1700 | 2999 |  |  |  |  |  |  |  |  | 
+ | J | 1.25 | 0.25 | 3000 | 5000 | MUITO ALTO |  |  |  |  |  |  |  | 
+ | K | 1.25 | 0.25 | >= | 5000 | 1.75 |  |  |  |  |  |  |  | 
+ | L | 1.75 | 0.5 |  |  |  |  |  |  |  |  |  |  | 
+ | M | 1.25 | 0.25 |  |  |  |  |  |  |  |  |  |  | 
+ | N | 1.75 | 0.5 |  |  |  |  |  |  |  |  |  |  | 
+ | H somente é aplicável a cadeia de alimentos |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | PV somente é usado para produtos |  |  |  |  |  |  |  |  |  |  |  |  | 
+=== SHEET: CATEGORIAS - CATEGORIES (dimensoes: A1:K55) ===
+ |  | ANEXO A |  |  |  |  |  |  |  | 
+ |  | Classificação das categorias halal |  |  |  |  |  |  |  | 
+ |  | Grupo a | Categoria |  | Tempo de auditoria, em dias | Subcategoria |  | Exemplos de atividades |  | 
+ |  | Agricultura | A | Criação de animais | 0.75 | AI | Criação de animais para produção de carne / leite / ovos / mel | Criação de animais (exceto peixes e produtos marinhos) que são usados ​​para a produção de carne, ovos, leite ou produção de mel
+Criação, cuidado, transporte e caça (abate no mesmo local da caça) 
+Armazenamento e embalagem da fazenda b |  | 
+ |  |  |  |  |  | AII | Piscicultura/ produtos marinhos | Criação de peixes e produtos marinhos que são utilizados para a produção de carne 
+Criação, transporte e caça (abate no mesmo local da captura)
+Armazenamento e embalagem da fazenda b |  | 
+ |  |  | B | Plantação agrícolas | 0.75 | BI | Cultivo de plantas (exceto leguminosas e grãos) | Cultivo e colheita de plantas (exceto leguminosas e grãos): produtos hortícolas (frutas, Legumes, especiarias, cogumelos etc.) e alimentos de plantas hidroponicas
+Armazenamento e embalagem da fazenda b |  | 
+ |  |  |  |  |  | BII | Cultivo de leguminosas e grãos | Cultivo e colheita de leguminosas e grãos para armazenamento de alimentos 
+Armazenamento e embalagem da fazenda b |  | 
+ |  | Processamento de alimentos e rações | C | Produção de produtos alimentícios | 1.5 | CI | Processamento de produtos de origem animal perecível | Produção de produtos de origem animal, incluindo peixes e produtos marinhos, carne, ovos e laticínios |  | 
+ |  |  |  |  |  | CII | Processamento de produtos vegetais perecíveis | Produção de produtos vegetais, incluindo frutas, sucos naturais, vegetais, grãos, frutas oleaginosas e leguminosas |  | 
+ |  |  |  |  |  | CIII | Processamento de produtos perecíveis de origem animal e vegetal (produtos mistos) | Produção de mistura de produtos de origem animal e vegetal, incluindo pizza, lasanha, sanduíches, cafta a e carnes destinadas ao consumo direto. |  | 
+ |  |  |  |  |  | CIV | Processamento de produtos estáveis ​​em temperatura ambiente | Produção de produtos alimentícios de qualquer origem que sejam armazenados e vendidos em temperatura ambiente, incluindo produtos enlatados, biscoitos, salgadinhos, óleo, água potável, bebidas, massas, farinha, açúcar, sal de cozinha |  | 
+ |  |  |  |  |  | CV | Abate de animais | Processamento de carcaças, incluindo o abate em frigoríficos, corte, limpeza e embalagens. |  | 
+ |  |  | D | Produção de ração animal | 1.5 | DI | produção de ração | Produção de forragem de uma fonte ou de fontes mistas, destinada a animais produtores de alimentos |  | 
+ |  |  |  |  |  | DII | produção de ração dos animais de estimação | Produção de forragem de origem única ou mista, destinada a animais não produtores de alimentos |  | 
+ |  | Servir o alimento | E | Servir o alimento | 1 | - |  | Preparar, armazenar e, quando for o caso, entregar os alimentos destinados ao consumo, no mesmo local de preparo ou em unidade de coleta |  | 
+ |  | Distribuição de varejo, transporte, armazenamento | F | Distribuição | 1 | FI | Distribuição no atacado e varejo | Fornecer ao consumidor produtos alimentares preparados para venda (pontos de venda, lojas, vendedores). |  | 
+ |  |  |  |  |  | FII | Operações de negociação e mediação | Compra e venda de produtos alimentícios por conta própria ou como agente de terceiros.
+Embalagem secundária c |  | 
+ |  |  | G | Termos de serviços de transporte armazenamento | 1 | GI | Termos de serviços de transporte armazenamento para alimentos e rações | Local de fornecimento de serviços de transporte e armazenamento de alimentos e rações perecíveis
+Embalagem secundária c |  | 
+ |  |  |  |  |  | GII | Locais de serviços de transporte e armazenamento de alimentos e rações fixos à temperatura ambiente | Instalações de armazenamento e veículos de distribuição para transporte e armazenamento de alimentos e rações estáveis ​​em temperatura ambiente. 
+Embalagem secundária c |  | 
+ |  | Serviços auxiliares | H | Serviços | 1 | - |  | fornecimento de serviços relacionados com a segurança da produção de alimentos, incluindo abastecimento de água; Serviços de controle de pragas, serviços de limpeza, eliminação de resíduos |  | 
+ |  |  | I | Operações de embalagem e fabricação de materiais de embalagem | 1 | - |  | Fabricação de materiais de embalagem |  | 
+ |  |  | J | Fabricação de equipamentos | 1 | - |  | Produção e desenvolvimento de equipamentos de processamento de alimentos e máquinas de venda |  | 
+ |  | Bioquímica | K | Fabricação de materiais bioquímicos | 1.5 | - |  | Produção de alimentos e aditivos para rações; suplementos alimentares, minerais, culturas biológicas, aromas, enzimas e auxiliares de produção, pesticidas; Remédios, fertilizantes, materiais de limpeza, cosméticos, têxteis, produtos de couro, etc.. |  | 
+ |  | a Os grupos a serem usados no escopo de acreditação para as entidades acreditadas que emitem o certificado halal e os organismos acreditados para o monitoramento das entidades que emitem o certificado halal halal.
+b embalagem agrícola” significa acondicionamento sem alteração do produto ou do seu tratamento.
+c Embalagem secundária “significa embalagem sem alteração do produto ou sua preparação e sem alteração da embalagem primária do produto. |  |  |  |  |  |  |  | 
+ |  | ATTACHMENT A |  |  |  |  |  |  |  | 
+ |  | Halal category classification |  |  |  |  |  |  |  | 
+ |  | Cluster a | Category |  | Audit time, in days | Subcategory |  | Examples of activities |  | 
+ |  | Farming | A | Farming of animals | 0.75 | AI | Farming of animals for Meat/ Milk/ Eggs/ Honey | Raising animals (other than fish and seafood) used for meat production, egg production, milk production or honey production, farming of Animals for Meat/Milk/Eggs/ Honey
+Growing, keeping, trapping and hunting (slaughtering at point of hunting) 
+Associated farm packing b and storage |  | 
+ |  |  |  |  |  | AII | Farming of Fish and Seafood | Raising fish and seafood used for meat production
+Growing, trapping and fishing (slaughtering at point of capture)
+Associated farm packing b and storage |  | 
+ |  |  | B | Farming of plants | 0.75 | BI | Farming of Plants (other than grains and pulses) | Growing or harvesting of plants (other than grains and pulses): horticultural products (fruits, vegetables, spices, mushrooms, etc.) and hydrophytes for food
+Associated farm packing b and storage. |  | 
+ |  |  |  |  |  | BII | Farming of Grains and Pulses | Growing or harvesting of grains and pulses for food
+Associated farm packing b and storage |  | 
+ |  | Food and feed processing | C | Food manufacturing | 1.5 | CI | Processing of perishable animal products | Production of animal products including fish and seafood, meat, eggs, dairy and fish products |  | 
+ |  |  |  |  |  | CII | Processing of perishable plant products | Production of plant products including fruits and fresh juices, vegetables, grains, nuts and pulses |  | 
+ |  |  |  |  |  | CIII | Processing of perishable animal and plant products (mixed products) | Production of mixed animal and plant products including pizza, lasagne, sandwich, dumpling, ready to-eat meals |  | 
+ |  |  |  |  |  | CIV | Processing of ambient stable products | Production of food products from any source that are stored and sold at ambient temperature, including canned foods, biscuits, snacks, oil, drinking water, beverages, pasta, flour, sugar, food-grade salt |  | 
+ |  |  |  |  |  | CV | Animal slaughtering | Processing of carcasses, including slaughtering in slaughterhouses, cutting, cleaning and packaging. |  | 
+ |  |  | D | Animal Feed Production | 1.5 | DI | Production of Feed | Production of feed from a single or mixed food source, intended for food-producing animals |  | 
+ |  |  |  |  |  | DII | Production of Pet Food | Production of feed from a single or mixed food source, intended for non-food producing animals |  | 
+ |  | Catering | E | Catering | 1 | - |  | Preparation, storage and, where appropriate, delivery of food for consumption, at the place of preparation or at a satellite unit |  | 
+ |  | Retail, transport and storage | F | Distribution | 1 | FI | Retail/ Wholesale | Provision of finished food products to a customer (retail outlets, shops, wholesalers). |  | 
+ |  |  |  |  |  | FII | Food broking/ Trading | Buying and selling food products on its own account or as an agent for others
+Associated packaging c |  | 
+ |  |  | G | Provision of transport and storage services | 1 | GI | Provision of Transport and storage services for perishable food and feed | Location of provision of transport and storage services for perishable food and feed
+Associated packaging c |  | 
+ |  |  |  |  |  | GII | Provision of Transport and storage services for ambient stable food and feed | Storage facilities and distribution vehicles for the storage and transport of ambient stable food and feed
+Associated packaging c |  | 
+ |  | Auxiliary services | H | Services | 1 | - |  | Provision of services relating to the safe production of food, including water supply; pest control, cleaning services, waste disposal |  | 
+ |  |  | I | Production of Food Packaging and packaging material | 1 | - |  | Production of food packaging material |  | 
+ |  |  | J | Equipment manufacturing | 1 | - |  | Production and development of food processing equipment and vending machines |  | 
+ |  | Biochemical | K | Production of (Bio) Chemicals | 1.5 | - |  | Production of food and feed additives; food supplements, minerals, organic cultures, flavors, enzymes and production aids, pesticides; Medicines, fertilizers, cleaning materials, cosmetics, textiles, leather products, etc... |  | 
+ |  | a Clusters are intended to be used for accreditation scope of accredited certification bodies, and for accreditation bodies witnessing certification bodies. 
+b "Farm packing" means packaging without product modification and processing. 
+c "Associated packaging" means packaging without produtc modification and processing and without altering the primary packaging. |  |  |  |  |  |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.1 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_INDUSTRIAL (REV 16) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.1 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_INDUSTRIAL (REV 16) PT_EN.docx
+TAMANHO: 1293040 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (11 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: Cidade/City:                        Estado/State:                         CEP/ Zip Code:                             Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações do Fabricante/ Manufacturer Company Informations
+Linha 8: Não aplicável, solicitante e fabricante são os mesmos/  Not applicable, applicant and manufacturer are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: Cidade/City:                        Estado/State:                         CEP/ Zip Code:                             Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+
+=== TABELA 2 (7 linhas x 1 colunas) ===
+Linha 1: 3 - Contatos da empresa / Company contacts
+Linha 2: Solicitante da Certificação/ Certification Requesting
+Linha 3: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                              E-mail/ E-mail:
+Linha 4: Contato Legal (quem assina o contrato) / Legal contact (who signs the contract)
+Linha 5: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                              E-mail/ E-mail:
+Linha 6: Responsável por realizar os tramites contratuais /  Responsible for carrying out the contractual procedures
+Linha 7: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 3 (5 linhas x 1 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 4 (2 linhas x 1 colunas) ===
+Linha 1: 5 - Escopo/ Scope
+Linha 2: Por favor preencher a tabela abaixo (FM 7.2.1.5) com todos os produtos que a sua empresa deseja certificar como Halal.  Please fill in the table below (FM 7.2.1.5) with all products that your company wishes to certify as Halal.  * Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal:  Subcategoria dos produtos a serem certificados Halal (se aplicável) / Subcategories of the products to be certified as Halal:   A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data.
+
+=== TABELA 5 (13 linhas x 1 colunas) ===
+Linha 1: 6 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 2: Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works:
+Linha 3: Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process):
+Linha 4: Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above):
+Linha 5: Informar se o Sistema de Gestão da Qualidade das filiais (se aplicável), é o mesmo da matriz e também confirmar se o APPCC é igual. / Inform if the Quality Management System for the affiliated (if applicable), is the same as the matrix and also confirm that the HACCP is the same.
+Linha 6: Os produtos são destinados ao mercado de varejo/ consumo direto, ou ainda para restaurantes?  Are the products intended for the retail/direct consumption market, or for restaurants?
+Linha 7: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any):
+Linha 8: 7 - Informações dos Produtos a Serem Certificados/ informations of products to be certified
+Linha 9: Favor anexar (no e-mail) a(s) ficha de especificação(ões) técnica(s) ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.   Indicar a quantidade de linhas de produção a serem auditadas de forma a contemplar todos os produtos do escopo de certificação Halal. / Indicate how many production lines should be audited to cover all the Halal certification products scope.
+Linha 10: 8 - Atividades Subcontratadas/ Outsourced Activities
+Linha 11: Favor listar as atividades subcontratadas/terceirizadas (se aplicável), como armazém de matéria prima, armazém de produto final, unidade de secagem ou outra operação unitária do processo. Please list the subcontracted / outsourced activities (If applicabe), such as raw material warehouse, final product warehouse, drying unit or other unitary process operation.  * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 12: 9 - Consultoria/ Consultancy
+Linha 13: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+
+=== TABELA 6 (2 linhas x 1 colunas) ===
+Linha 1: 10 - Avaliação da complexidade/ Complexity evaluation
+Linha 2: Informar quantas matérias primas e insumos são utilizados no total dos produtos a serem certificados Halal (Favor desconsiderar itens comprados diretamente do pecuarista e agricultor - inclusive cooperativas): Inform how many raw materials and inputs are used in the total products to be certified Halal (Please disregard items purchased directly from the farmer - including cooperatives):  Em média quantos fornecedores ativos existem para cada matérias-primas e insumos?  (Favor desconsiderar itens comprados diretamente do pecuarista e agricultor - inclusive cooperativas): On average how many active suppliers are there for each raw material and input? (Please disregard items purchased directly from the farmer and farmer - including cooperatives):
+
+=== TABELA 7 (2 linhas x 1 colunas) ===
+Linha 1: 11 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 2: Favor indicar os mercados pretendidos com a certificação Halal: Please indicate the intended markets with Halal certification:   Mercado Interno / Internal Market  Arábia Saudita / Saudi Arabia  Emirados Árabes / United Arab Emirates  Demais países do Golfo: Bahrein, Omã, Qatar, Kwuait e Iemên / Gulf countries: Bahrain, Oman, Qatar, Kuwait and Yemen  Indonésia / Indonesia  Malásia / Malaysia  Turquia / Türkiye  Singapura / Singapore  Demais países das Américas/ Other Americas countries  Demais países da Europa/ Other European countries  Demais países da África/ Other Africa countries  Demais países da Ásia/ Other Asia countries  Demais países da Oceania/ Other Oceania countries Se desejar, use este campo para específicas algum outro país/ If you wish, use this field to specify another country: _____________________________________________________
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.10 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_TURISMO (REV 1) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.10 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_TURISMO (REV 1) PT_EN.docx
+TAMANHO: 311989 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (17 linhas x 2 colunas) ===
+Linha 1: Informações do Solicitante/ Applying Company Informations | Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date: | Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name: | Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress:  CEP/ Zip Code:                             Cidade/City:      Estado/State:                               País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                             Cidade/City:      Estado/State:                               País/ Country:
+Linha 5: Website/ Website: | Website/ Website:
+Linha 6: CNPJ/ Registration Number:  Número SIF/ Registration Number at Agriculture Ministry: | CNPJ/ Registration Number:  Número SIF/ Registration Number at Agriculture Ministry:
+Linha 7: Responsável pelo preenchimento desta solicitação/ Responsivel for this application: | Responsável pelo preenchimento desta solicitação/ Responsivel for this application:
+Linha 8: Nome/ Name: | Telefone/ Phone:
+Linha 9: E-mail: | E-mail:
+Linha 10: 2 - Informações das unidades (se aplicável) / Unit informations (if applied) | 2 - Informações das unidades (se aplicável) / Unit informations (if applied)
+Linha 11: Razão Social/ Company name:  Nome fantasia/ Trading Name: | Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 12: Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country:
+Linha 13: Telefone/ Phone Number: | Telefone/ Phone Number:
+Linha 14: CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable): | CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 15: Contato representante / Representative contact: | Contato representante / Representative contact:
+Linha 16: Nome/ Name: | Telefone/ Phone:
+Linha 17: E-mail: | E-mail:
+
+=== TABELA 2 (8 linhas x 1 colunas) ===
+Linha 1: Escopo/ Scope
+Linha 2: Capacidade de hóspedes/ Guest Capacity:  Quantidade de quartos/ Number of rooms:  Número total de colaboradores/ Total Number of employees:  Número de cozinhas ou restaurantes próprios/ Number of own kitchens or restaurants:
+Linha 3: CRIAR UMA CÓPIA DESTE BLOCO 2, PARA CADA UNIDADE QUE DESEJA OBTER A CERTIFICAÇÃO MAKE A COPY OF THIS BLOCK 2, FOR EACH UNIT THAT WANTS TO OBTAIN THE CERTIFICATION
+Linha 4: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria do serviço a ser certificado Halal/ Category of the service to be certified as Halal: E- servir o alimento  Subcategoria do serviço a ser certificado Halal (se aplicável)/ Subcategory of the service to be certified as Halal:
+Linha 5: 3 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 6: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 7: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 8: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 3 (6 linhas x 1 colunas) ===
+Linha 1: - Atividades Subcontratadas/ Outsourced Activities
+Linha 2: Favor listar as atividades subcontratadas/terceirizadas (se aplicável) Please list the subcontracted / outsourced activities (If applicabe):  * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 3: 9 - Consultoria/ Consultancy
+Linha 4: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+Linha 5: 10 - Comentários/ Comments:
+Linha 6: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver)/ Identify below any information your company judges to be critical to Halal certification (if any):
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.11 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_CATERING (REV 1) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.11 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_CATERING (REV 1) PT_EN.docx
+TAMANHO: 312292 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (17 linhas x 2 colunas) ===
+Linha 1: Informações do Solicitante/ Applying Company Informations | Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date: | Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name: | Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress:  CEP/ Zip Code:                             Cidade/City:      Estado/State:                               País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                             Cidade/City:      Estado/State:                               País/ Country:
+Linha 5: Website/ Website: | Website/ Website:
+Linha 6: CNPJ/ Registration Number:  Número SIF/ Registration Number at Agriculture Ministry: | CNPJ/ Registration Number:  Número SIF/ Registration Number at Agriculture Ministry:
+Linha 7: Responsável pelo preenchimento desta solicitação/ Responsivel for this application: | Responsável pelo preenchimento desta solicitação/ Responsivel for this application:
+Linha 8: Nome/ Name: | Telefone/ Phone:
+Linha 9: E-mail: | E-mail:
+Linha 10: 2 - Informações das filiais (se aplicável) / Branch informations (if applied) | 2 - Informações das filiais (se aplicável) / Branch informations (if applied)
+Linha 11: Razão Social/ Company name:  Nome fantasia/ Trading Name: | Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 12: Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country:
+Linha 13: Telefone/ Phone Number: | Telefone/ Phone Number:
+Linha 14: CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable): | CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 15: Contato representante / Representative contact: | Contato representante / Representative contact:
+Linha 16: Nome/ Name: | Telefone/ Phone:
+Linha 17: E-mail: | E-mail:
+
+=== TABELA 2 (8 linhas x 1 colunas) ===
+Linha 1: 3- Escopo/ Scope
+Linha 2: Produtos fabricados/ Manufacturing products:  Quantidade de turnos/ Shift of rooms:  Número total de colaboradores/ Total Number of employees:  Possui APPCC? Se sim, quantos?/ Do you have HACCP? If yes, how many?
+Linha 3: CRIAR UMA CÓPIA DESTE BLOCO 2, PARA CADA UNIDADE QUE DESEJA OBTER A CERTIFICAÇÃO MAKE A COPY OF THIS BLOCK 2, FOR EACH UNIT THAT WANTS TO OBTAIN THE CERTIFICATION
+Linha 4: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria do serviço a ser certificado Halal/ Category of the service to be certified as Halal: E- servir o alimento  Subcategoria do serviço a ser certificado Halal (se aplicável)/ Subcategory of the service to be certified as Halal:
+Linha 5: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 6: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 7: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 8: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 3 (6 linhas x 1 colunas) ===
+Linha 1: 5- Atividades Subcontratadas/ Outsourced Activities
+Linha 2: Favor listar as atividades subcontratadas/terceirizadas (se aplicável) Please list the subcontracted / outsourced activities (If applicabe):  * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 3: 6- Consultoria/ Consultancy
+Linha 4: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+Linha 5: 7- Comentários/ Comments:
+Linha 6: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver)/ Identify below any information your company judges to be critical to Halal certification (if any):
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.2 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO AVES (REV 10) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.2 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO AVES (REV 10) PT_EN.docx
+TAMANHO: 319059 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (16 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações do Fabricante/ Manufacturer Company Informations
+Linha 8: Não aplicável, solicitante e fabricante são os mesmos/ Not applicable, applicant and manufacturer are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 12: 3 - Contatos da empresa / Company contacts
+Linha 13: Solicitante da Certificação/ Certification Requesting
+Linha 14: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+Linha 15: Contato Legal / Legal contact
+Linha 16: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 2 (5 linhas x 1 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 3 (12 linhas x 1 colunas) ===
+Linha 1: 5 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 2: Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works:
+Linha 3: Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process):
+Linha 4: Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above):
+Linha 5: A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data.
+Linha 6: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver)/ Identify below any information your company judges to be critical to Halal certification (if any):
+Linha 7: 6 - Informações dos Produtos a Serem Certificados/ informations of products to be certified
+Linha 8: Favor anexar a ficha de especificação técnica ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.
+Linha 9: 7 - Atividades Subcontratadas/ Outsourced Activities
+Linha 10: Favor listar as atividades subcontratadas/terceirizadas (se aplicável)  Please list the subcontracted / outsourced activities (If applicabe):    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 11: 8 - Consultoria/ Consultancy
+Linha 12: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+
+=== TABELA 4 (9 linhas x 3 colunas) ===
+Linha 1: 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/  SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/  SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/  SCOPE: Products list to be certified
+Linha 2: Tipos de Produtos/ Types of Products | Especificar aqui os detalhes.  Ex. Congelado, resfriado Specify details here. Ex. Frozen and Fresh | Marcas/ Brands
+Linha 3: Frango Inteiro com e sem Miudos/       Chicken with and without Giblets  Peru Inteiro com e sem Miudos/       Turkey with and without Giblets  Pato Inteiro com e sem Miudos/        Duck with and without Giblets |  | 
+Linha 4: Cortes de Frango/ Chicken Cuts  Cortes de Peru/ Turkey Cuts  Cortes de Pato/ Duck Cuts |  | 
+Linha 5: Cortes de Frango Temperado/       Seasoned Cuts Chicken  Cortes de Peru Temperado/ Seasoned Cuts Turkey  Cortes de Pato Temperado/ Seasoned Cuts Duck | * Neste caso, especificar por códigos de produto devido a presença do tempero. /  In this case, specify by product codes. | 
+Linha 6: Miúdos de Frango/ Chicken Giblets  Miúdos de Peru/ Turkey Giblets  Miúdos de Pato/ Duck Giblets |  | 
+Linha 7: CMS: Carne Mecanicamente Separada de Frango/ MSM: Chicken Mechanically Separated Meat  CMS: Carne Mecanicamente Separada de Peru/ MSM: Turkey Mechanically Separated Meat  CMS: Carne Mecanicamente Separada de Pato/ MSM: Duck Mechanically Separated Meat |  | 
+Linha 8: Pele de Frango/ Chicken Skin  Pele de Peru/ Turkey Skin  Pele de Pato/ Duck Skin |  | 
+Linha 9: Outros/  Others |  | 
+
+=== TABELA 5 (3 linhas x 1 colunas) ===
+Linha 1: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal: Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal:
+Linha 2: 10 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 3: Favor indicar os mercados pretendidos com a certificação Halal: Please indicate the intended markets with Halal certification:   Mercado Interno / Internal Market  Arábia Saudita / Saudi Arabia  Emirados Árabes / United Arab Emirates  Demais países do Golfo: Bahrein, Omã, Qatar, Kwuait e Iemên / Gulf countries: Bahrain, Oman, Qatar, Kuwait and Yemen  Indonésia / Indonesia  Malásia / Malaysia  Turquia / Türkiye  Singapura / Singapore  Demais países das Américas/ Other Americas countries  Demais países da Europa/ Other European countries  Demais países da África/ Other Africa countries  Demais países da Ásia/ Other Asia countries  Demais países da Oceania/ Other Oceania countries Se desejar, use este campo para específicas algum outro país/ If you wish, use this field to specify another country: ____________________________________________________
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.3 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO BOVINO (REV 13) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.3 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO BOVINO (REV 13) PT_EN.docx
+TAMANHO: 318263 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (16 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações do Fabricante/ Manufacturer Company Informations
+Linha 8: Não aplicável, solicitante e fabricante são os mesmos/ Not applicable, applicant and manufacturer are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 12: 3 - Contatos da empresa / Company contacts
+Linha 13: Solicitante da Certificação/ Certification Requesting
+Linha 14: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+Linha 15: Contato Legal / Legall contact
+Linha 16: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 2 (5 linhas x 1 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 3 (7 linhas x 1 colunas) ===
+Linha 1: 5 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 2: Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works:
+Linha 3: Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process):
+Linha 4: Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above):
+Linha 5: A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data.
+Linha 6: Qual atividade melhor representa o frigorifico? / Which activity best represents the slaughterhouse?  Apenas abate / Just slaughter  Apenas desossa / Just boning  Abate e desossa / Slaughter and Boning
+Linha 7: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any):
+
+=== TABELA 4 (6 linhas x 1 colunas) ===
+Linha 1: 6 - Informações dos Produtos a Serem Certificados/ informations of products to be certified
+Linha 2: Favor anexar a ficha de especificação técnica ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.
+Linha 3: 7 - Atividades Subcontratadas/ Outsourced Activities
+Linha 4: Favor listar as atividades subcontratadas/terceirizadas (se aplicável)  Please list the subcontracted / outsourced activities (If applicabe):    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 5: 8 - Consultoria/ Consultancy
+Linha 6: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+
+=== TABELA 5 (13 linhas x 3 colunas) ===
+Linha 1: 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified
+Linha 2: Tipos de Produtos/ Types of Products | Especificar aqui os detalhes.  Ex. Congelado, resfriado Specify details here. Ex. Frozen and Fresh | Marcas/ Brands
+Linha 3: Cortes Congelados de Carne Bovina / Frozen Beef Cuts |  | 
+Linha 4: Cortes Refrigerados de Carne Bovina / Fresh Beef Cuts |  | 
+Linha 5: Cortes de Carne Bovina temperada/ Seasoned Beef Cuts | * Neste caso, especificar por códigos de produto. /  In this case, specify by product codes. | 
+Linha 6: Miúdos Bovinos/ Offals |  | 
+Linha 7: Subprodutos/ Subproducts | * Exemplificar: Pâncreas, Placenta, Timo, Mucosa. / Exemplify: Pancreas, Placenta, Thymus, mucosa | 
+Linha 8: Envoltórios Naturais/ Natural Casing |  | 
+Linha 9: Pele bovina/ Bovine skin |  | 
+Linha 10: CMS: Carne Mecanicamente Separada/ MSM – Mechanically Separated Meat |  | 
+Linha 11: Farinha de carne de osso/ Bone meat meal |  | 
+Linha 12: Outros/      Others |  | 
+Linha 13: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal: Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal: | Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal: Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal: | Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal: Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal:
+
+=== TABELA 6 (2 linhas x 1 colunas) ===
+Linha 1: 10 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 2: Favor indicar os mercados pretendidos com a certificação Halal: Please indicate the intended markets with Halal certification:   Mercado Interno / Internal Market  Arábia Saudita / Saudi Arabia  Emirados Árabes / United Arab Emirates  Demais países do Golfo: Bahrein, Omã, Qatar, Kwuait e Iemên / Gulf countries: Bahrain, Oman, Qatar, Kuwait and Yemen  Indonésia / Indonesia  Malásia / Malaysia  Turquia / Türkiye  Singapura / Singapore  Demais países das Américas/ Other Americas countries  Demais países da Europa/ Other European countries  Demais países da África/ Other Africa countries  Demais países da Ásia/ Other Asia countries  Demais países da Oceania/ Other Oceania countries Se desejar, use este campo para específicas algum outro país/ If you wish, use this field to specify another country: ____________________________________________________
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.4 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_INDUSTRIAL  AMÉRICA LATINA (REV 11) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.4 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_INDUSTRIAL  AMÉRICA LATINA (REV 11) PT_EN.docx
+TAMANHO: 1293274 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (11 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: Cidade/City:                        Estado/State:                         CEP/ Zip Code:                             Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: Número de registro/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações do Fabricante/ Manufacturer Company Informations
+Linha 8: Não aplicável, solicitante e fabricante são os mesmos/  Not applicable, applicant and manufacturer are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: Cidade/City:                        Estado/State:                         CEP/ Zip Code:                             Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: Número de registro/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+
+=== TABELA 2 (7 linhas x 1 colunas) ===
+Linha 1: 3 - Contatos da empresa / Company contacts
+Linha 2: Solicitante da Certificação/ Certification Requesting
+Linha 3: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                              E-mail/ E-mail:
+Linha 4: Contato Legal (quem assina o contrato) / Legal contact (who signs the contract)
+Linha 5: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                              E-mail/ E-mail:
+Linha 6: Responsável por realizar os tramites contratuais /  Responsible for carrying out the contractual procedures
+Linha 7: Nome/ Name:  Cargo/ Role:                                                      Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 3 (5 linhas x 1 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 4 (2 linhas x 1 colunas) ===
+Linha 1: 5 - Escopo/ Scope
+Linha 2: Por favor preencher a tabela abaixo (FM 7.2.1.5) com todos os produtos que a sua empresa deseja certificar como Halal.  Please fill in the table below (FM 7.2.1.5) with all products that your company wishes to certify as Halal.  * Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal:  Subcategoria dos produtos a serem certificados Halal (se aplicável) / Subcategories of the products to be certified as Halal:   A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data.
+
+=== TABELA 5 (13 linhas x 1 colunas) ===
+Linha 1: 6 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 2: Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works:
+Linha 3: Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process):
+Linha 4: Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above):
+Linha 5: Informar se o Sistema de Gestão da Qualidade das filiais (se aplicável), é o mesmo da matriz e também confirmar se o APPCC é igual. / Inform if the Quality Management System for the affiliated (if applicable), is the same as the matrix and also confirm that the HACCP is the same.
+Linha 6: Os produtos são destinados ao mercado de varejo/ consumo direto, ou ainda para restaurantes?  Are the products intended for the retail/direct consumption market, or for restaurants?
+Linha 7: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any):
+Linha 8: 7 - Informações dos Produtos a Serem Certificados/ informations of products to be certified
+Linha 9: Favor anexar (no e-mail) a(s) ficha de especificação(ões) técnica(s) ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.   Indicar a quantidade de linhas de produção a serem auditadas de forma a contemplar todos os produtos do escopo de certificação Halal. / Indicate how many production lines should be audited to cover all the Halal certification products scope.
+Linha 10: 8 - Atividades Subcontratadas/ Outsourced Activities
+Linha 11: Favor listar as atividades subcontratadas/terceirizadas (se aplicável), como armazém de matéria prima, armazém de produto final, unidade de secagem ou outra operação unitária do processo. Please list the subcontracted / outsourced activities (If applicabe), such as raw material warehouse, final product warehouse, drying unit or other unitary process operation.  * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 12: 9 - Consultoria/ Consultancy
+Linha 13: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: Número de registro/ Registration Number: Data/ Date:
+
+=== TABELA 6 (4 linhas x 2 colunas) ===
+Linha 1: 10 - Avaliação da complexidade/ Complexity evaluation
+Linha 2: Informar quantas matérias primas e insumos são utilizados no total dos produtos a serem certificados Halal (Favor desconsiderar itens comprados diretamente do pecuarista e agricultor - inclusive cooperativas): Inform how many raw materials and inputs are used in the total products to be certified Halal (Please disregard items purchased directly from the farmer - including cooperatives):  Em média quantos fornecedores ativos existem para cada matérias-primas e insumos?  (Favor desconsiderar itens comprados diretamente do pecuarista e agricultor - inclusive cooperativas): On average how many active suppliers are there for each raw material and input? (Please disregard items purchased directly from the farmer and farmer - including cooperatives):
+Linha 3: 11 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard | 11 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 4: Por favor, indique o tipo de reconhecimento desejado: Please indicate the type of recognition desired:  Certificação com reconhecimento para países em geral, com exceção do Golfo*/ Certification with recognition for countries in general, with the exception of the Gulf *;  Se possível, identifique os países de destino/ If possible, identify the destination countries: ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   * Países do Golfo: Emiratos Árabes Unidos, Bahrein, Arabia Saudita, Omán, Qatar, Kuwait y Yemen; * Gulf countries: United Arab Emirates, Bahrain, Saudi Arabia, Oman, Qatar, Kuwait e Yemen.  Para o caso do Egito, Irã e Malásia, a FAMBRAS Halal, como qualquer outra, não certifica, já que eles possuem suas próprias certificadoras. / In case of Egypt, Iran and Malaysia, FAMBRAS Halal, like any other, doesn’t certify, because they have their own certifiers. | Por favor, indique o tipo de reconhecimento desejado: Please indicate the type of recognition desired:  Certificação com reconhecimento para países em geral, com exceção do Golfo*/ Certification with recognition for countries in general, with the exception of the Gulf *;  Se possível, identifique os países de destino/ If possible, identify the destination countries: ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   * Países do Golfo: Emiratos Árabes Unidos, Bahrein, Arabia Saudita, Omán, Qatar, Kuwait y Yemen; * Gulf countries: United Arab Emirates, Bahrain, Saudi Arabia, Oman, Qatar, Kuwait e Yemen.  Para o caso do Egito, Irã e Malásia, a FAMBRAS Halal, como qualquer outra, não certifica, já que eles possuem suas próprias certificadoras. / In case of Egypt, Iran and Malaysia, FAMBRAS Halal, like any other, doesn’t certify, because they have their own certifiers.
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.5 - CONTROLE DE ESCOPO (REV 1)_PT_EN.xlsx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.5 - CONTROLE DE ESCOPO (REV 1)_PT_EN.xlsx
+TAMANHO: 536244 bytes
+================================================================================
+=== SHEET: FM 7.2.1.5 (dimensoes: A1:E154) ===
+ | FAMBRAS HALAL CERTIFICAÇÃO
+CONTROLE DE ESCOPO
+SCOPE CONTROL |  |  | FM 7.2.1.5
+Rev.: 01
+Data: 23/08/2018
+Escopo/ Scope
+Listagem dos Produtos a Serem Certificados*/ Products list to be certified*
+*Por favor descreva o escopo completo em português e inglês, considerando que a grafia em inglês será utilizada para manufatura do certificado Halal/ 
+*Please describe the full scope in Portuguese and English, considering that the English spelling will be used to manufacture the Halal certificate. |  |  |  | 
+Nome do Produto/
+Product name |  | Código (s)/
+Code (s) | Tipo (s) e tamanho (s) de embalagem (ns)/
+Type (s) and size (s) of package (s) | Marca (s)/
+Brand (s)
+1 |  |  |  | 
+2 |  |  |  | 
+3 |  |  |  | 
+4 |  |  |  | 
+5 |  |  |  | 
+6 |  |  |  | 
+7 |  |  |  | 
+8 |  |  |  | 
+9 |  |  |  | 
+10 |  |  |  | 
+11 |  |  |  | 
+12 |  |  |  | 
+13 |  |  |  | 
+14 |  |  |  | 
+15 |  |  |  | 
+16 |  |  |  | 
+17 |  |  |  | 
+18 |  |  |  | 
+19 |  |  |  | 
+20 |  |  |  | 
+21 |  |  |  | 
+22 |  |  |  | 
+23 |  |  |  | 
+24 |  |  |  | 
+25 |  |  |  | 
+26 |  |  |  | 
+27 |  |  |  | 
+28 |  |  |  | 
+29 |  |  |  | 
+30 |  |  |  | 
+31 |  |  |  | 
+32 |  |  |  | 
+33 |  |  |  | 
+34 |  |  |  | 
+35 |  |  |  | 
+36 |  |  |  | 
+37 |  |  |  | 
+38 |  |  |  | 
+39 |  |  |  | 
+40 |  |  |  | 
+41 |  |  |  | 
+42 |  |  |  | 
+43 |  |  |  | 
+44 |  |  |  | 
+45 |  |  |  | 
+46 |  |  |  | 
+47 |  |  |  | 
+48 |  |  |  | 
+49 |  |  |  | 
+50 |  |  |  | 
+51 |  |  |  | 
+52 |  |  |  | 
+53 |  |  |  | 
+54 |  |  |  | 
+55 |  |  |  | 
+56 |  |  |  | 
+57 |  |  |  | 
+58 |  |  |  | 
+59 |  |  |  | 
+60 |  |  |  | 
+61 |  |  |  | 
+62 |  |  |  | 
+63 |  |  |  | 
+64 |  |  |  | 
+65 |  |  |  | 
+66 |  |  |  | 
+67 |  |  |  | 
+68 |  |  |  | 
+69 |  |  |  | 
+70 |  |  |  | 
+71 |  |  |  | 
+72 |  |  |  | 
+73 |  |  |  | 
+74 |  |  |  | 
+75 |  |  |  | 
+76 |  |  |  | 
+77 |  |  |  | 
+78 |  |  |  | 
+79 |  |  |  | 
+80 |  |  |  | 
+81 |  |  |  | 
+82 |  |  |  | 
+83 |  |  |  | 
+84 |  |  |  | 
+85 |  |  |  | 
+86 |  |  |  | 
+87 |  |  |  | 
+88 |  |  |  | 
+89 |  |  |  | 
+90 |  |  |  | 
+91 |  |  |  | 
+92 |  |  |  | 
+93 |  |  |  | 
+94 |  |  |  | 
+95 |  |  |  | 
+96 |  |  |  | 
+97 |  |  |  | 
+98 |  |  |  | 
+99 |  |  |  | 
+100 |  |  |  | 
+101 |  |  |  | 
+102 |  |  |  | 
+103 |  |  |  | 
+104 |  |  |  | 
+105 |  |  |  | 
+106 |  |  |  | 
+107 |  |  |  | 
+108 |  |  |  | 
+109 |  |  |  | 
+110 |  |  |  | 
+111 |  |  |  | 
+112 |  |  |  | 
+113 |  |  |  | 
+114 |  |  |  | 
+115 |  |  |  | 
+116 |  |  |  | 
+117 |  |  |  | 
+118 |  |  |  | 
+119 |  |  |  | 
+120 |  |  |  | 
+121 |  |  |  | 
+122 |  |  |  | 
+123 |  |  |  | 
+124 |  |  |  | 
+125 |  |  |  | 
+126 |  |  |  | 
+127 |  |  |  | 
+128 |  |  |  | 
+129 |  |  |  | 
+130 |  |  |  | 
+131 |  |  |  | 
+132 |  |  |  | 
+133 |  |  |  | 
+134 |  |  |  | 
+135 |  |  |  | 
+136 |  |  |  | 
+137 |  |  |  | 
+138 |  |  |  | 
+139 |  |  |  | 
+140 |  |  |  | 
+141 |  |  |  | 
+142 |  |  |  | 
+143 |  |  |  | 
+144 |  |  |  | 
+145 |  |  |  | 
+146 |  |  |  | 
+147 |  |  |  | 
+148 |  |  |  | 
+149 |  |  |  | 
+150 |  |  |  | 
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.7 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_ENTREPOSTO-ARMAZÉM (REV 5) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.7 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_ENTREPOSTO-ARMAZÉM (REV 5) PT_EN.docx
+TAMANHO: 317236 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (17 linhas x 2 colunas) ===
+Linha 1: Informações do Solicitante/ Applying Company Informations | Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date: | Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:   Nome fantasia/ Trading Name: | Razão Social/ Company name:   Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress:  CEP/ Zip Code:                                              Cidade/City:     Estado/State:                                                País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                                              Cidade/City:     Estado/State:                                                País/ Country:
+Linha 5: Website/ Website: | Website/ Website:
+Linha 6: CNPJ/ Registration Number:      Número SIF/ Registration Number at Agriculture Ministry: | CNPJ/ Registration Number:      Número SIF/ Registration Number at Agriculture Ministry:
+Linha 7: Responsável pelo preenchimento desta solicitação/ Responsivel for this application: | Responsável pelo preenchimento desta solicitação/ Responsivel for this application:
+Linha 8: Nome/ Name: | Telefone/ Phone:
+Linha 9: E-mail: | E-mail:
+Linha 10: 2 - Informações das unidades de armazém/ Warehouse informations | 2 - Informações das unidades de armazém/ Warehouse informations
+Linha 11: Razão Social/ Company name:  Nome fantasia/ Trading Name: | Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 12: Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country: | Endereço/ Adress:  CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         País/ Country:
+Linha 13: Telefone/ Phone Number: | Telefone/ Phone Number:
+Linha 14: CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable): | CNPJ/ Registration Number:  Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 15: Contato representante neste armazém/ Representative contact in this warehouse: | Contato representante neste armazém/ Representative contact in this warehouse:
+Linha 16: Nome/ Name: | Telefone/ Phone:
+Linha 17: E-mail: | E-mail:
+
+=== TABELA 2 (12 linhas x 1 colunas) ===
+Linha 1: Escopo/ Scope
+Linha 2: Capacidade/ Capacity:
+Linha 3: Tipos de produtos armazenados/ Types of stored products:
+Linha 4: Quantidade de turnos em que opera/ Number of shifts in which it operates:
+Linha 5: Número de funcionários totais e por turno/ Total number of employees, and per shift:
+Linha 6: Possui outras certificações? Quais?/ Do you have other certifications? Which one?
+Linha 7: CRIAR UMA CÓPIA DESTE BLOCO 2, PARA CADA ARMAZÉM QUE DESEJA OBTER A CERTIFICAÇÃO MAKE A COPY OF THIS BLOCK 2, FOR EACH WAREHOUSE THAT YOUR COMPANY WANTS TO OBTAIN THE CERTIFICATION
+Linha 8: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon.  Categoria do serviço a ser certificado Halal/ Category of the service to be certified as Halal:  Subcategoria do serviço a ser certificado Halal (se aplicável)/ Subcategory of the service to be certified as Halal:
+Linha 9: 3 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 10: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 11: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 12: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+
+=== TABELA 3 (6 linhas x 1 colunas) ===
+Linha 1: - Atividades Subcontratadas/ Outsourced Activities
+Linha 2: Favor listar as atividades subcontratadas/terceirizadas (se aplicável) Please list the subcontracted / outsourced activities (If applicabe):  * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 3: 9 - Consultoria/ Consultancy
+Linha 4: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+Linha 5: 10 - Comentários/ Comments:
+Linha 6: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver)/ Identify below any information your company judges to be critical to Halal certification (if any):
+
+=== TABELA 4 (2 linhas x 1 colunas) ===
+Linha 1: - Padrões Normativos/ Normative Standard
+Linha 2: Favor indicar os mercados pretendidos com a certificação Halal: Please indicate the intended markets with Halal certification:   Mercado Interno / Internal Market  Arábia Saudita / Saudi Arabia  Emirados Árabes / United Arab Emirates  Demais países do Golfo: Bahrein, Omã, Qatar, Kwuait e Iemên / Gulf countries: Bahrain, Oman, Qatar, Kuwait and Yemen  Indonésia / Indonesia  Malásia / Malaysia  Turquia / Türkiye  Singapura / Singapore  Demais países das Américas/ Other Americas countries  Demais países da Europa/ Other European countries  Demais países da África/ Other Africa countries  Demais países da Ásia/ Other Asia countries  Demais países da Oceania/ Other Oceania countries Se desejar, use este campo para específicas algum outro país/ If you wish, use this field to specify another country: _____________________________________________________
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.8 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO AMÉRICA LATINA (REV 03) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.8 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FRIGORÍFICO AMÉRICA LATINA (REV 03) PT_EN.docx
+TAMANHO: 321922 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (16 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: Número de registro/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações do Fabricante/ Manufacturer Company Informations
+Linha 8: Não aplicável, solicitante e fabricante são os mesmos/ Not applicable, applicant and manufacturer are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: Número de registro/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 12: 3 - Contatos da empresa / Company contacts
+Linha 13: Solicitante da Certificação/ Certification Requesting
+Linha 14: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+Linha 15: Contato Legal / Legall contact
+Linha 16: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 2 (39 linhas x 3 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification) | 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification) | 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time; | * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time; | * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. * | Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 6: 5 - Informações de fabricação complementares / Manufacturing Additional Information | 5 - Informações de fabricação complementares / Manufacturing Additional Information | 5 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 7: Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works: | Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works: | Quantidade de turnos em que a empresa opera/ Quantity of Shifts which the company works:
+Linha 8: Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process): | Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process): | Número de funcionários por turno (envolvidos no processo de fabricação/controle/armazenamento do produto Halal)/ Number of employees per shift (Involved in the Halal product manufacturing / control / storage process):
+Linha 9: Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above): | Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above): | Quantidades de planos APPCC, que a empresa possui (indicar somente o número relativo aos produtos supracitados) / Quantity of HACCP plans that the company has (indicate only the number related to the products mentioned above):
+Linha 10: A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data. | A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data. | A empresa possui marcas próprias? Se sim, quais?  Does the company have own brands? If it does, which one?  A empresa possui marcas próprias de terceiros/ clientes? Se deseja incluir estas marcas no certificado, indique quais, informando seus dados. Does the company have own brands owned by third parties/customers? If you want to include these brands in the certificate, indicate which ones, informing its data.
+Linha 11: Qual atividade melhor representa o frigorifico? / Which activity best represents the slaughterhouse?  Apenas abate / Just slaughter  Apenas desossa / Just boning  Abate e desossa / Slaughter and Boning | Qual atividade melhor representa o frigorifico? / Which activity best represents the slaughterhouse?  Apenas abate / Just slaughter  Apenas desossa / Just boning  Abate e desossa / Slaughter and Boning | Qual atividade melhor representa o frigorifico? / Which activity best represents the slaughterhouse?  Apenas abate / Just slaughter  Apenas desossa / Just boning  Abate e desossa / Slaughter and Boning
+Linha 12: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any): | Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any): | Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver) / Identify below any information your company judges to be critical to Halal certification (if any):
+Linha 13: 6 - Informações dos Produtos a Serem Certificados/ informations of products to be certified | 6 - Informações dos Produtos a Serem Certificados/ informations of products to be certified | 6 - Informações dos Produtos a Serem Certificados/ informations of products to be certified
+Linha 14: Favor anexar a ficha de especificação técnica ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.  _______________________________________________________________________   Indique o número de linha de produção a serem auditadas para cobrir todos os produtos do escopo da certificação Halal Indicate how many production lines should be audited to cover all the Halal certification products scope. | Favor anexar a ficha de especificação técnica ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.  _______________________________________________________________________   Indique o número de linha de produção a serem auditadas para cobrir todos os produtos do escopo da certificação Halal Indicate how many production lines should be audited to cover all the Halal certification products scope. | Favor anexar a ficha de especificação técnica ou documento similar que descreva a origem e composição/ formulação + fluxograma de fabricação dos produtos a serem certificados Halal.  Please, attach the technical specification form or a similar document which describes the composition/ formulation + Manufacturing Flowchart of products to be certified by Halal.  _______________________________________________________________________   Indique o número de linha de produção a serem auditadas para cobrir todos os produtos do escopo da certificação Halal Indicate how many production lines should be audited to cover all the Halal certification products scope.
+Linha 15: 7 - Atividades Subcontratadas/ Outsourced Activities | 7 - Atividades Subcontratadas/ Outsourced Activities | 7 - Atividades Subcontratadas/ Outsourced Activities
+Linha 16: Favor listar as atividades subcontratadas/terceirizadas (se aplicável), como o armazém de matérias primas, armazém de produtos finais, unidade de secagem ou outra unidade de operação do processo Please list the subcontracted / outsourced activities (If applicabe), such as raw material warehouse, final product warehouse, drying unit or other unitary process operation.    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. * | Favor listar as atividades subcontratadas/terceirizadas (se aplicável), como o armazém de matérias primas, armazém de produtos finais, unidade de secagem ou outra unidade de operação do processo Please list the subcontracted / outsourced activities (If applicabe), such as raw material warehouse, final product warehouse, drying unit or other unitary process operation.    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. * | Favor listar as atividades subcontratadas/terceirizadas (se aplicável), como o armazém de matérias primas, armazém de produtos finais, unidade de secagem ou outra unidade de operação do processo Please list the subcontracted / outsourced activities (If applicabe), such as raw material warehouse, final product warehouse, drying unit or other unitary process operation.    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 17: 8 - Consultoria/ Consultancy | 8 - Consultoria/ Consultancy | 8 - Consultoria/ Consultancy
+Linha 18: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: Número de registro/ Registration Number: Data/ Date: | O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: Número de registro/ Registration Number: Data/ Date: | O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: Número de registro/ Registration Number: Data/ Date:
+Linha 19: 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified | 9 - ESCOPO: Listagem dos Produtos a Serem Certificados/ SCOPE: Products list to be certified
+Linha 20: Tipos de Produtos/ Types of Products | Especificar aqui os detalhes.  Ex. Congelado, resfriado Specify details here. Ex. Frozen and Fresh | Marcas/ Brands
+Linha 21: Bovino/ Bovine | Bovino/ Bovine | Bovino/ Bovine
+Linha 22: Cortes Congelados de Carne Bovina / Frozen Beef Cuts |  | 
+Linha 23: Cortes Refrigerados de Carne Bovina / Fresh Beef Cuts |  | 
+Linha 24: Cortes de Carne Bovina temperada/ Seasoned Beef Cuts | * Neste caso, especificar por códigos de produto. /  In this case, specify by product codes. | 
+Linha 25: Miúdos Bovinos/ Offals |  | 
+Linha 26: Subprodutos/ Subproducts | * Exemplificar: Pâncreas, Placenta, Timo, Mucosa. / Exemplify: Pancreas, Placenta, Thymus, mucosa | 
+Linha 27: Envoltórios Naturais/ Natural Casing |  | 
+Linha 28: Pele bovina/ Bovine skin |  | 
+Linha 29: CMS: Carne Mecanicamente Separada/ MSM – Mechanically Separated Meat |  | 
+Linha 30: Farinha de carne de osso/ Bone meat meal |  | 
+Linha 31: Outros/      Others |  | 
+Linha 32: Aves/ Poultry | Aves/ Poultry | Aves/ Poultry
+Linha 33: Aves com e sem miúdos /   Poultry with and without giblets |  | 
+Linha 34: Cortes de aves/   Poultry cuts |  | 
+Linha 35: Cortes de aves temperados/   Giblets seasoned chicken cuts | * Neste caso, especificar por códigos de produto. /  In this case, specify by product codes. | 
+Linha 36: Miúdos de aves /   Poultry giblets |  | 
+Linha 37: CMS: Carne Mecanicamente Separada de aves /   MSM: Poultry mechanically Separated Meat |  | 
+Linha 38: Outros/ Others |  | 
+Linha 39: Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal:  Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal: | Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal:  Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal: | Com base no documento abaixo (Anexo 1 – PR 7.1) favor identificar: Based on the document below (Annex 1 – PR 7.1) please identify:  *Para abrir basta clicar duas vezes sob o ícone. * To open, just double click on the icon. Categoria dos produtos a serem certificados Halal/ Category of the products to be certified as Halal:  Subcategoria dos produtos a serem certificados Halal (se aplicável)/ Subcategories of the products to be certified as Halal:
+
+=== TABELA 3 (2 linhas x 1 colunas) ===
+Linha 1: 10 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 2: Os productos serão destinados ao mercado interno ou serão exportados? Por favor identifique os países de destino: Will the products be destinated for internal market or export? / Please identify the destination countries:  Mercado interno/Internal market  Golfo (Emiratos Árabes Unidos, Yemen, Omán, Qatar, Bahrein, Kuwait) / Gulf (United Arab Emirates, Yemen, Oman, Qatar, Bahrain, Kuwait)  Arabia Saudita/Saudi Arabia  Malasia/Malaysia  Indonesia/Indonesia  Turquía/Türkiye  OIC (Afganistán, Albania, Azerbaiyán, Bangladesh, Benin, Brunei Darussalam, Burkina Faso, Argelia, Djibouti, Chad, Costa de Marfil, Palestina, Gabón, Gambia, Guinea, Guinea-Bissau, Guyana, Irak, Camerún, Kazajstán, Kirguistán, Comoras , Libia, Líbano, Maldivas, Mali, Mauritania, Mozambique, Níger, Nigeria, Uzbekistán, Pakistán, Senegal, Sierra Leona, Somalia, Sudán, Surinam, Siria, Tayikistán, Togo, Túnez, Turkmenistán, Uganda, Jordania) / OIC (Afghanistan, Albania, Azerbaijan, Bangladesh, Benin, Brunei Darussalam, Burkina Faso, Algeria, Djibouti, Chad, Cote d’Ivoire, Palestine, Gabon, Gambia, Guinea, Guinea Bissau, Guyana, Iraq, Cameroon, Kazakhstan, Kyrgyzstan, the Comoros, Libya, Lebanon, Maldives, Mali, Mauritania, Mozambique, Niger, Nigeria, Uzbekistan, Pakistan, Senegal, Sierra Leone, Somali, Sudan, Surinam, Syria*, Tajikistan, Togo, Tunisia,Turkmenistan, Uganda, Jordan)  Singapura/Singapore  Tailandia/Thailand  Marrocos/Morocco  Outros. Especificar:/Others. Specify: ____________________________________________________________ ______________________________________________________________________________________________   *No caso do Egipto y Irã, a FAMBRAS Halal, como qualquer outra, não certifica, já que o país conta com suas próprias certificadoras. / In the case of Egypt and Iran, FAMBRAS Halal, like any other, doesn’t certify, because they have their own certifiers.
+
+
+================================================================================
+ARQUIVO: FM 7.2.1.9 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FAZENDA-FARM (REV 3) PT_EN.docx
+CAMINHO: 1. Solicitação de Certificação\FM 7.2.1.9 - SOLICITAÇÃO DE CERTIFICAÇÃO_APPLICATION FORM_FAZENDA-FARM (REV 3) PT_EN.docx
+TAMANHO: 152952 bytes
+================================================================================
+=== PARAGRAFOS ===
+
+=== TABELA 1 (16 linhas x 1 colunas) ===
+Linha 1: 1 - Informações do Solicitante/ Applying Company Informations
+Linha 2: Data da solicitação/ Application date:
+Linha 3: Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 4: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 5: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 6: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 7: 2 - Informações da Fazenda/ Farm Company Informations
+Linha 8: Não aplicável, solicitante e a fazenda são os mesmos/ Not applicable, applicant and farm are the same. Razão Social/ Company name:  Nome fantasia/ Trading Name:
+Linha 9: Endereço/ Adress: CEP/ Zip Code:                            Cidade/City:                       Estado/State:                         Pais/ Country:
+Linha 10: Telefone/ Phone Number:                                                             Website/ Website:
+Linha 11: CNPJ/ Registration Number: Número SIF (se aplicável)/ Registration Number at Agriculture Ministry (If applicable):
+Linha 12: 3 - Contatos da empresa / Company contacts
+Linha 13: Solicitante da Certificação/ Certification Requesting
+Linha 14: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+Linha 15: Contato Legal / Legall contact
+Linha 16: Nome/ Name:  Cargo/ Role:                                                     Setor/ Section:                                  Telefone/ Phone:                                             E-mail/ E-mail:
+
+=== TABELA 2 (17 linhas x 1 colunas) ===
+Linha 1: 4 - Certificações (Ademais da Halal) / Certifications (Besides Halal Certification)
+Linha 2: * A existência de outras certificações impacta no cálculo do tempo de auditoria; * Other certifications impacts in the calculation of the audit time;
+Linha 3: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 4: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 5: Certificadora/ Certifying entity:                                                                  Norma/ Standard:                                       Nº Certificado/ Certificate Number:                                                                  Validade/ Expiration: * Anexar a cópia/ Attach the copy. *
+Linha 6: 5 - Informações de fabricação complementares / Manufacturing Additional Information
+Linha 7: Número de funcionários que atuam na fazenda/ Number of employees that works in the farm
+Linha 8: Tipo de pecuária da fazenda/ Livestock type of the farm  Gado de corte/ beef cattle  Gado leitero/ dairy cattle  Avicultura de corte/ Poultry farming for meat:  Avicultura de ovos/ Egg poultry farming:  Outros. Especificar/ Others. To specify: ____________________________________
+Linha 9: Comentários/ Comments: Identifique abaixo qualquer informação que a sua empresa julgue ser crítico para a certificação Halal (se houver)/ Identify below any information your company judges to be critical to Halal certification (if any):
+Linha 10: 6 - Informações da fazenda a ser certificada/ informations about the farm that will be certified
+Linha 11: Detalhar a capacidade da fazenda, quantos animais são criados atualmente, quantidade produzida (de ovos, leite) por período (especificar). Detail the farm's capacity, how many animals are currently raised, quantity produced (eggs, milk) per period (specify).
+Linha 12: Existe criação de suíno na fazenda? Is there pig husbandry on the farm?
+Linha 13: Existe produção de cachaça, licor ou outra bebida alcoólica nas dependências da fazenda? Is there production of cachaça, liqueur or other alcoholic beverage on the farm’s premises?
+Linha 14: 7 - Atividades Subcontratadas/ Outsourced Activities
+Linha 15: Favor listar as atividades subcontratadas/terceirizadas (se aplicável)  Please list the subcontracted / outsourced activities (If applicabe):    * É obrigatório o preenchimento deste item, tendo a FAMBRAS HALAL o direito a atualizar o contrato caso alguma divergência seja observada durante a auditoria. *  * It is mandatory to fill in this item, and FAMRABS HALAL has the right to update the contract if any discrepancy is observed during the audit. *
+Linha 16: 8 - Consultoria/ Consultancy
+Linha 17: O Sistema de Gestão Halal a ser certificado já recebeu algum tipo de consultoria? The management system had already received any consultancy?  Sim/ Yes  Não/ No Se sim, favor identificar quem realizou a consultoria: If so, please identify who has performed the consultancy:  Nome/ Name: CNPJ/ Registration Number: Data/ Date:
+
+=== TABELA 3 (2 linhas x 1 colunas) ===
+Linha 1: 10 - Abrangência de Reconhecimento e Padrão Normativo/ Recognition Coverage and Normative Standard
+Linha 2: Favor indicar os mercados pretendidos com a certificação Halal: Please indicate the intended markets with Halal certification:   Mercado Interno / Internal Market  Arábia Saudita / Saudi Arabia  Emirados Árabes / United Arab Emirates  Demais países do Golfo: Bahrein, Omã, Qatar, Kwuait e Iemên / Gulf countries: Bahrain, Oman, Qatar, Kuwait and Yemen  Indonésia / Indonesia  Malásia / Malaysia  Turquia / Türkiye  Singapura / Singapore  Demais países das Américas/ Other Americas countries  Demais países da Europa/ Other European countries  Demais países da África/ Other Africa countries  Demais países da Ásia/ Other Asia countries  Demais países da Oceania/ Other Oceania countries Se desejar, use este campo para específicas algum outro país/ If you wish, use this field to specify another country: ____________________________________________________
+
+
+================================================================================
+ARQUIVO: IT 7.4 - REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO (REV 6) PT.pdf
+CAMINHO: 1. Solicitação de Certificação\IT 7.4 - REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO (REV 6) PT.pdf
+TAMANHO: 506122 bytes
+================================================================================
+=== PAGINA 1/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:1 de 17 
+ 
+1. OBJETIVO 
+Definir os requisitos da revisão da solicitação e o tempo de auditoria. 
+ 
+ 
+2. CAMPO DE APLICAÇÃO  
+Esta instrução é aplicável para todos os pedidos de certificação da FAMBRAS 
+HALAL. 
+ 
+ 
+3. DESCRIÇÃO SUMÁRIA DO PROCESSO 
+Sempre que um cliente tiver interesse em adquirir a certificação Halal, ele deverá 
+enviar formalmente um pedido/ solicitação de certificação Halal, através do FM 7.2.1.X, 
+específico para a sua divisão. 
+Para receber o formulário de solicitação de certificação, o cliente poderá entrar em 
+contato via site, e-mail, telefone, ou presencialmente, requisitando esclarecimentos sobre 
+a certificação Halal.  
+Após receber o pedido / solicitação de certificação formal, o responsável técnico deve 
+validar a análise da revisão da solicitação e repassar ao responsável comercial para 
+emissão da proposta. 
+O formulário de revisão de solicitação da certificação – FM 7.1.9, indicará a 
+classificação do pedido de certificação, ou seja, se a FAMBRAS possui a capacidade de 
+atender a certificação deste cliente, conforme já explicado no PR 7.1. 
+Na sequência, a FAMBRAS HALAL irá emitir uma proposta comercial – FM 7.2.3/ 
+FM 7.2.4, para enviar ao cliente com a proposta de duração de auditoria.  
+Caso o cliente aceite, será repassado a equipe técnica para continuidade ao 
+processo, e agendamento da auditoria conforme resultado do cálculo.  
+Novas revisões de solicitação – FM 7.1.9 poderão ser realizadas ao longo do ciclo 
+de certificação de um cliente, por exemplo: 
+• Caso o cliente altere o escopo; 
+• Se houver mudanças no SGQ, como conquistas de novas acreditações; 
+• Alterações significativas na quantidade de funcionários. 
+ 
+ 
+
+
+=== PAGINA 2/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:2 de 17 
+ 
+4. FUNDAMENTOS PARA O CÁLCULO DO TEMPO DE AUDITORIA 
+O cálculo para a duração da auditoria, é fundamentado no standard GSO 2055-
+2:2021, onde descreve: 
+ 
+4.1. TEMPO MÍNIMO DE AUDITORIA 
+Ao determinar o tempo de auditoria necessário para cada local, a FAMBRAS HALAL 
+deve levar em consideração o período mínimo para o local necessário para o certificado 
+inicial, conforme estabelecido na Tabela 1. 
+O tempo mínimo inclui o estágio 1 e o estágio 2 da auditoria, mas não inclui o tempo 
+para preparar a auditoria e o tempo para escrever o relatório de auditoria. 
+Para evitar a duplicação onde houver outro sistema de gestão relevante validado 
+pela mesma entidade que concede o certificado, nenhum tempo adicional é necessário. No 
+caso de uma auditoria conjunta envolvendo o Sistema de Gestão da Qualidade (SGQ), o 
+tempo de auditoria pode ser reduzido se justificado e documentado. 
+O tempo mínimo de auditoria para um sistema de gestão de segurança de alimentos 
+que inclui apenas um estudo de ponto de controle crítico é especificado. O estudo APPCC 
+é compatível para uma família de produtos/ serviços com riscos semelhantes, tecnologia 
+de produção semelhante e, quando aplicável, tecnologia de armazenamento semelhante. 
+Um tempo mínimo de auditoria foi estabelecido para uma auditoria de um sistema de 
+gestão de segurança do produto que inclui apenas um estudo do plano de análise APPCC. 
+O estudo APPCC é um estudo de análise de risco de um grupo de produtos / serviços com 
+riscos semelhantes e tecnologia de produção e armazenamento semelhantes. 
+O tempo mínimo para uma auditoria no local do produto e / ou verificação de serviços 
+para a instalação deve ser 50% do tempo mínimo total de auditoria (aplica-se a todos os 
+tipos de auditoria). 
+O número de auditores para cada dia de auditoria leva em consideração a eficácia 
+da auditoria, os recursos da instalação que está sendo auditada, bem como os recursos da 
+entidade que emite o certificado. 
+Quando reuniões adicionais são necessárias, por exemplo, reuniões de auditoria, 
+coordenação e instruções da equipe de auditoria, pode ser necessário um aumento no 
+tempo de auditoria. 
+
+
+=== PAGINA 3/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:3 de 17 
+ 
+O número de funcionários envolvidos em qualquer aspecto da segurança alimentar 
+é expresso como o número de funcionários em tempo integral (FTE). (Quando a instalação 
+emprega trabalhadores em turnos e os produtos e / ou processos são semelhantes, o 
+número FTE é calculado com base nos funcionários no turno principal (incluindo 
+trabalhadores sazonais), além dos trabalhadores de escritório. 
+Algumas categorias estão sujeitas a coleta de amostragem em vários locais e isso 
+pode ser levado em consideração no cálculo do tempo da auditoria. 
+Caso a coleta de amostragem de um local seja permitida, a amostra do local é 
+selecionada antes de aplicar o cálculo do período da auditoria. Portanto, os cálculos de 
+tempo da auditoria devem ser aplicados a cada local de acordo com os requisitos da tabela 
+1. 
+Se o escopo de uma instalação específica do cliente cobre mais de uma categoria, 
+o cálculo do tempo de auditoria é o tempo de mais alto recomendado. É necessário tempo 
+adicional para cada estudo APPCC (ou seja, não menos que 0,5 dias de auditoria para cada 
+estudo APPCC). 
+Outros fatores podem exigir um aumento no tempo mínimo de auditoria (por 
+exemplo, número de tipos de produto, número de linhas de produção, desenvolvimento de 
+produto, número de pontos de controle críticos, número de programas pré-operacionais, 
+área do prédio, infraestrutura, testes de laboratório interno, necessidade de um intérprete). 
+ 
+4.2. CALCULANDO O TEMPO MÍNIMO NECESSÁRIO DE AUDITORIA: 
+Tempo mínimo de auditoria para um único local (TS) é estimado em dias: 
+ 
+TS = (TD + TH + TMS + TFTE) 
+ 
+Sendo que: 
+TD: O tempo principal da auditoria no local em dias. 
+TH: Dias adicionais de auditoria do plano HACCP 
+TMS: Dias de auditoria em caso de ausência do sistema de gestão certificado 
+TFTF: Dias de auditoria em relação ao número de funcionários 
+ 
+
+
+=== PAGINA 4/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:4 de 17 
+ 
+O tempo de auditoria para cada local (filial), além do local principal (matriz), é 
+calculado de acordo com a tabela 1, com o mínimo de um dia de auditoria para cada local. 
+Se for devidamente documentado e justificado, o tempo de auditoria para instalações 
+menos complexas pode ser reduzido em comparação com o número de funcionários, o 
+tamanho da instalação, os produtos e seu tamanho, ou suas classificações que têm (TS) 
+menos de um dia e meio de auditoria. 
+ 
+Tabela 1. Base para o cálculo de duração de auditoria 
+Categoria  TD:  
+O 
+tempo 
+principal 
+da 
+auditoria 
+no 
+local em dias. 
+TH:  
+Dias 
+adicionais de 
+auditoria 
+do 
+plano HACCP 
+TMS: 
+Dias de auditoria em 
+caso de ausência do 
+sistema de gestão 
+certificado 
+TFTF: 
+Dias de auditoria 
+em 
+relação 
+ao 
+número 
+de 
+funcionários 
+ 
+Por 
+cada 
+local 
+adicional 
+A 
+0.75 
+0.25 
+0.25 
+0 = 19 a 1 
+0.5 = 49 a 20 
+1,0 = 79 a 50 
+1,5 = 199 a 80 
+2,0 = 499 a 200 
+2,5 = 899 a 500 
+3,0 = 1299 a 900 
+3,5 = 1699 a 1300 
+4,0 = 2999 a 1700 
+4,5 = 5.000 a 3.000 
+5.0 = 5.000 < 
+50% 
+da 
+auditoria 
+mínima 
+no 
+local 
+B 
+0.75 
+0.25 
+C 
+1.50 
+0.50 
+D 
+1.50 
+0.50 
+E 
+1.0 
+0.50 
+F 
+1.0 
+0.50 
+G 
+1.0 
+0.25 
+H 
+1.0 
+0.25 
+I 
+1.0 
+0.25 
+J 
+1.0 
+0.25 
+K 
+1.50 
+0.50 
+ 
+ 
+ 
+ 
+
+
+=== PAGINA 5/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:5 de 17 
+ 
+Tabela 2. Categorias Halal que fundamental a tabela 1 
+ 
+Grupo a 
+Categoria 
+Subcategoria 
+Exemplos de atividades 
+Agricultura 
+A 
+Criação de animais 
+A I 
+Criação de animais para 
+produção de carne / leite 
+/ ovos / mel 
+Criação de animais (exceto peixes e produtos marinhos) que são usados para a produção 
+de carne, ovos, leite ou produção de mel 
+Criação, cuidado, transporte e caça (abate no mesmo local da caça)  
+Armazenamento e embalagem da fazenda b 
+A II 
+Piscicultura/ produtos 
+marinhos 
+Criação de peixes e produtos marinhos que são utilizados para a produção de carne  
+Criação, transporte e caça (abate no mesmo local da captura) 
+Armazenamento e embalagem da fazenda b 
+B 
+Plantação agrícolas 
+ 
+B I 
+Cultivo de plantas (exceto 
+leguminosas e grãos) 
+Cultivo e colheita de plantas (exceto leguminosas e grãos): produtos hortícolas (frutas, 
+Legumes, especiarias, cogumelos etc.) e alimentos de plantas hidropônicas 
+Armazenamento e embalagem da fazenda b 
+B II 
+Cultivo de leguminosas e 
+grãos 
+Cultivo e colheita de leguminosas e grãos para armazenamento de alimentos  
+Armazenamento e embalagem da fazenda b 
+Processamento 
+de alimentos e 
+rações 
+C 
+Produção de 
+produtos 
+alimentícios  
+CI 
+Processamento de 
+produtos de origem 
+animal perecível 
+Produção de produtos de origem animal, incluindo peixes e produtos marinhos, carne, ovos 
+e laticínios 
+CII 
+Processamento de 
+produtos vegetais 
+perecíveis 
+Produção de produtos vegetais, incluindo frutas, sucos naturais, vegetais, grãos, frutas 
+oleaginosas e leguminosas 
+CIII 
+Processamento de 
+produtos perecíveis de 
+origem animal e vegetal 
+(produtos mistos) 
+Produção de mistura de produtos de origem animal e vegetal, incluindo pizza, lasanha, 
+sanduíches, cafta a e carnes destinadas ao consumo direto. 
+CIV 
+Processamento de 
+produtos estáveis em 
+temperatura ambiente 
+Produção de produtos alimentícios de qualquer origem que sejam armazenados e vendidos 
+em temperatura ambiente, incluindo produtos enlatados, biscoitos, salgadinhos, óleo, água 
+potável, bebidas, massas, farinha, açúcar, sal de cozinha 
+D 
+produção de ração 
+animal 
+DI 
+produção de ração 
+Produção de forragem de uma fonte ou de fontes mistas, destinada a animais produtores de 
+alimentos 
+DII 
+produção de ração dos 
+animais de estimação 
+Produção de forragem de origem única ou mista, destinada a animais não produtores de 
+alimentos 
+Servir o 
+alimento 
+E 
+Servir o alimento 
+Preparar, armazenar e, quando for o caso, entregar os alimentos destinados ao consumo, 
+no mesmo local de preparo ou em unidade de coleta 
+a Os grupos a serem usados no escopo de acreditação para as entidades acreditadas que emitem o certificado halal e os organismos acreditados para o monitoramento das 
+entidades que emitem o certificado halal halal. 
+b embalagem agrícola” significa acondicionamento sem alteração do produto ou do seu tratamento. 
+c Embalagem secundária “significa embalagem sem alteração do produto ou sua preparação e sem alteração da embalagem primária do produto. 
+ 
+ 
+
+
+=== PAGINA 6/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:6 de 17 
+ 
+Grupo a 
+Categoria 
+Subcategoria 
+Exemplos de atividades 
+Distribuição de 
+varejo, 
+transporte, 
+armazenamento 
+F 
+Distribuição 
+FI 
+Distribuição no atacado e 
+varejo 
+Fornecer ao consumidor produtos alimentares preparados para venda (pontos de venda, 
+lojas, vendedores). 
+FII 
+Operações de negociação 
+e mediação 
+Compra e venda de produtos alimentícios por conta própria ou como agente de terceiros. 
+Embalagem secundária c 
+G 
+Termos de 
+serviços de 
+transporte 
+armazenamento 
+GI 
+Termos de serviços de 
+transporte 
+armazenamento para 
+alimentos e rações 
+Local de fornecimento de serviços de transporte e armazenamento de alimentos e rações 
+perecíveis 
+Embalagem secundária c 
+GII 
+Locais de serviços de 
+transporte e 
+armazenamento de 
+alimentos e rações fixos à 
+temperatura ambiente 
+Instalações de armazenamento e veículos de distribuição para transporte e armazenamento 
+de alimentos e rações estáveis em temperatura ambiente. 
+Embalagem secundária c 
+Serviços 
+auxiliares 
+H 
+Serviços 
+fornecimento de serviços relacionados com a segurança da produção de alimentos, incluindo 
+abastecimento de água; Serviços de controle de pragas, serviços de limpeza, eliminação de 
+resíduos 
+I 
+Operações de embalagem e fabricação de materiais de 
+embalagem 
+Fabricação de materiais de embalagem 
+J 
+Fabricação de equipamentos 
+Produção e desenvolvimento de equipamentos de processamento de alimentos e máquinas 
+de venda 
+Bioquímica 
+K 
+Fabricação de materiais bioquímicos 
+Produção de alimentos e aditivos para rações; suplementos alimentares, minerais, culturas 
+biológicas, aromas, enzimas e auxiliares de produção, pesticidas; Remédios, fertilizantes, 
+materiais de limpeza, cosméticos, têxteis, produtos de couro, etc.. 
+a Os grupos a serem usados no escopo de acreditação para as entidades acreditadas que emitem o certificado halal e os organismos acreditados para o monitoramento das 
+entidades que emitem o certificado halal halal. 
+b embalagem agrícola” significa acondicionamento sem alteração do produto ou do seu tratamento. 
+c Embalagem secundária “significa embalagem sem alteração do produto ou sua preparação e sem alteração da embalagem primária do produto. 
+ 
+Fonte: GSO 2055-2  
+
+
+=== PAGINA 7/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:7 de 17 
+ 
+4.3. CÁLCULO DO TEMPO MÍNIMO DE AUDITORIA PARA UMA VISITA DE 
+MANUTENÇÃO E RENOVAÇÃO DO CERTIFICADO 
+O tempo mínimo de auditoria de manutenção deve ser um terço do tempo da 
+auditoria inicial, com duração mínima de um dia de auditoria (0,5 dias de auditoria para 
+Classe A e B).  
+Já o tempo mínimo para uma auditoria de renovação do certificado deve ser dois 
+terços do tempo da auditoria inicial com duração mínima de dia de auditoria (0,5 dias de 
+auditoria para as categorias B e A), sendo devidamente documentado e justificado.  
+O tempo de auditoria para instalações menos complexas pode ser reduzido em 
+comparação com o número de funcionários, o tamanho da instalação, os produtos e seu 
+tamanho, ou suas classificações que têm um tempo de auditoria inicial menos de um dia e 
+meio de auditoria. 
+ 
+ 
+5. PREENCHIMENTO DO FORMULÁRIO DE REVISÃO DA SOLICITAÇÃO – FM 7.1.9 
+O formulário FM 7.1.9 foi elaborado com o intuito de facilitar o cálculo do tempo de 
+duração a auditoria. Para isso, o mesmo hoje está disponível na forma de planilha do Excel, 
+onde a partir dos preenchimentos dos dados de entrada, ele gera automaticamente a 
+duração da auditoria em dias (sendo usado a matemática do cálculo do GSO 2055-2, 
+explicado no item 4).  
+O resultado do cálculo de duração de auditoria do GSO 2055-2 é em homens-dia, 
+sendo considerado que um dia tem duração de 8 horas.  
+É importante destacar que o formulário em questão é validado sempre que houver 
+uma nova revisão, sendo comparado os resultados obtidos manualmente, com aqueles 
+gerados na planilha.  
+ 
+5.1. Passo a passo do preenchimento: 
+ 
+Importante: Somente as linhas verdes do formulário são preenchíveis.  
+ 
+a) Informações do fabricante: Todos os dados desse primeiro grupo de informações 
+devem ser retirados das informações obtidas a partir do formulário de solicitação da 
+certificação - FM 7.2.1.X.  
+
+
+=== PAGINA 8/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:8 de 17 
+ 
+  
+ 
+b) Abrangência do reconhecimento: Indicar sobre a escolha de reconhecimento do 
+cliente, assinalada no FM 7.2.1.X, e se a unidade possui filiais, que são abrangidas 
+por este cálculo.  
+Nota: A determinação se existe filiais não pode partir apenas da informação fornecida 
+pelo cliente. Para que uma unidade possa ser considerada matriz e filial, é 
+necessário que: 
+• O sistema de gestão da qualidade da matriz e filial seja igual, diferindo apenas 
+os registros; 
+• A matriz deve fabricar os mesmos produtos que as filiais, podendo a matriz 
+fabricar produtos a mais.  
+Caso a filial fabrique produtos diferentes da matriz, por exemplo a matriz 
+fabrica óleo de soja, enquanto a filial fabrica óleo de soja + lecitina, não será 
+possível considerar a matriz a unidade que fabrica apenas o óleo.  
+ 
+Caso o sistema de gestão da qualidade presente em ambas as plantas seja igual, é 
+possível definir que a unidade com mais produtos será a matriz.  
+ 
+ 
+c) Informações do cliente 
+I. 
+Categoria da empresa: Escolher em qual categoria o produto do cliente é 
+classificado, conforme opções da tabela suspensa.  
+ 
+
+
+=== PAGINA 9/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:9 de 17 
+ 
+• Caso você tenha dúvida sobre quais são as categorias, basta clicar no 
+hiperlink (texto em azul), que você será redirecionado para uma segunda aba, 
+que possui explicações de cada categoria.  
+• Se o escopo do cliente contar com produtos que se encaixam em mais de 
+uma categoria, por exemplo tem suco fresco de laranja integral (C) e óleo de 
+laranja (K), apontar a categoria de maior complexidade, ou seja, aquela que 
+tem como tempo base na coluna “grau de dificuldade da categoria” o número 
+mais alto. Nesta situação específica, seria a C.  
+ 
+II. 
+Existência de um Sistema de Gestão da Qualidade (SGQ) certificado: 
+Na sequência, o responsável pelo preenchimento deve sinalizar sim ou 
+não, para a existência de um sistema de gestão da qualidade certificado.   
+ 
+• Se a empresa possui certificação BRC, FSSC 22000, ISO 9001, por 
+exemplo, será sinalizado SIM. Se não houver, deve assinalar não.  
+ 
+III. 
+Número de APPCC: 
+Indicar quantos APPCC a unidade possui no total.  
+A fórmula usada pelo GSO 2055-2 considera APPCC adicionais, porém para facilitar 
+o entendimento, na tabela foi adaptado para o número exato que o cliente sinalizar na 
+solicitação de certificação.  
+ 
+• Para empresas onde o APPCC não é obrigatório, como cosméticos, indicar 0 
+(zero). 
+• Para a categoria alimentícia é obrigatório ter pelo menos 1 (um) APPCC.  
+ 
+IV. 
+Número de colaboradores no maior turno: 
+Indicar quantos funcionários trabalham no maior turno, considerando pelo menos 
+produção + manutenção + armazenamento + pessoas de qualidade. 
+
+
+=== PAGINA 10/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:10 de 17 
+ 
+ 
+• Nota 1: Para esse cálculo não é necessário somar a quantidade total de 
+funcionários da unidade.  
+• Nota 2: No caso de filiais, é necessário somar os funcionários do maior turno 
+de cada uma das filiais para preencher este campo. Tal informação se faz 
+necessária pois o cálculo do tempo de auditoria das filiais é obtido 
+considerando a realidade da matriz.   
+ 
+d) Confirmação da revisão: 
+I. 
+Responder as 3 primeiras perguntas:  
+Nestes questionamentos a FAMBRAS HALAL irá confirmar se possui condições de 
+atender a solicitação de certificação deste cliente, a partir da confirmação: 
+• Se todas as entradas de informações do formulário de solicitação de 
+certificação foram preenchidas; 
+• Se a FAMBRAS HALAL possui equipe técnica, ou pelo menos condições de 
+subcontratá-la, para atender a esse pedido; 
+• Se possui reconhecimento para a categoria, de acordo com o reconhecimento 
+escolhido. Ou seja, se a empresa optar por reconhecimento do Golfo, a 
+FAMBRAS HALAL poderá atender o pedido somente se a empresa for das 
+categorias que a FAMBRAS HALAL tem reconhecimento.   
+ 
+ 
+II. 
+Classificar o pedido de solicitação do cliente:  
+Mediante resposta positiva para as 3 primeiras perguntas, a FAMBRAS HALAL 
+poderá aprovar (aceitar) o pedido de certificação do cliente, sinalizando a resposta 
+conforme lista suspensa.  
+
+
+=== PAGINA 11/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:11 de 17 
+ 
+Caso alguma das perguntas tenha resposta negativa, o pedido deverá ser reprovado 
+(rejeitado), e a justificativa apresentada no campo abaixo.  
+Se o pedido for aprovado, o campo de justificativa deverá ficar em branco – ou seja 
+é obrigatório apagar o exemplo!!! 
+ 
+ 
+III. 
+Indicar os responsáveis e datar a revisão:  
+Por fim, para este campo é necessário informar: 
+• O responsável pelo preenchimento do formulário, que hoje pode 
+ser o analista de processo, ou até algum auditor; 
+• O responsável técnico da área (Lina – Industrial e Islam Zaid – 
+Frigorífico), que valida o preenchimento, e se responsabiliza pela 
+aprovação ou reprovação do pedido; 
+• Data em que o formulário foi preenchido.  
+ 
+ 
+e) Cálculo de duração da auditoria: 
+A partir das informações de entrada, fornecidas nos campos anteriores, e da 
+quantidade de auditores muçulmanos sinalizada no bloco de dados finais da auditoria, a 
+duração será calculada automaticamente, conforme matemática GSO 2055-2, e expressa 
+em dias nas linhas brancas do campo de cálculo de duração da auditoria.  
+ 
+I. 
+Total de dias corridos de auditoria: 
+Essa primeira linha não será preenchida, serve apenas como referência. O resultado 
+apresentado nessa coluna é o valor de duração da auditoria na íntegra, obtido a partir da 
+fórmula do anexo B do GSO, sem qualquer tipo de redução de tempo, ou divisão por HD.  
+ 
+ 
+ 
+
+
+=== PAGINA 12/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:12 de 17 
+ 
+II. 
+Redução do tempo de auditoria: 
+De acordo com o padrão internacional IAF MD 5:2015 o tempo de duração total da 
+auditoria pode ser reduzido em até 30%, conforme fatores estabelecidos por esta norma, 
+no item 8, os quais sugerem como justificativas: 
+• Uma planta muito pequena; 
+• Alto nível de maturidade do sistema Halal – cliente certificado há muitos anos; 
+• Conhecimento prévio do sistema Halal da empresa, proveniente de 
+certificações anteriores; 
+• Alto nível de automação; 
+• O número de pessoas do maior turno inclui pessoas externas, como 
+motoristas, vendedores, etc; 
+• Processo repetitivo, dentro do escopo – por exemplo linhas paralelas que 
+desempenham a mesma tarefa no fluxo fabril. 
+ 
+Desta forma, a partir do entendimento do processo, durante o preenchimento poderá 
+ser incluído um fator de redução do tempo de auditoria entre 0 e 30%. 
+No campo a seguir é necessário identificar a justificativa para esta redução de tempo.    
+ 
+Nota: Não pode ser usado como justificativa para a redução do tempo, situações já 
+informadas (e consideradas pela fórmula), por exemplo, poucos funcionários, ou a 
+existência de um SGQ certificado.   
+ 
+III. 
+Total de dias corridos de auditoria e Duração da auditoria por auditor 
+A linha abaixo, demonstra o tempo de duração da auditoria, após a aplicação do fator 
+de redução do tempo, se houver, e na sequência a duração, por auditor. Estas não são 
+preenchíveis.  
+ 
+ 
+ 
+
+
+=== PAGINA 13/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:13 de 17 
+ 
+IV. 
+Duração da auditoria inicial para matriz e filial (estágio 1 e estágio 2): 
+A auditoria inicial é aquela realizada no primeiro ano de certificação da empresa 
+com a FAMBRAS HALAL ou no primeiro processo de certificação da empresa após 
+a implantação do SGQ da FAMBRAS HALAL, considerando o GSO 2055-2 e a ISO 
+17065.  
+A auditoria inicial também é realizada para clientes que tiveram sua certificação 
+suspensa, cancelada, ou não atenderam ao prazo e requisitos de renovação.  
+Na sequência, a tabela irá fornecer informações de quanto tempo irá durar a 
+auditoria inicial para cada estágio em dias, já considerando o fator de redução de 
+tempo, se houver.  
+O tempo de auditoria então deve ser manualmente ajustado (arredondado) para 
+o meio dia mais próximo.  
+Quando o valor estiver entre 0,8 e 0,9 ou 1,1 e 1,2, o arredondamento deve ser 
+para 1.  
+Já se o valor estiver entre 1,3 e 1,4 ou 1,6 e 1,7, o arredondamento é para 1,5. 
+ 
+Nota 1: As auditorias irão sempre durar dias inteiros, ou x dias (s) e meio.  
+Para meio dia, considerar 4 horas.   
+Nota 2: O tempo mínimo de auditoria nunca pode ser inferior a meio dia (0,5).  
+Nota 3: A auditoria de estágio 1 é sempre 30% do tempo total calculado, 
+enquanto a auditoria de estágio 2 é sempre 70% do tempo total calculado.  
+Nota 4: Considerando as notas anteriores, o estágio 1 sempre irá durar no 
+mínimo meio dia, e como o estágio 2 inicial é 70% do tempo, ele deve durar no 
+mínimo 1 dia. 
+Nota 5: Para as filiais, não é necessário realizar a auditoria em dois estágios, ou 
+seja, é realizada toda a auditoria somente no estágio 2.  
+Nota 6. A duração da auditoria inicial da filial é igual a 50% do tempo total 
+calculado para duração da auditoria da matriz (somando estágio 1 e estágio 2).  
+
+
+=== PAGINA 14/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:14 de 17 
+ 
+Nota 7: Se a empresa não tiver filiais, não é preciso fazer o arredondamento, 
+basta indicar “Não aplicável”.  
+ 
+V. 
+Duração da auditoria de manutenção para matriz e filial: 
+A auditoria de manutenção é aquela realizada anualmente durante o ciclo de 3 
+anos do cliente, para garantir que ele continue com o certificado Halal ativo.  
+Para a auditoria de manutenção, é realizado apenas auditoria de estágio 2, 
+podendo ser realizado 1/3 do tempo total de auditoria calculado.  
+Para as filiais, são considerados 50% do tempo de duração da auditoria de 
+manutenção da matriz.  
+O arredondamento do tempo de auditoria é realizado manualmente, podendo ser 
+considerada o meio mais próximo.  
+ 
+Nota. O tempo mínimo de auditoria é meio dia. 
+ 
+VI. 
+Duração da auditoria de renovação para matriz e filial: 
+A auditoria de renovação é aquela realizada ao final de cada ciclo (após 3 anos), 
+para renovar o certificado Halal do cliente. 
+Para a auditoria de renovação é realizado apenas auditoria de estágio 2, 
+podendo ser realizado 2/3 do tempo total de auditoria calculado.  
+Para as filiais são considerados 50% do tempo de duração da auditoria de 
+renovação da matriz.  
+O arredondamento do tempo de auditoria é realizado manualmente, podendo ser 
+considerada o meio mais próximo.  
+
+
+=== PAGINA 15/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:15 de 17 
+ 
+ 
+Nota. O tempo mínimo de auditoria é meio dia!!! 
+ 
+f) Dados finais da auditoria: 
+O campo final terá um resumo de todo o processo do cliente, incluindo quantidade 
+de participantes da auditoria e duração total em dias.  
+ 
+ 
+I. 
+Categoria de produto(s) aplicável(eis): 
+Informar todas as categorias aplicáveis aos produtos do escopo do cliente.  
+ 
+II. 
+Supervisão do processo: 
+Informar se a empresa precisa de supervisão Halal para acompanhamento dos 
+lotes de produção.  
+Normalmente aplicável para empresas que fabricam produtos com proteínas 
+animais.  
+ 
+III. 
+Número de auditores muçulmanos: 
+Indicar quantos auditores muçulmanos no total irão realizar a auditoria 
+(considerando técnico e líder religioso). 
+
+
+=== PAGINA 16/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:16 de 17 
+ 
+Como o resultado da auditoria é dado em homem/dia, usamos esta informação 
+para saber o tempo total exato, considerando a quantidade de auditores 
+muçulmanos.  
+Nota: Se não preencher esta informação, não será possível obter o resultado do 
+cálculo de auditoria – uma vez que este dado interfere diretamente na fórmula.  
+ 
+IV. 
+Número de especialistas técnicos: 
+Caso a FAMBRAS HALAL precise de um especialista técnico para prover 
+conhecimento ao processo, o qual pode (ou não) ser muçulmano, este deverá ser 
+indicado neste campo.  
+A quantidade de especialistas técnicos não interfere na duração de homem/dia da 
+auditoria.  
+ 
+V. 
+Duração total da auditoria em dias: 
+Neste campo será preenchido manualmente a duração da auditoria, a partir dos 
+resultados apresentados pela planilha. É necessário especificar quantos dias irá 
+durar o estágio 1 e 2 da matriz e filial, sinalizando entre parênteses a duração exata 
+em dias, conforme resultado do item e), subitem IV e V.   
+Lembrando que 1 dia de auditoria são 8 horas, podendo durar 9 horas, se 
+acordado com o cliente.  
+ 
+g) Observações: 
+Qualquer comentário pertinente a revisão, ou considerado relevante ao processo, 
+deverá ser indicado neste campo final.  
+  
+ 
+ 
+
+
+=== PAGINA 17/17 ===
+FAMBRAS HALAL CERTIFICAÇÃO 
+ 
+REVISÃO E ANÁLISE DO FORMULÁRIO DE SOLICITAÇÃO 
+IT 7.4 
+Rev.: 06 
+Data: 31/01/2022 
+Pág.:17 de 17 
+ 
+DETALHES DE REVISÃO 
+ 
+Revisão 
+Data 
+Descrição da revisão 
+1 
+19/04/2017 
+Emissão inicial 
+2 
+15/06/2017 
+FAMBRAS HALAL nome e revisão do logotipo 
+3 
+18/06/2019 
+Inclusão da orientação para preenchimento do formulário FM 7.1.9 
+4 
+17/07/2019 
+Atualização do preenchimento para dias, conforme revisão 7 do FM 7.1.9.  
+5 
+09/09/2019 
+▪ 
+Mudança das regras de arredondamento. 
+▪ 
+Mudança das regras de número de colaboradores do maior turno 
+(quando houver filiais, os funcionários das filiais deverão ser 
+somados) – Subitem IV do Item c).  
+▪ 
+Inclusão da nota no subitem V do item c). 
+▪ 
+Revisão da instrução, conforme mudanças do FM 7.1.9, referente 
+às auditorias de manutenção e renovação (incluindo filiais): 
+• 
+Mudança do subitem IV. Duração da auditoria inicial para 
+matriz e filial (estágio 1 e estágio 2) – item e.  
+• 
+Inclusão do item V. Duração da auditoria de manutenção 
+para matriz e filial – item e; 
+• 
+Inclusão do item VI. Duração da auditoria de renovação para 
+matriz e filial: 
+• 
+Inclusão de nota no item III, subitem f.  
+6 
+23/12/2021 
+Revisão do cálculo de auditoria baseado na atualização da norma GSO 
+2055-2:2021 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Emitido por:           Elaine Franco de Carvalho 
+Soha Chabrawi                  
+23/12/2021 
+Revisado por: 
+Lina Ramadan 
+Islam Zaid  
+27/12/2021 
+Aprovado por: 
+Mohamed Hussein El Zoghbi 
+Sheik Essadik El Otmani                                                             31/01/2022 
+ 

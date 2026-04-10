@@ -1,0 +1,169 @@
+FASE: 3. Envio da Documentação Inicial
+Total de arquivos: 3
+================================================================================
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.1 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - INDUSTRIAL (REV 30) PT.docx
+CAMINHO: 3. Envio da Documentação Inicial\FM 7.4.2.1 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - INDUSTRIAL (REV 30) PT.docx
+TAMANHO: 2886665 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Enviar via e-mail ao auditor que lhe encaminhou esta solicitação a seguinte relação de documentos, para o seu processo de habilitação Halal.
+[Normal] Cópia do registro legal  CNPJ, e registro sanitário  S.I.F (se aplicável).
+[Normal] Ficha/ Especificação técnica descritiva do produto final.
+[Normal] Nota 1: É importante que este documento demonstre a origem do produto e seus respectivos ingredientes. Na ausência destas informações deverá ser desenvolvido uma descrição de composição qualitativa. 
+[Normal] Nota 2: Deverá ser enviada uma especificação técnica para cada um dos produtos finais a serem certificados, porém havendo uma família de produtos com a mesma composição e diferenças apenas de características físico-químicas (ex. umidade/ granulometria/ cinzas) poderá ser enviada apenas uma especificação representando a família, junto a uma declaração que descreva a representatividade deste documento. 
+[Normal] Fluxograma de produção de todos os produtos a serem certificados ou do processo de cada linha. 
+[Normal] Preencher o formulário FM 7.4.2.6 - Declaração de conformidade Halal Industrial. 
+[Normal] Nota: Clique no objeto do word para abrir o formulário  
+[Normal] Planilha de Matéria-prima e fornecedores (FM 7.4.2.7) preenchida na aba 1. MP E INSUMOS_RAW MATERIAL com as matérias-primas, insumos e auxiliares de processo aplicados nos produtos finais, indicando o status de sua documentação Halal e na aba 2. OUTROS_OTHERS com as embalagens, produtos de limpeza, lubrificantes, graxas e aditivos utilizados no tratamento de água (quando esta for aplicada diretamente no produto a ser certificado).
+[Normal] Nota 1: Clique no objeto do excel para abrir a planilha FM 7.4.2.7 que deve ser preenchida.
+[Normal] Nota 2: Esta planilha deve ser enviada com a relação completa de matérias-primas e fornecedores, incluindo alternativos, no mínimo 15 dias antes da auditoria, ainda que para alguns fornecedores se preencha apenas a linha e falte a cópia do documento Halal. 
+[Normal] Ficha/ Especificação técnica descritiva de todos os elementos que entram em contato direto, intencionalmente ou não, com o produto a ser certificado como Halal, tais como:
+[List Paragraph] Matérias-primas;
+[List Paragraph] Auxiliares de processo e aditivos. Exemplo: corantes, aromas, solventes, coagulantes, enzimas, tintas utilizadas para identificação dos produtos durante o processo, agente desmoldante (mesmo que estas sejam posteriormente retiradas); 
+[List Paragraph] Nota 1: É importante que estes documentos técnicos demonstrem a origem do produto e sua composição. 
+[List Paragraph] Nota 2: Para os produtos que possuam certificado Halal (reconhecido mundialmente) poderá ser aceita a documentação técnica do cliente/ fabricante/ distribuidor.
+[List Paragraph] Nota 3: Já para produtos que NÃO possuem certificado Halal (reconhecido mundialmente), somente declaração de conformidade Halal, só será aceita a ficha técnica do fabricante. Salva exceções para produtos de baixíssimo risco, como sal. 
+[List Paragraph] Nota 4: Para as embalagens primárias, lubrificantes, produtos de limpeza de equipamentos e produtos aplicados no tratamento da água de processo, a ficha de especificação técnica deve ser apresentada in loco, durante a auditoria Halal.
+[Normal] Documentação Halal*** de todos os elementos que entram em contato direto intencionalmente ou não, com o produto a ser certificado como Halal, tais como:
+[List Paragraph] Matérias-primas;
+[List Paragraph] Auxiliares de processo e aditivos. Exemplo corantes, aromas, solventes, coagulantes, enzimas, tintas utilizadas para identificação dos produtos durante o processo, agente desmoldante (mesmo que estas sejam posteriormente retiradas);
+[Normal] Nota 1: A documentação Halal*** destes elementos deve ser preferencialmente a cópia do Certificado Halal (que deve ser de uma instituição mundialmente reconhecida). Porém na ausência deste documento poderá ser aceito uma declaração de status Halal preenchida pelo fabricante, lembrando que mediante avaliação de risco a FAMBRAS HALAL se reserva no direito de recusar este documento, e pode solicitar um documento mais complexo como o questionário Halal.
+[Normal] Nota 2: Nos ícones a seguir estão disponíveis os modelos sugeridos com validade de 3 anos
+[List Paragraph] Em português (para empresas no Brasil) 
+[List Paragraph] Em inglês (para empresas fora do Brasil) 
+[List Paragraph] Caso o fabricante envie uma declaração de status Halal em outro modelo está também será aceita por 3 anos.
+[List Paragraph] Caso o fornecedor preencha o Questionário Halal, não é necessário enviar o FM 7.4.2.W- Declaração de status Halal. (Português    )/ Inglês   ).
+[Normal] Se a sua empresa usar armazéns externos para acondicionar o produto Halal, antes da venda, informar ao analista do processo e solicitar ao responsável do armazém que preencha o FM 7.4.2.15 - QUESTIONÁRIO HALAL PARA ARMAZÉM. 
+[Normal] Ensaios laboratoriais definidos pelo auditor após o início do processo. 
+[List Paragraph] Laudo pela metodologia de PCR (Reação em Cadeia da DNA Polimerase) para identificação de espécies animais. (Suíno, bovino, galinha e ovinos). E/ OU
+[Normal] Laudo de solventes residuais (cromatografia gasosa) (álcool etílico, Metanol,1-Propanol, 2-propanol, Acetona). 
+[Normal] Nota 1: Os laboratórios Eurofins, FoodChain, CQA, INTECSO e SENAI são os únicos aprovados a realizar análises para atender a FAMBRAS HALAL. Esta limitação ocorre devido ao fato destes serem os únicos que são acreditados na norma ISO 17025, para as análises requisitadas. 
+[Normal] ALERTA 1: Os laboratórios Euforins, FoodChain, INTECSO, CQA e SENAI estão autorizados a realizar somente análise de PCR para identificação de DNA animal.  
+[Normal] ALERTA 2: Os laboratórios CQA, INTECSO e Eurofins* ** são autorizados para realizar análise de solventes residuais (Etanol). 
+[Normal] * Para o laboratório Eurofins não é possível realizar a análise de etanol em matrizes de amostra de origem animal (carne, ovos, leite e derivados), porém é possível analisar aromas (ex. aroma de carne).
+[Normal] ** Informar no momento da cotação junto a Eurofins o código de teste da Itália ID087, pois este é o único laboratório da Eurofins que está acreditado na ISO 17025 para esta análise, e que atende ao limite de quantificação Halal.
+[Normal] Veja mais detalhes dos laboratórios homologados no ícone a seguir   
+[Normal] Nota 2: A aplicabilidade e necessidade de cada análise será definida pelo auditor do seu processo conforme fator de risco.  Aguarde a posição do auditor de seu processo. 
+[Normal] Nota 3: Orientações gerais sobre a coleta de amostra, estão disponíveis na IT 7.6.1 – Coleta de amostras.  
+[Normal] Nota 4. As amostras devem ser enviadas ao laboratório escolhido pelo cliente, em até um dia útil, após a coleta. 
+[Normal] Nota 5. O resultado da análise laboratorial deverá ser enviado pelo laboratório diretamente para a FAMBRAS HALAL, portanto:
+[List Paragraph] Na contratação do laboratório Eurofins, no formulário de solicitação da análise, fornecido por eles, preencher apenas no Contato para envio do relatório, no campo ‘Dados do Solicitante’, os e-mails do cliente que solicitou a análise da amostra e para os e-mails do time da FAMBRAS Halal: qualidade@fambrashalal.com.br e analistas.industrial@fambrashalal.com.br. 
+[List Paragraph] ALERTA: É importante mencionar o número do lacre da amostra no cadastro de Solicitação de Análises (EOL).
+[List Paragraph] No caso da contratação do laboratório FoodChain, CQA, INTECSO e SENAI basta informar que a análise é para a FAMBRAS HALAL no momento do orçamento, e no envio da amostra solicitar que o resultado seja encaminhado aos e-mails do cliente que solicitou a análise da amostra e para os e-mails do time da FAMBRAS Halal: qualidade@fambrashalal.com.br e analistas.industrial@fambrashalal.com.br.
+[List Paragraph] Autorização para a FAMBRAS HALAL utilizar a logomarca de sua empresa em nosso material institucional + Imagem da logomarca (se autorizado o uso).  
+[List Paragraph] Nota 1. Esta autorização permite relacionarmos sua marca no nosso site, para divulgação com nossos clientes. 
+[List Paragraph] Nota 2: Segue modelo sugerido   
+[List Paragraph]  Preencher o Controle de uso do selo Halal. Caso a empresa faça o uso do selo, preenchendo então o modelo 1, ela deverá enviar à FAMBRAS Halal, os modelos dos rótulos com sua devida aplicação, em quaisquer de suas embalagens. 
+[List Paragraph] Nota: Clique no objeto do word para abrir o formulário  
+[Normal]  Duas amostras de cada produto que será habilitado.
+[Normal] Estas amostras serão expostas em nosso showroom, portanto podem ser mokaps ou até mesmo embalagens vazias (se não forem transparentes). 
+[Normal] Nota: Estas amostras podem ser enviadas para a FAMBRAS HALAL pelos Correios ou podem ser entregues aos auditores do dia da auditoria. 
+[List Paragraph]  Enviar o programa do Sistema de Garantia Halal (HAS – Halal Assurance System) elaborado pela empresa a ser certificada como Halal, de acordo com a DT 7.3.
+[Normal] Nota 1: A DT 7.3 é um documento elaborado pela FAMBRAS HALAL que descreve os requisitos para elaboração do programa do Sistema de Garantia Halal. Requisite sempre este documento ao auditor responsável pelo seu processo. 
+[Normal] Nota 2: Além do preenchimento da planilha da DT 7.3, com a Identificações dos Perigos Haram e Pontos Críticos de Controle (que é diferente do APPCC), também é obrigatória a confecção de um documento de referência, o qual indique também: 
+[List Paragraph] Política Halal;
+[List Paragraph] Descrição do Time de Gestão Halal;
+[List Paragraph] Treinamento Halal
+[List Paragraph] Descrição do produto Halal;
+[List Paragraph] Auditoria interna do Sistema de Garantia Halal (HAS);
+[List Paragraph] Rastreabilidade.
+[Normal] Nota 3: A elaboração do Sistema de Garantia Halal é um requisito para a realização da auditoria, portanto, ele deverá ser previamente enviado, sendo efetivamente avaliado na auditoria Halal. Sempre que atualizado, enviar a nova revisão para a certificadora. 
+[Normal] Lembre-se em caso de dúvidas não hesite em nos contatar! Estaremos a disposição para auxiliar com o que for necessário (e-mail analistas.industrial@fambrashalal.com.br). 
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.12 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - ARMAZÉM (REV 3) PT.docx
+CAMINHO: 3. Envio da Documentação Inicial\FM 7.4.2.12 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - ARMAZÉM (REV 3) PT.docx
+TAMANHO: 469144 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Enviar via e-mail ao analista de processo que lhe encaminhou esta solicitação a seguinte relação de documentos, para o seu processo de habilitação Halal.
+[Normal] Cadastro completo da empresa;
+[Normal] Cópia do S.I.F.; 
+[Normal] Nota: Se este item não for aplicável ao seu segmento, desconsiderar este item.  
+[Normal] Fluxograma de funcionamento do armazém e/ou da logística de transporte;
+[List Paragraph] Ficha técnica dos produtos armazenados e/ou transportados;
+[List Paragraph] Autorização para a FAMBRAS HALAL utilizar a logomarca de sua empresa em nosso material institucional + Imagem da logomarca (se autorizado o uso).  
+[List Paragraph] Nota 1. Esta autorização permite relacionarmos sua marca no nosso site, para divulgação como nossos clientes. 
+[List Paragraph] Nota 2: Segue modelo sugerido   
+[List Paragraph] Preencher o Controle de uso do selo Halal. Caso a empresa faça o uso do selo, o modelo 1 deverá ser preenchido. A empresa deverá enviar à FAMBRAS Halal, os modelos dos rótulos com a aplicação do selo, em quaisquer de suas embalagens, para prévia aprovação da FAMBRAS HALAL. 
+[List Paragraph] Nota: Clique no objeto do word para abrir o formulário  
+[List Paragraph] Enviar o programa do Sistema de Garantia Halal (HAS – Halal Assurance System) elaborado pela empresa a ser certificada como Halal, de acordo com a DT 7.3.
+[Normal] Nota 1: A DT 7.8 é um documento elaborado pela FAMBRAS HALAL que descreve os requisitos para elaboração do programa do Sistema de Garantia Halal. Requisite sempre este documento ao auditor responsável pelo seu processo. 
+[Normal] Nota 2: Além do preenchimento da planilha da DT 7.8, com a Identificações dos Perigos Haram e Pontos Críticos de Controle, também é obrigatória a confecção de um documento de referência, o qual indique também: 
+[List Paragraph] Política Halal;
+[List Paragraph] Descrição do Time de Gestão Halal;
+[List Paragraph] Descrição do produto Halal;
+[List Paragraph] Auditoria interna do Sistema de Garantia Halal (HAS).
+[Normal] Nota 3: A elaboração do Sistema de Garantia Halal é um requisito para a realização da auditoria, portanto, ele deverá ser previamente enviado, sendo efetivamente avaliado na auditoria de estágio 1 ou estágio único.  
+[Normal] Lembre-se em caso de dúvidas não hesite em nos contatar! Estaremos a disposição para auxiliar com o que for necessário.
+
+
+================================================================================
+ARQUIVO: FM 7.4.2.2 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - FRIGORÍFICO (REV 16) PT.docx
+CAMINHO: 3. Envio da Documentação Inicial\FM 7.4.2.2 - SOLICITAÇÃO DE DOCUMENTAÇÃO INICIAL - FRIGORÍFICO (REV 16) PT.docx
+TAMANHO: 2833310 bytes
+================================================================================
+=== PARAGRAFOS ===
+[Normal] Enviar via e-mail ao auditor que lhe encaminhou esta solicitação a seguinte relação de documentos, para o seu processo de habilitação Halal.
+[Normal] Cadastro completo da empresa;
+[Normal] Cópia do registro sanitário (SIF); 
+[Normal] Ficha/ Especificação técnica descritiva do produto final – por família conforme identificado na solicitação de certificação (vide nota 3) OU preencher o FM 7.4.2.8 - Especificação Técnica - Composição da Famílias. 
+[Normal] Nota 1: Clique no objeto do word para abrir o formulário FM 7.4.2.8  
+[Normal] Nota 2: É importante que caso escolha a ficha técnica, esta demonstre a origem do produto e seus respectivos ingredientes (se aplicável – exemplo corte temperado). 
+[Normal] Nota 3: Deverá ser enviada uma especificação técnica para cada família de produtos finais, por exemplo, poderá ser enviada uma única ficha técnica para representar todos os tipos de corte. 
+[Normal] Fluxograma de produção de todos os produtos a serem certificados. 
+[Normal] Resultado do laudo laboratorial definidos pelo responsável técnico, ou pelo auditor após o início do processo, conforme risco do produto/ processo. 
+[List Paragraph] Laudo pela metodologia de PCR (Reação em Cadeia da DNA Polimerase) para identificação de espécies animais. (Suíno e/ou bovino e/ou galináceo e/ou ovinos). 
+[Normal] Nota 1: Os laboratórios Eurofins, FoodChain, CQA, INTECSO e SENAI são os únicos aprovados a realizar análises para atender a FAMBRAS HALAL. Esta limitação ocorre devido ao fato destes serem os únicos que são acreditados na norma ISO 17025, para as análises requisitadas. 
+[Normal] Veja mais detalhes dos laboratórios homologados no ícone a seguir  
+[Normal] Nota 2: A aplicabilidade e necessidade de cada análise será definida pelo responsável técnico ou pelo auditor do seu processo conforme fator de risco.  Aguarde a posição do auditor para realizar a análise. 
+[Normal] Nota 3: Orientações gerais sobre a coleta de amostra, estão disponíveis na IT 7.6.1 – Coleta de amostras.  
+[Normal] Nota 4. As amostras devem ser enviadas ao laboratório escolhido pelo cliente, em até um dia útil, após a coleta. 
+[Normal] Nota 5. O resultado da análise laboratorial deverá ser enviado pelo laboratório diretamente para a FAMBRAS HALAL, portanto:
+[List Paragraph] Na contratação do laboratório Eurofins, no formulário de solicitação da análise, fornecido por eles, preencher apenas no Contato para envio do relatório, no campo ‘Dados do Solicitante’, os e-mails do cliente que solicitou a análise da amostra e para os e-mails do time da FAMBRAS Halal: qualidade@fambrashalal.com.br e analista.frigorifico@fambrashalal.com.br.
+[List Paragraph] ALERTA: É importante mencionar o número do lacre da amostra no cadastro de Solicitação de Análises (EOL).
+[List Paragraph] No caso da contratação do laboratório FoodChain, CQA, INTECSO e SENAI basta informar que a análise é para a FAMBRAS HALAL no momento do orçamento, e no envio da amostra solicitar que o resultado seja encaminhado aos e-mails do cliente que solicitou a análise da amostra e para os e-mails do time da FAMBRAS Halal: qualidade@fambrashalal.com.br e analista.frigorifico@fambrashalal.com.br.
+[Normal] Preencher o formulário FM 7.4.2.6 - Declaração de conformidade com os dados dos produtos finais a serem certificados. 
+[Normal] Nota: Clique no objeto do word para abrir o formulário  
+[Normal] Planilha de Matéria-prima e fornecedores (FM 7.4.2.7) preenchida na aba 1. MP E INSUMOS_RAW MATERIAL com as matérias-primas, insumos e auxiliares de processo aplicados nos produtos finais, como por exemplo sal, indicando o status de sua documentação Halal e na aba 2. OUTROS_OTHERS com as embalagens, produtos de limpeza, lubrificantes, graxas e aditivos utilizados no tratamento de água (quando esta for aplicada diretamente no produto a ser certificado).
+[List Paragraph] Nota 1: Esta planilha deve ser enviada com a relação completa de matérias-primas e fornecedores, incluindo alternativos, no mínimo 15 dias antes da auditoria, ainda que para alguns fornecedores se preencha apenas a linha e falte a cópia do documento Halal. 
+[List Paragraph] Nota 2: Clique no objeto do excel para abrir a planilha FM 7.4.2.7 que deve ser preenchida. 
+[Normal] Nota 3: Para frigorífico bovino, a tinta de carimbo deverá ser informada na aba 1. MP E INSUMOS_RAW MATERIAL.
+[Normal] Ficha/ Especificação técnica descritiva de todos os elementos que entram em contato direto intencionalmente ou não, com o produto a ser certificado como Halal, tais como:
+[List Paragraph] Matérias-primas;
+[List Paragraph] Auxiliares de processo e aditivos. Exemplo: tinta do carimbo usado na carcaça, corantes, solventes, agentes desmoldante (mesmo que estas sejam posteriormente retiradas); 
+[List Paragraph] Nota 1: É importante que estes documentos técnicos demonstrem a origem do produto e sua composição. 
+[List Paragraph] Nota 2: Para os produtos que possuam certificado Halal (reconhecido mundialmente) poderá ser aceita a documentação técnica do cliente/ fabricante/ distribuidor.
+[List Paragraph] Nota 3: Já para produtos que NÃO possuem certificado Halal (reconhecido mundialmente), somente declaração de conformidade Halal, só será aceita a ficha técnica do fabricante. Salva exceções para produtos de baixíssimo risco, como sal. 
+[List Paragraph] Nota 4: Para as embalagens primárias, lubrificantes, produtos de limpeza de equipamentos e produtos aplicados no tratamento da água de processo, a ficha de especificação técnica deve ser apresentada in loco, durante a auditoria Halal.
+[Normal] Documentação Halal*** de todos os elementos que entram em contato direto, intencionalmente ou não, com o produto a ser certificado como Halal, tais como:
+[List Paragraph] Matérias-primas;
+[List Paragraph] Auxiliares de processo e aditivos. Exemplo tinta do carimbo usado na carcaça, corantes, solventes, agentes desmoldante (mesmo que estas sejam posteriormente retiradas);
+[Normal] Nota 1: A documentação Halal*** destes elementos deve ser preferencialmente a cópia do Certificado Halal (que deve ser de uma instituição mundialmente reconhecida). Porém na ausência deste documento poderá ser aceito uma declaração de status Halal preenchida pelo fabricante, lembrando que mediante avaliação de risco a FAMBRAS HALAL se reserva no direito de recusar este documento, e pode solicitar um documento mais complexo como o questionário Halal.
+[Normal] Nota 2: Nos ícones a seguir estão disponíveis os modelos sugeridos com validade de 3 anos
+[List Paragraph] Em português (para empresas no Brasil) 
+[List Paragraph] Em inglês (para empresas fora do Brasil) 
+[Normal] Caso o fabricante envie uma declaração de status Halal em outro modelo está também será aceita por 3 anos.
+[Normal] Se a sua empresa usar armazéns externos para acondicionar o produto Halal, antes da venda, informar ao analista do processo e solicitar ao responsável do armazém que preencha o FM 7.4.2.15 - QUESTIONÁRIO HALAL PARA ARMAZÉM. 
+[List Paragraph] Autorização para a FAMBRAS HALAL utilizar a logomarca de sua empresa em nosso material institucional + Imagem da logomarca (se autorizado o uso).  
+[List Paragraph] Nota 1. Esta autorização permite relacionarmos sua marca no nosso site, para divulgação como nossos clientes. 
+[List Paragraph] Nota 2: Segue modelo sugerido   
+[List Paragraph] Preencher o formulário da lista de contatos da empresa;
+[List Paragraph] Nota: Clique no objeto do word para abrir o formulário  
+[List Paragraph]  Preencher o Controle de uso do selo Halal. Caso a empresa faça o uso do selo, preenchendo então o modelo 1, ela deverá enviar à FAMBRAS Halal, os modelos dos rótulos com sua devida aplicação, em quaisquer de suas embalagens. Caso a empresa não utilize o selo, ela irá preencher o modelo 2, também disponível no anexo. 
+[List Paragraph] Nota: Clique no objeto do word para abrir o formulário  
+[List Paragraph]  Enviar o programa do Sistema de Garantia Halal (HAS – Halal Assurance System) elaborado pela empresa a ser certificada como Halal, de acordo com a DT 7.3.
+[Normal] Nota 1: A DT 7.3 é um documento elaborado pela FAMBRAS HALAL que descreve os requisitos para elaboração do programa do Sistema de Garantia Halal. Requisite sempre este documento ao auditor responsável pelo seu processo. 
+[Normal] Nota 2: Além do preenchimento da planilha da DT 7.3 – anexo 1, com a Identificações dos Perigos Haram e Pontos Críticos de Controle, também é obrigatória a confecção de um documento de referência, o qual indique também: 
+[List Paragraph] Política Halal;
+[List Paragraph] Descrição do Time de Gestão Halal;
+[List Paragraph] Treinamento Halal;
+[List Paragraph] Descrição do produto Halal;
+[List Paragraph] Auditoria interna do Sistema de Garantia Halal (HAS);
+[List Paragraph] Rastreabilidade;
+[Normal] Nota 3: A elaboração do Sistema de Garantia Halal é um requisito para a realização da auditoria, portanto, ele deverá ser previamente enviado, sendo efetivamente avaliado na auditoria Halal.  
+[Normal] Lembre-se em caso de dúvidas não hesite em nos contatar! Estaremos a disposição para auxiliar com o que for necessário.
