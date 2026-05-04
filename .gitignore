@@ -11,3 +11,6 @@ Thumbs.db
 # Temp files
 *.tmp
 *~
+
+# Test outputs
+test-output/
