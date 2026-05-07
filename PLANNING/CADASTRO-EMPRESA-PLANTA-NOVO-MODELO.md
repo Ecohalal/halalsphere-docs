@@ -10,6 +10,14 @@
 > Gerado em 2026-05-04 a partir da decisão arquitetural de tornar o GC
 > (HalalSphere) o cadastro master de Empresa+Planta no ecossistema, com
 > SIH e (eventualmente) SysHalal consumindo via API.
+>
+> **Status (2026-05-07):** Caminho A confirmado pelo PO — refactor executa
+> **antes** da Onda 1+ FAMBRAS (ver `sih-docs/PLANNING/FAMBRAS-VISITA-1504-ONDA-1+.md`).
+> **D8 original mantida** (reset da base autorizado pelo PO; todos os
+> fluxos atuais são testes descartáveis). Estimativa: **12-17 dias úteis**
+> em 5 fases. Itens 4, 5 e 6 da Onda 1+ FAMBRAS (CertificationScope APPCC,
+> Subcontractor, ScopeBrand.ownership) já foram implementados em
+> 2026-05-07 antes do refactor — serão preservados no schema fresh.
 
 ---
 
@@ -742,8 +750,8 @@ Endpoints existentes mantidos com pequenas adaptações de payload (CNPJ → `ta
 
 | Método | Rota | Mudança |
 |---|---|---|
-| POST | `/companies` | DTO aceita `country`, `taxId`, `taxIdType` (substitui `cnpj`) |
-| POST | `/companies/register` | Idem (G-111 onboarding) |
+| POST | `/companies` | DTO aceita `country`, `taxId`, `taxIdType` (substitui `cnpj`). Usado para criar Company adicional dentro de um Group existente. |
+| ~~POST~~ | ~~`/companies/register`~~ | **Removido (2026-05-07).** Onboarding inicial (G-111..G-114) consolidado em `POST /auth/register`, que cria User + Group + Company atomicamente. Para criar Company adicional dentro de um Group existente, use `POST /companies`. |
 | GET | `/companies/me` | Retorna company se `req.user.companyId` setado, senão erro |
 | GET | `/companies/:id` | Inclui `plants[]` no payload |
 | GET | `/companies` | Filtros adicionais: `country`, `relationship` |
@@ -758,6 +766,25 @@ Endpoints existentes mantidos com pequenas adaptações de payload (CNPJ → `ta
 | POST | `/companies/:id/add-to-group` | Mantém |
 | POST | `/companies/:id/remove-from-group` | Mantém |
 | DELETE | `/companies/:id` | Soft delete (mantém) |
+
+#### 7.1.1 Lookup CNPJ — provider único, sem proxy backend
+
+**Decisão (2026-05-07):** o módulo backend `src/cnpj-lookup/` foi **removido inteiro**
+(controller + service + 3 providers configuráveis + tabelas `cnpj_lookup_configs` e
+`cnpj_lookup_cache` + tela admin frontend). Era código morto: a config no DB tinha
+`is_active=false` e o frontend já chamava direto `https://publica.cnpj.ws/cnpj/{cnpj}`.
+
+**Estado final:**
+- Frontend: [`services/cnpj.service.ts`](https://github.com/Ecohalal/halalsphere-frontend/blob/develop/src/services/cnpj.service.ts) chama o endpoint público diretamente
+  com timeout de 5s, sem auth, sem cache compartilhado.
+- Em caso de falha (timeout, 404, 429, 5xx, rede), o hook `useCnpjLookup` expõe
+  `canFillManually=true` e o `CnpjSearchInput` mostra banner inline orientando o
+  usuário a preencher os campos manualmente.
+- Form continua editável em qualquer estado do lookup — o backend não confia no
+  retorno da API pública (validação real é o `pendingValidation` resolvido pelo
+  admin FAMBRAS via `POST /companies/:id/validate`).
+- Multi-país: lookup só vale para `country=BR && taxIdType=CNPJ`. Para outros países,
+  o registro é manual (sem auto-preenchimento integrado no MVP).
 
 ### 7.2 `/plants` (novo controller)
 
@@ -1004,12 +1031,25 @@ async findOne(@Param('id') id: string, @Req() req) {
    -- Em ordem: drop FKs, drop tables filhas com volume = 0, recriar
    -- Execução via prisma migrate dev (nome: refactor_company_plant)
    ```
-10. **Seed de teste:**
-    - 1 CompanyGroup "Minerva" com 2 Companies (BR + PY)
-    - 3 Plants em Minerva BR (3 SIFs distintos)
-    - 1 Plant em Minerva PY (Establecimiento)
-    - Habilitações de exemplo: Minerva BR Goiás → SA (SFDA), → AE (ESMA)
-    - 1 CompanyGroup "Frigorifico XYZ" com `relationship=partner` (TASK-07)
+10. **Seed enriquecido pós-reset (atualizado 2026-05-07):**
+    - **CompanyGroup "Minerva" (multinacional):** 2 Companies (BR CNPJ + PY RUC)
+      - 3 Plants em Minerva BR (3 SIFs distintos)
+      - 1 Plant em Minerva PY (Establecimiento_PY)
+      - CountryHabilitations: Minerva BR Goiás → SA via SFDA, → AE via ESMA
+    - **CompanyGroup "BRF" (multinacional):** 2 Companies (BR + AR)
+      - 2 Plants em BRF BR (frigorífico + processados)
+      - 1 Plant em BRF AR (Establecimiento_AR)
+    - **CompanyGroup "ATA Tensoativos" (Industrial, sem supervisor):** baseado
+      no caso real do anexo Ayat (FM 7.2.3 / FM 4.1.1)
+      - 1 Company BR + 1 Plant
+      - Sem CountryHabilitation (mercado interno)
+      - Cliente FAMBRAS típico Industrial (DT 7.4 — Químicos e Agentes de Limpeza)
+    - **CompanyGroup "Frigorifico XYZ" (partner, TASK-07):**
+      - 1 Company BR + 1 Plant com `relationship=partner`
+      - Cert externa CDIAL anexada via `Plant.externalCertS3Key`
+    - Cobre os 6 cenários-chave do material FAMBRAS: multinacional,
+      multi-planta, industrial sem supervisor, partner com cert externa,
+      mercado interno puro, exportação Golfo. Custo estimado: ~0.5 dia.
 
 ### Fase 2 — Refactor backend services & controllers
 
@@ -1134,6 +1174,7 @@ de mapeamento e nesta especificação:
 | D16 | Renomeações: `razaoSocial` → `legalName`, `nomeFantasia` → `tradeName` (terminologia internacional). |
 | D17 | Drop colunas planas redundantes (`endereco`, `cidade`, `estado`, etc.). Manter só JSON `address`/`contact`. |
 | D18 | Plant.species é array (suporta plantas multi-espécie). |
+| D19 | **(2026-05-07)** Caminho A escolhido pelo PO: refactor antes da Onda 1+ FAMBRAS. D8 reconfirmado (reset autorizado). Seed enriquecido com cenário ATA Tensoativos (cliente real anonimizado, FM 7.2.3/4.1.1) + BRF multinacional para cobrir 6 cenários FAMBRAS-realistas. |
 
 ---
 
