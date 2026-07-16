@@ -168,7 +168,11 @@ DDL=migration idempotente com nome MAPEADO da tabela; dados/carga=SQL p/ Renato 
 
 ### Aberto e rastreado
 - ~~Quick wins de código~~ — ✅ **TODOS FECHADOS** (trava de data · clone typeahead · descartar-só-produtos · selos allowlist · guard-rail categorias · PDF protegido).
-- **Feedback do André (14/jul):** item 03 ✅ feito · **busca por SIF no topo** (item 01) → Renato assume, alinhado ao #8 já feito 🟡 · **"Norma principal = Voluntária"** p/ mercados nacionais → aguarda André/Soha confirmarem se devem implicar GSO 🟡 · **simplificar picker de template** (após allowlist de selos, templates nacionais renderizam igual) 🟡
+- **Feedback do André (14/jul):**
+  - item 03 (categorias incompatíveis) → ✅ guard-rail `e1f92785`
+  - pergunta do template → ✅ `82a5e2c1`: a tela mostra **os selos que saem** ("apenas FAMBRAS" nos nacionais) em vez do código do template; nota explica que a norma marcada sai no **texto**. Revelou que **GSO+OIC juntos → template GCC → só GAC** (selo OIC não sai) — coerente com "SMIIC só Turquia", **confirmar com Soha**.
+  - **busca por SIF no topo** (item 01) → Renato assume, alinhado ao `#8` já feito 🟡
+  - **"Norma principal = Voluntária"** p/ mercados nacionais (BPJPH/MUIS/MS/UAE.S sozinhos) → aguarda André/Soha confirmarem se devem implicar **GSO** 🟡
 - ~~Reconciliar backend `release`→`develop`~~ — ✅ **FEITO 14/jul** (merge `fec9062b`, 31 commits, zero conflitos; tsc + renderers.spec OK). Front e back agora com `release` ≡ `develop`.
 - **Sessão dedicada:** F2 draft→aprovar→travar+audit · F3 nº=contrato · L2 overflow endereço header 🟡
 - **Parked/rebaixado:** parser xlsx formato real ⏸ · async 151 produtos ⏸ · DSM/IFF cert-de-produto ⏸
