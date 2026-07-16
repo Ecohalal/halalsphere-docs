@@ -16,10 +16,13 @@ de duas falhas somadas:
 1. **Detecção de formulário (7.7.1 × 7.7.2) não confiável após o import.** O `detectFormCode`
    (`certificate-pdf.service.ts`) exige categoria ∈ {CV, CI, CIII, K} **e** planta com
    `sanitaryCode` não-INTERNAL. Mas a base de import (`scripts/etl-fam0017/establishments_certs.csv`)
-   traz o discriminador limpo na coluna **`src` = FRIG | IND** (frigorífico → 7.7.1; industrial → 7.7.2),
-   e as categorias-fonte (`CV`, `C1`, `C2`, `C4`…) **não existem no catálogo de categorias do GC**
-   (ver `etl-fam0017/n2b_depara_categorias_FAMBRAS.csv`). Logo, no import a categoria não amarra e/ou a
-   planta fica sem `sanitaryCode` → tudo cai no default **FM 7.7.2**.
+   traz o discriminador limpo na coluna **`src` = FRIG | IND** (frigorífico → 7.7.1; industrial → 7.7.2).
+   > **Correção 06/jul:** o **catálogo de categorias do GC ESTÁ COMPLETO** — 12 grupos A–L + **25
+   > categorias** (AI/AII, BI/BII, CI…CV, DI/DII, E, FI/FII, GI/GII, H/HII/HIII, I, J, K, LI/LII/LIII),
+   > `CV` inclusive (com `smiic_code='CI'`, dual mapping). O `n2b_depara` marcou "CV NÃO existe" porque
+   > comparava **códigos-fonte da FAMBRAS** (`C1/C2/C4/CVCV`…) que não casam 1:1 com os códigos GC — é um
+   > gap de **mapeamento no ETL** (source→GC), não do catálogo. Logo o problema real do import é:
+   > (a) mapear `src`→formCode/categoria, (b) garantir `sanitaryCode` nas plantas de abate.
 2. **A tela não tem trava/lógica de agrupamento de normas.** O analista consegue jogar todas as
    normas juntas, gerando um certificado inválido (normas que se excluem no mesmo doc).
 
@@ -126,8 +129,9 @@ Ordem sugerida: **J → C/D → B → E → F/G → H → I**. J e D/C são o qu
   na tela (o tipo vai pro topo, §C). O sistema apenas **sugere um default** derivado da **categoria
   corrigida** (não do `src`); `src` FRIG/IND vira **validação/backfill** e sanity-check de massa.
   - **J1a.** Remover `K` de `HABILITATION_CATEGORIES` no `detectFormCode` (D7) — bioquímicos = 7.7.2.
-  - **J1b.** Backfill de categoria no import (mapear categorias-fonte → catálogo GC; ver
-    `n2b_depara_categorias_FAMBRAS.csv`) e garantir `sanitaryCode` nas plantas de abate.
+  - **J1b.** (ETL/import) Mapear **códigos-fonte FAMBRAS → códigos GC** (`C1/C2/C4/CVCV`→`CI/CIV/CV`…;
+    ver `n2b_depara_categorias_FAMBRAS.csv`) e garantir `sanitaryCode` nas plantas de abate.
+    **NÃO é migration de catálogo** — o catálogo GC (25 categorias) já está completo. Escopo do import.
   - **J1c.** Validar em massa: nenhuma linha `src=FRIG` deve resolver 7.7.2 e vice-versa (exceto exceções conhecidas).
 - **J2.** Aplicar os ajustes de layout do FM 7.7.1 (feitos em 06/jul) no renderer **vivo**
   (`ApprovalArabicRenderer`); revisar fidelidade do FM 7.7.2 vivo (`CertificateArabicRenderer`),
