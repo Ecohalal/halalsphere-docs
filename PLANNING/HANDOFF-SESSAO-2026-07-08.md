@@ -162,7 +162,7 @@ DDL=migration idempotente com nome MAPEADO da tabela; dados/carga=SQL p/ Renato 
 - ⚠️ **Pendente de validação do Renato em prod** — mexe em **número do certificado** e texto de normas no PDF.
 
 - **PDF protegido — cópia bloqueada** (14/jul, back `6fed9470`) — Lina 08/jul. Novo `pdf-protection.ts` = fonte única (o `approval-renderer`/FM 7.7.1 estava SEM proteção). Cert **sempre abre** (sem `userPassword`; autenticidade via QR); bloqueia copiar/editar/anotar/acessibilidade/montar; **imprimir liberado**. `pdfVersion:'1.7'` é obrigatório — no default (PDF 1.3/RC4 40-bit) as permissões finas são silenciosamente ignoradas e a extração via leitor de tela ficava aberta. Verificado decodificando os bits `/P`. ✅
-  - ⚠️ **Deploy exige nova rev. da task def** com `CERTIFICATE_PDF_OWNER_PASSWORD`.
+  - ⚠️ **Deploy exige nova rev. da task def** com **`CERTIFICATE_PDF_UNLOCK_KEY`** (`9bf9bab0`). **NÃO é senha para abrir o certificado** — o cert abre livre, sem senha (autenticidade via QR). É o *owner password* da spec do PDF: nunca pedida para abrir/ler/imprimir, serve só para **remover as restrições** de um arquivo já emitido. Existe porque a spec não deixa declarar "não pode copiar" num documento sem dono. Sem a env, a proteção continua valendo (chave aleatória) — só não haverá dono conhecido para destravar depois. Documentada em `.env.example`.
   - ⚠️ **Limite:** permissão de PDF é advisória (qpdf/print-screen contornam) — não vender como inviolável; o antifraude real é o QR. Vale só p/ certs **novos** (os já emitidos no S3 são imutáveis).
   - 🧹 **Dívida:** `base-template.renderer.ts` é código morto (nenhum consumidor) e ainda tem caminho de `userPassword` — foi a origem da divergência entre renderers. Vale deletar.
 
