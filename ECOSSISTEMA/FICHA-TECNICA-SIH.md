@@ -1,14 +1,14 @@
 # Ficha Técnica — SIH (Supervisão Industrial Halal)
 
 > Material objetivo para Comercial, Marketing e Produto. Uso interno.
-> Atualizado em 2026-06-18.
+> Atualizado em 2026-07-14.
 
 | Campo | Conteúdo |
 |---|---|
 | **Nome** | SIH — Supervisão Industrial Halal |
 | **O que é** | Sistema web responsivo (otimizado para tablets em campo) que digitaliza os formulários de supervisão (FM) da FAMBRAS Halal |
 | **Estágio na cadeia** | Operação contínua — supervisão diária na planta |
-| **Status** | 🟢 Em produção, em piloto controlado (go-live pleno FAMBRAS: agosto/2026) |
+| **Status** | 🟡 Pré-go-live — piloto controlado com dados reais; já consome MP homologada do GC em produção (go-live pleno FAMBRAS: agosto/2026) |
 
 ## Para que serve
 Substitui o preenchimento em papel dos relatórios de supervisão Halal (abate, produção,

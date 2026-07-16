@@ -1,14 +1,14 @@
-# Ficha Técnica — GC (Gestão de Certificações / HalalSphere)
+# Ficha Técnica — GC (Gestão de Certificações)
 
 > Material objetivo para Comercial, Marketing e Produto. Uso interno.
-> Atualizado em 2026-06-18.
+> Atualizado em 2026-07-14.
 
 | Campo | Conteúdo |
 |---|---|
-| **Nome** | Gestão de Certificações (produto: HalalSphere) |
+| **Nome** | Gestão de Certificações |
 | **O que é** | Plataforma SaaS B2B que automatiza o ciclo completo de certificação Halal de uma empresa |
 | **Estágio na cadeia** | Pré-mercado — habilitação da empresa |
-| **Status** | 🟢 Em produção (go-live pleno FAMBRAS: agosto/2026) |
+| **Status** | 🟡 Pré-go-live — base real carregada; emissão manual em produção (go-live pleno FAMBRAS: agosto/2026) |
 
 ## Para que serve
 Digitaliza e automatiza a certificação Halal — da solicitação à emissão do certificado

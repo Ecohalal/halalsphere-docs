@@ -5,7 +5,7 @@
 > ao longo da cadeia de certificação Halal.
 >
 > **Público:** Diretoria, Comercial, Marketing e Produto.
-> **Última atualização:** 2026-06-18.
+> **Última atualização:** 2026-07-14.
 
 ---
 
@@ -19,7 +19,7 @@ garantir rastreabilidade ponta a ponta.
 
 | Sistema | Nome completo | Estágio na cadeia | Quem usa |
 |---|---|---|---|
-| **GC** | Gestão de Certificações (HalalSphere) | **Pré-mercado** — certifica a empresa | Certificadora (FAMBRAS) + empresas solicitantes |
+| **GC** | Gestão de Certificações | **Pré-mercado** — certifica a empresa | Certificadora (FAMBRAS) + empresas solicitantes |
 | **SIH** | Supervisão Industrial Halal | **Operação contínua** — supervisiona a produção | Supervisores Halal em campo + coordenação |
 | **SysHalal** | Sys Halal | **Exportação** — emite o certificado de cada embarque | Despachantes, clientes exportadores e a certificadora |
 
@@ -31,7 +31,7 @@ evidência operacional real de supervisão Halal.
 
 ---
 
-## 2. GC — Gestão de Certificações (HalalSphere)
+## 2. GC — Gestão de Certificações
 
 ### O que é e para que serve
 O GC é a **plataforma SaaS de gestão do ciclo completo de certificação Halal** de uma
@@ -133,7 +133,12 @@ de **Empresa, Planta, Escopo de certificação e Certificado de habilitação**.
 SysHalal consomem esses dados.
 
 ### Status
-🟢 Em produção. **Go-live pleno com a FAMBRAS previsto para agosto/2026.**
+🟡 **Pré-go-live.** Infraestrutura de produção no ar e **base real já carregada e
+normalizada** (jul/2026): ~550 grupos, ~813 plantas, ~1.250 certificados e ~16,5 mil
+produtos de escopo, além de ~500 matérias-primas homologadas — cruzando SysHalal,
+SIGSIF, Receita Federal e formulários FM. A **emissão manual de certificado** já opera
+em produção (QR Code novo, 15 selos, todos os gabaritos). **Go-live pleno com a FAMBRAS
+previsto para agosto/2026.**
 
 ---
 
@@ -222,8 +227,10 @@ supervisão Halal — a "porta 4" da validação cruzada (seção 5). Consome do
 cadastros de planta e o certificado Halal vigente.
 
 ### Status
-🟢 Em produção, em **piloto controlado** com empresas selecionadas (jun/2026).
-**Go-live pleno com a FAMBRAS previsto para agosto/2026** (em conjunto com o GC).
+🟡 **Pré-go-live / piloto controlado** com empresas selecionadas e dados reais
+(jun–jul/2026). Já **consome em produção as matérias-primas homologadas do GC** — o
+primeiro elo real de integração do ecossistema (a base técnica da "porta 4"). **Go-live
+pleno com a FAMBRAS previsto para agosto/2026** (em conjunto com o GC).
 
 ---
 
@@ -361,8 +368,10 @@ Adicionar a **porta 4** — a evidência de campo do SIH — combate fraudes com
 adulteração de QR Code, mistura de lotes e certificado de papel divergente da
 operação real. **Essa é a vantagem competitiva central do ecossistema EcoHalal.**
 
-> A validação cruzada completa é uma evolução planejada (set–out/2026), à medida que
-> o SysHalal é alinhado ao GC.
+> **O primeiro elo já está em produção:** desde jun/2026 o SIH consome as
+> matérias-primas homologadas do GC — a base técnica da porta 4 está construída. A
+> validação cruzada completa (lote a lote, na emissão) é uma evolução planejada
+> (set–out/2026), à medida que o SysHalal é alinhado ao GC.
 
 ### Princípios de arquitetura que sustentam a integração
 - **GC é o master de cadastro** (empresa, planta, escopo, certificado). Os demais consomem.
@@ -375,13 +384,13 @@ operação real. **Essa é a vantagem competitiva central do ecossistema EcoHala
 
 ## 6. Quadro comparativo dos três sistemas
 
-| Dimensão | GC (HalalSphere) | SIH | SysHalal |
+| Dimensão | GC | SIH | SysHalal |
 |---|---|---|---|
 | **Estágio da cadeia** | Pré-mercado (habilitação) | Operação contínua (campo) | Exportação (por lote) |
 | **Usuários** | Certificadora + empresas | Supervisores + coordenação | Despachantes + clientes + certificadora |
 | **Entrega central** | Certificado de habilitação | Relatórios de supervisão (FM) | Certificado de exportação |
 | **Papel no dado** | Master de cadastro | Evidência operacional | Registro de embarques |
-| **Status** | Em produção (go-live ago/26) | Piloto → go-live ago/26 | Em produção desde ago/25 |
+| **Status** | Pré-go-live · base carregada (go-live ago/26) | Pré-go-live · piloto (go-live ago/26) | Em produção desde ago/25 |
 
 ---
 
@@ -401,6 +410,6 @@ verdade o roadmap público da plataforma.
 
 Para uso do Comercial, Marketing e Produto, há uma ficha técnica de uma página por sistema:
 
-- [Ficha Técnica — GC / HalalSphere](./FICHA-TECNICA-GC-HALALSPHERE.md)
+- [Ficha Técnica — GC](./FICHA-TECNICA-GC.md)
 - [Ficha Técnica — SIH](./FICHA-TECNICA-SIH.md)
 - [Ficha Técnica — SysHalal](./FICHA-TECNICA-SYSHALAL.md)

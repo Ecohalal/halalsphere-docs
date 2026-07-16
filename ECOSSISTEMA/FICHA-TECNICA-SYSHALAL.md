@@ -1,7 +1,7 @@
 # Ficha Técnica — SysHalal (Sys Halal)
 
 > Material objetivo para Comercial, Marketing e Produto. Uso interno.
-> Atualizado em 2026-06-18.
+> Atualizado em 2026-07-14.
 
 | Campo | Conteúdo |
 |---|---|
@@ -36,7 +36,7 @@ planejada: alinhamento ao cadastro master do GC e **validação cruzada de 4 por
 (empresa habilitada + certificado válido + produto no escopo + evidência operacional do SIH).
 
 ## Stack (resumo)
-Next.js 14 · NestJS 10 + Prisma 5 · PostgreSQL · AWS (S3, SES, SNS) · pdf-lib + QRCode.
+Next.js 14 + React 18 (next-auth) · NestJS 10 + Prisma 6 · PostgreSQL · AWS (S3, SES, SNS) · pdf-lib + qrcode · TanStack Query · Chart.js.
 
 ## Evoluções planejadas
 API v2 (integração externa) · Alinhamento com o GC (set/2026) · Validação cruzada de 4 portas (set–out/2026).
