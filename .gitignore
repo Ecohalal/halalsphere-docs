@@ -14,3 +14,7 @@ Thumbs.db
 
 # Test outputs
 test-output/
+
+# PDFs gerados pelos harnesses de emissão (saída reproduzível; ~43MB por rodada).
+# Os fontes do harness (cases.json, scripts, GAPS.md) SÃO versionados.
+PLANNING/TEST-EMIT-*/output/
