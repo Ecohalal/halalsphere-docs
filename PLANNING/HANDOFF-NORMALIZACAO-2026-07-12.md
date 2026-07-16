@@ -123,13 +123,31 @@ para o go-live FAMBRAS de agosto. Todas as escritas foram **preview→commit→v
 
 ## 4. ⚠️ Cross-system — RISCO criado hoje + integrações
 
-### 4.1 SIH — dessincronia potencial (VERIFICAR)
-O SIH **lê o cadastro do GC** (read-through; SIH não copia MP). **Chave da junção = `SIF + CNPJ` (dígitos).**
-Hoje mudei no GC **9 CNPJs** (13→14 díg), **24 tipos de SIF** (NAO_APLICAVEL→SIF) e **deletei empresas/plantas
-duplicadas**. Se o SIH tiver plantas cadastradas com o **CNPJ antigo/truncado** ou casando por registro apagado,
-o match `SIF+CNPJ` pode ter **quebrado ou passado a casar**. **Precisa cruzar a base do SIH
-(`db_ecohalal_sih`) contra as chaves alteradas hoje** — não há conexão do SIH aberta nesta sessão.
-Também: **espelho GC→SIH** (badge de cert) tem **F4 (enforcement) = decisão PO** em aberto.
+### 4.1 SIH — cadastro de planta: LEVANTADO E CORRIGIDO (12/jul)
+
+**Arquitetura real (confirmada cruzando os 2 bancos):** o GC é master da **certificação**, mas o **SIH tem cadastro
+PRÓPRIO de planta** (`model Plant`) — toda a operação (abate/produção/embarque/NC/supervisor/inventário) pendura nele.
+**SIH não tem model Company** (empresa é inline na planta). A integração é **read-through de UMA via** (SIH lê GC);
+**não há sync** GC→SIH (planejado no TASK-07 do schema, não feito). **Chave de junção = `SIF + CNPJ`.**
+
+**✅ Minhas mudanças de hoje no GC NÃO quebraram nada** — as plantas que casavam continuaram casando.
+
+**Cruzamento: 39 plantas SIH → 31 casavam. Corrigido para 34** (`db_ecohalal_sih`, prod):
+- BRF Nova Mutum **+CNPJ** `01838723049487` · Minerva Jose Bonifacio **+CNPJ** `67620377000386` ·
+  Curtume Jangadas **+SIF** `3471` — valores tirados do **GC master** (não da Receita).
+- Minerva Casing: removido **SIF 451 ERRADO** (451 é da Minerva principal `…0386`; a Casing `…5930` é NAO_APLICAVEL no GC).
+- Ecotrace Teste: **desativada** (`isActive=false`) — tinha 1 registro, **não deletei**.
+
+**⚠️ GAP ESTRUTURAL (principal achado):** o match é por `SIF+CNPJ`, mas **planta SEM SIF não casa por definição**.
+Químico/casing (Kin Master, Minerva Casing) são `NAO_APLICAVEL` sem SIF no GC — modelagem **correta**; o read-through
+é que assume SIF. **Fix = fallback CNPJ-only no `/integration`** (código `halalsphere-backend`), **não é dado**.
+
+**Restam 5 (nenhum é sujeira de dado):** 3 **estruturais** (Kin Master ×2, Minerva Casing) · **Padoca Maricota**
+(não existe no GC → cadastrar) · **Kin Master Passo Fundo** (dup **com operação**: 1 relatório + 1 origem-MP →
+precisa **merge** pro registro bom `da41a004` SIF 2233/CNPJ `…0296`, que também não está no GC — **não deletar**).
+
+Também em aberto: **espelho GC→SIH** F4 (enforcement) = decisão PO.
+**Conexão SIH:** `scratchpad/db-conn-sih.json` + `dbq_sih.py` (mesmo cluster Aurora, database `db_ecohalal_sih`).
 
 ### 4.2 SysHalal (SYS) — integração `/integration` para o SIH
 - SysHalal External API `/integration/*` (x-api-key, sem filtro de grupo): **F1 pushada**
@@ -154,8 +172,11 @@ FM fonte-da-verdade em `C:\HalalSphere\FM78x_atualizados\` (7.8.1 industrial .xl
 
 ## 6. Próximos passos recomendados
 
-1. **Verificar dessincronia GC↔SIH** (§4.1) — cruzar plantas do SIH contra os SIF+CNPJ alterados hoje (precisa
-   conexão `db_ecohalal_sih`).
-2. **Fechar SysHalal F2** (§4.2) — push + resolver credencial PDF.
-3. **Cauda do GC:** dedup Hexus, Starmilk/Econata, 16 estrangeiras, lotes N5b/N5c/INTERMEDIÁRIAS — quando a
+1. ✅ **GC↔SIH levantado e corrigido** (§4.1) — 34/39 casando; sem quebra causada pela normalização.
+2. **⭐ Fallback CNPJ-only no `/integration`** (§4.1) — destrava as 3 plantas sem SIF (químico/casing). **Código**,
+   `halalsphere-backend`. É o maior ganho pendente da integração.
+3. **Cadastrar no GC:** Padoca Maricota + Kin Master Passo Fundo (`…0296`).
+4. **Merge** Kin Master Passo Fundo dup no SIH (tem operação — migrar 1 relatório + 1 origem-MP, não deletar).
+5. **Fechar SysHalal F2** (§4.2) — push + resolver credencial PDF.
+6. **Cauda do GC:** dedup Hexus, Starmilk/Econata, 16 estrangeiras, lotes N5b/N5c/INTERMEDIÁRIAS — quando a
    FAMBRAS entrar no loop de revisão.
