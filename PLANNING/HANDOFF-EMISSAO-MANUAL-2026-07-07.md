@@ -1,5 +1,7 @@
 # HANDOFF — Revisão da Emissão Manual de Certificado (GC)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > **Data:** 2026-07-07 · Continuação da reunião FAMBRAS 06/jul.
 > **Repos:** `halalsphere-frontend` + `halalsphere-backend` (branch **`release`** = deploy via CI/CD).
 > **Specs:** `SPEC-EMISSAO-MANUAL-CERTIFICADO-2026-07-06.md`, `REFERENCIA-TEMPLATES-CERTIFICADO-2026-07-06.md`,

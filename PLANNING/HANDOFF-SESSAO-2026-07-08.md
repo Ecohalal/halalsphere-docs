@@ -1,5 +1,7 @@
 # HANDOFF — Sessão 07→08/jul (emissão manual GC + fidelidade PDF 7.7.2 + conteúdo Corbion)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > **Continuação de** `HANDOFF-EMISSAO-MANUAL-2026-07-07.md`. Branch **`release`** = deploy (push dispara CI/CD).
 > Fontes desta sessão: 4 transcrições em `C:\HalalSphere\Alinhamentos de validação\` (`060726_11h/16h`, `070726_11h/16h`) + gabaritos em `C:\HalalSphere\Gabaritos atualizados\`.
 > **Ao retomar: NÃO re-validar nem refazer o que está abaixo como FEITO.**

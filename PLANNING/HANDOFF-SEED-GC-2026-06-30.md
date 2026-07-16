@@ -1,5 +1,7 @@
 # HANDOFF — Seed do cadastro GC (N0–N5) — 2026-06-30
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 Continuação de `SEED-GC-CADASTRO-CERT-ESCOPO-2026-06-29.md`. Este doc = estado + próximos passos
 para retomar sem perder contexto. Tooling e SQLs em **`halalsphere-backend/scripts/etl-fam0017/`**.
 

@@ -1,5 +1,7 @@
 # HANDOFF — Seed GC — 2026-07-02 (LIMPO, supera o de 30/jun)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > **⚠️ ATUALIZADO 2026-07-06:** o N5 (seção 3) **FOI EXECUTADO E VALIDADO em 02/jul** —
 > 504 MPs / 869 itens `approved` em 26 plantas, spot-check no SIH ok (Rolândia 19/19).
 > Ver memória `project_seed_n5_mp_decisoes_2026-07-02` + `BACKLOG-ECOHALAL.md` (sih-docs),

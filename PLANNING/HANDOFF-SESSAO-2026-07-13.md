@@ -1,5 +1,7 @@
 # HANDOFF — Sessão 13/jul (GC: menu por perfil + impressão do certificado + rebrand HalalSphere→Gestão de Certificações)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > Branch **`release`** = deploy (push dispara CI/CD). **Deploy confirmado e validado nesta sessão.**
 > **Ao retomar: NÃO re-validar nem refazer o que está abaixo como FEITO.**
 

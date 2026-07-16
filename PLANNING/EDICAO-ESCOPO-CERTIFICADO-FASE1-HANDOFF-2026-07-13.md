@@ -1,5 +1,7 @@
 # Edição de escopo do certificado (Fase 1) — Handoff 2026-07-13
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 Feature: permitir que o **analista corrija o escopo de certificações importadas (mirror)**
 direto na tela de detalhe do certificado — validação do seed: corrigir código FAMBRAS,
 nome/embalagem de produto e **reamarrar marcas ao produto certo**. Com **trilha de auditoria**.

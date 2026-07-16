@@ -1,5 +1,7 @@
 # HANDOFF — Sessão 14/jul (reunião controladoria frigoríficos: normas + emissão de certificado)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > Branch `release` = deploy. **Ao retomar: NÃO re-validar/refazer o que está como FEITO.**
 > Detalhe técnico e regras completas: `SPEC-EMISSAO-MULTI-CERT-NORMAS-GC-2026-07-14.md`.
 

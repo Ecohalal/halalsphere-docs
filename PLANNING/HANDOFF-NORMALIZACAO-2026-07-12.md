@@ -1,5 +1,7 @@
 # HANDOFF — Normalização de cadastros GC (sessão 2026-07-12)
 
+> ⚠️ **HISTÓRICO — NÃO É FONTE DA VERDADE.** Este handoff descreve o momento em que foi escrito e **pode estar defasado** (vários afirmavam "feito/commitado" para código que o git desmentia). Para o estado atual, leia **`sih-docs/PLANNING/BACKLOG-ECOHALAL.md`**. Use este arquivo só para entender *por que* uma decisão foi tomada.
+
 > Continuação de `HANDOFF-NORMALIZACAO-2026-07-10.md` e `NORMALIZACAO-CADASTROS-PLANO-MESTRE-2026-07-10.md`.
 > **Tudo abaixo foi EXECUTADO EM PRODUÇÃO no GC (`db_ecohalal_halalsphere`, Aurora) e verificado com query fresca.**
 > Acesso direto: `scratchpad/dbq.py` (pg8000) + `db-conn.json`. ⚠️ **Rotacionar a senha do GC** (compartilhada em sessões anteriores, em arquivo temp).
