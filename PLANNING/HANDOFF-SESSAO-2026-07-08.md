@@ -172,7 +172,11 @@ DDL=migration idempotente com nome MAPEADO da tabela; dados/carga=SQL p/ Renato 
   - item 03 (categorias incompatíveis) → ✅ guard-rail `e1f92785`
   - pergunta do template → ✅ `82a5e2c1`: a tela mostra **os selos que saem** ("apenas FAMBRAS" nos nacionais) em vez do código do template; nota explica que a norma marcada sai no **texto**. Revelou que **GSO+OIC juntos → template GCC → só GAC** (selo OIC não sai) — coerente com "SMIIC só Turquia", **confirmar com Soha**.
   - **busca por SIF no topo** (item 01) → Renato assume, alinhado ao `#8` já feito 🟡
-  - **"Norma principal = Voluntária"** p/ mercados nacionais (BPJPH/MUIS/MS/UAE.S sozinhos) → aguarda André/Soha confirmarem se devem implicar **GSO** 🟡
+  - **"Norma principal = Voluntária"** → ✅ **rótulo corrigido** (`2844a9c2`): vira **"Sem norma acreditada (GSO/SMIIC)"** nos 3 pontos (emissão, detalhe, manual no app). `VOLUNTARY` **não é norma** — é o *fallback* de quando nem GSO nem OIC/SMIIC é marcado; a tela respondia "Voluntária" a quem acabara de marcar normas, e a palavra sugeria "vale menos". **Sem mudança de comportamento**: VOLUNTARY já obedece às regras do GSO (nomenclatura de categoria + `gsoAuditMode`, *"Default to GSO rules"*).
+  - 🟡 **Decisões PENDENTES da Soha** (derivação, não rótulo):
+    1. **Mercados nacionais BPJPH/MUIS/MS devem DERIVAR GSO?** O alinhamento de 08/jul diz que são baseados em GSO e o sistema **já os trata como GSO** internamente — só a derivação de `standard` não reflete. Se sim, "Voluntária" praticamente deixa de existir na emissão manual (a validação exige ≥1 norma).
+    2. 🚩 **Contradição real:** marcar **só UAE.S** → `standard` = "sem norma acreditada", **mas o PDF imprime o selo ENAS**, que É acreditação. Um cert que estampa ENAS e se declara sem acreditação.
+    3. **GSO+OIC juntos → template GCC → só o selo GAC** (o selo OIC não sai). Coerente com "SMIIC só Turquia", mas confirmar.
 - ~~Reconciliar backend `release`→`develop`~~ — ✅ **FEITO 14/jul** (merge `fec9062b`, 31 commits, zero conflitos; tsc + renderers.spec OK). Front e back agora com `release` ≡ `develop`.
 - **Sessão dedicada:** F2 draft→aprovar→travar+audit · F3 nº=contrato · L2 overflow endereço header 🟡
 - **Parked/rebaixado:** parser xlsx formato real ⏸ · async 151 produtos ⏸ · DSM/IFF cert-de-produto ⏸
