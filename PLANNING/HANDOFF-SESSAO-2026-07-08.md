@@ -161,8 +161,13 @@ DDL=migration idempotente com nome MAPEADO da tabela; dados/carga=SQL p/ Renato 
 - back `c396f0a5` — **OIC/SMIIC 01/2019** (norma de PRODUTO, não a "2" de organismo) · **GSO/UAE 993** só em habilitação de ABATE (CV / DT 7.2.x) · **índice `.K.` por espécie** na numeração (single também carrega o `.K.`; split por produto segue sequencial).
 - ⚠️ **Pendente de validação do Renato em prod** — mexe em **número do certificado** e texto de normas no PDF.
 
+- **PDF protegido — cópia bloqueada** (14/jul, back `6fed9470`) — Lina 08/jul. Novo `pdf-protection.ts` = fonte única (o `approval-renderer`/FM 7.7.1 estava SEM proteção). Cert **sempre abre** (sem `userPassword`; autenticidade via QR); bloqueia copiar/editar/anotar/acessibilidade/montar; **imprimir liberado**. `pdfVersion:'1.7'` é obrigatório — no default (PDF 1.3/RC4 40-bit) as permissões finas são silenciosamente ignoradas e a extração via leitor de tela ficava aberta. Verificado decodificando os bits `/P`. ✅
+  - ⚠️ **Deploy exige nova rev. da task def** com `CERTIFICATE_PDF_OWNER_PASSWORD`.
+  - ⚠️ **Limite:** permissão de PDF é advisória (qpdf/print-screen contornam) — não vender como inviolável; o antifraude real é o QR. Vale só p/ certs **novos** (os já emitidos no S3 são imutáveis).
+  - 🧹 **Dívida:** `base-template.renderer.ts` é código morto (nenhum consumidor) e ainda tem caminho de `userPassword` — foi a origem da divergência entre renderers. Vale deletar.
+
 ### Aberto e rastreado
-- **Quick win (código) restante:** PDF protegido (não-copiável + QR) 🟡
+- ~~Quick wins de código~~ — ✅ **TODOS FECHADOS** (trava de data · clone typeahead · descartar-só-produtos · selos allowlist · guard-rail categorias · PDF protegido).
 - **Feedback do André (14/jul):** item 03 ✅ feito · **busca por SIF no topo** (item 01) → Renato assume, alinhado ao #8 já feito 🟡 · **"Norma principal = Voluntária"** p/ mercados nacionais → aguarda André/Soha confirmarem se devem implicar GSO 🟡 · **simplificar picker de template** (após allowlist de selos, templates nacionais renderizam igual) 🟡
 - ~~Reconciliar backend `release`→`develop`~~ — ✅ **FEITO 14/jul** (merge `fec9062b`, 31 commits, zero conflitos; tsc + renderers.spec OK). Front e back agora com `release` ≡ `develop`.
 - **Sessão dedicada:** F2 draft→aprovar→travar+audit · F3 nº=contrato · L2 overflow endereço header 🟡
