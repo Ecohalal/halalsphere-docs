@@ -13,7 +13,10 @@ nome/embalagem de produto e **reamarrar marcas ao produto certo**. Com **trilha 
 - **Número do certificado TRAVADO** (regra "PDF imutável, correção = novo número"). Não editável.
 - **Auditoria obrigatória** (ISO 17065): quem mudou qual campo, de X→Y, quando.
 
-## Implementado (código pronto, **NÃO deployado**) — tsc OK nos dois
+## Implementado — ✅ **EM `release`** (back `0f3a9b32` · front `a44f9e49`, remote `origin`)
+
+> Correção de 16/jul: este handoff dizia *"código pronto, NÃO deployado"* — o git desmentia
+> (é o caso citado no §6 do mestre). Estado atual em `sih-docs/PLANNING/BACKLOG-ECOHALAL.md` (§4).
 
 ### Backend (`halalsphere-backend`)
 - `certification-scope.service.ts`: **persistir `code`** (código FAMBRAS — era ignorado no
@@ -46,10 +49,15 @@ nome/embalagem de produto e **reamarrar marcas ao produto certo**. Com **trilha 
 5. Conferir o **Histórico de alterações do escopo** no rodapé do modal (quem/quando/o quê).
 
 ## Deploy
-- Push em `release` nos 2 repos (backend + frontend). Sem migration, sem gateway.
-- **Aguardando autorização do Renato** (feature nova em dado de certificado).
+- ✅ **Feito** — push em `release` nos 2 repos: back `0f3a9b32` · front `a44f9e49`.
+  Sem migration, sem gateway (nenhuma rota nova).
+- 🔧 **Falta só a validação do Renato** — aberta no §4.1 do mestre.
 
-## Fase 2 (não incluída)
+## Fase 2 (não incluída) — 🚩 REESCOPAR ANTES DE INICIAR
 Campos gerais do certificado (datas, norma, observações), categorias M2M `industrialCategories`
-(hoje só o create popula), market scopes, e edição do escopo geral (capacidade/turnos). O número
-do certificado permanece travado.
+(hoje só o create popula) e edição do escopo geral (capacidade/turnos). O número do certificado
+permanece travado.
+
+> ⚠️ **`market scopes` SAIU deste pacote (16/jul):** a **Trilha A já entregou `marketScopes`**
+> (`847006e6` · `d2ec0623` · `ea8e76fa`) e o arquivo (`manualEmit` + `ManualCertificateEmission.tsx`)
+> é **domínio dela** — o §2 do mestre marca como "nunca em paralelo". Ver §4.2/Trilha C.
