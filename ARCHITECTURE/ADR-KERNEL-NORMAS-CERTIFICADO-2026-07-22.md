@@ -1,7 +1,7 @@
 # ADR — Kernel de Normas do Certificado (snapshot-first + matriz effective-dated)
 
 - **Data:** 2026-07-22
-- **Status:** Proposta (aguarda 1 reconciliação FAMBRAS — selo Indonésia, ver §7)
+- **Status:** Aceita — decisões FAMBRAS fechadas (Soha 22/jul + Elaine); pronta para implementar a Fatia 0
 - **Sistema:** GC — Gestão de Certificações (`halalsphere-backend`)
 - **Trilha (mestre §2):** A · Emissão / normas / certificado
 - **Fontes:** reunião FAMBRAS 20/jul + testes Giovanna/William (seg 20/jul) + WhatsApp Soha 22/jul + inventário de consumidores (varredura GC 22/jul) + stress-test arquitetural.
@@ -95,7 +95,7 @@ Quais mercados podem coexistir num certificado = cruzamento de filtros independe
 
 ## 7. Questões abertas (não decidir sozinho)
 
-1. 🚩 **Selo por grupo-de-norma vs allowlist global (§5.2 do mestre).** Testes (William W12/W13/W16) pedem: Indonésia → selo Indonésia (não GAC/ENAS); Saudi → GAC. Isso **contradiz** o §5.2 ("selos nacionais nunca"). É o **mesmo item aberto "Logo Indonésia — Elaine consulta a acreditadora"**. **Bloqueia a modelagem de selo até a resposta.** Modelo provável: **selo segue o grupo-de-norma/template**.
+1. ✅ **RESOLVIDO (Elaine, reunião anterior): selo por grupo-de-norma, nacionais SEM selo.** Cert de Indonésia (e nacionais) não leva selo — nem o nacional, nem GAC/ENAS (acreditação do Golfo). Confirma o §5.2 e resolve W12/W13. Modelo: **selo por grupo** — GSO/Golfo→GAC(+ENAS p/ UAE) · OIC/SMIIC→HAK · **nacionais→conjunto vazio**. Não contradiz §5.2; refina o enforcement (hoje o código põe GAC/ENAS em tudo — `seal-config.ts` allowlist global).
 2. **Agrupamento de aves.** Cert real de aves traz `UAE.S` + `GSO` juntos no `.1.`, mas o TXT de aves diz `.1.` UAE.S e `.2.` GSO **separados**. Verificar com o André se o de-referência é antigo ou se a regra prática difere.
 3. **Ingrediente restrito além da conchonilha** — Soha ainda não confirmou se há outros; modelamos geral por decisão, mas a **carga** de linhas aguarda a lista FAMBRAS.
 4. **Textos oficiais EN por categoria** — só "K" confirmado; bloqueia o EN automático de todas as categorias (G1/W17).
