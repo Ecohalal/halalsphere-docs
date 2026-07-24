@@ -1,7 +1,7 @@
 # ADR — Aprovação da confecção do certificado (F2: rascunho → aprovar → travar)
 
 - **Data:** 2026-07-24
-- **Status:** **Aceita** — desenho travado com o Renato (24/jul); demanda FAMBRAS. A regra de segregação de função é recomendação do Claude aceita pelo Renato (§4.4). **Implementação NÃO iniciada — zero hash.**
+- **Status:** **Aceita — em implementação (Fatia A, GO do Renato 24/jul).** Desenho travado; demanda FAMBRAS. Segregação de função = recomendação do Claude aceita (§4.4). Divisão→gestor resolvida (§8.1): aprovador via `User.specialtyArea`, área do cert via **novo `Plant.specialtyArea`** (cadastro da planta).
 - **Sistema:** GC — Gestão de Certificações (`halalsphere-backend` + `halalsphere-frontend`)
 - **Trilha (mestre §2):** A · Emissão / normas / certificado — **toca também a C** (edição/estado). Coordenar (não rodar em paralelo com edição de escopo no mesmo arquivo).
 - **Fontes:** demanda FAMBRAS (Renato tem as respostas) + evidência de campo dos operacionais (Giovanna: *"campo de visualização antes da emissão oficial"*, 24/jul) + inventário do fluxo de emissão (varredura GC 24/jul).
@@ -97,11 +97,16 @@ Um **não substitui nem contém** o outro. São momentos e objetos diferentes. I
 
 ---
 
-## 8. Perguntas ainda abertas (menores — não bloqueiam a Fatia A)
+## 8. Decisões de desenho — divisão→gestor RESOLVIDA (24/jul, GO do Renato)
 
-1. **Mapeamento divisão → gestor:** campo no `User` (ex.: `managedDivision`) ou role por divisão? Como André/Fuad são resolvidos a partir do objeto do certificado.
-2. **Reprovação:** volta pra rascunho **editável** (mesma peça) ou cria um estado `reprovado` separado com histórico? *(Proposta: volta a rascunho editável; o motivo fica no `CertificationHistory`.)*
-3. **Rascunho e a edição de escopo (Trilha C):** posso editar o escopo enquanto há rascunho pendente de aprovação? *(Proposta: sim — o rascunho re-resolve ao aprovar; só a aprovação congela.)*
+1. ✅ **Mapeamento divisão → gestor — RESOLVIDO.**
+   - **Quem aprova = `User.specialtyArea`** (enum `SpecialtyArea = frigorifico | industrial | ambos`, **já existe** no `User`, comentário "SEGREGAÇÃO FRIGORÍFICO/INDUSTRIAL"). André = gestor `frigorifico`; Fuad = gestor `industrial`; `ambos` aprova as duas áreas. **Zero migration no User.**
+   - **Área do CERTIFICADO vem do CADASTRO DA PLANTA, não da categoria** (decisão Renato: um frigorífico com armazenamento pode ter categoria ≠ CV). Como o `Plant` só tem `plantType` (funcional/ambíguo em `armazenamento`/`escritorio`), **cria-se `Plant.specialtyArea`** (reusa o enum; **nullable**) — migration aditiva + backfill + vira campo do cadastro. O cert lê `certification.plant.specialtyArea`.
+   - **Backfill do `Plant.specialtyArea`:** `abatedouro`/`frigorifico` → `frigorifico` · `processamento`/`laticinio` → `industrial` · `armazenamento`/`escritorio`/`outro` → **NULL** (designação manual — o sistema não chuta).
+   - **Gate:** aprovador elegível = `role` gestor/admin com `specialtyArea` = área da planta do cert (ou `ambos`), respeitando a segregação §4 (aprovador ≠ quem confeccionou).
+   - ⚠️ **Toca a Trilha B:** `plants` é domínio B — o campo (migration/DDL) entra pela A, mas **backfill = SQL pro Renato** e **campo no cadastro = front B**; declarar no §2 antes de mexer.
+2. **Reprovação:** volta pra rascunho **editável** (mesma peça); o motivo fica no `CertificationHistory`. *(travado)*
+3. **Rascunho × edição de escopo (Trilha C):** pode editar o escopo com rascunho pendente — o rascunho re-resolve ao aprovar; só a aprovação congela. *(travado)*
 
 ---
 
